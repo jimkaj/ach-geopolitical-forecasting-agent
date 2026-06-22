@@ -1,0 +1,11 @@
+# Domain Whitelist for the Scraper Agent
+# Only these approved domains are accessible to the Scraper Agent
+# to prevent unauthorized access and enforce security boundaries.
+
+# Article source: The Guardian Open Platform Content API.
+# Returns full article body text with a free developer API key.
+content.guardianapis.com
+
+# The Guardian article URLs (returned as webUrl; publisher reference)
+theguardian.com
+www.theguardian.com

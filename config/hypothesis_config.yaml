@@ -1,0 +1,32 @@
+# ACH Hypothesis Configuration for China's Likely Position in US-Iran Conflict
+# These hypotheses represent the competing outcomes being evaluated against evidence.
+
+hypotheses:
+  - id: "h1"
+    name: "China supports US position"
+    description: |
+      Evidence suggests China would align with or support the US position 
+      in a US-Iran conflict scenario.
+  
+  - id: "h2"
+    name: "China maintains neutrality"
+    description: |
+      Evidence suggests China would maintain a neutral or balanced stance,
+      not overtly supporting either side while protecting interests.
+  
+  - id: "h3"
+    name: "China supports Iran position"
+    description: |
+      Evidence suggests China would align with or support the Iran position
+      in a US-Iran conflict scenario.
+
+# Assessment Context: Focus on geopolitical signals, economic interests, 
+# military alignment, and diplomatic statements regarding US-Iran relations
+assessment_context: |
+  Evaluate each article's diagnostic value for determining China's likely 
+  position in a US-Iran military conflict. Consider:
+  - Economic ties and trade relationships with both nations
+  - Military and strategic partnerships
+  - Historical precedent and policy statements
+  - Regional geopolitical strategy (Belt and Road, Middle East presence)
+  - UN voting patterns and diplomatic signaling
