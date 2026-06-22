@@ -56,7 +56,8 @@ def article():
     )
 
 
-def _make_assessment(article_id, marks, confidence=1.0, flagged=False):
+def _make_assessment(article_id, marks, confidence=1.0, flagged=False,
+                     title="", source="The Guardian", published_date=None):
     """Build an AssessmentResult from a {hypothesis_id: mark} dict."""
     scores = [
         HypothesisScore(
@@ -70,6 +71,9 @@ def _make_assessment(article_id, marks, confidence=1.0, flagged=False):
     ]
     return AssessmentResult(
         article_id=article_id,
+        article_title=title or f"Article {article_id}",
+        article_source=source,
+        article_published_date=published_date,
         hypothesis_scores=scores,
         overall_confidence=confidence,
         flagged_for_human_review=flagged,

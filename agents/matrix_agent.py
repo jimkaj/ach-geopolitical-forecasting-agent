@@ -1,29 +1,85 @@
-"""Matrix Agent: Maintains ACH decision matrix with versioned snapshots."""
+"""Matrix Agent: maintains the ACH decision matrix (Heuer Ch. 8 layout).
 
-import csv
+The matrix is evidence (articles) down the rows and hypotheses across the
+columns. Each cell holds the evidence mark for that article/hypothesis pair.
+Hypotheses are ranked by **inconsistency** (evidence against), per Heuer Step 5:
+the most likely hypothesis is the one with the *least* evidence against it, not
+the most evidence for it.
+
+State persists as JSON (`matrix_state.json`) so evidence rows accumulate across
+runs; each run also renders an HTML view (a stable `acch_matrix.html` plus a
+timestamped snapshot for the audit trail).
+"""
+
+import json
 import logging
 from datetime import datetime
 from pathlib import Path
-from typing import Optional
 
-from .base import AssessmentResult, MatrixAggregation, MatrixAgentState
+from tools.matrix_view import render_matrix_html
+
+from .base import AssessmentResult, EvidenceRow, MatrixAgentState
 
 
 logger = logging.getLogger(__name__)
 
+# Weights for the inconsistency score (evidence *against* a hypothesis).
+# Heuer Step 5: rank by inconsistency — lowest score is the most likely hypothesis.
+INCONSISTENCY_WEIGHTS = {"--": 2.0, "-": 1.0}
+# Weights for supporting evidence (shown for context only; not used for ranking).
+SUPPORT_WEIGHTS = {"++": 2.0, "+": 1.0}
+
+STATE_FILENAME = "matrix_state.json"
+LATEST_HTML_FILENAME = "acch_matrix.html"
+
+
+def compute_scores(rows: list[EvidenceRow], hypothesis_ids: list[str]) -> dict[str, dict]:
+    """Compute per-hypothesis summary scores across all evidence rows.
+
+    Args:
+        rows: Evidence rows (articles) in the matrix.
+        hypothesis_ids: Hypothesis ids forming the columns.
+
+    Returns:
+        ``{hyp_id: {"inconsistency": float, "support": float,
+                    "against": int, "for": int, "na": int}}``
+    """
+    scores = {
+        hid: {"inconsistency": 0.0, "support": 0.0, "against": 0, "for": 0, "na": 0}
+        for hid in hypothesis_ids
+    }
+    for row in rows:
+        for hid in hypothesis_ids:
+            mark = row.marks.get(hid, "N/A")
+            s = scores[hid]
+            s["inconsistency"] += INCONSISTENCY_WEIGHTS.get(mark, 0.0)
+            s["support"] += SUPPORT_WEIGHTS.get(mark, 0.0)
+            if mark in ("-", "--"):
+                s["against"] += 1
+            elif mark in ("+", "++"):
+                s["for"] += 1
+            else:
+                s["na"] += 1
+    return scores
+
+
+def rank_by_inconsistency(scores: dict[str, dict]) -> list[str]:
+    """Order hypotheses most-likely-first: lowest inconsistency, then most support."""
+    return sorted(
+        scores,
+        key=lambda hid: (scores[hid]["inconsistency"], -scores[hid]["support"]),
+    )
+
 
 class MatrixAgent:
-    """Tier 3 Agent: Maintains ACH decision matrix and versioned snapshots.
-    
-    Responsibilities:
-    - Ingest scored evidence from Assessment Agent
-    - Maintain hypothesis support aggregations (cumulative evidence tallies)
-    - Store versioned ACH matrix snapshots as CSV
-    - Enforce 1GB storage cap on matrix directory
-    """
+    """Tier 3 Agent: maintains the ACH evidence matrix and renders it.
 
-    # Evidence-mark weights for the net-support score.
-    _MARK_WEIGHTS = {"++": 2, "+": 1, "N/A": 0, "-": -1, "--": -2}
+    Responsibilities:
+    - Ingest scored evidence from the Assessment Agent as per-article rows
+    - Accumulate rows across runs (dedup by article id)
+    - Rank hypotheses by inconsistency (Heuer Step 5)
+    - Persist JSON state and render a color-coded HTML matrix; prune old snapshots
+    """
 
     def __init__(self, config, file_manager):
         """Initialize the Matrix Agent.
@@ -36,182 +92,148 @@ class MatrixAgent:
         self.file_manager = file_manager
         self.matrix_dir = config.data_dir / "matrix"
         self.matrix_dir.mkdir(parents=True, exist_ok=True)
+        self.state_path = self.matrix_dir / STATE_FILENAME
 
-        # Load existing matrix (accumulates across runs) or initialize new one
         self.state = self._load_matrix_state()
         logger.info(
             f"MatrixAgent initialized (v{self.state.matrix_version}, "
-            f"{self.state.article_count} articles carried over)"
+            f"{self.state.article_count} evidence rows carried over)"
         )
-
-    def _net_support(self, tally: dict[str, int]) -> float:
-        """Compute net support: ++ -> +2, + -> +1, N/A -> 0, - -> -1, -- -> -2."""
-        return float(sum(count * self._MARK_WEIGHTS[mark] for mark, count in tally.items()))
-
-    def _latest_snapshot(self) -> Optional[Path]:
-        """Return the most recently modified matrix snapshot, or None if none exist."""
-        snapshots = sorted(
-            self.matrix_dir.glob("acch_matrix_v*.csv"), key=lambda p: p.stat().st_mtime
-        )
-        return snapshots[-1] if snapshots else None
 
     def _load_matrix_state(self) -> MatrixAgentState:
-        """Load the current matrix state from the latest snapshot so evidence
-        tallies accumulate across runs.
-
-        Returns:
-            MatrixAgentState reconstructed from the latest snapshot, or a fresh
-            state if no (compatible) snapshot exists.
-        """
+        """Load accumulated matrix state from JSON so rows persist across runs."""
         fresh = MatrixAgentState(
             matrix_version=datetime.utcnow().strftime("%Y%m%d_%H%M%S"),
-            hypothesis_aggregates={},
-            article_count=0,
+            evidence_rows=[],
+            hypothesis_names={},
         )
-
-        latest = self._latest_snapshot()
-        if latest is None:
-            logger.info("No prior matrix snapshot found; starting fresh")
+        if not self.state_path.exists():
+            logger.info("No prior matrix state found; starting fresh")
             return fresh
 
         try:
-            with open(latest, newline="", encoding="utf-8") as f:
-                reader = csv.reader(f)
-                header = next(reader, [])
-                if not header or header[0].lower() != "hypothesis_id":
-                    logger.warning(
-                        f"Snapshot {latest.name} lacks a hypothesis_id column "
-                        "(legacy format); starting fresh"
+            data = json.loads(self.state_path.read_text(encoding="utf-8"))
+            rows = []
+            for r in data.get("evidence_rows", []):
+                raw_date = r.get("published_date")
+                published = datetime.fromisoformat(raw_date) if raw_date else None
+                rows.append(
+                    EvidenceRow(
+                        article_id=r["article_id"],
+                        title=r.get("title", ""),
+                        source=r.get("source", ""),
+                        published_date=published,
+                        marks=r.get("marks", {}),
+                        confidence=r.get("confidence", 0.0),
                     )
-                    return fresh
-
-                aggregates: dict[str, MatrixAggregation] = {}
-                article_count = 0
-                for row in reader:
-                    if len(row) < 7:
-                        continue
-                    hid, name = row[0], row[1]
-                    tally = {
-                        "++": int(row[2]), "+": int(row[3]), "N/A": int(row[4]),
-                        "-": int(row[5]), "--": int(row[6]),
-                    }
-                    aggregates[hid] = MatrixAggregation(
-                        hypothesis_id=hid,
-                        hypothesis_name=name,
-                        evidence_tally=tally,
-                        net_support=self._net_support(tally),
-                    )
-                    # Each article contributes one mark per hypothesis, so the
-                    # per-hypothesis tally sum equals the article count.
-                    article_count = max(article_count, sum(tally.values()))
-        except (OSError, ValueError, csv.Error) as e:
-            logger.error(f"Failed to load matrix snapshot {latest}: {e}; starting fresh")
+                )
+        except (OSError, ValueError, KeyError) as e:
+            logger.error(f"Failed to load matrix state {self.state_path}: {e}; starting fresh")
             return fresh
 
-        logger.info(
-            f"Loaded matrix from {latest.name}: "
-            f"{len(aggregates)} hypotheses, {article_count} articles"
-        )
+        logger.info(f"Loaded matrix state: {len(rows)} evidence rows")
         return MatrixAgentState(
             matrix_version=datetime.utcnow().strftime("%Y%m%d_%H%M%S"),
-            hypothesis_aggregates=aggregates,
-            article_count=article_count,
+            evidence_rows=rows,
+            hypothesis_names=data.get("hypothesis_names", {}),
         )
 
     def ingest_assessment(self, assessment: AssessmentResult) -> None:
-        """Ingest a single assessment result and update hypothesis aggregates.
-        
-        Args:
-            assessment: AssessmentResult from Assessment Agent
-        """
+        """Add (or replace) the evidence row for one assessed article."""
+        # Track hypothesis id -> name (preserves column order across runs).
         for score in assessment.hypothesis_scores:
-            hypothesis_id = score.hypothesis_id
-            evidence_mark = score.evidence_mark
-            
-            # Initialize hypothesis aggregate if needed
-            if hypothesis_id not in self.state.hypothesis_aggregates:
-                self.state.hypothesis_aggregates[hypothesis_id] = MatrixAggregation(
-                    hypothesis_id=hypothesis_id,
-                    hypothesis_name=score.hypothesis_name,
-                )
-            
-            # Update evidence tally
-            aggregate = self.state.hypothesis_aggregates[hypothesis_id]
-            if evidence_mark in aggregate.evidence_tally:
-                aggregate.evidence_tally[evidence_mark] += 1
+            self.state.hypothesis_names.setdefault(score.hypothesis_id, score.hypothesis_name)
 
-            aggregate.net_support = self._net_support(aggregate.evidence_tally)
-        
-        self.state.article_count += 1
+        row = EvidenceRow(
+            article_id=assessment.article_id,
+            title=assessment.article_title,
+            source=assessment.article_source,
+            published_date=assessment.article_published_date,
+            marks={s.hypothesis_id: s.evidence_mark for s in assessment.hypothesis_scores},
+            confidence=assessment.overall_confidence,
+        )
+
+        # Dedup: replace any existing row for this article, else append.
+        existing = next(
+            (i for i, r in enumerate(self.state.evidence_rows) if r.article_id == row.article_id),
+            None,
+        )
+        if existing is not None:
+            self.state.evidence_rows[existing] = row
+        else:
+            self.state.evidence_rows.append(row)
         self.state.last_update = datetime.utcnow()
-        logger.debug(f"Ingested assessment for article {assessment.article_id}")
+        logger.debug(f"Ingested evidence row for article {assessment.article_id}")
+
+    def _sorted_rows(self) -> list[EvidenceRow]:
+        """Evidence rows most-recent-first; rows without a date sort last."""
+        return sorted(
+            self.state.evidence_rows,
+            key=lambda r: (r.published_date is not None, r.published_date or datetime.min),
+            reverse=True,
+        )
 
     def save_matrix_snapshot(self) -> Path:
-        """Save current matrix state as versioned CSV snapshot.
-        
+        """Persist JSON state and render the HTML matrix (stable + versioned).
+
         Returns:
-            Path to the saved snapshot file
+            Path to the timestamped HTML snapshot.
         """
-        snapshot_path = self.matrix_dir / (
-            f"acch_matrix_v{datetime.utcnow().strftime('%Y%m%d_%H%M%S_%f')}.csv"
+        # 1. Canonical machine-readable state (reloaded next run).
+        state_doc = {
+            "matrix_version": self.state.matrix_version,
+            "last_update": self.state.last_update.isoformat(),
+            "hypothesis_names": self.state.hypothesis_names,
+            "evidence_rows": [
+                {
+                    "article_id": r.article_id,
+                    "title": r.title,
+                    "source": r.source,
+                    "published_date": r.published_date.isoformat() if r.published_date else None,
+                    "marks": r.marks,
+                    "confidence": r.confidence,
+                }
+                for r in self.state.evidence_rows
+            ],
+        }
+        self.state_path.write_text(json.dumps(state_doc, indent=2), encoding="utf-8")
+
+        # 2. Render the HTML view.
+        hypothesis_ids = list(self.state.hypothesis_names.keys())
+        scores = compute_scores(self.state.evidence_rows, hypothesis_ids)
+        ranking = rank_by_inconsistency(scores)
+        html = render_matrix_html(
+            rows=self._sorted_rows(),
+            hypothesis_names=self.state.hypothesis_names,
+            scores=scores,
+            ranking=ranking,
+            generated_at=datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
         )
-        
-        with open(snapshot_path, "w", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
 
-            # Header row. hypothesis_id is first so snapshots can be reloaded
-            # into state keyed by id (see _load_matrix_state).
-            writer.writerow(
-                ["hypothesis_id", "Hypothesis", "++", "+", "N/A", "-", "--", "Net Support"]
-            )
+        # 3. Stable "latest" view + a timestamped snapshot for the audit trail.
+        (self.matrix_dir / LATEST_HTML_FILENAME).write_text(html, encoding="utf-8")
+        snapshot_path = self.matrix_dir / (
+            f"acch_matrix_v{datetime.utcnow().strftime('%Y%m%d_%H%M%S_%f')}.html"
+        )
+        snapshot_path.write_text(html, encoding="utf-8")
 
-            # Data rows
-            for agg in self.state.hypothesis_aggregates.values():
-                writer.writerow([
-                    agg.hypothesis_id,
-                    agg.hypothesis_name,
-                    agg.evidence_tally["++"],
-                    agg.evidence_tally["+"],
-                    agg.evidence_tally["N/A"],
-                    agg.evidence_tally["-"],
-                    agg.evidence_tally["--"],
-                    agg.net_support,
-                ])
-
-        logger.info(f"Saved matrix snapshot: {snapshot_path}")
+        logger.info(f"Saved matrix state and HTML snapshot: {snapshot_path.name}")
         return snapshot_path
 
     def cleanup_old_snapshots(self) -> None:
-        """Enforce the storage cap by pruning oldest snapshots if needed.
-
-        Delegates to the FileManager, which deletes the oldest
-        ``acch_matrix_v*.csv`` files until the matrix directory is under
-        ``matrix_storage_cap_gb``.
-        """
+        """Prune oldest versioned snapshots past the storage cap (via FileManager)."""
         self.file_manager.cleanup_old_snapshots(self.config.matrix_storage_cap_gb)
-        self.state.total_storage_used_mb = self.file_manager.get_directory_size_mb(
-            self.matrix_dir
-        )
+        self.state.total_storage_used_mb = self.file_manager.get_directory_size_mb(self.matrix_dir)
 
     def execute(self, assessments: list[AssessmentResult]) -> MatrixAgentState:
-        """Ingest assessments, update matrix, and save snapshot.
-        
-        Args:
-            assessments: List of AssessmentResults from Assessment Agent
-            
-        Returns:
-            Updated MatrixAgentState
-        """
+        """Ingest assessments, persist state, render HTML, and prune snapshots."""
         logger.info(f"MatrixAgent processing {len(assessments)} assessments")
-        
+
         for assessment in assessments:
             self.ingest_assessment(assessment)
-        
-        # Save snapshot
+
         self.save_matrix_snapshot()
-        
-        # Enforce storage cap
         self.cleanup_old_snapshots()
-        
-        logger.info(f"Matrix state updated. Total articles: {self.state.article_count}")
+
+        logger.info(f"Matrix updated. Total evidence rows: {self.state.article_count}")
         return self.state

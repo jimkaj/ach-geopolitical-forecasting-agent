@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import Any, Optional
+from typing import Optional
 
 from pydantic import BaseModel, Field
 
@@ -33,9 +33,18 @@ class HypothesisScore(BaseModel):
 
 
 class AssessmentResult(BaseModel):
-    """Schema for an assessment result."""
+    """Schema for an assessment result.
+
+    Carries enough article metadata (title/source/date) for the Matrix Agent to
+    build a self-contained evidence row without re-joining against ArticleData.
+    """
 
     article_id: str = Field(..., description="Reference to the article being assessed")
+    article_title: str = Field(default="", description="Article title (for the matrix row)")
+    article_source: str = Field(default="", description="Article source (for the matrix row)")
+    article_published_date: Optional[datetime] = Field(
+        default=None, description="Article publication date (for sorting the matrix)"
+    )
     hypothesis_scores: list[HypothesisScore] = Field(
         ..., description="Scores for each hypothesis"
     )
@@ -50,18 +59,31 @@ class AssessmentResult(BaseModel):
     )
 
 
-class MatrixAggregation(BaseModel):
-    """Schema for aggregated evidence in the ACH matrix."""
+class EvidenceRow(BaseModel):
+    """One row of the ACH matrix: an article (evidence item) and its per-hypothesis marks.
 
-    hypothesis_id: str = Field(..., description="Hypothesis ID")
-    hypothesis_name: str = Field(...)
-    evidence_tally: dict[str, int] = Field(
-        default_factory=lambda: {"++": 0, "+": 0, "N/A": 0, "-": 0, "--": 0},
-        description="Cumulative count of evidence marks",
+    This is the Heuer Chapter 8 layout — evidence down the side, hypotheses
+    across the top — preserving the per-article audit trail.
+    """
+
+    article_id: str = Field(..., description="Article this evidence row represents")
+    title: str = Field(default="", description="Article title")
+    source: str = Field(default="", description="Article source")
+    published_date: Optional[datetime] = Field(default=None, description="Article publication date")
+    marks: dict[str, str] = Field(
+        ..., description="Evidence mark per hypothesis id, e.g. {'h1': 'N/A', 'h2': '++'}"
     )
-    net_support: float = Field(
-        default=0.0, description="Cumulative support score (++ weighted +2, + +1, N/A 0, - -1, -- -2)"
+    confidence: float = Field(
+        default=0.0, description="Self-consistency confidence for this article (0.0-1.0)", ge=0.0, le=1.0
     )
+
+    @property
+    def is_diagnostic(self) -> bool:
+        """Diagnostic if the evidence distinguishes hypotheses (marks are not all equal).
+
+        Per Heuer, evidence consistent with every hypothesis has no diagnostic value.
+        """
+        return len(set(self.marks.values())) > 1
 
 
 @dataclass
@@ -88,10 +110,18 @@ class AssessmentAgentState:
 
 @dataclass
 class MatrixAgentState:
-    """State for the Matrix Agent."""
+    """State for the Matrix Agent.
+
+    The matrix is a list of per-article evidence rows plus the ordered set of
+    hypotheses (id -> name) that form the columns.
+    """
 
     matrix_version: str
-    hypothesis_aggregates: dict[str, MatrixAggregation] = field(default_factory=dict)
-    article_count: int = 0
+    evidence_rows: list[EvidenceRow] = field(default_factory=list)
+    hypothesis_names: dict[str, str] = field(default_factory=dict)
     last_update: datetime = field(default_factory=datetime.utcnow)
     total_storage_used_mb: float = 0.0
+
+    @property
+    def article_count(self) -> int:
+        return len(self.evidence_rows)

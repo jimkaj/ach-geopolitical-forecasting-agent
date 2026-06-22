@@ -58,12 +58,15 @@ uv run --with ruff ruff check .   # lint
    results below `confidence_threshold` are flagged. The full article body is sent
    (Ollama `num_ctx` set so it isn't truncated). Cost = `LLM_NUM_PASSES` calls per
    article (not × hypotheses).
-3. **Matrix** (`agents/matrix_agent.py`) — reloads the latest snapshot so tallies
-   **accumulate across runs**, recomputes net support (`++/+/N/A/-/--` =
-   +2/+1/0/−1/−2), writes a versioned CSV snapshot (with a `hypothesis_id`
-   column), and prunes oldest snapshots past `matrix_storage_cap_gb`.
+3. **Matrix** (`agents/matrix_agent.py`) — Heuer Ch. 8 layout: one `EvidenceRow`
+   per article (mark per hypothesis), **accumulating across runs** from
+   `matrix_state.json` (dedup by article id). Ranks hypotheses by **inconsistency**
+   (`--`=2, `-`=1; lowest = most likely, Step 5 — *not* most support), flags
+   diagnosticity, and renders a color-coded HTML matrix via `tools/matrix_view.py`
+   (stable `acch_matrix.html` + timestamped snapshots, pruned past the storage cap).
 
-`agents/base.py` holds the Pydantic schemas that are the contract between tiers.
+`agents/base.py` holds the Pydantic schemas that are the contract between tiers
+(`ArticleData`, `AssessmentResult`, `EvidenceRow`, …).
 
 ## Conventions & constraints
 

@@ -11,7 +11,7 @@ A **three-tier multi-agent system** that applies **Analysis of Competing Hypothe
 - 🔄 **Linear multi-agent pipeline**: Scraper → Assessment → Matrix, with sequential handoff
 - 📰 **Full-text sourcing**: articles come from **The Guardian Open Platform Content API** (full article body, free developer key)
 - 🧠 **Comparative ACH scoring**: all competing hypotheses are scored together in one LLM call so the model discriminates between them; temperature-sampled multi-pass **self-consistency** yields per-hypothesis confidence with human-in-the-loop flagging
-- 📊 **Accumulating ACH matrix**: evidence tallies build up **across runs**, with versioned CSV snapshots and a storage cap
+- 📊 **Accumulating ACH matrix (Heuer Ch. 8)**: evidence rows (one per article) build up **across runs**, ranked by *inconsistency*, rendered to a color-coded HTML matrix with versioned snapshots and a storage cap
 - 🔒 **Security-first**: domain whitelisting, no user chat interface, API keys kept out of logs, comprehensive audit logging
 - 🖥️ **Live CLI**: streaming progress and a formatted result table (`rich`)
 - 🧪 **Tested**: hermetic pytest suite (no network/LLM needed)
@@ -67,12 +67,13 @@ SCRAPER_MAX_ARTICLES=3 LLM_NUM_PASSES=2 uv run python main.py
 
 1. **Tier 1 — Scraper**: query The Guardian Content API for recent, relevant articles; deduplicate against previously processed URLs.
 2. **Tier 2 — Assessment**: for each article, score all competing hypotheses together across N temperature-sampled passes; derive per-hypothesis confidence from self-consistency and flag low-confidence results for human review.
-3. **Tier 3 — Matrix**: accumulate evidence tallies into the ACH matrix (carried over from prior runs), recompute net support, and write a versioned snapshot.
+3. **Tier 3 — Matrix**: add each article as an evidence row to the ACH matrix (carried over from prior runs), rank hypotheses by inconsistency, and render the color-coded HTML matrix.
 
 ### Outputs
 
-- Live console: streaming progress + final **ACH Decision Matrix** table
-- `data/matrix/acch_matrix_v*.csv` — versioned matrix snapshots (the source of truth, reloaded next run)
+- Live console: streaming progress + the **hypothesis ranking** (by inconsistency)
+- `data/matrix/acch_matrix.html` — the color-coded ACH matrix to open in a browser
+- `data/matrix/matrix_state.json` — canonical matrix state (reloaded next run); plus timestamped `acch_matrix_v*.html` snapshots
 - `data/processed_urls.csv` — long-term dedup memory
 - `logs/agent_interactions.log`, `logs/assessments.log`, `logs/errors.log` — audit trail
 
@@ -126,11 +127,10 @@ The Guardian Content API
   - Output: AssessmentResult[] → Matrix Agent
         ↓
 [Tier 3: Matrix Agent]
-  - Load the latest snapshot so tallies accumulate across runs
-  - Update cumulative tally per hypothesis: ++, +, N/A, -, --
-  - Recompute net support; write a versioned CSV snapshot
-  - Enforce the storage cap by pruning oldest snapshots
-  - Output: versioned ACH matrix snapshots + live result table
+  - Maintain an evidence-row matrix (one row per article) accumulating across runs
+  - Rank hypotheses by INCONSISTENCY (fewest/weakest evidence against = most likely)
+  - Flag diagnosticity; carry per-article confidence and date
+  - Output: a color-coded HTML matrix (data/matrix/acch_matrix.html) + JSON state
 ```
 
 ### Why The Guardian (and not Reuters)?
@@ -149,18 +149,20 @@ ACH evidence is diagnostic only insofar as it distinguishes between competing hy
 
 > **Accuracy note**: directional judgment is bounded by the local model's reasoning. Unstable or low-confidence assessments are surfaced via the human-review flag by design, rather than hidden.
 
-### ACH Matrix
+### ACH Matrix (Heuer Chapter 8 layout)
 
-Snapshots accumulate across runs (each run reloads the latest snapshot first):
+Following Heuer's ACH, the matrix is **evidence (articles) down the rows, hypotheses across the columns** — preserving the per-article audit trail rather than collapsing to tallies. Each row also carries the article's **date**, **confidence** (self-consistency), and a **diagnosticity** flag; rows are shown most-recent-first.
 
 ```
-hypothesis_id,Hypothesis,++,+,N/A,-,--,Net Support
-h1,China supports US position,5,12,2,1,0,17.0
-h2,China maintains neutrality,8,6,3,2,1,14.0
-h3,China supports Iran position,2,4,5,10,8,-11.0
+Date        Article                              H1   H2   H3   Conf  Diag
+2026-06-22  US-Iran framework deal reached …     N/A  ++   −    83%   ✓
+2026-06-21  China FM welcomes Tehran to talks …  −    +    ++    100%  ✓
+…
 ```
 
-`Net Support = (++ × 2) + (+ × 1) + (N/A × 0) + (- × −1) + (-- × −2)`. The `hypothesis_id` column lets a snapshot be reloaded into state; `article_count` is recovered as the sum of any hypothesis's tallies.
+**Ranking by inconsistency (Step 5):** hypotheses are ranked by an **inconsistency score** (weighted evidence *against*: `−`=1, `−−`=2) — **the most likely hypothesis is the one with the *least* evidence against it, not the most evidence for it.** This is the methodologically correct measure per Heuer (it explicitly is *not* a "most pluses wins" tally).
+
+State persists as `data/matrix/matrix_state.json` (reloaded each run so evidence accumulates, deduped by article id). The viewable result is `data/matrix/acch_matrix.html` (a color-coded matrix you open in a browser), with a timestamped HTML snapshot kept per run as an audit trail.
 
 ## Configuration
 
@@ -218,7 +220,7 @@ uv run pytest --cov=agents --cov=tools     # with coverage
 
 ### Adding hypotheses
 
-Edit `config/hypothesis_config.yaml`, then re-run `uv run python main.py`. (Existing matrix snapshots key by `hypothesis_id`; new ids start their tallies fresh.)
+Edit `config/hypothesis_config.yaml`, then re-run `uv run python main.py`. (The matrix keys columns by `hypothesis_id`; new ids appear as new columns and accumulate from then on.)
 
 ### Debug mode
 

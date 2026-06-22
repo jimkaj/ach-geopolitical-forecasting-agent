@@ -114,9 +114,12 @@ class FileManager:
                 "Pruning old snapshots..."
             )
             
-            # Get all snapshot files sorted by modification time
+            # Get all versioned snapshot files sorted by modification time.
+            # `acch_matrix_v*` matches timestamped snapshots of any extension
+            # (.html now, .csv historically) but not the stable acch_matrix.html
+            # or matrix_state.json.
             snapshots = sorted(
-                self.matrix_dir.glob("acch_matrix_v*.csv"),
+                self.matrix_dir.glob("acch_matrix_v*"),
                 key=lambda f: f.stat().st_mtime,
             )
             

@@ -41,43 +41,51 @@ logger = logging.getLogger(__name__)
 
 
 def render_matrix(matrix_state) -> None:
-    """Print the ACH decision matrix to stdout as a formatted table."""
-    aggregates = list(matrix_state.hypothesis_aggregates.values())
+    """Print the hypothesis ranking (by inconsistency) to stdout; the full
+    matrix is in the generated HTML file."""
+    from agents.matrix_agent import compute_scores, rank_by_inconsistency
+
+    names = matrix_state.hypothesis_names
+    hyp_ids = list(names.keys())
+    scores = compute_scores(matrix_state.evidence_rows, hyp_ids)
+    ranking = rank_by_inconsistency(scores)
+    html_path = settings.data_dir / "matrix" / "acch_matrix.html"
+
     try:
         from rich.console import Console
         from rich.table import Table
 
-        table = Table(title="ACH Decision Matrix", title_style="bold")
-        table.add_column("Hypothesis", style="cyan", no_wrap=False)
-        for col in ("++", "+", "N/A", "-", "--"):
-            table.add_column(col, justify="right")
-        table.add_column("Net Support", justify="right", style="bold")
+        table = Table(
+            title="ACH Hypothesis Ranking (most likely first = lowest inconsistency)",
+            title_style="bold",
+        )
+        table.add_column("#", justify="right")
+        table.add_column("Hypothesis", style="cyan")
+        table.add_column("Inconsistency", justify="right", style="bold")
+        table.add_column("Support", justify="right")
+        table.add_column("Against/For/N/A", justify="right")
 
-        for agg in aggregates:
-            t = agg.evidence_tally
-            net = f"{agg.net_support:+.1f}"
-            net_style = "green" if agg.net_support > 0 else "red" if agg.net_support < 0 else "white"
+        for i, hid in enumerate(ranking, start=1):
+            s = scores[hid]
+            row_style = "green" if i == 1 else ""
             table.add_row(
-                agg.hypothesis_name,
-                str(t["++"]), str(t["+"]), str(t["N/A"]), str(t["-"]), str(t["--"]),
-                f"[{net_style}]{net}[/{net_style}]",
+                str(i), names.get(hid, hid), f"{s['inconsistency']:.1f}",
+                f"{s['support']:.1f}", f"{s['against']}/{s['for']}/{s['na']}",
+                style=row_style,
             )
         console = Console()
         console.print()
         console.print(table)
         console.print(
-            f"[dim]{matrix_state.article_count} articles processed | "
-            f"snapshots in data/matrix/[/dim]"
+            f"[dim]{matrix_state.article_count} evidence rows | "
+            f"full matrix: {html_path}[/dim]"
         )
     except ImportError:
-        # Fallback: plain text if rich is unavailable.
-        print("\nACH Decision Matrix")
-        for agg in aggregates:
-            t = agg.evidence_tally
-            print(
-                f"  {agg.hypothesis_name}: ++={t['++']} +={t['+']} "
-                f"N/A={t['N/A']} -={t['-']} --={t['--']} net={agg.net_support:+.1f}"
-            )
+        print("\nACH Hypothesis Ranking (lowest inconsistency = most likely):")
+        for i, hid in enumerate(ranking, start=1):
+            s = scores[hid]
+            print(f"  {i}. {names.get(hid, hid)}: inconsistency={s['inconsistency']:.1f}")
+        print(f"  Full matrix: {html_path}")
 
 
 def load_hypothesis_config(config_path: Path) -> list[dict]:
