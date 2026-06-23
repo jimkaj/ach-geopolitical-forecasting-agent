@@ -81,22 +81,25 @@ class MatrixAgent:
     - Persist JSON state and render a color-coded HTML matrix; prune old snapshots
     """
 
-    def __init__(self, config, file_manager):
+    def __init__(self, config, file_manager, nation_id: str):
         """Initialize the Matrix Agent.
 
         Args:
             config: Settings object with matrix configuration
             file_manager: FileManager used for directory sizing and snapshot pruning
+            nation_id: Nation this agent tracks (e.g. "china"). Determines the
+                       subdirectory under data/matrix/ for all output files.
         """
         self.config = config
         self.file_manager = file_manager
-        self.matrix_dir = config.data_dir / "matrix"
-        self.matrix_dir.mkdir(parents=True, exist_ok=True)
+        self.nation_id = nation_id
+        self.matrix_dir = file_manager.get_nation_matrix_dir(nation_id)
         self.state_path = self.matrix_dir / STATE_FILENAME
 
         self.state = self._load_matrix_state()
+        self.state.nation_id = nation_id
         logger.info(
-            f"MatrixAgent initialized (v{self.state.matrix_version}, "
+            f"MatrixAgent[{nation_id}] initialized (v{self.state.matrix_version}, "
             f"{self.state.article_count} evidence rows carried over)"
         )
 
@@ -208,6 +211,8 @@ class MatrixAgent:
             scores=scores,
             ranking=ranking,
             generated_at=datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
+            title=f"ACH Decision Matrix — {self.nation_id.replace('_', ' ').title()}",
+            return_url="../summary.html",
         )
 
         # 3. Stable "latest" view + a timestamped snapshot for the audit trail.
@@ -222,12 +227,12 @@ class MatrixAgent:
 
     def cleanup_old_snapshots(self) -> None:
         """Prune oldest versioned snapshots past the storage cap (via FileManager)."""
-        self.file_manager.cleanup_old_snapshots(self.config.matrix_storage_cap_gb)
+        self.file_manager.cleanup_old_snapshots(self.config.matrix_storage_cap_gb, self.nation_id)
         self.state.total_storage_used_mb = self.file_manager.get_directory_size_mb(self.matrix_dir)
 
     def execute(self, assessments: list[AssessmentResult]) -> MatrixAgentState:
         """Ingest assessments, persist state, render HTML, and prune snapshots."""
-        logger.info(f"MatrixAgent processing {len(assessments)} assessments")
+        logger.info(f"MatrixAgent[{self.nation_id}] processing {len(assessments)} assessments")
 
         for assessment in assessments:
             self.ingest_assessment(assessment)
@@ -235,5 +240,5 @@ class MatrixAgent:
         self.save_matrix_snapshot()
         self.cleanup_old_snapshots()
 
-        logger.info(f"Matrix updated. Total evidence rows: {self.state.article_count}")
+        logger.info(f"Matrix[{self.nation_id}] updated. Total evidence rows: {self.state.article_count}")
         return self.state

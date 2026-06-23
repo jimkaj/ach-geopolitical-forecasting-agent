@@ -1,0 +1,203 @@
+{
+  "matrix_version": "20260623_174304",
+  "last_update": "2026-06-23T17:43:04.359676",
+  "hypothesis_names": {
+    "h1": "Iran supports the United States",
+    "h2": "Iran maintains a neutral stance with the United States",
+    "h3": "Iran opposes the United States"
+  },
+  "evidence_rows": [
+    {
+      "article_id": "world/2026/mar/26/gulf-states-scepticism-over-alleged-us-iran-talks-signals-a-distrust-of-trump",
+      "title": "Gulf states\u2019 scepticism over alleged US-Iran talks signals a distrust of Trump",
+      "source": "The Guardian",
+      "published_date": "2026-03-26T05:00:28+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/mar/16/gulf-states-may-be-covertly-encouraging-attacks-by-us-irans-foreign-minister-says",
+      "title": "Gulf states may be covertly encouraging attacks by US, Iran foreign minister says",
+      "source": "The Guardian",
+      "published_date": "2026-03-16T20:27:51+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.6666666666666666
+    },
+    {
+      "article_id": "world/2026/mar/02/gulf-states-iran-strikes-response",
+      "title": "Gulf states on verge of acting against Iran over \u2018reckless\u2019 strikes across region",
+      "source": "The Guardian",
+      "published_date": "2026-03-02T16:04:36+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.7000000000000001
+    },
+    {
+      "article_id": "world/2026/mar/10/how-eu-member-states-reacting-energy-crisis-iran-war",
+      "title": "How are EU and member states reacting to energy crisis triggered by Iran war?",
+      "source": "The Guardian",
+      "published_date": "2026-03-10T16:46:30+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "--"
+      },
+      "confidence": 0.7000000000000001
+    },
+    {
+      "article_id": "world/2026/mar/20/gulf-states-weigh-up-options-iran-us-israel-conflict-middle-east-crisis-war",
+      "title": "\u2018Not our war\u2019: Gulf states weigh up options as existential threat from Iran conflict grows",
+      "source": "The Guardian",
+      "published_date": "2026-03-20T15:35:22+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.6
+    },
+    {
+      "article_id": "world/2026/apr/23/trump-may-talk-of-regime-infighting-but-iran-seems-united-by-strategy-born-of-war",
+      "title": "Trump may talk of regime infighting, but Iran seems united by strategy born of war",
+      "source": "The Guardian",
+      "published_date": "2026-04-23T19:18:13+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/mar/01/trump-iran-attack-2020-election-loss",
+      "title": "Trump appears to link Iran attack to his 2020 election loss",
+      "source": "The Guardian",
+      "published_date": "2026-03-01T16:00:44+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.7999999999999999
+    },
+    {
+      "article_id": "world/2026/jun/16/irans-top-envoy-says-peace-deal-with-the-us-dependent-on-israels-withdrawal-from-lebanon",
+      "title": "Iran\u2019s top envoy says peace deal with US dependent on Israel\u2019s withdrawal from Lebanon",
+      "source": "The Guardian",
+      "published_date": "2026-06-16T17:22:13+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.5666666666666667
+    },
+    {
+      "article_id": "world/2026/jun/16/us-iran-deal-israel-relationship",
+      "title": "Where does Iran deal leave US-Israel relationship as they reach \u2018a fork in the road\u2019?",
+      "source": "The Guardian",
+      "published_date": "2026-06-16T17:43:08+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "--"
+      },
+      "confidence": 0.5
+    },
+    {
+      "article_id": "world/2026/may/25/shock-iran-war-middle-east-rivals-trump-peace-deal",
+      "title": "Shock of Iran war unites Middle East rivals in pushing Trump towards peace",
+      "source": "The Guardian",
+      "published_date": "2026-05-25T15:03:17+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "--"
+      },
+      "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/may/25/iran-denies-deal-us-imminent-israel-oman-strait-of-hormuz",
+      "title": "Iran denies deal with US is imminent despite some progress",
+      "source": "The Guardian",
+      "published_date": "2026-05-25T23:26:26+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.6333333333333333
+    },
+    {
+      "article_id": "world/2026/jun/19/giorgia-meloni-stunned-donald-trump-claims-begged-him-photo",
+      "title": "Italy PM Meloni \u2018stunned\u2019 by Trump\u2019s claims she begged him for a photo",
+      "source": "The Guardian",
+      "published_date": "2026-06-19T14:10:19+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "--"
+      },
+      "confidence": 0.5333333333333333
+    },
+    {
+      "article_id": "world/2026/apr/24/iran-foreign-minister-to-embark-on-three-nation-tour-as-us-peace-talks-remain-stalled",
+      "title": "Trump sending Witkoff and Kushner to Pakistan to resume talks on Iran war",
+      "source": "The Guardian",
+      "published_date": "2026-04-24T18:43:00+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.5333333333333333
+    },
+    {
+      "article_id": "world/2026/jun/06/us-says-iran-radar-sites-struck-and-drones-intercepted-in-latest-threat-to-fragile-ceasefire",
+      "title": "Kuwait and Bahrain targeted by Iran after exchange of fire with US",
+      "source": "The Guardian",
+      "published_date": "2026-06-06T11:09:31+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.7000000000000001
+    },
+    {
+      "article_id": "world/2026/mar/16/airman-killed-iran-war-cousin",
+      "title": "Relative of US airman killed in Middle East crash calls war on Iran \u2018uncalled for\u2019",
+      "source": "The Guardian",
+      "published_date": "2026-03-16T12:34:38+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.7666666666666666
+    },
+    {
+      "article_id": "world/2026/jun/15/tallying-the-global-cost-of-the-us-israel-war-against-iran",
+      "title": "Tallying the global cost of the US-Israel war against Iran",
+      "source": "The Guardian",
+      "published_date": "2026-06-15T13:45:01+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.6666666666666666
+    }
+  ]
+}

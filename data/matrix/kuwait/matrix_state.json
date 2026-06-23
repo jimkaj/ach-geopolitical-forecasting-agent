@@ -1,0 +1,143 @@
+{
+  "matrix_version": "20260623_180319",
+  "last_update": "2026-06-23T18:03:19.638707",
+  "hypothesis_names": {
+    "h1": "Kuwait supports the United States",
+    "h2": "Kuwait maintains a neutral stance with the United States",
+    "h3": "Kuwait opposes the United States"
+  },
+  "evidence_rows": [
+    {
+      "article_id": "world/live/2026/jun/09/middle-east-crisis-iran-israel-us-donald-trump-strait-of-hormuz-peace-deal-latest-news-updates",
+      "title": "Tehran launches retaliatory attacks on Bahrain and Kuwait \u2013 as it happened",
+      "source": "The Guardian",
+      "published_date": "2026-06-10T03:08:10+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 0.6333333333333333
+    },
+    {
+      "article_id": "world/2026/mar/02/us-fighter-jets-kuwait",
+      "title": "Three US fighter jets mistakenly shot down over Kuwait",
+      "source": "The Guardian",
+      "published_date": "2026-03-02T13:44:51+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.6333333333333333
+    },
+    {
+      "article_id": "world/live/2026/mar/24/iran-war-live-updates-trump-ursula-von-der-leyen-oil-prices-energy-crisis-israel-strikes",
+      "title": "Fire at Kuwait airport after drone attack \u2013 as it happened",
+      "source": "The Guardian",
+      "published_date": "2026-03-25T04:18:38+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 0.6333333333333333
+    },
+    {
+      "article_id": "world/2026/apr/23/journalist-detained-in-kuwait-acquitted-of-spreading-false-information-says-press-monitor",
+      "title": "Journalist detained in Kuwait acquitted of \u2018spreading false information\u2019, says press monitor",
+      "source": "The Guardian",
+      "published_date": "2026-04-23T16:53:04+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/apr/14/detention-journalist-ahmed-shihab-eldin-kuwait-crackdown-freedom-speech-iran-war",
+      "title": "Detention of journalist in Kuwait raises questions about crackdown on freedom of speech",
+      "source": "The Guardian",
+      "published_date": "2026-04-14T10:45:14+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.7000000000000001
+    },
+    {
+      "article_id": "world/2026/feb/28/dubais-famous-fairmont-hotel-in-flames-after-iranian-air-strike",
+      "title": "Explosions rock Dubai, Bahrain, Jordan and Kuwait as war spreads across Middle East",
+      "source": "The Guardian",
+      "published_date": "2026-03-01T04:28:23+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "--"
+      },
+      "confidence": 0.6666666666666666
+    },
+    {
+      "article_id": "world/2026/jun/03/us-fires-missile-tanker-strait-of-hormuz",
+      "title": "One killed and 63 hurt in Iran attack on Kuwait airport as Trump says ceasefire talks ongoing",
+      "source": "The Guardian",
+      "published_date": "2026-06-03T17:08:10+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.6333333333333333
+    },
+    {
+      "article_id": "world/2026/apr/20/defense-contractor-evacuate-iraq-kuwait",
+      "title": "US urges contractor to evacuate workers from Kuwait and Iraq over worries of Iran-backed attacks",
+      "source": "The Guardian",
+      "published_date": "2026-04-20T11:00:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 0.5333333333333333
+    },
+    {
+      "article_id": "world/2026/mar/04/iran-war-us-soldiers-killed-names",
+      "title": "\u2018He was smart and kind and amazing\u2019: six American soldiers killed in Kuwait remembered",
+      "source": "The Guardian",
+      "published_date": "2026-03-04T18:56:57+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 0.6333333333333333
+    },
+    {
+      "article_id": "world/2026/mar/02/us-israel-war-on-iran-dramatically-expands-across-middle-east",
+      "title": "US-Israel war on Iran dramatically expands across Middle East",
+      "source": "The Guardian",
+      "published_date": "2026-03-02T18:18:10+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.5666666666666667
+    },
+    {
+      "article_id": "us-news/2026/mar/01/us-contractors-stranded-kuwait",
+      "title": "US contractors in Kuwait decry meager bunkers and pay cuts amid Iran war: \u2018We\u2019re treated as expendable\u2019",
+      "source": "The Guardian",
+      "published_date": "2026-03-01T11:00:40+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.43333333333333335
+    }
+  ]
+}

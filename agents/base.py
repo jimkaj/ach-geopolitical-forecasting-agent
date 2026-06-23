@@ -121,6 +121,7 @@ class MatrixAgentState:
     hypothesis_names: dict[str, str] = field(default_factory=dict)
     last_update: datetime = field(default_factory=datetime.utcnow)
     total_storage_used_mb: float = 0.0
+    nation_id: str = ""
 
     @property
     def article_count(self) -> int:

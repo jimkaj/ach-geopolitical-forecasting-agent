@@ -99,30 +99,46 @@ class FileManager:
         
         return total_size / (1024 * 1024)
 
-    def cleanup_old_snapshots(self, max_size_gb: float) -> None:
+    def get_nation_matrix_dir(self, nation_id: str) -> Path:
+        """Return (and create) the per-nation matrix subdirectory.
+
+        Args:
+            nation_id: Nation identifier (e.g. "china", "russia")
+
+        Returns:
+            Path to data/matrix/{nation_id}/, created if absent
+        """
+        path = self.matrix_dir / nation_id
+        path.mkdir(parents=True, exist_ok=True)
+        return path
+
+    def cleanup_old_snapshots(self, max_size_gb: float, nation_id: str = "") -> None:
         """Delete oldest snapshots if directory exceeds size limit.
-        
+
         Args:
             max_size_gb: Maximum allowed size in gigabytes
+            nation_id: When non-empty, prune snapshots in the nation subdirectory;
+                       otherwise prune the top-level matrix directory.
         """
+        target_dir = self.matrix_dir / nation_id if nation_id else self.matrix_dir
         max_size_mb = max_size_gb * 1024
-        current_size_mb = self.get_directory_size_mb(self.matrix_dir)
-        
+        current_size_mb = self.get_directory_size_mb(target_dir)
+
         if current_size_mb > max_size_mb:
             logger.warning(
-                f"Matrix directory ({current_size_mb:.2f}MB) exceeds limit ({max_size_mb:.2f}MB). "
-                "Pruning old snapshots..."
+                f"Matrix directory {target_dir.name!r} ({current_size_mb:.2f}MB) "
+                f"exceeds limit ({max_size_mb:.2f}MB). Pruning old snapshots..."
             )
-            
+
             # Get all versioned snapshot files sorted by modification time.
             # `acch_matrix_v*` matches timestamped snapshots of any extension
             # (.html now, .csv historically) but not the stable acch_matrix.html
             # or matrix_state.json.
             snapshots = sorted(
-                self.matrix_dir.glob("acch_matrix_v*"),
+                target_dir.glob("acch_matrix_v*"),
                 key=lambda f: f.stat().st_mtime,
             )
-            
+
             # Delete oldest files until under limit. Capture the size BEFORE
             # unlinking — stat() on a deleted file raises FileNotFoundError.
             for snapshot in snapshots:

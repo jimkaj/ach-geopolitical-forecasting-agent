@@ -1,0 +1,143 @@
+{
+  "matrix_version": "20260623_181332",
+  "last_update": "2026-06-23T18:13:32.405709",
+  "hypothesis_names": {
+    "h1": "United Arab Emirates supports the United States",
+    "h2": "United Arab Emirates maintains a neutral stance with the United States",
+    "h3": "United Arab Emirates opposes the United States"
+  },
+  "evidence_rows": [
+    {
+      "article_id": "world/2026/mar/01/foreign-office-starts-planning-evacution-of-thousands-of-britons-in-middle-east",
+      "title": "Foreign Office starts planning evacuation of thousands of Britons in Middle East",
+      "source": "The Guardian",
+      "published_date": "2026-03-01T21:44:10+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "++",
+        "h3": "--"
+      },
+      "confidence": 0.5333333333333333
+    },
+    {
+      "article_id": "world/2026/may/17/the-uae-must-be-held-responsible-for-its-part-in-sudans-crisis",
+      "title": "The UAE must be held responsible for its part in Sudan\u2019s crisis",
+      "source": "The Guardian",
+      "published_date": "2026-05-17T16:19:04+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 0.7000000000000001
+    },
+    {
+      "article_id": "world/2026/feb/05/ukraine-war-briefing-russia-us-talks-abu-dhabi-zelenskyy-hopes-for-prisoner-exchange",
+      "title": "Ukraine war briefing: Zelenskyy voices hope for new prisoner exchange as talks continue",
+      "source": "The Guardian",
+      "published_date": "2026-02-05T00:22:10+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/feb/19/what-is-trumps-boards-of-peace-and-who-is-involved",
+      "title": "What is Trump\u2019s Board of Peace and who is involved?",
+      "source": "The Guardian",
+      "published_date": "2026-02-20T13:05:21+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.7999999999999999
+    },
+    {
+      "article_id": "world/2026/mar/04/how-the-us-israeli-war-on-iran-created-a-massive-hole-in-global-airspace",
+      "title": "How the US-Israeli war on Iran created a massive hole in global airspace",
+      "source": "The Guardian",
+      "published_date": "2026-03-04T17:21:43+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.5333333333333333
+    },
+    {
+      "article_id": "world/2026/may/21/oil-markets-nearing-red-zone-as-holiday-season-nears-warns-iea-chief",
+      "title": "Oil markets nearing \u2018red zone\u2019 as Iran crisis continues, warns IEA chief",
+      "source": "The Guardian",
+      "published_date": "2026-05-21T16:10:13+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.7000000000000001
+    },
+    {
+      "article_id": "world/2026/mar/01/ukraine-war-briefing-zelenskyy-says-russia-peace-talks-will-depend-on-situation-in-middle-east",
+      "title": "Ukraine war briefing: Zelenskyy says Russia peace talks will depend on situation in Middle East",
+      "source": "The Guardian",
+      "published_date": "2026-03-01T02:26:09+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/jun/15/us-iran-ceasefire-respite-true-peace-distant",
+      "title": "US-Iran deal may get oil flowing again, but region\u2019s root problems are unsolved",
+      "source": "The Guardian",
+      "published_date": "2026-06-16T07:35:56+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 0.6333333333333333
+    },
+    {
+      "article_id": "world/2026/mar/04/middle-east-conflict-offers-economic-lifeline-to-russias-flagging-war-machine",
+      "title": "Middle East conflict offers economic lifeline to Russia\u2019s flagging war machine",
+      "source": "The Guardian",
+      "published_date": "2026-03-04T06:00:42+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.7000000000000001
+    },
+    {
+      "article_id": "world/2026/may/06/mexico-nightclub-cover-charge-us-citizens",
+      "title": "Mexico nightclub\u2019s $300 cover charge for US citizens captures popular mood",
+      "source": "The Guardian",
+      "published_date": "2026-05-06T10:00:05+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.6666666666666666
+    },
+    {
+      "article_id": "world/live/2026/apr/27/middle-east-crisis-iran-us-israel-lebanon-trump-araghchi-putin-hormuz-oil-latest-news-updates",
+      "title": "Middle East crisis: Iran\u2019s foreign ministry condemns US seizure of Iranian-linked tankers as \u2018piracy and armed robbery\u2019 \u2013 as it happened",
+      "source": "The Guardian",
+      "published_date": "2026-04-27T21:19:06+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 0.6
+    }
+  ]
+}

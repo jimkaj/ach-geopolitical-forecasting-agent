@@ -1,0 +1,71 @@
+{
+  "matrix_version": "20260623_175711",
+  "last_update": "2026-06-23T17:57:11.123814",
+  "hypothesis_names": {
+    "h1": "Pakistan supports the United States",
+    "h2": "Pakistan maintains a neutral stance with the United States",
+    "h3": "Pakistan opposes the United States"
+  },
+  "evidence_rows": [
+    {
+      "article_id": "world/2026/feb/27/pakistan-declares-state-of-open-war-after-bombing-major-afghan-cities",
+      "title": "Pakistan declares state of \u2018open war\u2019 after bombing major Afghan cities",
+      "source": "The Guardian",
+      "published_date": "2026-02-27T14:19:35+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.4666666666666666
+    },
+    {
+      "article_id": "world/live/2026/jun/14/iran-us-middle-east-crisis-donald-trump-peace-deal-strait-hormuz-open-pakistan-latest-news-updates",
+      "title": "Pakistan PM says signing of agreement confirmed \u2013 as it happened",
+      "source": "The Guardian",
+      "published_date": "2026-06-15T03:06:49+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 0.7999999999999999
+    },
+    {
+      "article_id": "world/2026/jun/16/australian-girl-shot-killed-pakistan-hania-ahmed-police-ntwnfb",
+      "title": "Father of Australian girl shot by police while visiting Pakistan demands justice",
+      "source": "The Guardian",
+      "published_date": "2026-06-16T10:25:18+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.43333333333333335
+    },
+    {
+      "article_id": "world/2026/apr/21/trump-resume-bombing-iran-ceasefire",
+      "title": "Trump extends US-Iran ceasefire indefinitely at request of Pakistan",
+      "source": "The Guardian",
+      "published_date": "2026-04-21T20:37:10+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 0.7999999999999999
+    },
+    {
+      "article_id": "world/2026/feb/01/pakistan-targets-balochistan-separatists-after-unprecedented-assaults",
+      "title": "Pakistan targets Balochistan separatists after \u2018unprecedented\u2019 assaults",
+      "source": "The Guardian",
+      "published_date": "2026-02-01T14:07:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 0.6666666666666666
+    }
+  ]
+}

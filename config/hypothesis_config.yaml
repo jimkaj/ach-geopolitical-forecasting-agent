@@ -1,32 +1,194 @@
-# ACH Hypothesis Configuration for China's Likely Position in US-Iran Conflict
-# These hypotheses represent the competing outcomes being evaluated against evidence.
+# v3 ACH Hypothesis Configuration — Multi-Nation US-Alignment Assessment
+# Each nation has three fixed hypotheses on the supports ↔ opposes United States axis.
+# Add or remove nations freely; each gets its own isolated ACH matrix.
 
-hypotheses:
-  - id: "h1"
-    name: "China supports US position"
-    description: |
-      Evidence suggests China would align with or support the US position 
-      in a US-Iran conflict scenario.
-  
-  - id: "h2"
-    name: "China maintains neutrality"
-    description: |
-      Evidence suggests China would maintain a neutral or balanced stance,
-      not overtly supporting either side while protecting interests.
-  
-  - id: "h3"
-    name: "China supports Iran position"
-    description: |
-      Evidence suggests China would align with or support the Iran position
-      in a US-Iran conflict scenario.
+nations:
+  china:
+    search_query: "China United States relations"
+    hypotheses:
+      - id: "h1"
+        name: "China supports the United States"
+        description: |
+          Evidence suggests China is aligned with or supportive of US interests,
+          policy positions, or strategic objectives.
+      - id: "h2"
+        name: "China maintains a neutral stance with the United States"
+        description: |
+          Evidence suggests China is neither clearly aligned with nor opposed to
+          US interests, pursuing an independent or balanced posture.
+      - id: "h3"
+        name: "China opposes the United States"
+        description: |
+          Evidence suggests China is acting against US interests, countering US
+          policy, or aligning with adversaries of the United States.
 
-# Assessment Context: Focus on geopolitical signals, economic interests, 
-# military alignment, and diplomatic statements regarding US-Iran relations
-assessment_context: |
-  Evaluate each article's diagnostic value for determining China's likely 
-  position in a US-Iran military conflict. Consider:
-  - Economic ties and trade relationships with both nations
-  - Military and strategic partnerships
-  - Historical precedent and policy statements
-  - Regional geopolitical strategy (Belt and Road, Middle East presence)
-  - UN voting patterns and diplomatic signaling
+  iran:
+    search_query: "Iran United States relations"
+    hypotheses:
+      - id: "h1"
+        name: "Iran supports the United States"
+        description: |
+          Evidence suggests Iran is aligned with or supportive of US interests,
+          policy positions, or strategic objectives.
+      - id: "h2"
+        name: "Iran maintains a neutral stance with the United States"
+        description: |
+          Evidence suggests Iran is neither clearly aligned with nor opposed to
+          US interests, pursuing an independent or balanced posture.
+      - id: "h3"
+        name: "Iran opposes the United States"
+        description: |
+          Evidence suggests Iran is acting against US interests, countering US
+          policy, or aligning with adversaries of the United States.
+
+  israel:
+    search_query: "Israel United States relations"
+    hypotheses:
+      - id: "h1"
+        name: "Israel supports the United States"
+        description: |
+          Evidence suggests Israel is aligned with or supportive of US interests,
+          policy positions, or strategic objectives.
+      - id: "h2"
+        name: "Israel maintains a neutral stance with the United States"
+        description: |
+          Evidence suggests Israel is neither clearly aligned with nor opposed to
+          US interests, pursuing an independent or balanced posture.
+      - id: "h3"
+        name: "Israel opposes the United States"
+        description: |
+          Evidence suggests Israel is acting against US interests, countering US
+          policy, or aligning with adversaries of the United States.
+
+  qatar:
+    search_query: "Qatar United States relations"
+    hypotheses:
+      - id: "h1"
+        name: "Qatar supports the United States"
+        description: |
+          Evidence suggests Qatar is aligned with or supportive of US interests,
+          policy positions, or strategic objectives.
+      - id: "h2"
+        name: "Qatar maintains a neutral stance with the United States"
+        description: |
+          Evidence suggests Qatar is neither clearly aligned with nor opposed to
+          US interests, pursuing an independent or balanced posture.
+      - id: "h3"
+        name: "Qatar opposes the United States"
+        description: |
+          Evidence suggests Qatar is acting against US interests, countering US
+          policy, or aligning with adversaries of the United States.
+
+  saudi_arabia:
+    search_query: "Saudi Arabia United States relations"
+    hypotheses:
+      - id: "h1"
+        name: "Saudi Arabia supports the United States"
+        description: |
+          Evidence suggests Saudi Arabia is aligned with or supportive of US interests,
+          policy positions, or strategic objectives.
+      - id: "h2"
+        name: "Saudi Arabia maintains a neutral stance with the United States"
+        description: |
+          Evidence suggests Saudi Arabia is neither clearly aligned with nor opposed to
+          US interests, pursuing an independent or balanced posture.
+      - id: "h3"
+        name: "Saudi Arabia opposes the United States"
+        description: |
+          Evidence suggests Saudi Arabia is acting against US interests, countering US
+          policy, or aligning with adversaries of the United States.
+
+  pakistan:
+    search_query: "Pakistan United States relations"
+    hypotheses:
+      - id: "h1"
+        name: "Pakistan supports the United States"
+        description: |
+          Evidence suggests Pakistan is aligned with or supportive of US interests,
+          policy positions, or strategic objectives.
+      - id: "h2"
+        name: "Pakistan maintains a neutral stance with the United States"
+        description: |
+          Evidence suggests Pakistan is neither clearly aligned with nor opposed to
+          US interests, pursuing an independent or balanced posture.
+      - id: "h3"
+        name: "Pakistan opposes the United States"
+        description: |
+          Evidence suggests Pakistan is acting against US interests, countering US
+          policy, or aligning with adversaries of the United States.
+
+  kuwait:
+    search_query: "Kuwait United States relations"
+    hypotheses:
+      - id: "h1"
+        name: "Kuwait supports the United States"
+        description: |
+          Evidence suggests Kuwait is aligned with or supportive of US interests,
+          policy positions, or strategic objectives.
+      - id: "h2"
+        name: "Kuwait maintains a neutral stance with the United States"
+        description: |
+          Evidence suggests Kuwait is neither clearly aligned with nor opposed to
+          US interests, pursuing an independent or balanced posture.
+      - id: "h3"
+        name: "Kuwait opposes the United States"
+        description: |
+          Evidence suggests Kuwait is acting against US interests, countering US
+          policy, or aligning with adversaries of the United States.
+
+  bahrain:
+    search_query: "Bahrain United States relations"
+    hypotheses:
+      - id: "h1"
+        name: "Bahrain supports the United States"
+        description: |
+          Evidence suggests Bahrain is aligned with or supportive of US interests,
+          policy positions, or strategic objectives.
+      - id: "h2"
+        name: "Bahrain maintains a neutral stance with the United States"
+        description: |
+          Evidence suggests Bahrain is neither clearly aligned with nor opposed to
+          US interests, pursuing an independent or balanced posture.
+      - id: "h3"
+        name: "Bahrain opposes the United States"
+        description: |
+          Evidence suggests Bahrain is acting against US interests, countering US
+          policy, or aligning with adversaries of the United States.
+
+  oman:
+    search_query: "Oman United States relations"
+    hypotheses:
+      - id: "h1"
+        name: "Oman supports the United States"
+        description: |
+          Evidence suggests Oman is aligned with or supportive of US interests,
+          policy positions, or strategic objectives.
+      - id: "h2"
+        name: "Oman maintains a neutral stance with the United States"
+        description: |
+          Evidence suggests Oman is neither clearly aligned with nor opposed to
+          US interests, pursuing an independent or balanced posture.
+      - id: "h3"
+        name: "Oman opposes the United States"
+        description: |
+          Evidence suggests Oman is acting against US interests, countering US
+          policy, or aligning with adversaries of the United States.
+
+  uae:
+    search_query: "United Arab Emirates United States relations"
+    hypotheses:
+      - id: "h1"
+        name: "United Arab Emirates supports the United States"
+        description: |
+          Evidence suggests United Arab Emirates is aligned with or supportive of US interests,
+          policy positions, or strategic objectives.
+      - id: "h2"
+        name: "United Arab Emirates maintains a neutral stance with the United States"
+        description: |
+          Evidence suggests United Arab Emirates is neither clearly aligned with nor opposed to
+          US interests, pursuing an independent or balanced posture.
+      - id: "h3"
+        name: "United Arab Emirates opposes the United States"
+        description: |
+          Evidence suggests United Arab Emirates is acting against US interests, countering US
+          policy, or aligning with adversaries of the United States.

@@ -1,0 +1,23 @@
+{
+  "matrix_version": "20260623_180347",
+  "last_update": "2026-06-23T18:03:47.966838",
+  "hypothesis_names": {
+    "h1": "Bahrain supports the United States",
+    "h2": "Bahrain maintains a neutral stance with the United States",
+    "h3": "Bahrain opposes the United States"
+  },
+  "evidence_rows": [
+    {
+      "article_id": "world/2026/may/14/iran-strait-of-hormuz-navy-uae",
+      "title": "Iran says ships entering strait of Hormuz must cooperate after vessel seized",
+      "source": "The Guardian",
+      "published_date": "2026-05-14T13:11:37+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.4000000000000001
+    }
+  ]
+}

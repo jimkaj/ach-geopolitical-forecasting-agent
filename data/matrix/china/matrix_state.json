@@ -1,0 +1,323 @@
+{
+  "matrix_version": "20260623_185023",
+  "last_update": "2026-06-23T18:50:23.232536",
+  "hypothesis_names": {
+    "h1": "China supports the United States",
+    "h2": "China maintains a neutral stance with the United States",
+    "h3": "China opposes the United States"
+  },
+  "evidence_rows": [
+    {
+      "article_id": "world/2026/may/13/cartel-corruption-claims-push-us-mexico-relations-to-breaking-point",
+      "title": "Cartel corruption claims push US-Mexico relations to breaking point",
+      "source": "The Guardian",
+      "published_date": "2026-05-13T21:31:52+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/may/31/yves-sakila-death-congolese-man-ireland-race-relations",
+      "title": "Death of Congolese man renews scrutiny of race relations in Ireland",
+      "source": "The Guardian",
+      "published_date": "2026-05-31T13:59:34+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/jun/16/eu-uk-announce-summit-reset-post-brexit-relations",
+      "title": "EU and UK announce summit to discuss \u2018reset\u2019 in post-Brexit relations",
+      "source": "The Guardian",
+      "published_date": "2026-06-16T17:02:33+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "N/A"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/may/15/matthew-wale-elected-solomon-islands-prime-minister",
+      "title": "China critic Matthew Wale elected Solomon Islands prime minister",
+      "source": "The Guardian",
+      "published_date": "2026-05-15T02:43:43+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "--"
+      },
+      "confidence": 0.6333333333333333
+    },
+    {
+      "article_id": "world/2026/apr/18/hungary-peter-magyar-donald-tusk-poland-europe",
+      "title": "Hungary\u2019s incoming PM seeks Polish help to renew EU relations",
+      "source": "The Guardian",
+      "published_date": "2026-04-18T11:00:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/apr/16/giorgia-meloni-relations-donald-trump-italy",
+      "title": "How Giorgia Meloni\u2019s cosy relations with Donald Trump turned sour",
+      "source": "The Guardian",
+      "published_date": "2026-04-16T11:47:45+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "--"
+      },
+      "confidence": 0.6
+    },
+    {
+      "article_id": "world/2026/mar/30/us-reopens-embassy-venezuela",
+      "title": "US reopens embassy in Venezuela in significant thawing of relations",
+      "source": "The Guardian",
+      "published_date": "2026-03-30T17:27:57+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/may/07/marco-rubio-to-meet-pope-at-the-vatican-after-trump-attacks-on-pontiff",
+      "title": "Vatican stresses need for peace as Rubio meets pope amid strained relations",
+      "source": "The Guardian",
+      "published_date": "2026-05-08T18:31:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 0.7666666666666666
+    },
+    {
+      "article_id": "world/2026/apr/10/new-zealand-comfort-women-statue-could-jeopardise-diplomatic-relations-japan-says",
+      "title": "New Zealand \u2018comfort women\u2019 statue could jeopardise diplomatic relations, Japan says",
+      "source": "The Guardian",
+      "published_date": "2026-04-10T02:16:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.7000000000000001
+    },
+    {
+      "article_id": "world/2026/jun/20/what-lessons-will-irans-new-leadership-draw-from-the-110-day-war",
+      "title": "What lessons will Iran\u2019s new leadership draw from the 110-day war?",
+      "source": "The Guardian",
+      "published_date": "2026-06-20T10:00:01+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 0.6666666666666666
+    },
+    {
+      "article_id": "world/2026/may/19/vladimir-putin-beijing-china-state-visit-xi-jinping-russia",
+      "title": "Vladimir Putin arrives in Beijing for state visit hot on heels of Trump",
+      "source": "The Guardian",
+      "published_date": "2026-05-20T00:28:36+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 0.6666666666666666
+    },
+    {
+      "article_id": "world/2026/jun/21/canada-immigration-us-deportation",
+      "title": "Canada\u2019s policies force asylum seekers into US to face deportation, critics say",
+      "source": "The Guardian",
+      "published_date": "2026-06-21T07:00:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.7999999999999999
+    },
+    {
+      "article_id": "world/2026/may/12/uae-secret-attack-iran-risks-gulf-states-regional-conflict",
+      "title": "UAE\u2019s secret attack on Iran risks drawing Gulf states into the war",
+      "source": "The Guardian",
+      "published_date": "2026-05-12T17:42:48+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 0.3666666666666667
+    },
+    {
+      "article_id": "world/2026/may/26/eu-could-deny-new-member-states-veto-rights-as-bloc-pushes-for-enlargement",
+      "title": "EU could deny new member states veto rights as bloc pushes for enlargement",
+      "source": "The Guardian",
+      "published_date": "2026-05-26T10:27:31+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "N/A"
+      },
+      "confidence": 0.7666666666666666
+    },
+    {
+      "article_id": "world/2026/may/19/china-exploits-trump-taiwan-weapons-sales-analysis",
+      "title": "Trump\u2019s shifting remarks on Taiwan are perfect for China to exploit",
+      "source": "The Guardian",
+      "published_date": "2026-05-19T00:22:53+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 0.6
+    },
+    {
+      "article_id": "world/2026/apr/24/india-trump-hellhole-post",
+      "title": "India voices anger after Trump shares comments calling it a \u2018hellhole\u2019",
+      "source": "The Guardian",
+      "published_date": "2026-04-24T00:36:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/mar/31/third-front-china-mao-military-factories-defences",
+      "title": "The \u2018Third Front\u2019: China resurrects Mao\u2019s military capabilities",
+      "source": "The Guardian",
+      "published_date": "2026-03-30T23:00:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/jun/23/marco-rubio-gulf-allies-us-iran-ceasefire-deal",
+      "title": "Marco Rubio to meet Gulf allies amid division over US-Iran ceasefire deal",
+      "source": "The Guardian",
+      "published_date": "2026-06-23T13:07:02+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/apr/10/gulf-states-rethink-security-us-israel-war-iran-ceasefire",
+      "title": "Gulf states rethink security in light of US-Israel war on Iran",
+      "source": "The Guardian",
+      "published_date": "2026-04-10T06:44:58+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 0.6666666666666666
+    },
+    {
+      "article_id": "world/2026/may/22/camp-humphreys-south-korea-us-military-base",
+      "title": "South Korea hosts America\u2019s biggest overseas military base \u2013 but what does its future look like under Trump?",
+      "source": "The Guardian",
+      "published_date": "2026-05-22T00:25:59+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 0.5666666666666667
+    },
+    {
+      "article_id": "world/2026/mar/16/belgian-pm-bart-de-wever-call-repair-relations-russia-energy-costs-condemned",
+      "title": "Belgian PM condemned over call to repair relations with Russia to ease energy costs",
+      "source": "The Guardian",
+      "published_date": "2026-03-16T16:38:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/apr/09/majority-hungary-voters-back-continued-eu-membership-poll-finds-election-orban",
+      "title": "Most Hungarians want better relations with EU after years of Orb\u00e1n Brussels-bashing, poll finds",
+      "source": "The Guardian",
+      "published_date": "2026-04-09T12:03:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 0.8333333333333334
+    },
+    {
+      "article_id": "world/2026/apr/19/israel-europe-support-iran-war-orban-meloni",
+      "title": "Israel had a bad week in Europe. Does it herald a wider shift in EU relations?",
+      "source": "The Guardian",
+      "published_date": "2026-04-19T11:36:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 0.7000000000000001
+    },
+    {
+      "article_id": "world/2026/jan/30/trump-dangerous-uk-china-starmer-xi-jinping-beijing",
+      "title": "Trump says \u2018very dangerous\u2019 for UK to do business with China, after Starmer hails progress in Beijing",
+      "source": "The Guardian",
+      "published_date": "2026-01-30T12:39:17+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/mar/31/pakistan-china-propose-five-part-peace-plan-middle-east",
+      "title": "Pakistan and China propose five-part peace plan for Middle East",
+      "source": "The Guardian",
+      "published_date": "2026-03-31T15:30:15+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.5
+    },
+    {
+      "article_id": "world/2026/apr/30/taiwan-accuses-china-of-vegetable-laundering-via-vietnam",
+      "title": "Taiwan accuses China of vegetable laundering via Vietnam",
+      "source": "The Guardian",
+      "published_date": "2026-04-30T05:25:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 0.7999999999999999
+    }
+  ]
+}

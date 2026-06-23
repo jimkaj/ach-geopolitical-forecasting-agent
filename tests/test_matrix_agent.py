@@ -46,7 +46,7 @@ def test_rank_lowest_inconsistency_first():
 # Ingestion + state
 # --------------------------------------------------------------------------- #
 def test_ingest_builds_evidence_rows(config, assessment_factory):
-    agent = MatrixAgent(config, FileManager(config))
+    agent = MatrixAgent(config, FileManager(config), nation_id="test")
     state = agent.execute([
         assessment_factory("a1", {"h1": "++", "h2": "N/A", "h3": "-"}, confidence=0.9),
         assessment_factory("a2", {"h1": "+", "h2": "N/A", "h3": "--"}),
@@ -56,6 +56,12 @@ def test_ingest_builds_evidence_rows(config, assessment_factory):
     assert row.marks == {"h1": "++", "h2": "N/A", "h3": "-"}
     assert row.confidence == 0.9
     assert state.hypothesis_names == {"h1": "Hypothesis h1", "h2": "Hypothesis h2", "h3": "Hypothesis h3"}
+
+
+def test_nation_id_set_on_state(config, assessment_factory):
+    agent = MatrixAgent(config, FileManager(config), nation_id="china")
+    state = agent.execute([assessment_factory("a1", {"h1": "++", "h2": "N/A", "h3": "-"})])
+    assert state.nation_id == "china"
 
 
 def test_diagnosticity():
@@ -68,13 +74,13 @@ def test_diagnosticity():
 
 def test_accumulation_across_runs(config, assessment_factory):
     fm = FileManager(config)
-    MatrixAgent(config, fm).execute([
+    MatrixAgent(config, fm, nation_id="test").execute([
         assessment_factory("a1", {"h1": "++", "h2": "N/A", "h3": "-"}),
         assessment_factory("a2", {"h1": "+", "h2": "N/A", "h3": "--"}),
     ])
 
     # New agent must load prior rows from JSON state, then add to them.
-    agent2 = MatrixAgent(config, fm)
+    agent2 = MatrixAgent(config, fm, nation_id="test")
     assert agent2.state.article_count == 2
     state = agent2.execute([assessment_factory("a3", {"h1": "++", "h2": "N/A", "h3": "N/A"})])
     assert state.article_count == 3
@@ -83,7 +89,7 @@ def test_accumulation_across_runs(config, assessment_factory):
 
 def test_reingesting_same_article_replaces_row(config, assessment_factory):
     fm = FileManager(config)
-    agent = MatrixAgent(config, fm)
+    agent = MatrixAgent(config, fm, nation_id="test")
     agent.execute([assessment_factory("a1", {"h1": "++", "h2": "N/A", "h3": "N/A"})])
     state = agent.execute([assessment_factory("a1", {"h1": "--", "h2": "N/A", "h3": "N/A"})])
     assert state.article_count == 1  # replaced, not duplicated
@@ -92,7 +98,7 @@ def test_reingesting_same_article_replaces_row(config, assessment_factory):
 
 def test_rows_sorted_most_recent_first(config, assessment_factory):
     fm = FileManager(config)
-    agent = MatrixAgent(config, fm)
+    agent = MatrixAgent(config, fm, nation_id="test")
     agent.execute([
         assessment_factory("old", {"h1": "N/A"}, published_date=datetime(2026, 1, 1)),
         assessment_factory("new", {"h1": "N/A"}, published_date=datetime(2026, 6, 1)),
@@ -102,11 +108,29 @@ def test_rows_sorted_most_recent_first(config, assessment_factory):
     assert ordered[1].article_id == "old"
 
 
+def test_nations_use_separate_directories(config, assessment_factory):
+    fm = FileManager(config)
+    MatrixAgent(config, fm, nation_id="china").execute([
+        assessment_factory("a1", {"h1": "++", "h2": "N/A", "h3": "-"}),
+    ])
+    MatrixAgent(config, fm, nation_id="russia").execute([
+        assessment_factory("b1", {"h1": "--", "h2": "N/A", "h3": "++"}),
+    ])
+    china_dir = config.data_dir / "matrix" / "china"
+    russia_dir = config.data_dir / "matrix" / "russia"
+    assert (china_dir / "matrix_state.json").exists()
+    assert (russia_dir / "matrix_state.json").exists()
+    china_state = json.loads((china_dir / "matrix_state.json").read_text())
+    russia_state = json.loads((russia_dir / "matrix_state.json").read_text())
+    assert china_state["evidence_rows"][0]["article_id"] == "a1"
+    assert russia_state["evidence_rows"][0]["article_id"] == "b1"
+
+
 # --------------------------------------------------------------------------- #
 # Output artifacts
 # --------------------------------------------------------------------------- #
 def test_writes_state_json_and_html(config, assessment_factory):
-    agent = MatrixAgent(config, FileManager(config))
+    agent = MatrixAgent(config, FileManager(config), nation_id="test")
     agent.execute([assessment_factory("a1", {"h1": "++", "h2": "N/A", "h3": "-"})])
 
     assert (agent.matrix_dir / "matrix_state.json").exists()
@@ -119,16 +143,24 @@ def test_writes_state_json_and_html(config, assessment_factory):
     assert "ACH Decision Matrix" in html
 
 
+def test_html_contains_return_button(config, assessment_factory):
+    agent = MatrixAgent(config, FileManager(config), nation_id="test")
+    agent.execute([assessment_factory("a1", {"h1": "++", "h2": "N/A", "h3": "-"})])
+    html = (agent.matrix_dir / "acch_matrix.html").read_text(encoding="utf-8")
+    assert "Back to Summary" in html
+    assert "summary.html" in html
+
+
 def test_execute_invokes_cleanup(config, assessment_factory, monkeypatch):
     fm = FileManager(config)
-    agent = MatrixAgent(config, fm)
+    agent = MatrixAgent(config, fm, nation_id="test")
     called = {"n": 0}
-    monkeypatch.setattr(fm, "cleanup_old_snapshots", lambda cap: called.__setitem__("n", called["n"] + 1))
+    monkeypatch.setattr(fm, "cleanup_old_snapshots", lambda cap, nid: called.__setitem__("n", called["n"] + 1))
     agent.execute([assessment_factory("a1", {"h1": "N/A", "h2": "N/A", "h3": "N/A"})])
     assert called["n"] == 1
 
 
 def test_fresh_when_no_state(config):
-    agent = MatrixAgent(config, FileManager(config))
+    agent = MatrixAgent(config, FileManager(config), nation_id="test")
     assert agent.state.article_count == 0
     assert agent.state.evidence_rows == []

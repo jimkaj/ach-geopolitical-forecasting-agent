@@ -76,7 +76,7 @@ class Settings(BaseSettings):
         description="Guardian section to restrict to (e.g. 'world'); empty string for all sections",
     )
     guardian_from_days: int = Field(
-        default=7,
+        default=150,
         description="Only fetch articles published within this many days (0 to disable)",
     )
     guardian_order_by: str = Field(
