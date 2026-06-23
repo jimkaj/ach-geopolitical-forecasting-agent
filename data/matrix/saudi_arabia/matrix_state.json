@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260623_175418",
-  "last_update": "2026-06-23T17:54:18.313724",
+  "matrix_version": "20260623_192421",
+  "last_update": "2026-06-23T19:24:21.457565",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -10,6 +10,7 @@
     {
       "article_id": "world/2026/may/14/ahmed-al-doush-wife-pleads-saudi-arabia-for-his-release-social-media-posts",
       "title": "Wife of Briton pleads for Saudi Arabia to release him from \u2018arbitrary detention\u2019",
+      "url": "https://www.theguardian.com/world/2026/may/14/ahmed-al-doush-wife-pleads-saudi-arabia-for-his-release-social-media-posts",
       "source": "The Guardian",
       "published_date": "2026-05-14T04:00:16+00:00",
       "marks": {
@@ -22,6 +23,7 @@
     {
       "article_id": "world/live/2026/mar/08/middle-east-crisis-live-china-warns-world-cannot-return-to-law-of-the-jungle-trump-says-iran-being-decimated",
       "title": "US orders government employees to leave Saudi Arabia \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/mar/08/middle-east-crisis-live-china-warns-world-cannot-return-to-law-of-the-jungle-trump-says-iran-being-decimated",
       "source": "The Guardian",
       "published_date": "2026-03-09T01:58:47+00:00",
       "marks": {
@@ -34,6 +36,7 @@
     {
       "article_id": "world/2026/mar/27/saudi-arabia-us-iran-attacks-mohammed-bin-salman",
       "title": "Saudi Arabia urging US to ramp up Iran attacks, intelligence source confirms",
+      "url": "https://www.theguardian.com/world/2026/mar/27/saudi-arabia-us-iran-attacks-mohammed-bin-salman",
       "source": "The Guardian",
       "published_date": "2026-03-27T08:16:46+00:00",
       "marks": {
@@ -46,6 +49,7 @@
     {
       "article_id": "world/2026/apr/25/ukraine-war-briefing-zelenskyy-holds-talks-in-azerbaijan-saudi-arabia-on-security-and-energy",
       "title": "Ukraine war briefing: Zelenskyy holds talks in Azerbaijan, Saudi Arabia on \u2018security and energy\u2019",
+      "url": "https://www.theguardian.com/world/2026/apr/25/ukraine-war-briefing-zelenskyy-holds-talks-in-azerbaijan-saudi-arabia-on-security-and-energy",
       "source": "The Guardian",
       "published_date": "2026-04-25T01:02:52+00:00",
       "marks": {
@@ -58,6 +62,7 @@
     {
       "article_id": "world/2026/jan/26/saudi-arabia-ordered-pay-london-dissident-pegasus-spying-ghanem-al-masarir",
       "title": "Saudi Arabia ordered to pay \u00a33m to London dissident over Pegasus spying",
+      "url": "https://www.theguardian.com/world/2026/jan/26/saudi-arabia-ordered-pay-london-dissident-pegasus-spying-ghanem-al-masarir",
       "source": "The Guardian",
       "published_date": "2026-01-26T14:48:05+00:00",
       "marks": {
@@ -70,6 +75,7 @@
     {
       "article_id": "world/2026/may/07/phillip-noyce-feature-film-saudi-regime",
       "title": "Australian director Phillip Noyce shoots feature film for Saudi Arabia celebrating \u2018heroism of security men in combating drugs\u2019",
+      "url": "https://www.theguardian.com/world/2026/may/07/phillip-noyce-feature-film-saudi-regime",
       "source": "The Guardian",
       "published_date": "2026-05-07T02:08:02+00:00",
       "marks": {
@@ -82,6 +88,7 @@
     {
       "article_id": "world/2026/may/07/trump-project-freedom-saudi-arabia-strait-of-hormuz",
       "title": "Trump shelved \u2018Project Freedom\u2019 after Saudis refused use of bases and airspace",
+      "url": "https://www.theguardian.com/world/2026/may/07/trump-project-freedom-saudi-arabia-strait-of-hormuz",
       "source": "The Guardian",
       "published_date": "2026-05-07T18:05:03+00:00",
       "marks": {
@@ -94,6 +101,7 @@
     {
       "article_id": "world/2026/mar/29/ukraine-war-briefing-zelenskyy-drums-up-defence-agreements-with-gulf-states-on-countering-missiles-and-drones",
       "title": "Ukraine war briefing: Zelenskyy drums up defence agreements with Gulf states on countering missiles and drones",
+      "url": "https://www.theguardian.com/world/2026/mar/29/ukraine-war-briefing-zelenskyy-drums-up-defence-agreements-with-gulf-states-on-countering-missiles-and-drones",
       "source": "The Guardian",
       "published_date": "2026-03-29T00:06:20+00:00",
       "marks": {
@@ -106,6 +114,7 @@
     {
       "article_id": "world/2026/mar/18/nancy-mace-rescue-efforts-americans-middle-east",
       "title": "Nancy Mace draws White House ire over independent Middle East rescue efforts",
+      "url": "https://www.theguardian.com/world/2026/mar/18/nancy-mace-rescue-efforts-americans-middle-east",
       "source": "The Guardian",
       "published_date": "2026-03-18T22:01:56+00:00",
       "marks": {
@@ -118,6 +127,7 @@
     {
       "article_id": "world/2026/mar/28/houthi-forces-enter-iran-conflict-with-missile-attacks-on-israeli-military-sites",
       "title": "Houthi forces enter Iran conflict with missile attacks on Israeli military sites",
+      "url": "https://www.theguardian.com/world/2026/mar/28/houthi-forces-enter-iran-conflict-with-missile-attacks-on-israeli-military-sites",
       "source": "The Guardian",
       "published_date": "2026-03-29T00:00:40+00:00",
       "marks": {
@@ -130,6 +140,7 @@
     {
       "article_id": "world/2026/may/07/iran-mocks-donald-trump-project-freedom",
       "title": "Iran mocks Trump\u2019s \u2018Project Freedom\u2019 as adversaries wrestle over talks to end war",
+      "url": "https://www.theguardian.com/world/2026/may/07/iran-mocks-donald-trump-project-freedom",
       "source": "The Guardian",
       "published_date": "2026-05-07T17:54:36+00:00",
       "marks": {
@@ -142,6 +153,7 @@
     {
       "article_id": "world/2026/apr/08/keir-starmer-says-it-is-uks-job-to-help-reopen-strait-of-hormuz",
       "title": "Starmer says UK wants to help with opening of Hormuz strait on Gulf visit",
+      "url": "https://www.theguardian.com/world/2026/apr/08/keir-starmer-says-it-is-uks-job-to-help-reopen-strait-of-hormuz",
       "source": "The Guardian",
       "published_date": "2026-04-08T21:08:59+00:00",
       "marks": {

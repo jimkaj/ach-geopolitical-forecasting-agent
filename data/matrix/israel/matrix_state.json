@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260623_174600",
-  "last_update": "2026-06-23T17:46:00.976347",
+  "matrix_version": "20260623_192420",
+  "last_update": "2026-06-23T19:24:20.959807",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -10,6 +10,7 @@
     {
       "article_id": "world/2026/may/13/benjamin-netanyahu-made-secret-trip-to-uae-at-height-of-the-iran-war",
       "title": "Benjamin Netanyahu says he made secret trip to UAE at height of Iran war",
+      "url": "https://www.theguardian.com/world/2026/may/13/benjamin-netanyahu-made-secret-trip-to-uae-at-height-of-the-iran-war",
       "source": "The Guardian",
       "published_date": "2026-05-14T09:47:35+00:00",
       "marks": {
@@ -22,6 +23,7 @@
     {
       "article_id": "world/2026/may/01/trump-iran-war-hostilities-letter",
       "title": "Trump claims hostilities have ended in Iran in letter to congressional leaders",
+      "url": "https://www.theguardian.com/world/2026/may/01/trump-iran-war-hostilities-letter",
       "source": "The Guardian",
       "published_date": "2026-05-01T22:25:17+00:00",
       "marks": {
@@ -34,6 +36,7 @@
     {
       "article_id": "world/2026/jun/08/israel-netanyahu-airstrikes-iran-retaliation-defies-trump",
       "title": "Israel and Iran exchange strikes as Middle East crisis threatens to escalate",
+      "url": "https://www.theguardian.com/world/2026/jun/08/israel-netanyahu-airstrikes-iran-retaliation-defies-trump",
       "source": "The Guardian",
       "published_date": "2026-06-08T09:22:15+00:00",
       "marks": {
@@ -46,6 +49,7 @@
     {
       "article_id": "world/live/2026/may/26/iran-war-live-updates-us-attacks-iran-missile-sites-self-defence-during-peace-talks",
       "title": "Middle East crisis: Iran\u2019s foreign ministry says US broke ceasefire with overnight strikes \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/may/26/iran-war-live-updates-us-attacks-iran-missile-sites-self-defence-during-peace-talks",
       "source": "The Guardian",
       "published_date": "2026-05-26T20:41:51+00:00",
       "marks": {
@@ -58,6 +62,7 @@
     {
       "article_id": "world/live/2026/jun/15/iran-us-peace-deal-live-updates-trump-israel-lebanon-hormuz-nuclear-program-europe-response",
       "title": "Iran \u2018agreed to never have a nuclear weapon\u2019, says Trump \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jun/15/iran-us-peace-deal-live-updates-trump-israel-lebanon-hormuz-nuclear-program-europe-response",
       "source": "The Guardian",
       "published_date": "2026-06-16T03:45:39+00:00",
       "marks": {

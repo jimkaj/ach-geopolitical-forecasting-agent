@@ -37,6 +37,8 @@ _NATION_COLORS = [
     "#0891b2",  # cyan
     "#be185d",  # pink
     "#059669",  # emerald
+    "#ea580c",  # orange
+    "#6366f1",  # indigo
 ]
 
 _CSS = """
@@ -66,6 +68,8 @@ th { background: #f1f3f4; text-align: left; font-weight: 600; }
 .diag-no { color: #b0b0b0; }
 .legend { margin-top: 18px; font-size: 12px; color: #555; }
 .legend span { display: inline-block; padding: 2px 8px; border-radius: 3px; margin-right: 6px; font-weight: 700; }
+.article a { color: #2563eb; text-decoration: none; }
+.article a:hover { text-decoration: underline; }
 .back-btn { display:inline-block; padding:6px 14px; background:#2563eb; color:#fff;
             text-decoration:none; border-radius:4px; font-size:13px; margin-bottom:16px; }
 .back-btn:hover { background:#1d4ed8; }
@@ -344,9 +348,15 @@ def _matrix_table(rows, hypothesis_names: dict) -> str:
         tr_cls = "" if row.is_diagnostic else "nondiag"
         date_str = row.published_date.strftime("%Y-%m-%d") if row.published_date else "—"
         src = f'<div class="src">{escape(row.source)}</div>' if row.source else ""
+        title_text = escape(row.title or row.article_id)
+        title_html = (
+            f'<a href="{escape(row.url)}" target="_blank" rel="noopener">{title_text}</a>'
+            if row.url
+            else title_text
+        )
         cells = [
             f'<td class="date">{date_str}</td>',
-            f'<td class="article">{escape(row.title or row.article_id)}{src}</td>',
+            f'<td class="article">{title_html}{src}</td>',
         ]
         for hid in hyp_ids:
             cells.append(_mark_cell(row.marks.get(hid, "N/A")))

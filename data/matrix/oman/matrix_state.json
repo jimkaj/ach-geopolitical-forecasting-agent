@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260623_180830",
-  "last_update": "2026-06-23T18:08:30.905306",
+  "matrix_version": "20260623_192422",
+  "last_update": "2026-06-23T19:24:22.467195",
   "hypothesis_names": {
     "h1": "Oman supports the United States",
     "h2": "Oman maintains a neutral stance with the United States",
@@ -10,6 +10,7 @@
     {
       "article_id": "world/2026/jun/04/oman-resists-us-pressure-to-break-ties-with-iran-over-strait-of-hormuz",
       "title": "Oman resists US pressure to break ties with Iran over strait of Hormuz",
+      "url": "https://www.theguardian.com/world/2026/jun/04/oman-resists-us-pressure-to-break-ties-with-iran-over-strait-of-hormuz",
       "source": "The Guardian",
       "published_date": "2026-06-04T04:00:24+00:00",
       "marks": {
@@ -22,6 +23,7 @@
     {
       "article_id": "world/2026/mar/05/delayed-uk-rescue-flight-oman-british-nationals",
       "title": "Delayed UK rescue flight takes off from Oman with British nationals",
+      "url": "https://www.theguardian.com/world/2026/mar/05/delayed-uk-rescue-flight-oman-british-nationals",
       "source": "The Guardian",
       "published_date": "2026-03-05T16:57:27+00:00",
       "marks": {
@@ -34,6 +36,7 @@
     {
       "article_id": "world/2026/mar/19/us-lost-control-of-its-own-foreign-policy-oman-foreign-minister",
       "title": "Oman claims Israel pushed US into Iran war when deal was possible",
+      "url": "https://www.theguardian.com/world/2026/mar/19/us-lost-control-of-its-own-foreign-policy-oman-foreign-minister",
       "source": "The Guardian",
       "published_date": "2026-03-19T15:50:13+00:00",
       "marks": {
@@ -46,6 +49,7 @@
     {
       "article_id": "world/2026/may/15/iran-oman-coordinating-management-strait-of-hormuz-tolls-ships",
       "title": "Oman caught between US and Iran after Tehran\u2019s claims of joint strait of Hormuz plan",
+      "url": "https://www.theguardian.com/world/2026/may/15/iran-oman-coordinating-management-strait-of-hormuz-tolls-ships",
       "source": "The Guardian",
       "published_date": "2026-05-15T16:04:49+00:00",
       "marks": {
@@ -58,6 +62,7 @@
     {
       "article_id": "world/2026/mar/03/uk-charter-flights-oman-evacuate-region-iran-israel-us-war",
       "title": "UK will charter flights from Oman to evacuate Britons from region amid Iran strikes",
+      "url": "https://www.theguardian.com/world/2026/mar/03/uk-charter-flights-oman-evacuate-region-iran-israel-us-war",
       "source": "The Guardian",
       "published_date": "2026-03-03T17:54:46+00:00",
       "marks": {
@@ -70,6 +75,7 @@
     {
       "article_id": "world/live/2026/feb/26/us-iran-nuclear-talks-middle-east-latest-news-updates",
       "title": "Oman says US-Iran talks end with \u2018significant progress\u2019 but no deal reached \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/feb/26/us-iran-nuclear-talks-middle-east-latest-news-updates",
       "source": "The Guardian",
       "published_date": "2026-02-26T22:07:04+00:00",
       "marks": {
@@ -82,6 +88,7 @@
     {
       "article_id": "world/live/2026/may/27/iran-war-us-update-live-israel-lebanon-strikes-latest-news-ceasefire-peace-talks-middle-east-live-updates",
       "title": "Middle East crisis: Rubio says \u2018some progress\u2019 on US-Iran deal after Trump says \u2018maybe we\u2019ll just have to finish the job\u2019 \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/may/27/iran-war-us-update-live-israel-lebanon-strikes-latest-news-ceasefire-peace-talks-middle-east-live-updates",
       "source": "The Guardian",
       "published_date": "2026-05-27T18:28:47+00:00",
       "marks": {
@@ -94,6 +101,7 @@
     {
       "article_id": "world/live/2026/jun/23/iran-us-israel-lebanon-un-peace-deal-nuclear-iaea-frozen-assets-strait-of-hormuz-latest-news-updates",
       "title": "Middle East crisis: Rubio and Vance hold call with Lebanon\u2019s president; Trump claims Iran has agreed to nuclear inspections \u2018long into future\u2019 \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jun/23/iran-us-israel-lebanon-un-peace-deal-nuclear-iaea-frozen-assets-strait-of-hormuz-latest-news-updates",
       "source": "The Guardian",
       "published_date": "2026-06-23T15:39:40+00:00",
       "marks": {
@@ -106,6 +114,7 @@
     {
       "article_id": "world/live/2026/may/28/middle-east-crisis-trump-us-iran-war-lebanon-israel-strikes-latest-news-live",
       "title": "JD Vance says US \u2018not there yet\u2019 on an Iran deal \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/may/28/middle-east-crisis-trump-us-iran-war-lebanon-israel-strikes-latest-news-live",
       "source": "The Guardian",
       "published_date": "2026-05-29T01:30:35+00:00",
       "marks": {

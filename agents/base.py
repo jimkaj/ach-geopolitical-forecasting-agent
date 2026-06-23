@@ -41,6 +41,7 @@ class AssessmentResult(BaseModel):
 
     article_id: str = Field(..., description="Reference to the article being assessed")
     article_title: str = Field(default="", description="Article title (for the matrix row)")
+    article_url: str = Field(default="", description="Article URL (for the matrix row link)")
     article_source: str = Field(default="", description="Article source (for the matrix row)")
     article_published_date: Optional[datetime] = Field(
         default=None, description="Article publication date (for sorting the matrix)"
@@ -68,6 +69,7 @@ class EvidenceRow(BaseModel):
 
     article_id: str = Field(..., description="Article this evidence row represents")
     title: str = Field(default="", description="Article title")
+    url: str = Field(default="", description="Article URL")
     source: str = Field(default="", description="Article source")
     published_date: Optional[datetime] = Field(default=None, description="Article publication date")
     marks: dict[str, str] = Field(

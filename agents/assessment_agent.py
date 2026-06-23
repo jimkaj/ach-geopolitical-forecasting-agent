@@ -128,6 +128,7 @@ class AssessmentAgent:
         result = AssessmentResult(
             article_id=article.article_id,
             article_title=article.title,
+            article_url=article.url,
             article_source=article.source,
             article_published_date=article.published_date,
             hypothesis_scores=hypothesis_scores,

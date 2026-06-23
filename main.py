@@ -154,21 +154,29 @@ def run_agent_pipeline() -> None:
         scraper_agent = ScraperAgent(settings, web_scraper, file_manager)
 
         results_by_nation: dict = {}
-        any_articles = False
 
         for nation_id, nation_cfg in nations_config.items():
             hypotheses = nation_cfg.get("hypotheses", [])
             query = nation_cfg.get("search_query", f"{nation_id} United States")
+
+            # Always initialise MatrixAgent first so the existing matrix_state.json
+            # is loaded. This ensures the nation appears on the summary page even
+            # when no new articles are found on this run.
+            matrix_agent = MatrixAgent(settings, file_manager, nation_id=nation_id)
 
             # --- TIER 1: Scrape articles for this nation ---
             logger.info(f"[{nation_id}] TIER 1 — Scraping: {query!r}")
             articles = scraper_agent.execute(search_query=query)
 
             if not articles:
-                logger.warning(f"[{nation_id}] No new articles found; skipping assessment.")
+                logger.info(
+                    f"[{nation_id}] No new articles; "
+                    f"{matrix_agent.state.article_count} existing row(s) carried to summary."
+                )
+                matrix_agent.save_matrix_snapshot()
+                results_by_nation[nation_id] = matrix_agent.state
                 continue
 
-            any_articles = True
             logger.info(f"[{nation_id}] {len(articles)} new article(s) to assess")
 
             # --- TIER 2: Assess only this nation's articles ---
@@ -181,14 +189,13 @@ def run_agent_pipeline() -> None:
 
             # --- TIER 3: Update this nation's matrix ---
             logger.info(f"[{nation_id}] TIER 3 — Matrix update")
-            matrix_agent = MatrixAgent(settings, file_manager, nation_id=nation_id)
             matrix_state = matrix_agent.execute(assessments)
             results_by_nation[nation_id] = matrix_state
 
             render_nation_matrix(matrix_state, nation_id)
 
-        if not any_articles:
-            logger.warning("No new articles found for any nation. Exiting.")
+        if not results_by_nation:
+            logger.warning("No matrix state found for any nation. Exiting.")
             return
 
         # --- Summary page ---

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260623_174819",
-  "last_update": "2026-06-23T17:48:19.084827",
+  "matrix_version": "20260623_192421",
+  "last_update": "2026-06-23T19:24:21.224694",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -10,6 +10,7 @@
     {
       "article_id": "world/2026/mar/28/gulf-countries-threat-iran-backed-militias-proxies-war-us-israel-middle-east",
       "title": "Gulf countries warn of rising threat from Iran-backed militias and proxies",
+      "url": "https://www.theguardian.com/world/2026/mar/28/gulf-countries-threat-iran-backed-militias-proxies-war-us-israel-middle-east",
       "source": "The Guardian",
       "published_date": "2026-03-28T05:00:19+00:00",
       "marks": {
@@ -22,6 +23,7 @@
     {
       "article_id": "world/2026/may/26/iran-peace-deal-talks-us-bombing-ceasefire-strait-hormuz",
       "title": "Iran remains in peace talks despite \u2018bad faith\u2019 US bombings of Iranian targets",
+      "url": "https://www.theguardian.com/world/2026/may/26/iran-peace-deal-talks-us-bombing-ceasefire-strait-hormuz",
       "source": "The Guardian",
       "published_date": "2026-05-26T20:18:31+00:00",
       "marks": {
@@ -34,6 +36,7 @@
     {
       "article_id": "world/2026/mar/14/gulf-strait-of-hormuz-nightmare-anger-frustration-at-us",
       "title": "\u2018Worst nightmare\u2019: anger and frustration as Gulf states bear brunt of war they did not start",
+      "url": "https://www.theguardian.com/world/2026/mar/14/gulf-strait-of-hormuz-nightmare-anger-frustration-at-us",
       "source": "The Guardian",
       "published_date": "2026-03-14T14:27:01+00:00",
       "marks": {
@@ -46,6 +49,7 @@
     {
       "article_id": "world/2026/may/22/uranium-strait-of-hormuz-us-iran-war-talks-pakistan",
       "title": "Qatar sends mediators to Tehran in sign talks to reopen strait of Hormuz are reaching climax",
+      "url": "https://www.theguardian.com/world/2026/may/22/uranium-strait-of-hormuz-us-iran-war-talks-pakistan",
       "source": "The Guardian",
       "published_date": "2026-05-23T01:14:00+00:00",
       "marks": {
@@ -58,6 +62,7 @@
     {
       "article_id": "world/2026/jun/21/us-iran-talks-jd-vance-switzerland-strait-of-hormuz-lebanon",
       "title": "US-Iran talks strained as Trump threats spark Iranian walkout",
+      "url": "https://www.theguardian.com/world/2026/jun/21/us-iran-talks-jd-vance-switzerland-strait-of-hormuz-lebanon",
       "source": "The Guardian",
       "published_date": "2026-06-22T01:57:50+00:00",
       "marks": {

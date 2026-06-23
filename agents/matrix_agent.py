@@ -120,10 +120,17 @@ class MatrixAgent:
             for r in data.get("evidence_rows", []):
                 raw_date = r.get("published_date")
                 published = datetime.fromisoformat(raw_date) if raw_date else None
+                aid = r["article_id"]
+                url = r.get("url", "")
+                if not url:
+                    # Backfill URLs for rows ingested before v3 url tracking.
+                    # Guardian article_id is the URL path; webUrl = base + id.
+                    url = aid if aid.startswith("http") else f"https://www.theguardian.com/{aid}"
                 rows.append(
                     EvidenceRow(
-                        article_id=r["article_id"],
+                        article_id=aid,
                         title=r.get("title", ""),
+                        url=url,
                         source=r.get("source", ""),
                         published_date=published,
                         marks=r.get("marks", {}),
@@ -150,6 +157,7 @@ class MatrixAgent:
         row = EvidenceRow(
             article_id=assessment.article_id,
             title=assessment.article_title,
+            url=assessment.article_url,
             source=assessment.article_source,
             published_date=assessment.article_published_date,
             marks={s.hypothesis_id: s.evidence_mark for s in assessment.hypothesis_scores},
@@ -191,6 +199,7 @@ class MatrixAgent:
                 {
                     "article_id": r.article_id,
                     "title": r.title,
+                    "url": r.url,
                     "source": r.source,
                     "published_date": r.published_date.isoformat() if r.published_date else None,
                     "marks": r.marks,
