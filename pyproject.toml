@@ -37,6 +37,7 @@ dev = [
     "pytest-cov>=4.1.0",          # Code coverage
     "black>=23.0.0",              # Code formatting
     "ruff>=0.1.0",                # Linting and import sorting
+    "python-docx>=1.2.0",
 ]
 
 # GPU build of PyTorch (CUDA 13.0 wheels) for the dual TITAN RTX setup.

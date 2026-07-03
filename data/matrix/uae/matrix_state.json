@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260623_192422",
-  "last_update": "2026-06-23T19:24:22.712617",
+  "matrix_version": "20260703_164822",
+  "last_update": "2026-07-03T16:48:22.940607",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -149,6 +149,19 @@
         "h3": "-"
       },
       "confidence": 0.6
+    },
+    {
+      "article_id": "australia-news/2026/mar/04/wong-says-legality-of-strikes-on-iran-a-matter-for-israel-and-us-as-australia-sends-crisis-consular-teams-to-middle-east",
+      "title": "Australia sends crisis teams to Middle East as thousands of travellers and expats remain stranded",
+      "url": "https://www.theguardian.com/australia-news/2026/mar/04/wong-says-legality-of-strikes-on-iran-a-matter-for-israel-and-us-as-australia-sends-crisis-consular-teams-to-middle-east",
+      "source": "The Guardian",
+      "published_date": "2026-03-04T06:54:24+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "--"
+      },
+      "confidence": 0.6999999999999998
     }
   ]
 }

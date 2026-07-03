@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260623_192421",
-  "last_update": "2026-06-23T19:24:21.953052",
+  "matrix_version": "20260703_164821",
+  "last_update": "2026-07-03T16:48:21.286138",
   "hypothesis_names": {
     "h1": "Kuwait supports the United States",
     "h2": "Kuwait maintains a neutral stance with the United States",
@@ -149,6 +149,19 @@
         "h3": "++"
       },
       "confidence": 0.43333333333333335
+    },
+    {
+      "article_id": "world/live/2026/jun/28/iran-strait-of-hormuz-donald-trump-vance-peace-talks-bahrain-kuwait-strikes-latest-news-updates",
+      "title": "Donald Trump threatens to annihilate Iran after crossfire over Hormuz \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jun/28/iran-strait-of-hormuz-donald-trump-vance-peace-talks-bahrain-kuwait-strikes-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-06-28T14:34:56+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 0.6333333333333333
     }
   ]
 }

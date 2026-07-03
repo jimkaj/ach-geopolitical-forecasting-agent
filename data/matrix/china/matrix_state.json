@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260623_192419",
-  "last_update": "2026-06-23T19:24:19.541419",
+  "matrix_version": "20260703_164633",
+  "last_update": "2026-07-03T16:47:50.798030",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -344,6 +344,58 @@
         "h3": "-"
       },
       "confidence": 0.7999999999999999
+    },
+    {
+      "article_id": "world/2026/jun/24/dettol-apologises-toxic-men-advert-backlash-china",
+      "title": "Dettol apologises after \u2018toxic men\u2019 advert sparks backlash in China",
+      "url": "https://www.theguardian.com/world/2026/jun/24/dettol-apologises-toxic-men-advert-backlash-china",
+      "source": "The Guardian",
+      "published_date": "2026-06-24T07:16:22+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.7666666666666666
+    },
+    {
+      "article_id": "world/2026/jun/26/russia-provocation-baltic-states-poland",
+      "title": "Russia preparing possible \u2018provocation\u2019 in Baltic states or Poland, sources say",
+      "url": "https://www.theguardian.com/world/2026/jun/26/russia-provocation-baltic-states-poland",
+      "source": "The Guardian",
+      "published_date": "2026-06-26T11:45:27+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/jun/25/three-recent-powerful-earthquakes-not-related",
+      "title": "Experts say three recent powerful earthquakes are not related",
+      "url": "https://www.theguardian.com/world/2026/jun/25/three-recent-powerful-earthquakes-not-related",
+      "source": "The Guardian",
+      "published_date": "2026-06-26T00:01:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "--"
+      },
+      "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/jul/02/china-japan-relations-tokyo-beijing-tensions",
+      "title": "China has accused Japan of \u2018reckless militarism\u2019. What\u2019s behind the latest tensions?",
+      "url": "https://www.theguardian.com/world/2026/jul/02/china-japan-relations-tokyo-beijing-tensions",
+      "source": "The Guardian",
+      "published_date": "2026-07-01T23:56:14+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "++",
+        "h3": "++"
+      },
+      "confidence": 0.7333333333333334
     }
   ]
 }

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>ACH Decision Matrix — China</title><style>
+:root { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+body { margin: 24px; color: #1a1a1a; background: #fafafa; }
+h1 { font-size: 20px; margin: 0 0 4px; }
+.meta { color: #777; font-size: 12px; margin-bottom: 20px; }
+.note { color: #555; font-size: 12px; font-style: italic; margin: 6px 0 18px; }
+table { border-collapse: collapse; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+th, td { border: 1px solid #ddd; padding: 6px 9px; font-size: 13px; vertical-align: middle; }
+th { background: #f1f3f4; text-align: left; font-weight: 600; }
+.rank-table { margin-bottom: 26px; }
+.rank-table td.score { text-align: right; font-variant-numeric: tabular-nums; }
+.rank-1 { background: #e8f5e9; font-weight: 600; }
+.hyp-col { text-align: center; min-width: 64px; }
+.hyp-id { color: #888; font-weight: 400; font-size: 11px; }
+.mark { text-align: center; font-weight: 700; min-width: 48px; }
+.date { white-space: nowrap; color: #444; font-variant-numeric: tabular-nums; }
+.article { max-width: 420px; }
+.src { color: #888; font-size: 11px; }
+.conf-wrap { min-width: 90px; }
+.conf-bar { height: 8px; border-radius: 4px; background: #eee; overflow: hidden; }
+.conf-fill { height: 100%; }
+.conf-pct { font-size: 11px; color: #555; font-variant-numeric: tabular-nums; }
+.nondiag { opacity: .55; }
+.diag-yes { color: #1b5e20; font-weight: 700; }
+.diag-no { color: #b0b0b0; }
+.legend { margin-top: 18px; font-size: 12px; color: #555; }
+.legend span { display: inline-block; padding: 2px 8px; border-radius: 3px; margin-right: 6px; font-weight: 700; }
+.article a { color: #2563eb; text-decoration: none; }
+.article a:hover { text-decoration: underline; }
+.back-btn { display:inline-block; padding:6px 14px; background:#2563eb; color:#fff;
+            text-decoration:none; border-radius:4px; font-size:13px; margin-bottom:16px; }
+.back-btn:hover { background:#1d4ed8; }
+.chart-section { margin-bottom: 28px; }
+.chart-wrap { position:relative; display:inline-block; }
+.chart-tip { position:absolute; display:none; background:rgba(15,23,42,0.88); color:#fff;
+             padding:6px 10px; border-radius:4px; font-size:12px; pointer-events:none;
+             white-space:nowrap; z-index:10; max-width:300px; }
+.nation-legend { margin-top: 10px; }
+.nation-legend a { display:inline-block; margin-right:18px; font-size:13px; font-weight:600;
+                   text-decoration:none; padding:3px 0; border-bottom:3px solid; }
+.nation-legend a:hover { opacity:0.75; }
+</style></head>
+<body>
+<a href="../summary.html" class="back-btn">&#8592; Back to Summary</a><br>
+<h1>ACH Decision Matrix — China</h1>
+<div class="meta">26 evidence items &middot; 3 hypotheses &middot; generated 2026-06-23 21:55:59 UTC</div>
+
+<h2 style="font-size:15px;margin-bottom:2px">Hypothesis ranking</h2>
+<div class="note">Most likely = lowest inconsistency (evidence against), per Heuer Step 5 — not the most supporting evidence. Current lead: <b>China maintains a neutral stance with the United States</b>.</div>
+<table class="rank-table"><thead><tr><th>#</th><th>Hypothesis</th><th>Inconsistency</th><th>Support</th><th>Against</th><th>For</th><th>N/A</th></tr></thead><tbody><tr class="rank-1"><td>1</td><td>China maintains a neutral stance with the United States <span class="hyp-id">(h2)</span></td><td class="score">1.0</td><td class="score">32.0</td><td class="score">1</td><td class="score">24</td><td class="score">1</td></tr><tr class=""><td>2</td><td>China supports the United States <span class="hyp-id">(h1)</span></td><td class="score">6.0</td><td class="score">2.0</td><td class="score">5</td><td class="score">1</td><td class="score">20</td></tr><tr class=""><td>3</td><td>China opposes the United States <span class="hyp-id">(h3)</span></td><td class="score">16.0</td><td class="score">18.0</td><td class="score">14</td><td class="score">9</td><td class="score">3</td></tr></tbody></table>
+
+<div class="chart-section">
+<h2 style="font-size:15px;margin:0 0 4px">US-Alignment Score Over Time — ACH Decision Matrix — China</h2>
+<div class="note">Cumulative score: h1 (supports US) adds points, h3 (opposes US) subtracts. Zero = neutral baseline.</div>
+<div class="chart-wrap">
+  <canvas id="alignChart" width="860" height="260"
+    style="display:block;border:1px solid #ddd;border-radius:4px;background:#fff"></canvas>
+  <div id="alignChart_tip" class="chart-tip"></div>
+</div>
+<script>(function(){
+  'use strict';
+  var pts=[["2026-01-30", -4, "Trump says ‘very dangerous’ for UK to do business with China, after Starmer hails progress in Beijing"], ["2026-03-16", -6, "Belgian PM condemned over call to repair relations with Russia to ease energy costs"], ["2026-03-30", -5, "US reopens embassy in Venezuela in significant thawing of relations"], ["2026-03-30", -7, "The ‘Third Front’: China resurrects Mao’s military capabilities"], ["2026-03-31", -10, "Pakistan and China propose five-part peace plan for Middle East"], ["2026-04-09", -9, "Most Hungarians want better relations with EU after years of Orbán Brussels-bashing, poll finds"], ["2026-04-10", -11, "New Zealand ‘comfort women’ statue could jeopardise diplomatic relations, Japan says"], ["2026-04-10", -10, "Gulf states rethink security in light of US-Israel war on Iran"], ["2026-04-16", -9, "How Giorgia Meloni’s cosy relations with Donald Trump turned sour"], ["2026-04-18", -8, "Hungary’s incoming PM seeks Polish help to renew EU relations"], ["2026-04-19", -7, "Israel had a bad week in Europe. Does it herald a wider shift in EU relations?"], ["2026-04-24", -9, "India voices anger after Trump shares comments calling it a ‘hellhole’"], ["2026-04-30", -8, "Taiwan accuses China of vegetable laundering via Vietnam"], ["2026-05-08", -7, "Vatican stresses need for peace as Rubio meets pope amid strained relations"], ["2026-05-12", -7, "UAE’s secret attack on Iran risks drawing Gulf states into the war"], ["2026-05-13", -9, "Cartel corruption claims push US-Mexico relations to breaking point"], ["2026-05-15", -8, "China critic Matthew Wale elected Solomon Islands prime minister"], ["2026-05-19", -7, "Trump’s shifting remarks on Taiwan are perfect for China to exploit"], ["2026-05-20", -6, "Vladimir Putin arrives in Beijing for state visit hot on heels of Trump"], ["2026-05-22", -5, "South Korea hosts America’s biggest overseas military base – but what does its future look like under Trump?"], ["2026-05-26", -5, "EU could deny new member states veto rights as bloc pushes for enlargement"], ["2026-05-31", -5, "Death of Congolese man renews scrutiny of race relations in Ireland"], ["2026-06-16", -5, "EU and UK announce summit to discuss ‘reset’ in post-Brexit relations"], ["2026-06-20", -5, "What lessons will Iran’s new leadership draw from the 110-day war?"], ["2026-06-21", -7, "Canada’s policies force asylum seekers into US to face deportation, critics say"], ["2026-06-23", -6, "Marco Rubio to meet Gulf allies amid division over US-Iran ceasefire deal"]];
+  if(!pts.length)return;
+  var canvas=document.getElementById('alignChart');
+  if(!canvas)return;
+  var ctx=canvas.getContext('2d');
+  var W=canvas.width,H=canvas.height;
+  var PL=58,PR=24,PT=22,PB=54;
+  var cW=W-PL-PR,cH=H-PT-PB;
+
+  var dts=pts.map(function(p){return new Date(p[0]+'T00:00:00');});
+  var sc=pts.map(function(p){return p[1];});
+
+  var t0=dts[0].getTime(),t1=dts[dts.length-1].getTime();
+  var tRng=t1-t0||1;
+  var sMax=Math.max.apply(null,sc.concat([1]));
+  var sMin=Math.min.apply(null,sc.concat([-1]));
+  var pad2=Math.max(1,(sMax-sMin)*0.15);
+  var sLo=sMin-pad2,sHi=sMax+pad2,sRng=sHi-sLo;
+
+  function xf(d){return PL+((d.getTime()-t0)/tRng)*cW;}
+  function yf(s){return PT+cH*(1-(s-sLo)/sRng);}
+  var y0=yf(0);
+
+  // Positive fill
+  ctx.save();
+  ctx.beginPath();ctx.rect(PL,PT,cW,Math.max(0,y0-PT));ctx.clip();
+  var gP=ctx.createLinearGradient(0,PT,0,y0);
+  gP.addColorStop(0,'rgba(22,163,74,0.22)');gP.addColorStop(1,'rgba(22,163,74,0.03)');
+  ctx.fillStyle=gP;
+  ctx.beginPath();ctx.moveTo(xf(dts[0]),y0);
+  dts.forEach(function(d,i){ctx.lineTo(xf(d),yf(sc[i]));});
+  ctx.lineTo(xf(dts[dts.length-1]),y0);ctx.closePath();ctx.fill();
+  ctx.restore();
+
+  // Negative fill
+  ctx.save();
+  ctx.beginPath();ctx.rect(PL,y0,cW,Math.max(0,PT+cH-y0));ctx.clip();
+  var gN=ctx.createLinearGradient(0,y0,0,PT+cH);
+  gN.addColorStop(0,'rgba(220,38,38,0.03)');gN.addColorStop(1,'rgba(220,38,38,0.22)');
+  ctx.fillStyle=gN;
+  ctx.beginPath();ctx.moveTo(xf(dts[0]),y0);
+  dts.forEach(function(d,i){ctx.lineTo(xf(d),yf(sc[i]));});
+  ctx.lineTo(xf(dts[dts.length-1]),y0);ctx.closePath();ctx.fill();
+  ctx.restore();
+
+  // Grid lines
+  var gSteps=5;
+  for(var gi=0;gi<=gSteps;gi++){
+    var gv=sLo+sRng*gi/gSteps;
+    ctx.strokeStyle='#ececec';ctx.lineWidth=0.8;
+    ctx.beginPath();ctx.moveTo(PL,yf(gv));ctx.lineTo(PL+cW,yf(gv));ctx.stroke();
+  }
+
+  // Zero line
+  ctx.strokeStyle='#bbb';ctx.lineWidth=1;ctx.setLineDash([5,4]);
+  ctx.beginPath();ctx.moveTo(PL,y0);ctx.lineTo(PL+cW,y0);ctx.stroke();
+  ctx.setLineDash([]);
+
+  // Axes
+  ctx.strokeStyle='#ccc';ctx.lineWidth=1;
+  ctx.beginPath();ctx.moveTo(PL,PT);ctx.lineTo(PL,PT+cH);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(PL,PT+cH);ctx.lineTo(PL+cW,PT+cH);ctx.stroke();
+
+  // Y-axis labels
+  ctx.fillStyle='#666';ctx.font='11px sans-serif';ctx.textAlign='right';
+  for(var yi=0;yi<=gSteps;yi++){
+    var yv=sLo+sRng*yi/gSteps;
+    ctx.fillText(Math.round(yv),PL-5,yf(yv)+4);
+  }
+  ctx.save();ctx.fillStyle='#999';ctx.font='10px sans-serif';
+  ctx.translate(13,PT+cH/2);ctx.rotate(-Math.PI/2);
+  ctx.textAlign='center';ctx.fillText('Cumulative score',0,0);ctx.restore();
+
+  // X-axis labels (≤6 ticks)
+  ctx.textAlign='center';ctx.fillStyle='#666';ctx.font='11px sans-serif';
+  var nT=Math.min(6,pts.length);
+  var shown={};
+  for(var ti=0;ti<nT;ti++){
+    var idx=nT>1?Math.round(ti*(pts.length-1)/(nT-1)):0;
+    var xp=xf(dts[idx]);
+    if(!shown[pts[idx][0]]){
+      ctx.fillText(pts[idx][0],xp,PT+cH+16);shown[pts[idx][0]]=1;
+    }
+    ctx.strokeStyle='#e5e5e5';ctx.lineWidth=0.5;
+    ctx.beginPath();ctx.moveTo(xp,PT);ctx.lineTo(xp,PT+cH);ctx.stroke();
+  }
+
+  // Line
+  ctx.strokeStyle='#2563eb';ctx.lineWidth=2.5;ctx.lineJoin='round';
+  ctx.beginPath();
+  dts.forEach(function(d,i){i===0?ctx.moveTo(xf(d),yf(sc[i])):ctx.lineTo(xf(d),yf(sc[i]));});
+  ctx.stroke();
+
+  // Dots
+  dts.forEach(function(d,i){
+    ctx.beginPath();ctx.arc(xf(d),yf(sc[i]),4.5,0,Math.PI*2);
+    ctx.fillStyle=sc[i]>=0?'#16a34a':'#dc2626';
+    ctx.strokeStyle='#fff';ctx.lineWidth=1.5;ctx.fill();ctx.stroke();
+  });
+
+  // Tooltip
+  var tip=document.getElementById('alignChart_tip');
+  canvas.addEventListener('mousemove',function(e){
+    var r=canvas.getBoundingClientRect();
+    var mx=(e.clientX-r.left)*(W/r.width);
+    var my=(e.clientY-r.top)*(H/r.height);
+    var best=-1,bestD=Infinity;
+    dts.forEach(function(d,i){
+      var dd=Math.hypot(xf(d)-mx,yf(sc[i])-my);
+      if(dd<bestD){bestD=dd;best=i;}
+    });
+    if(tip){
+      if(bestD<14){
+        var ttl=pts[best][2]?pts[best][2].substring(0,60)+(pts[best][2].length>60?'…':''):'';
+        tip.innerHTML='<b>'+pts[best][0]+'</b> &middot; Score: <b>'+sc[best]+'</b><br>'+ttl;
+        var tx=xf(dts[best])+12,ty=yf(sc[best])-38;
+        if(tx+220>W)tx=xf(dts[best])-230;
+        if(ty<PT)ty=yf(sc[best])+8;
+        tip.style.left=tx+'px';tip.style.top=ty+'px';tip.style.display='block';
+      }else{tip.style.display='none';}
+    }
+  });
+  if(tip)canvas.addEventListener('mouseleave',function(){tip.style.display='none';});
+})();</script>
+</div>
+
+<h2 style="font-size:15px;margin-bottom:2px">Evidence matrix</h2>
+<div class="note">Each row is one article (evidence), most recent first. Cells show how the article bears on each hypothesis.</div>
+<table><thead><tr><th class="date">Date</th><th>Article</th><th class="hyp-col">China supports the United States<br><span class="hyp-id">h1</span></th><th class="hyp-col">China maintains a neutral stance with the United States<br><span class="hyp-id">h2</span></th><th class="hyp-col">China opposes the United States<br><span class="hyp-id">h3</span></th><th>Confidence</th><th>Diagnostic</th></tr></thead><tbody><tr class=""><td class="date">2026-06-23</td><td class="article"><a href="https://www.theguardian.com/world/2026/jun/23/marco-rubio-gulf-allies-us-iran-ceasefire-deal" target="_blank" rel="noopener">Marco Rubio to meet Gulf allies amid division over US-Iran ceasefire deal</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:73%;background:#f9a825"></div></div><div class="conf-pct">73%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-06-21</td><td class="article"><a href="https://www.theguardian.com/world/2026/jun/21/canada-immigration-us-deportation" target="_blank" rel="noopener">Canada’s policies force asylum seekers into US to face deportation, critics say</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:80%;background:#f9a825"></div></div><div class="conf-pct">80%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-06-20</td><td class="article"><a href="https://www.theguardian.com/world/2026/jun/20/what-lessons-will-irans-new-leadership-draw-from-the-110-day-war" target="_blank" rel="noopener">What lessons will Iran’s new leadership draw from the 110-day war?</a><div class="src">The Guardian</div></td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:67%;background:#f9a825"></div></div><div class="conf-pct">67%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-06-16</td><td class="article"><a href="https://www.theguardian.com/world/2026/jun/16/eu-uk-announce-summit-reset-post-brexit-relations" target="_blank" rel="noopener">EU and UK announce summit to discuss ‘reset’ in post-Brexit relations</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:87%;background:#2e7d32"></div></div><div class="conf-pct">87%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class="nondiag"><td class="date">2026-05-31</td><td class="article"><a href="https://www.theguardian.com/world/2026/may/31/yves-sakila-death-congolese-man-ireland-race-relations" target="_blank" rel="noopener">Death of Congolese man renews scrutiny of race relations in Ireland</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:87%;background:#2e7d32"></div></div><div class="conf-pct">87%</div></td><td class="diag-no" title="Consistent with all hypotheses — no diagnostic value">✗</td></tr><tr class=""><td class="date">2026-05-26</td><td class="article"><a href="https://www.theguardian.com/world/2026/may/26/eu-could-deny-new-member-states-veto-rights-as-bloc-pushes-for-enlargement" target="_blank" rel="noopener">EU could deny new member states veto rights as bloc pushes for enlargement</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:77%;background:#f9a825"></div></div><div class="conf-pct">77%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-05-22</td><td class="article"><a href="https://www.theguardian.com/world/2026/may/22/camp-humphreys-south-korea-us-military-base" target="_blank" rel="noopener">South Korea hosts America’s biggest overseas military base – but what does its future look like under Trump?</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:57%;background:#c62828"></div></div><div class="conf-pct">57%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-05-20</td><td class="article"><a href="https://www.theguardian.com/world/2026/may/19/vladimir-putin-beijing-china-state-visit-xi-jinping-russia" target="_blank" rel="noopener">Vladimir Putin arrives in Beijing for state visit hot on heels of Trump</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:67%;background:#f9a825"></div></div><div class="conf-pct">67%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-05-19</td><td class="article"><a href="https://www.theguardian.com/world/2026/may/19/china-exploits-trump-taiwan-weapons-sales-analysis" target="_blank" rel="noopener">Trump’s shifting remarks on Taiwan are perfect for China to exploit</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:60%;background:#f9a825"></div></div><div class="conf-pct">60%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-05-15</td><td class="article"><a href="https://www.theguardian.com/world/2026/may/15/matthew-wale-elected-solomon-islands-prime-minister" target="_blank" rel="noopener">China critic Matthew Wale elected Solomon Islands prime minister</a><div class="src">The Guardian</div></td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="mark" style="background:#b71c1c;color:#ffffff" title="Strong evidence against">--</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:63%;background:#f9a825"></div></div><div class="conf-pct">63%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-05-13</td><td class="article"><a href="https://www.theguardian.com/world/2026/may/13/cartel-corruption-claims-push-us-mexico-relations-to-breaking-point" target="_blank" rel="noopener">Cartel corruption claims push US-Mexico relations to breaking point</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:87%;background:#2e7d32"></div></div><div class="conf-pct">87%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-05-12</td><td class="article"><a href="https://www.theguardian.com/world/2026/may/12/uae-secret-attack-iran-risks-gulf-states-regional-conflict" target="_blank" rel="noopener">UAE’s secret attack on Iran risks drawing Gulf states into the war</a><div class="src">The Guardian</div></td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:37%;background:#c62828"></div></div><div class="conf-pct">37%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-05-08</td><td class="article"><a href="https://www.theguardian.com/world/2026/may/07/marco-rubio-to-meet-pope-at-the-vatican-after-trump-attacks-on-pontiff" target="_blank" rel="noopener">Vatican stresses need for peace as Rubio meets pope amid strained relations</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:77%;background:#f9a825"></div></div><div class="conf-pct">77%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-04-30</td><td class="article"><a href="https://www.theguardian.com/world/2026/apr/30/taiwan-accuses-china-of-vegetable-laundering-via-vietnam" target="_blank" rel="noopener">Taiwan accuses China of vegetable laundering via Vietnam</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:80%;background:#f9a825"></div></div><div class="conf-pct">80%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-04-24</td><td class="article"><a href="https://www.theguardian.com/world/2026/apr/24/india-trump-hellhole-post" target="_blank" rel="noopener">India voices anger after Trump shares comments calling it a ‘hellhole’</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:87%;background:#2e7d32"></div></div><div class="conf-pct">87%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-04-19</td><td class="article"><a href="https://www.theguardian.com/world/2026/apr/19/israel-europe-support-iran-war-orban-meloni" target="_blank" rel="noopener">Israel had a bad week in Europe. Does it herald a wider shift in EU relations?</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:70%;background:#f9a825"></div></div><div class="conf-pct">70%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-04-18</td><td class="article"><a href="https://www.theguardian.com/world/2026/apr/18/hungary-peter-magyar-donald-tusk-poland-europe" target="_blank" rel="noopener">Hungary’s incoming PM seeks Polish help to renew EU relations</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:73%;background:#f9a825"></div></div><div class="conf-pct">73%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-04-16</td><td class="article"><a href="https://www.theguardian.com/world/2026/apr/16/giorgia-meloni-relations-donald-trump-italy" target="_blank" rel="noopener">How Giorgia Meloni’s cosy relations with Donald Trump turned sour</a><div class="src">The Guardian</div></td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="mark" style="background:#b71c1c;color:#ffffff" title="Strong evidence against">--</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:60%;background:#f9a825"></div></div><div class="conf-pct">60%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-04-10</td><td class="article"><a href="https://www.theguardian.com/world/2026/apr/10/gulf-states-rethink-security-us-israel-war-iran-ceasefire" target="_blank" rel="noopener">Gulf states rethink security in light of US-Israel war on Iran</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:67%;background:#f9a825"></div></div><div class="conf-pct">67%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-04-10</td><td class="article"><a href="https://www.theguardian.com/world/2026/apr/10/new-zealand-comfort-women-statue-could-jeopardise-diplomatic-relations-japan-says" target="_blank" rel="noopener">New Zealand ‘comfort women’ statue could jeopardise diplomatic relations, Japan says</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:70%;background:#f9a825"></div></div><div class="conf-pct">70%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-04-09</td><td class="article"><a href="https://www.theguardian.com/world/2026/apr/09/majority-hungary-voters-back-continued-eu-membership-poll-finds-election-orban" target="_blank" rel="noopener">Most Hungarians want better relations with EU after years of Orbán Brussels-bashing, poll finds</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:83%;background:#2e7d32"></div></div><div class="conf-pct">83%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-03-31</td><td class="article"><a href="https://www.theguardian.com/world/2026/mar/31/pakistan-china-propose-five-part-peace-plan-middle-east" target="_blank" rel="noopener">Pakistan and China propose five-part peace plan for Middle East</a><div class="src">The Guardian</div></td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:50%;background:#c62828"></div></div><div class="conf-pct">50%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-03-30</td><td class="article"><a href="https://www.theguardian.com/world/2026/mar/31/third-front-china-mao-military-factories-defences" target="_blank" rel="noopener">The ‘Third Front’: China resurrects Mao’s military capabilities</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:97%;background:#2e7d32"></div></div><div class="conf-pct">97%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-03-30</td><td class="article"><a href="https://www.theguardian.com/world/2026/mar/30/us-reopens-embassy-venezuela" target="_blank" rel="noopener">US reopens embassy in Venezuela in significant thawing of relations</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#ef9a9a;color:#3b0d0d" title="Weak evidence against">-</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:73%;background:#f9a825"></div></div><div class="conf-pct">73%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-03-16</td><td class="article"><a href="https://www.theguardian.com/world/2026/mar/16/belgian-pm-bart-de-wever-call-repair-relations-russia-energy-costs-condemned" target="_blank" rel="noopener">Belgian PM condemned over call to repair relations with Russia to ease energy costs</a><div class="src">The Guardian</div></td><td class="mark" style="background:#e0e0e0;color:#555555" title="Not relevant / no evidence">N/A</td><td class="mark" style="background:#66bb6a;color:#0b2e13" title="Weak support">+</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:87%;background:#2e7d32"></div></div><div class="conf-pct">87%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr><tr class=""><td class="date">2026-01-30</td><td class="article"><a href="https://www.theguardian.com/world/2026/jan/30/trump-dangerous-uk-china-starmer-xi-jinping-beijing" target="_blank" rel="noopener">Trump says ‘very dangerous’ for UK to do business with China, after Starmer hails progress in Beijing</a><div class="src">The Guardian</div></td><td class="mark" style="background:#b71c1c;color:#ffffff" title="Strong evidence against">--</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="mark" style="background:#1b5e20;color:#ffffff" title="Strong support">++</td><td class="conf-wrap"><div class="conf-bar"><div class="conf-fill" style="width:73%;background:#f9a825"></div></div><div class="conf-pct">73%</div></td><td class="diag-yes" title="Distinguishes the hypotheses">✓</td></tr></tbody></table>
+<div class="legend"><b>Marks:</b> <span style="background:#1b5e20;color:#ffffff">++</span>Strong support&nbsp;&nbsp;<span style="background:#66bb6a;color:#0b2e13">+</span>Weak support&nbsp;&nbsp;<span style="background:#e0e0e0;color:#555555">N/A</span>Not relevant / no evidence&nbsp;&nbsp;<span style="background:#ef9a9a;color:#3b0d0d">-</span>Weak evidence against&nbsp;&nbsp;<span style="background:#b71c1c;color:#ffffff">--</span>Strong evidence against</div>
+</body></html>

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260623_192421",
-  "last_update": "2026-06-23T19:24:21.457565",
+  "matrix_version": "20260703_164752",
+  "last_update": "2026-07-03T16:47:52.908588",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -162,6 +162,19 @@
         "h3": "-"
       },
       "confidence": 0.7666666666666666
+    },
+    {
+      "article_id": "world/2026/jun/25/un-backed-plan-ships-trapped-strait-of-hormuz-rejected-iran",
+      "title": "Iran rejects UN-backed plan to free ships trapped in strait of Hormuz",
+      "url": "https://www.theguardian.com/world/2026/jun/25/un-backed-plan-ships-trapped-strait-of-hormuz-rejected-iran",
+      "source": "The Guardian",
+      "published_date": "2026-06-25T16:44:56+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "-",
+        "h3": "--"
+      },
+      "confidence": 0.6
     }
   ]
 }

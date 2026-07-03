@@ -6,7 +6,7 @@
 
 ## Overview
 
-A **three-tier multi-agent system** that applies **Analysis of Competing Hypotheses (ACH)** to geopolitical news across multiple nations. The system autonomously ingests full-text articles, scores their diagnostic value against per-nation hypotheses on a US-alignment axis, and maintains a versioned evidence matrix for each tracked nation.
+A **three-tier multi-agent system** that applies **Analysis of Competing Hypotheses (ACH)** to geopolitical news across multiple nations. The system autonomously ingests full-text articles, scores their diagnostic value against per-nation hypotheses on a US-alignment axis, and maintains a versioned evidence matrix for each tracked nation. This project focuses on key stakeholders in the U.S. Iran War.
 
 Each nation is assessed against three fixed hypotheses:
 - **h1**: [Nation] supports the United States
@@ -160,9 +160,9 @@ config/hypothesis_config.yaml
   - Render data/matrix/summary.html: multi-line chart, all nations, click-through nav
 ```
 
-### Why The Guardian (and not Reuters)?
+### Why The Guardian?
 
-Reuters' Terms of Use prohibit scraping and its full text is available only via the licensed Reuters Connect platform (see `documentation/Reuters_Delivery_Overview.pdf`). The Guardian's **Open Platform Content API** returns the **full article body** with a free developer key — so the Scraper Agent sources from it. The architecture is source-agnostic: the agent only emits `ArticleData`, so the source can be swapped.
+The Guardian's **Open Platform Content API** returns the **full article body** with a free developer key — so the Scraper Agent sources from it. The architecture is source-agnostic: the agent only emits `ArticleData`, so the source can be swapped.
 
 ### Assessment Agent: Comparative ACH Self-Consistency
 

@@ -223,6 +223,11 @@ def _render_line_graph(series_data: list, chart_id: str, nation_label: str) -> s
   ctx.translate(13,PT+cH/2);ctx.rotate(-Math.PI/2);
   ctx.textAlign='center';ctx.fillText('Cumulative score',0,0);ctx.restore();
 
+  // Y-axis polarity annotations
+  ctx.textAlign='left';ctx.font='bold 11px sans-serif';
+  ctx.fillStyle='#16a34a';ctx.fillText('Supports U.S.',PL+6,PT+12);
+  ctx.fillStyle='#dc2626';ctx.fillText('Opposes U.S.',PL+6,PT+cH-6);
+
   // X-axis labels (≤6 ticks)
   ctx.textAlign='center';ctx.fillStyle='#666';ctx.font='11px sans-serif';
   var nT=Math.min(6,pts.length);
@@ -563,6 +568,11 @@ def render_summary_html(nation_states: dict) -> str:
   ctx.save();ctx.fillStyle='#999';ctx.font='10px sans-serif';
   ctx.translate(13,PT+cH/2);ctx.rotate(-Math.PI/2);
   ctx.textAlign='center';ctx.fillText('Cumulative score',0,0);ctx.restore();
+
+  // Y-axis polarity annotations
+  ctx.textAlign='left';ctx.font='bold 11px sans-serif';
+  ctx.fillStyle='#16a34a';ctx.fillText('Supports U.S.',PL+6,PT+12);
+  ctx.fillStyle='#dc2626';ctx.fillText('Opposes U.S.',PL+6,PT+cH-6);
 
   // X labels (6 ticks spanning full range)
   ctx.textAlign='center';ctx.fillStyle='#666';ctx.font='11px sans-serif';
