@@ -7,14 +7,12 @@ the most likely hypothesis is the one with the *least* evidence against it, not
 the most evidence for it.
 
 State persists as JSON (`matrix_state.json`) so evidence rows accumulate across
-runs; each run also renders an HTML view (a stable `acch_matrix.html` plus a
-timestamped snapshot for the audit trail).
+runs; each run also renders an HTML view (`acch_matrix.html`).
 """
 
 import json
 import logging
 from datetime import datetime
-from pathlib import Path
 
 from tools.matrix_view import render_matrix_html
 
@@ -31,6 +29,14 @@ SUPPORT_WEIGHTS = {"++": 2.0, "+": 1.0}
 
 STATE_FILENAME = "matrix_state.json"
 LATEST_HTML_FILENAME = "acch_matrix.html"
+
+# nation_id.title() replace uae with "United Arab Emirates" (e.g. "uae" -> "United Arab Emirates");
+# override acronym nation IDs here so their display name renders correctly.
+NATION_NAME_OVERRIDES = {"uae": "United Arab Emirates"}
+
+
+def _nation_display_name(nation_id: str) -> str:
+    return NATION_NAME_OVERRIDES.get(nation_id, nation_id.replace("_", " ").title())
 
 
 def compute_scores(rows: list[EvidenceRow], hypothesis_ids: list[str]) -> dict[str, dict]:
@@ -78,7 +84,7 @@ class MatrixAgent:
     - Ingest scored evidence from the Assessment Agent as per-article rows
     - Accumulate rows across runs (dedup by article id)
     - Rank hypotheses by inconsistency (Heuer Step 5)
-    - Persist JSON state and render a color-coded HTML matrix; prune old snapshots
+    - Persist JSON state and render a color-coded HTML matrix
     """
 
     def __init__(self, config, file_manager, nation_id: str):
@@ -86,7 +92,7 @@ class MatrixAgent:
 
         Args:
             config: Settings object with matrix configuration
-            file_manager: FileManager used for directory sizing and snapshot pruning
+            file_manager: FileManager used to locate the per-nation matrix directory
             nation_id: Nation this agent tracks (e.g. "china"). Determines the
                        subdirectory under data/matrix/ for all output files.
         """
@@ -184,12 +190,8 @@ class MatrixAgent:
             reverse=True,
         )
 
-    def save_matrix_snapshot(self) -> Path:
-        """Persist JSON state and render the HTML matrix (stable + versioned).
-
-        Returns:
-            Path to the timestamped HTML snapshot.
-        """
+    def save_matrix(self) -> None:
+        """Persist JSON state and render the HTML matrix."""
         # 1. Canonical machine-readable state (reloaded next run).
         state_doc = {
             "matrix_version": self.state.matrix_version,
@@ -220,34 +222,23 @@ class MatrixAgent:
             scores=scores,
             ranking=ranking,
             generated_at=datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
-            title=f"ACH Decision Matrix — {self.nation_id.replace('_', ' ').title()}",
+            title=f"ACH Decision Matrix — {_nation_display_name(self.nation_id)}",
             return_url="../summary.html",
         )
 
-        # 3. Stable "latest" view + a timestamped snapshot for the audit trail.
+        # 3. Stable HTML view.
         (self.matrix_dir / LATEST_HTML_FILENAME).write_text(html, encoding="utf-8")
-        snapshot_path = self.matrix_dir / (
-            f"acch_matrix_v{datetime.utcnow().strftime('%Y%m%d_%H%M%S_%f')}.html"
-        )
-        snapshot_path.write_text(html, encoding="utf-8")
 
-        logger.info(f"Saved matrix state and HTML snapshot: {snapshot_path.name}")
-        return snapshot_path
-
-    def cleanup_old_snapshots(self) -> None:
-        """Prune oldest versioned snapshots past the storage cap (via FileManager)."""
-        self.file_manager.cleanup_old_snapshots(self.config.matrix_storage_cap_gb, self.nation_id)
-        self.state.total_storage_used_mb = self.file_manager.get_directory_size_mb(self.matrix_dir)
+        logger.info(f"Saved matrix state and HTML: {self.nation_id}")
 
     def execute(self, assessments: list[AssessmentResult]) -> MatrixAgentState:
-        """Ingest assessments, persist state, render HTML, and prune snapshots."""
+        """Ingest assessments, persist state, and render HTML."""
         logger.info(f"MatrixAgent[{self.nation_id}] processing {len(assessments)} assessments")
 
         for assessment in assessments:
             self.ingest_assessment(assessment)
 
-        self.save_matrix_snapshot()
-        self.cleanup_old_snapshots()
+        self.save_matrix()
 
         logger.info(f"Matrix[{self.nation_id}] updated. Total evidence rows: {self.state.article_count}")
         return self.state

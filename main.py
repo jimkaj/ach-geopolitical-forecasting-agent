@@ -173,7 +173,7 @@ def run_agent_pipeline() -> None:
                     f"[{nation_id}] No new articles; "
                     f"{matrix_agent.state.article_count} existing row(s) carried to summary."
                 )
-                matrix_agent.save_matrix_snapshot()
+                matrix_agent.save_matrix()
                 results_by_nation[nation_id] = matrix_agent.state
                 continue
 

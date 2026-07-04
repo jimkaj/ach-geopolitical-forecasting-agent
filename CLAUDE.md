@@ -9,9 +9,8 @@ A three-tier multi-agent system applying **Analysis of Competing Hypotheses (ACH
 **Current state: v3 implemented and verified end-to-end.** `uv run python main.py` runs the full per-nation Scraper → Assessment → Matrix pipeline. Each configured nation (China, Iran, Israel, Qatar, Saudi Arabia, Pakistan, Kuwait, Bahrain) gets its own isolated ACH matrix, a time-series US-alignment line graph, and a per-nation HTML page. A summary page (`data/matrix/summary.html`) displays all nations on one multi-line chart with click-through navigation to individual matrices.
 
 Known notes:
-- `tools/file_manager.py` — `save_matrix_snapshot()` is still an unused stub; the Matrix Agent writes its own JSON/HTML directly. Not on the critical path.
 - Assessment directional accuracy is bounded by the local model (8B); low/unstable confidence is surfaced via the human-review flag by design.
-- Hermetic `tests/` suite: 86 tests; all external I/O is mocked. Uncovered lines are mostly logging-setup and error branches.
+- Hermetic `tests/` suite: 81 tests; all external I/O is mocked. Uncovered lines are mostly logging-setup and error branches.
 
 ## Commands
 
@@ -46,7 +45,7 @@ Per-nation linear pass in `main.py` → `run_agent_pipeline()`, looping over eac
 
 1. **ScraperAgent** (`agents/scraper_agent.py`) → `execute(search_query)` returns `list[ArticleData]`. Takes `(config, web_scraper, file_manager)`. Each nation supplies its own `search_query` (e.g. `"Israel United States relations"`); the Scraper fetches only that nation's articles. Sources via **The Guardian Content API** (`WebScraper.search_articles()` → JSON with `show-fields=bodyText`), deduplicates against `data/processed_urls.csv`. `ArticleData.content` is the **full article body text**.
 2. **AssessmentAgent** (`agents/assessment_agent.py`) → `execute(articles)` returns `list[AssessmentResult]`. Takes `(config, hypotheses, llm_interface)` where `hypotheses` is the nation-specific list from the YAML. Uses **comparative ACH scoring**: each pass sends *all three* competing hypotheses in one prompt so the model discriminates between them. Runs `llm_num_passes` (default 10) passes; **per-hypothesis confidence = fraction of passes agreeing with that hypothesis's majority mark** (self-consistency). Flags for human review when any confidence `< confidence_threshold` (0.6). Cost: `llm_num_passes` LLM calls per article.
-3. **MatrixAgent** (`agents/matrix_agent.py`) → `execute(assessments)` returns `MatrixAgentState`. Takes `(config, file_manager, nation_id)`. Writes all state to `data/matrix/{nation_id}/` (created automatically by `FileManager.get_nation_matrix_dir()`). Follows Heuer Ch. 8: one `EvidenceRow` per article accumulating across runs (dedup by `article_id`). Ranks hypotheses by **inconsistency** (lowest = most likely, Heuer Step 5). Each run writes `matrix_state.json`, a stable `acch_matrix.html` (with "← Back to Summary" button), and a timestamped snapshot; prunes old snapshots past `matrix_storage_cap_gb`.
+3. **MatrixAgent** (`agents/matrix_agent.py`) → `execute(assessments)` returns `MatrixAgentState`. Takes `(config, file_manager, nation_id)`. Writes all state to `data/matrix/{nation_id}/` (created automatically by `FileManager.get_nation_matrix_dir()`). Follows Heuer Ch. 8: one `EvidenceRow` per article accumulating across runs (dedup by `article_id`). Ranks hypotheses by **inconsistency** (lowest = most likely, Heuer Step 5). Each run writes `matrix_state.json` and the `acch_matrix.html` view (with "← Back to Summary" button) — no historical snapshots are kept, only the current state.
 
 After all nations are processed, `main.py` calls `render_summary_html(results_by_nation)` and writes `data/matrix/summary.html` — a standalone page with the multi-nation line chart and legend links.
 
@@ -58,7 +57,7 @@ After all nations are processed, `main.py` calls `render_summary_html(results_by
 
 **Schemas** (`agents/base.py`) are the contract between tiers: Pydantic models (`ArticleData`, `HypothesisScore`, `AssessmentResult`) for data crossing boundaries; `@dataclass` `*AgentState` for per-agent internal state. `MatrixAgentState` carries `nation_id: str`. Changing a model ripples to the producing and consuming agent.
 
-**Tools** (`tools/`) are stateless helpers: `llm_interface.py` (Ollama HTTP client + ACH prompt/parse), `web_scraper.py` (Guardian API client), `file_manager.py` (processed-URL dedup + per-nation snapshot pruning via `get_nation_matrix_dir()`), `audit_logger.py` (file audit logs + `rich` console), `matrix_view.py` (renders ACH matrix + line graph to self-contained HTML; `render_summary_html()` produces the all-nations overview).
+**Tools** (`tools/`) are stateless helpers: `llm_interface.py` (Ollama HTTP client + ACH prompt/parse), `web_scraper.py` (Guardian API client), `file_manager.py` (processed-URL dedup + per-nation matrix directories via `get_nation_matrix_dir()`), `audit_logger.py` (file audit logs + `rich` console), `matrix_view.py` (renders ACH matrix + line graph to self-contained HTML; `render_summary_html()` produces the all-nations overview).
 
 **Logging**: named loggers in `tools/audit_logger.py` → `logs/agent_interactions.log`, `logs/assessments.log`, `logs/errors.log`. Use `AuditLogger.log_scrape/log_assessment/log_error`. `setup_console_logging()` attaches a `rich` handler for live terminal output. Set `ENABLE_DEBUG_LOGGING=true` for DEBUG-level output.
 

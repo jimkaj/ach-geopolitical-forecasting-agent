@@ -8,6 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+uv.lock
 
 # Test & coverage artifacts
 .pytest_cache/
@@ -19,5 +20,9 @@ coverage.xml
 #data/
 logs/
 
+
 # Local environment / secrets (.env.template is committed; .env is not)
 .env
+
+# Agentic configuration files
+CLAUDE.md

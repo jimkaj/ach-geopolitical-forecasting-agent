@@ -29,7 +29,6 @@ def config(tmp_path):
     s.scraper_max_retries = 2
     s.scraper_backoff_factor = 1.0
     s.scraper_timeout_seconds = 5
-    s.matrix_storage_cap_gb = 1.0
     s.use_system_truststore = False  # don't touch the OS trust store in tests
     return s
 

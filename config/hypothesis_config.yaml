@@ -192,3 +192,22 @@ nations:
         description: |
           Evidence suggests United Arab Emirates is acting against US interests, countering US
           policy, or aligning with adversaries of the United States.
+
+  iraq:
+    search_query: "Iraq United States relations"
+    hypotheses:
+      - id: "h1"
+        name: "Iraq supports the United States"
+        description: |
+          Evidence suggests Iraq is aligned with or supportive of US interests,
+          policy positions, or strategic objectives.
+      - id: "h2"
+        name: "Iraq maintains a neutral stance with the United States"
+        description: |
+          Evidence suggests Iraq is neither clearly aligned with nor opposed to
+          US interests, pursuing an independent or balanced posture.
+      - id: "h3"
+        name: "Iraq opposes the United States"
+        description: |
+          Evidence suggests Iraq is acting against US interests, countering US
+          policy, or aligning with adversaries of the United States.

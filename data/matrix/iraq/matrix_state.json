@@ -1,0 +1,50 @@
+{
+  "matrix_version": "20260704_212320",
+  "last_update": "2026-07-04T21:23:20.140961",
+  "hypothesis_names": {
+    "h1": "Iraq supports the United States",
+    "h2": "Iraq maintains a neutral stance with the United States",
+    "h3": "Iraq opposes the United States"
+  },
+  "evidence_rows": [
+    {
+      "article_id": "world/2026/may/22/trump-5000-troops-poland-military-support",
+      "title": "Trump pledges an additional 5,000 troops for Poland in apparent u-turn",
+      "url": "https://www.theguardian.com/world/2026/may/22/trump-5000-troops-poland-military-support",
+      "source": "The Guardian",
+      "published_date": "2026-05-22T01:08:06+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 0.6
+    },
+    {
+      "article_id": "world/2026/mar/11/echoes-of-iraq-invasion-in-trumps-iran-plan",
+      "title": "Echoes of Iraq invasion in Trump\u2019s Iran plan",
+      "url": "https://www.theguardian.com/world/2026/mar/11/echoes-of-iraq-invasion-in-trumps-iran-plan",
+      "source": "The Guardian",
+      "published_date": "2026-03-11T17:27:43+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/apr/24/coupang-data-breach-south-korea-us-relations",
+      "title": "How a simple consumer data breach spiralled into a national security crisis in US-South Korea relations",
+      "url": "https://www.theguardian.com/world/2026/apr/24/coupang-data-breach-south-korea-us-relations",
+      "source": "The Guardian",
+      "published_date": "2026-04-24T03:24:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "++",
+        "h3": "--"
+      },
+      "confidence": 0.6666666666666666
+    }
+  ]
+}

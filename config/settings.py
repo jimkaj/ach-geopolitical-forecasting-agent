@@ -50,10 +50,6 @@ class Settings(BaseSettings):
         default=Path("logs"),
         description="Directory for agent interaction logs",
     )
-    matrix_storage_cap_gb: float = Field(
-        default=1.0,
-        description="Storage capacity for ACH matrix snapshots (in GB)",
-    )
 
     # Web Scraping Configuration
     #

@@ -135,7 +135,6 @@ def test_writes_state_json_and_html(config, assessment_factory):
 
     assert (agent.matrix_dir / "matrix_state.json").exists()
     assert (agent.matrix_dir / "acch_matrix.html").exists()
-    assert list(agent.matrix_dir.glob("acch_matrix_v*.html"))  # versioned snapshot
 
     state_doc = json.loads((agent.matrix_dir / "matrix_state.json").read_text(encoding="utf-8"))
     assert state_doc["evidence_rows"][0]["article_id"] == "a1"
@@ -149,15 +148,6 @@ def test_html_contains_return_button(config, assessment_factory):
     html = (agent.matrix_dir / "acch_matrix.html").read_text(encoding="utf-8")
     assert "Back to Summary" in html
     assert "summary.html" in html
-
-
-def test_execute_invokes_cleanup(config, assessment_factory, monkeypatch):
-    fm = FileManager(config)
-    agent = MatrixAgent(config, fm, nation_id="test")
-    called = {"n": 0}
-    monkeypatch.setattr(fm, "cleanup_old_snapshots", lambda cap, nid: called.__setitem__("n", called["n"] + 1))
-    agent.execute([assessment_factory("a1", {"h1": "N/A", "h2": "N/A", "h3": "N/A"})])
-    assert called["n"] == 1
 
 
 def test_fresh_when_no_state(config):

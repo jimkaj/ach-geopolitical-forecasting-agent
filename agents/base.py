@@ -122,7 +122,6 @@ class MatrixAgentState:
     evidence_rows: list[EvidenceRow] = field(default_factory=list)
     hypothesis_names: dict[str, str] = field(default_factory=dict)
     last_update: datetime = field(default_factory=datetime.utcnow)
-    total_storage_used_mb: float = 0.0
     nation_id: str = ""
 
     @property

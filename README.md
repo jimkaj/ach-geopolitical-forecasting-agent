@@ -20,11 +20,11 @@ Each nation is assessed against three fixed hypotheses:
 - 🔄 **Linear per-nation pipeline**: Scraper → Assessment → Matrix, one full pass per nation
 - 📰 **Full-text sourcing**: articles come from **The Guardian Open Platform Content API** (per-nation query, full article body, free developer key)
 - 🧠 **Comparative ACH scoring**: all three hypotheses are scored together in one LLM call so the model discriminates between them; temperature-sampled multi-pass **self-consistency** yields per-hypothesis confidence with human-in-the-loop flagging
-- 📊 **Accumulating ACH matrix (Heuer Ch. 8)**: evidence rows (one per article) build up **across runs**, ranked by *inconsistency*, rendered to a color-coded HTML matrix with versioned snapshots
+- 📊 **Accumulating ACH matrix (Heuer Ch. 8)**: evidence rows (one per article) build up **across runs**, ranked by *inconsistency*, rendered to a color-coded HTML matrix
 - 📈 **US-alignment line graph**: each nation's HTML includes a time-series chart of cumulative alignment score; a summary page shows all nations together with click-through navigation
 - 🔒 **Security-first**: domain whitelisting, no user chat interface, API keys kept out of logs, comprehensive audit logging
 - 🖥️ **Live CLI**: streaming progress and a formatted result table per nation (`rich`)
-- 🧪 **Tested**: hermetic pytest suite — 86 tests, no network/LLM needed
+- 🧪 **Tested**: hermetic pytest suite — 81 tests, no network/LLM needed
 - 🚀 **Local LLM inference** via Ollama (GPU-accelerated, CPU fallback)
 
 ## Quick Start
@@ -91,7 +91,6 @@ After all nations: write `data/matrix/summary.html` — a multi-line chart of al
 - `data/matrix/{nation}/acch_matrix.html` — color-coded ACH matrix for that nation (includes "← Back to Summary" button and US-alignment line graph)
 <img width="958" height="2073" alt="image" src="https://github.com/user-attachments/assets/c3669af1-3879-4ded-a3b0-8bd9b804d514" />
 - `data/matrix/{nation}/matrix_state.json` — canonical matrix state reloaded each run
-- `data/matrix/{nation}/acch_matrix_v*.html` — timestamped HTML snapshots (audit trail)
 - `data/processed_urls.csv` — long-term dedup memory (global across all nations)
 - `logs/agent_interactions.log`, `logs/assessments.log`, `logs/errors.log` — audit trail
 
@@ -104,18 +103,18 @@ After all nations: write `data/matrix/summary.html` — a multi-line chart of al
 │   ├── base.py                   # Pydantic schemas + per-agent state dataclasses
 │   ├── scraper_agent.py          # Tier 1: Guardian ingestion + dedup
 │   ├── assessment_agent.py       # Tier 2: comparative ACH self-consistency scoring
-│   └── matrix_agent.py           # Tier 3: accumulating ACH matrix + snapshots
+│   └── matrix_agent.py           # Tier 3: accumulating ACH matrix
 ├── tools/
 │   ├── web_scraper.py            # The Guardian Content API client
 │   ├── llm_interface.py          # Ollama client + ACH prompt/parse
-│   ├── file_manager.py           # processed-URL dedup + per-nation snapshot pruning
+│   ├── file_manager.py           # processed-URL dedup + per-nation matrix directories
 │   ├── audit_logger.py           # file audit logs + rich console logging
 │   └── matrix_view.py            # HTML renderer: ACH matrix, line graph, summary page
 ├── config/
 │   ├── settings.py               # Pydantic Settings (env / .env)
 │   ├── hypothesis_config.yaml    # nation-keyed hypotheses + search queries
 │   └── domain_whitelist.txt      # approved fetch domains
-├── tests/                        # hermetic pytest suite (86 tests, mocked I/O)
+├── tests/                        # hermetic pytest suite (81 tests, mocked I/O)
 ├── documentation/
 │   └── Reuters_Delivery_Overview.pdf   # reference: Reuters Connect (the licensed path)
 ├── data/                         # runtime, gitignored
@@ -249,7 +248,6 @@ SCRAPER_MAX_ARTICLES=25          # per nation, per run
 
 # Assessment / storage
 CONFIDENCE_THRESHOLD=0.6         # flag hypotheses below this confidence
-MATRIX_STORAGE_CAP_GB=1.0        # per-nation snapshot pruning threshold
 ENABLE_DEBUG_LOGGING=false
 ```
 
@@ -260,7 +258,7 @@ ENABLE_DEBUG_LOGGING=false
 The suite is hermetic — all network/LLM calls are mocked and file I/O uses temp dirs:
 
 ```bash
-uv run pytest                              # run all 86 tests
+uv run pytest                              # run all 81 tests
 uv run pytest tests/test_matrix_agent.py   # a single file
 uv run pytest -k accumulation              # by keyword
 uv run pytest --cov=agents --cov=tools     # with coverage
@@ -303,7 +301,6 @@ uv run python -c "import torch; print(torch.cuda.is_available(), torch.cuda.devi
 | `CERTIFICATE_VERIFY_FAILED` | Behind a TLS-inspecting proxy — keep `USE_SYSTEM_TRUSTSTORE=true` (default). |
 | No new articles for a nation | All matching URLs already in `data/processed_urls.csv`. Widen `GUARDIAN_FROM_DAYS` or change the search query. |
 | Run is very slow | Lower `LLM_NUM_PASSES` and/or `SCRAPER_MAX_ARTICLES`. With 8 nations, even small values add up. |
-| Storage growing | Lower `MATRIX_STORAGE_CAP_GB`; oldest snapshots auto-prune per nation. |
 | Summary chart lines overlap (same colour) | Two nations sharing a colour — add a colour to `_NATION_COLORS` in `tools/matrix_view.py`. |
 
 ## References

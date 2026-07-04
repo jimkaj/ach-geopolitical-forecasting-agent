@@ -27,6 +27,10 @@ _MARK_STYLE = {
 # contribution per article = weight[h1_mark] - weight[h3_mark]
 _MARK_WEIGHT = {"++": 2, "+": 1, "N/A": 0, "-": -1, "--": -2}
 
+# Fixed vertical reference line drawn on every line graph (nation + summary charts).
+_REFERENCE_DATE_ISO = "2026-02-28"
+_REFERENCE_LABEL = "Start of War"
+
 # Colour palette for the multi-nation summary chart (cycles if > 8 nations).
 _NATION_COLORS = [
     "#2563eb",  # blue
@@ -162,7 +166,9 @@ def _render_line_graph(series_data: list, chart_id: str, nation_label: str) -> s
   var dts=pts.map(function(p){{return new Date(p[0]+'T00:00:00');}});
   var sc=pts.map(function(p){{return p[1];}});
 
-  var t0=dts[0].getTime(),t1=dts[dts.length-1].getTime();
+  var refDate=new Date('{_REFERENCE_DATE_ISO}T00:00:00');
+  var refT=refDate.getTime();
+  var t0=Math.min(dts[0].getTime(),refT),t1=Math.max(dts[dts.length-1].getTime(),refT);
   var tRng=t1-t0||1;
   var sMax=Math.max.apply(null,sc.concat([1]));
   var sMin=Math.min.apply(null,sc.concat([-1]));
@@ -254,6 +260,17 @@ def _render_line_graph(series_data: list, chart_id: str, nation_label: str) -> s
     ctx.fillStyle=sc[i]>=0?'#16a34a':'#dc2626';
     ctx.strokeStyle='#fff';ctx.lineWidth=1.5;ctx.fill();ctx.stroke();
   }});
+
+  // Reference line: {_REFERENCE_LABEL}
+  var refX=xf(refDate);
+  ctx.save();
+  ctx.strokeStyle='#dc2626';ctx.lineWidth=1.5;ctx.setLineDash([6,4]);
+  ctx.beginPath();ctx.moveTo(refX,PT);ctx.lineTo(refX,PT+cH);ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle='#dc2626';ctx.font='bold 11px sans-serif';ctx.textAlign='left';ctx.textBaseline='top';
+  ctx.translate(refX+6,PT+cH-6);ctx.rotate(-Math.PI/2);
+  ctx.fillText('{_REFERENCE_LABEL}',0,0);
+  ctx.restore();
 
   // Tooltip
   var tip=document.getElementById('{tip_id}');
@@ -530,7 +547,8 @@ def render_summary_html(nation_states: dict) -> str:
   }});
   if(!allT.length)return;
 
-  var t0=Math.min.apply(null,allT),t1=Math.max.apply(null,allT);
+  var refT=new Date('{_REFERENCE_DATE_ISO}T00:00:00').getTime();
+  var t0=Math.min.apply(null,allT.concat([refT])),t1=Math.max.apply(null,allT.concat([refT]));
   var tRng=t1-t0||1;
   var sMax=Math.max.apply(null,allSc.concat([1]));
   var sMin=Math.min.apply(null,allSc.concat([-1]));
@@ -602,6 +620,17 @@ def render_summary_html(nation_states: dict) -> str:
     }});
   }});
 
+  // Reference line: {_REFERENCE_LABEL}
+  var refX=xf(refT);
+  ctx.save();
+  ctx.strokeStyle='#dc2626';ctx.lineWidth=1.5;ctx.setLineDash([6,4]);
+  ctx.beginPath();ctx.moveTo(refX,PT);ctx.lineTo(refX,PT+cH);ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle='#dc2626';ctx.font='bold 11px sans-serif';ctx.textAlign='left';ctx.textBaseline='top';
+  ctx.translate(refX+6,PT+cH-6);ctx.rotate(-Math.PI/2);
+  ctx.fillText('{_REFERENCE_LABEL}',0,0);
+  ctx.restore();
+
   // Tooltip + click-to-navigate
   var tip=document.getElementById('summaryChart_tip');
   function findNearest(mx,my){{
@@ -642,9 +671,9 @@ def render_summary_html(nation_states: dict) -> str:
     nation_count = len(nation_states)
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
-<title>ACH Geopolitical Alignment — Summary</title><style>{_CSS}</style></head>
+<title>Orientation toward U.S. of Key Stakeholders in U.S.-Iran War According to Guardian Reporting — Summary</title><style>{_CSS}</style></head>
 <body>
-<h1>ACH Geopolitical Alignment Summary</h1>
+<h1>Orientation toward U.S. of Key Stakeholders in U.S.-Iran War According to Guardian Reporting — Summary</h1>
 <div class="meta">{nation_count} nation{"s" if nation_count != 1 else ""} tracked &middot; click a line or legend entry to view the full ACH matrix</div>
 
 <h2 style="font-size:15px;margin-bottom:4px">Cumulative US-Alignment Score by Nation</h2>
