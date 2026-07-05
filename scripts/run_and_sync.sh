@@ -19,6 +19,17 @@ export GUARDIAN_API_KEY=$(aws secretsmanager get-secret-value \
 # Run the pipeline
 uv run python main.py
 
+# Commit and push regenerated matrix output so GitHub Pages picks it up
+git config user.name "ACH Pipeline Bot"
+git config user.email "acch-pipeline@users.noreply.github.com"
+git add data/matrix
+if ! git diff --cached --quiet; then
+  git commit -m "Auto-update ACH matrix output: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+  git push origin master
+else
+  echo "No matrix changes to commit"
+fi
+
 # Sync HTML outputs to S3 (replace BUCKET_NAME with your actual bucket)
 aws s3 sync data/matrix/ s3://BUCKET_NAME/ \
     --delete \
