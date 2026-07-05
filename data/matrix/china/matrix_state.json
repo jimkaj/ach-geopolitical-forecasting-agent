@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260704_212316",
-  "last_update": "2026-07-04T21:23:16.817496",
+  "matrix_version": "20260705_210707",
+  "last_update": "2026-07-05T21:07:41.725134",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -396,6 +396,19 @@
         "h3": "++"
       },
       "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/jul/05/founder-of-prominent-underground-church-released-from-prison-in-china",
+      "title": "Founder of prominent underground church released from prison in China",
+      "url": "https://www.theguardian.com/world/2026/jul/05/founder-of-prominent-underground-church-released-from-prison-in-china",
+      "source": "The Guardian",
+      "published_date": "2026-07-05T01:40:15+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 0.8333333333333334
     }
   ]
 }
