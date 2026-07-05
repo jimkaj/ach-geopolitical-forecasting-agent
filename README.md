@@ -94,6 +94,22 @@ After all nations: write `data/matrix/summary.html` — a multi-line chart of al
 - `data/processed_urls.csv` — long-term dedup memory (global across all nations)
 - `logs/agent_interactions.log`, `logs/assessments.log`, `logs/errors.log` — audit trail
 
+## Deployment
+
+`scripts/run_and_sync.sh` runs the pipeline unattended on a scheduled EC2 box, then shuts it down
+to stop billing:
+
+```
+git pull origin master  →  uv run python main.py  →  commit & push data/matrix/  →  shutdown
+```
+
+The commit/push step keeps the live GitHub Pages site
+(<https://jimkaj.github.io/ach-geopolitical-forecasting-agent/>) in sync — Pages redeploys
+automatically on every push to `master`. The commit is skipped when a run produces no matrix
+changes. (An earlier version of this script also synced output to S3; that step was removed —
+it pointed at a placeholder bucket that was never actually configured, and GitHub Pages via git
+push is the only publish path the live site needs.)
+
 ## Project Structure
 
 ```
@@ -318,4 +334,4 @@ Academic project — Carnegie Mellon University Agentic AI Certificate Program
 
 **Version**: 0.3.0 (v3)  
 **Status**: v3 complete — multi-nation pipeline, per-nation ACH matrices, US-alignment line graphs, all-nations summary page  
-**Last Updated**: 2026-06-23
+**Last Updated**: 2026-07-05

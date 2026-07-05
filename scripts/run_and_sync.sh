@@ -30,12 +30,6 @@ else
   echo "No matrix changes to commit"
 fi
 
-# Sync HTML outputs to S3 (replace BUCKET_NAME with your actual bucket)
-aws s3 sync data/matrix/ s3://BUCKET_NAME/ \
-    --delete \
-    --cache-control "max-age=3600" \
-    --region us-east-1
-
 echo "=== Pipeline complete: $(date -u) ==="
 
 # Shut down EC2 to stop billing
