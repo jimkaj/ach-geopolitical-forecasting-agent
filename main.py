@@ -29,6 +29,7 @@ from agents.scraper_agent import ScraperAgent
 from config import settings
 from tools.audit_logger import setup_audit_logging, setup_console_logging, AuditLogger
 from tools.file_manager import FileManager
+from tools.git_sync import sync_matrix_to_git
 from tools.llm_interface import LLMInterface
 from tools.matrix_view import render_summary_html
 from tools.web_scraper import WebScraper
@@ -210,6 +211,9 @@ def run_agent_pipeline() -> None:
             Console().print(f"\n[bold]Summary page:[/bold] {summary_path}")
         except ImportError:
             print(f"\nSummary page: {summary_path}")
+
+        if settings.auto_git_sync:
+            sync_matrix_to_git(PROJECT_ROOT, settings.data_dir)
 
         logger.info("Pipeline execution complete")
 

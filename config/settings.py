@@ -130,6 +130,13 @@ class Settings(BaseSettings):
         default=False,
         description="Enable verbose debug logging for agent interactions",
     )
+    auto_git_sync: bool = Field(
+        default=True,
+        description=(
+            "Commit and push data/matrix/ to origin/master after each run "
+            "(set AUTO_GIT_SYNC=false to disable for local/experimental runs)"
+        ),
+    )
 
     class Config:
         """Pydantic settings configuration."""

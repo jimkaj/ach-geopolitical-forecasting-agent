@@ -102,11 +102,11 @@ This project is run manually — there is no automated or scheduled execution:
 uv run python main.py
 ```
 
-`scripts/run_and_sync.sh` is an optional convenience script for after a manual run: it re-runs
-the pipeline, then commits and pushes `data/matrix/` so the live GitHub Pages site
-(<https://jimkaj.github.io/ach-geopolitical-forecasting-agent/>) stays in sync — Pages redeploys
-automatically on every push to `master`. The commit is skipped when a run produces no matrix
-changes.
+Each run automatically commits and pushes `data/matrix/` to `origin/master` so the live GitHub
+Pages site (<https://jimkaj.github.io/ach-geopolitical-forecasting-agent/>) stays in sync — Pages
+redeploys automatically on every push. This is controlled by the `auto_git_sync` setting (default
+on); set `AUTO_GIT_SYNC=false` in `.env` to disable it for local/experimental runs. The commit is
+skipped when a run produces no matrix changes.
 
 ## Project Structure
 
