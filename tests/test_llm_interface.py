@@ -96,6 +96,7 @@ def llm(config, monkeypatch):
     monkeypatch.setattr(
         "tools.llm_interface.requests.get", lambda *a, **k: _resp({"models": [{"name": "llama3.1"}]})
     )
+    config.llm_model = "llama3.1"
     config.llm_context_window = 8192
     config.llm_max_tokens = 256
     return LLMInterface(config)

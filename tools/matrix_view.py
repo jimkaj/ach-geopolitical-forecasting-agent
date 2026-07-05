@@ -86,6 +86,44 @@ th { background: #f1f3f4; text-align: left; font-weight: 600; }
 .nation-legend a { display:inline-block; margin-right:18px; font-size:13px; font-weight:600;
                    text-decoration:none; padding:3px 0; border-bottom:3px solid; }
 .nation-legend a:hover { opacity:0.75; }
+.about-section { max-width: 760px; margin-top: 32px; padding-top: 20px; border-top: 1px solid #e5e5e5; }
+.about-section p { font-size: 13px; line-height: 1.6; color: #333; margin: 0 0 10px; }
+.about-section ul { font-size: 13px; line-height: 1.6; color: #333; margin: 4px 0 12px 22px; padding: 0; }
+.about-section .disclaimer { font-size: 12px; color: #777; }
+"""
+
+# Plain-language explainer shown at the bottom of the all-nations summary page.
+_ABOUT_HTML = """
+<div class="about-section">
+<h2 style="font-size:15px;margin-bottom:4px">About This Project</h2>
+<p>This project is an experiment in using <strong>agentic AI</strong> &mdash; a small pipeline
+of autonomous AI programs, each handling one step of the analysis &mdash; to track how each
+country's public posture toward the United States appears to be shifting in the wake of the
+U.S.&ndash;Iran War. It focuses on nations with a direct stake in that conflict.</p>
+<p>Each time the pipeline runs, it automatically reads newly published full-text news articles
+about each tracked nation from The Guardian. An AI model then evaluates every article's
+<em>diagnostic value</em> &mdash; how much that one piece of evidence should shift our confidence
+toward or away from each of three competing explanations for that nation's stance &mdash; and adds
+the result to a running evidence matrix for that nation. This method, weighing each piece of
+evidence against several competing explanations side by side rather than looking for support of a
+single story, is called <strong>Analysis of Competing Hypotheses (ACH)</strong>, a technique
+developed by veteran CIA analyst Richards Heuer to help intelligence analysts reason more
+rigorously and catch their own biases.</p>
+<p>Every article is scored against the same three hypotheses:</p>
+<ul>
+  <li><strong>H1</strong> &mdash; [Nation] supports the United States</li>
+  <li><strong>H2</strong> &mdash; [Nation] maintains a neutral stance with the United States</li>
+  <li><strong>H3</strong> &mdash; [Nation] opposes the United States</li>
+</ul>
+<p>The line graph above plots the running total of that evidence over time for each nation &mdash;
+it climbs when new coverage reads as pro-U.S., and falls when it reads as anti-U.S. Click any
+nation's line or legend entry to open its full evidence matrix: every article the system read, how
+it was scored against each hypothesis, and why.</p>
+<p class="disclaimer">This is a research and educational project (a Carnegie Mellon University
+Agentic AI Certificate capstone) &mdash; not an intelligence product or a forecast. It reflects one
+AI model's reading of Guardian news coverage, which can be noisy or incomplete, and should not be
+treated as ground truth or expert analysis.</p>
+</div>
 """
 
 
@@ -685,5 +723,6 @@ def render_summary_html(nation_states: dict) -> str:
 </div>
 {legend_html}
 <script>{js}</script>
+{_ABOUT_HTML}
 </body></html>
 """

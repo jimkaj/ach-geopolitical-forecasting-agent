@@ -17,7 +17,8 @@ line graph, and HTML page. A summary page shows all nations together.
 
 **Status**: v3 complete — multi-nation pipeline, per-nation matrices and line
 graphs, all-nations summary page; 86-test hermetic pytest suite; verified
-end-to-end against Ollama + `llama3.1`.
+end-to-end against Ollama + `llama3.1`; now defaults to `llama3.3` for
+stronger reasoning.
 
 **Currently tracked nations** (defined in `config/hypothesis_config.yaml`):
 China, Iran, Israel, Qatar, Saudi Arabia, Pakistan, Kuwait, Bahrain.
@@ -27,7 +28,7 @@ China, Iran, Israel, Qatar, Saudi Arabia, Pakistan, Kuwait, Bahrain.
 | Component | Role |
 |-----------|------|
 | **requests + The Guardian Content API** | Per-nation full-text article sourcing (free developer key) |
-| **Ollama** (default `llama3.1`) over HTTP | Local LLM for assessment |
+| **Ollama** (default `llama3.3`) over HTTP | Local LLM for assessment |
 | **pydantic / pydantic-settings** | State schemas + configuration |
 | **truststore** | TLS via the OS trust store (works behind a TLS-inspecting proxy) |
 | **rich** | Live console logging + per-nation result tables |
@@ -40,7 +41,7 @@ are present for GPU/future work but the runtime LLM path is the Ollama HTTP API.
 ## Environment & commands
 
 - **Python 3.13**, managed by **`uv`** (`.venv`).
-- Ollama with a **long-context** model (`ollama pull llama3.1`).
+- Ollama with a **long-context** model (`ollama pull llama3.3`).
 
 ```bash
 uv sync                      # install deps
@@ -112,7 +113,7 @@ and rendered by `_render_line_graph()` in `tools/matrix_view.py`.
 
 ## Pitfalls
 
-- **Use a long-context model** (`llama3.1`) or Ollama silently truncates long articles.
+- **Use a long-context model** (`llama3.3`) or Ollama silently truncates long articles.
 - **Preserve the comparative prompt's relevance gate** — scoring hypotheses in
   isolation makes the model over-affirm them; the single-call comparative prompt
   and the explicit "not relevant → N/A" rule are what fix it.

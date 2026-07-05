@@ -12,8 +12,8 @@ class Settings(BaseSettings):
 
     # LLM Configuration
     llm_model: str = Field(
-        default="llama3.1",
-        description="Local LLM model name (e.g., 'llama3.1', 'mistral'); must support llm_context_window",
+        default="llama3.3",
+        description="Local LLM model name (e.g., 'llama3.3', 'mistral'); must support llm_context_window",
     )
     llm_endpoint: str = Field(
         default="http://localhost:11434",

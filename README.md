@@ -46,8 +46,8 @@ uv sync
 cp .env.template .env
 
 # 3. Install Ollama and pull a long-context model.
-#    llama3.1 (128k context) is the default — it can ingest full articles.
-ollama pull llama3.1
+#    llama3.3 (128k context) is the default — it can ingest full articles.
+ollama pull llama3.3
 #    On Windows, Ollama runs automatically as a background service after install.
 #    On Linux/macOS, start it with:  ollama serve
 ```
@@ -248,7 +248,7 @@ Only listed domains are fetchable by the Scraper Agent. Default: `content.guardi
 
 ```bash
 # LLM (Ollama)
-LLM_MODEL=llama3.1               # must support the configured context window
+LLM_MODEL=llama3.3               # must support the configured context window
 LLM_ENDPOINT=http://localhost:11434
 LLM_NUM_PASSES=10                # self-consistency passes per article
 LLM_CONTEXT_WINDOW=8192          # Ollama num_ctx; large enough for full articles
@@ -311,7 +311,7 @@ uv run python -c "import torch; print(torch.cuda.is_available(), torch.cuda.devi
 | Issue | Solution |
 |-------|----------|
 | `LLM service unavailable` | Ensure Ollama is running and the model is pulled (`ollama list`). Check `LLM_ENDPOINT`. |
-| Articles truncated / poor scoring | Use a long-context model (`llama3.1`) and ensure `LLM_CONTEXT_WINDOW` fits the article. |
+| Articles truncated / poor scoring | Use a long-context model (`llama3.3`) and ensure `LLM_CONTEXT_WINDOW` fits the article. |
 | `CERTIFICATE_VERIFY_FAILED` | Behind a TLS-inspecting proxy — keep `USE_SYSTEM_TRUSTSTORE=true` (default). |
 | No new articles for a nation | All matching URLs already in `data/processed_urls.csv`. Widen `GUARDIAN_FROM_DAYS` or change the search query. |
 | Run is very slow | Lower `LLM_NUM_PASSES` and/or `SCRAPER_MAX_ARTICLES`. With 8 nations, even small values add up. |
