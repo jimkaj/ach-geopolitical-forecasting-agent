@@ -171,6 +171,42 @@ class WebScraper:
             "source": "The Guardian",
         }
 
+    def fetch_article_by_id(self, article_id: str) -> Optional[dict]:
+        """Re-fetch one article's full body by its Guardian content ID.
+
+        Used to re-score an already-ingested article against a different LLM,
+        bypassing the search endpoint (which only returns current top-N
+        results within a recency window, not a stable historical set).
+
+        Args:
+            article_id: Guardian content ID (e.g. "world/2026/jun/27/slug"),
+                as stored in EvidenceRow.article_id.
+
+        Returns:
+            Article dict (see :meth:`_parse_guardian_result`), or None on
+            fetch/parse/status failure.
+        """
+        base = self.config.guardian_api_url.rsplit("/", 1)[0]
+        item_url = f"{base}/{article_id}"
+        params = {"show-fields": "bodyText,headline,byline", "api-key": self.config.guardian_api_key}
+
+        response = self.fetch_with_retries(item_url, params=params)
+        if response is None:
+            logger.error(f"Failed to re-fetch article by id: {article_id}")
+            return None
+
+        try:
+            payload = response.json().get("response", {})
+        except ValueError as e:
+            logger.error(f"Failed to parse Guardian JSON response for {article_id}: {e}")
+            return None
+
+        if payload.get("status") != "ok":
+            logger.error(f"Guardian API returned status {payload.get('status')!r} for {article_id}")
+            return None
+
+        return self._parse_guardian_result(payload.get("content", {}))
+
     def search_articles(self, search_query: str) -> list[dict]:
         """Search The Guardian Content API for full-text articles.
 

@@ -147,6 +147,48 @@ def test_search_articles_passes_api_key_in_params_not_url(scraper, config, monke
 
 
 # --------------------------------------------------------------------------- #
+# fetch_article_by_id — mocked fetch
+# --------------------------------------------------------------------------- #
+def _item_response(item, status="ok"):
+    m = MagicMock()
+    m.json = lambda: {"response": {"status": status, "content": item}}
+    return m
+
+
+def test_fetch_article_by_id_builds_item_url(scraper, monkeypatch):
+    captured = {}
+
+    def fake_fetch(url, params=None):
+        captured["url"] = url
+        captured["params"] = params
+        return _item_response(_result(0))
+
+    monkeypatch.setattr(scraper, "fetch_with_retries", fake_fetch)
+    scraper.fetch_article_by_id("world/2026/jun/22/a0")
+    assert captured["url"] == "https://content.guardianapis.com/world/2026/jun/22/a0"
+    assert captured["params"]["api-key"] == scraper.config.guardian_api_key
+
+
+def test_fetch_article_by_id_parses_result(scraper, monkeypatch):
+    monkeypatch.setattr(scraper, "fetch_with_retries", lambda url, params=None: _item_response(_result(0)))
+    parsed = scraper.fetch_article_by_id("world/2026/jun/22/a0")
+    assert parsed["title"] == "Headline 0"
+    assert parsed["content"] == "Body 0"
+
+
+def test_fetch_article_by_id_handles_fetch_failure(scraper, monkeypatch):
+    monkeypatch.setattr(scraper, "fetch_with_retries", lambda url, params=None: None)
+    assert scraper.fetch_article_by_id("world/2026/jun/22/a0") is None
+
+
+def test_fetch_article_by_id_handles_error_status(scraper, monkeypatch):
+    monkeypatch.setattr(
+        scraper, "fetch_with_retries", lambda url, params=None: _item_response({}, status="error")
+    )
+    assert scraper.fetch_article_by_id("world/2026/jun/22/a0") is None
+
+
+# --------------------------------------------------------------------------- #
 # fetch_with_retries — whitelist gate + retry/backoff (mocked session + sleep)
 # --------------------------------------------------------------------------- #
 def test_fetch_rejects_non_whitelisted_domain(scraper):
