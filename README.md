@@ -96,19 +96,17 @@ After all nations: write `data/matrix/summary.html` — a multi-line chart of al
 
 ## Deployment
 
-`scripts/run_and_sync.sh` runs the pipeline unattended on a scheduled EC2 box, then shuts it down
-to stop billing:
+This project is run manually — there is no automated or scheduled execution:
 
 ```
-git pull origin master  →  uv run python main.py  →  commit & push data/matrix/  →  shutdown
+uv run python main.py
 ```
 
-The commit/push step keeps the live GitHub Pages site
-(<https://jimkaj.github.io/ach-geopolitical-forecasting-agent/>) in sync — Pages redeploys
+`scripts/run_and_sync.sh` is an optional convenience script for after a manual run: it re-runs
+the pipeline, then commits and pushes `data/matrix/` so the live GitHub Pages site
+(<https://jimkaj.github.io/ach-geopolitical-forecasting-agent/>) stays in sync — Pages redeploys
 automatically on every push to `master`. The commit is skipped when a run produces no matrix
-changes. (An earlier version of this script also synced output to S3; that step was removed —
-it pointed at a placeholder bucket that was never actually configured, and GitHub Pages via git
-push is the only publish path the live site needs.)
+changes.
 
 ## Project Structure
 
