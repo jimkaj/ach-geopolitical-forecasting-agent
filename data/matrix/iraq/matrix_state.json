@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260705_221822",
-  "last_update": "2026-07-05T22:18:22.106996",
+  "matrix_version": "20260706_010724",
+  "last_update": "2026-07-06T01:09:38.596155",
   "hypothesis_names": {
     "h1": "Iraq supports the United States",
     "h2": "Iraq maintains a neutral stance with the United States",
@@ -15,10 +15,10 @@
       "published_date": "2026-05-22T01:08:06+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "++",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.6
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/mar/11/echoes-of-iraq-invasion-in-trumps-iran-plan",
@@ -27,11 +27,11 @@
       "source": "The Guardian",
       "published_date": "2026-03-11T17:27:43+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "+",
-        "h3": "++"
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
       },
-      "confidence": 0.9333333333333332
+      "confidence": 0.9666666666666667
     },
     {
       "article_id": "world/2026/apr/24/coupang-data-breach-south-korea-us-relations",
@@ -41,10 +41,10 @@
       "published_date": "2026-04-24T03:24:21+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "++",
-        "h3": "--"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.6666666666666666
+      "confidence": 1.0
     }
   ]
 }

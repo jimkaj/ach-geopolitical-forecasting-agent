@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260705_221820",
-  "last_update": "2026-07-05T22:18:20.876347",
+  "matrix_version": "20260706_003502",
+  "last_update": "2026-07-06T00:39:36.725238",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -14,11 +14,11 @@
       "source": "The Guardian",
       "published_date": "2026-02-27T14:19:35+00:00",
       "marks": {
-        "h1": "-",
+        "h1": "N/A",
         "h2": "N/A",
-        "h3": "++"
+        "h3": "N/A"
       },
-      "confidence": 0.4666666666666666
+      "confidence": 1.0
     },
     {
       "article_id": "world/live/2026/jun/14/iran-us-middle-east-crisis-donald-trump-peace-deal-strait-hormuz-open-pakistan-latest-news-updates",
@@ -27,11 +27,11 @@
       "source": "The Guardian",
       "published_date": "2026-06-15T03:06:49+00:00",
       "marks": {
-        "h1": "++",
+        "h1": "+",
         "h2": "N/A",
         "h3": "-"
       },
-      "confidence": 0.7999999999999999
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/16/australian-girl-shot-killed-pakistan-hania-ahmed-police-ntwnfb",
@@ -40,11 +40,11 @@
       "source": "The Guardian",
       "published_date": "2026-06-16T10:25:18+00:00",
       "marks": {
-        "h1": "-",
+        "h1": "N/A",
         "h2": "N/A",
-        "h3": "--"
+        "h3": "N/A"
       },
-      "confidence": 0.43333333333333335
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/apr/21/trump-resume-bombing-iran-ceasefire",
@@ -53,11 +53,11 @@
       "source": "The Guardian",
       "published_date": "2026-04-21T20:37:10+00:00",
       "marks": {
-        "h1": "++",
-        "h2": "N/A",
+        "h1": "+",
+        "h2": "++",
         "h3": "-"
       },
-      "confidence": 0.7999999999999999
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/feb/01/pakistan-targets-balochistan-separatists-after-unprecedented-assaults",
@@ -67,10 +67,10 @@
       "published_date": "2026-02-01T14:07:54+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.6666666666666666
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jul/01/pakistan-roof-collapse-lahore-tutoring-learning-centre",
@@ -80,10 +80,10 @@
       "published_date": "2026-06-30T23:34:00+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.8333333333333334
+      "confidence": 1.0
     }
   ]
 }

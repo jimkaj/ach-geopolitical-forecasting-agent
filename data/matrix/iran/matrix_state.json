@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260705_221819",
-  "last_update": "2026-07-05T22:18:19.879668",
+  "matrix_version": "20260706_000646",
+  "last_update": "2026-07-06T00:18:04.705940",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -14,11 +14,11 @@
       "source": "The Guardian",
       "published_date": "2026-03-26T05:00:28+00:00",
       "marks": {
-        "h1": "-",
-        "h2": "++",
+        "h1": "--",
+        "h2": "-",
         "h3": "++"
       },
-      "confidence": 0.7333333333333334
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/mar/16/gulf-states-may-be-covertly-encouraging-attacks-by-us-irans-foreign-minister-says",
@@ -28,10 +28,10 @@
       "published_date": "2026-03-16T20:27:51+00:00",
       "marks": {
         "h1": "--",
-        "h2": "N/A",
+        "h2": "-",
         "h3": "++"
       },
-      "confidence": 0.6666666666666666
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/mar/02/gulf-states-iran-strikes-response",
@@ -40,11 +40,11 @@
       "source": "The Guardian",
       "published_date": "2026-03-02T16:04:36+00:00",
       "marks": {
-        "h1": "-",
-        "h2": "++",
+        "h1": "--",
+        "h2": "-",
         "h3": "++"
       },
-      "confidence": 0.7000000000000001
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/mar/10/how-eu-member-states-reacting-energy-crisis-iran-war",
@@ -53,11 +53,11 @@
       "source": "The Guardian",
       "published_date": "2026-03-10T16:46:30+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "++",
-        "h3": "--"
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
       },
-      "confidence": 0.7000000000000001
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/mar/20/gulf-states-weigh-up-options-iran-us-israel-conflict-middle-east-crisis-war",
@@ -66,11 +66,11 @@
       "source": "The Guardian",
       "published_date": "2026-03-20T15:35:22+00:00",
       "marks": {
-        "h1": "-",
-        "h2": "+",
+        "h1": "--",
+        "h2": "-",
         "h3": "++"
       },
-      "confidence": 0.6
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/apr/23/trump-may-talk-of-regime-infighting-but-iran-seems-united-by-strategy-born-of-war",
@@ -79,11 +79,11 @@
       "source": "The Guardian",
       "published_date": "2026-04-23T19:18:13+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "++",
-        "h3": "-"
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
       },
-      "confidence": 0.7333333333333334
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/mar/01/trump-iran-attack-2020-election-loss",
@@ -92,11 +92,11 @@
       "source": "The Guardian",
       "published_date": "2026-03-01T16:00:44+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "+",
+        "h1": "--",
+        "h2": "-",
         "h3": "++"
       },
-      "confidence": 0.7999999999999999
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/16/irans-top-envoy-says-peace-deal-with-the-us-dependent-on-israels-withdrawal-from-lebanon",
@@ -106,10 +106,10 @@
       "published_date": "2026-06-16T17:22:13+00:00",
       "marks": {
         "h1": "-",
-        "h2": "++",
+        "h2": "N/A",
         "h3": "++"
       },
-      "confidence": 0.5666666666666667
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/16/us-iran-deal-israel-relationship",
@@ -118,11 +118,11 @@
       "source": "The Guardian",
       "published_date": "2026-06-16T17:43:08+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "++",
-        "h3": "--"
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
       },
-      "confidence": 0.5
+      "confidence": 0.7333333333333334
     },
     {
       "article_id": "world/2026/may/25/shock-iran-war-middle-east-rivals-trump-peace-deal",
@@ -131,11 +131,11 @@
       "source": "The Guardian",
       "published_date": "2026-05-25T15:03:17+00:00",
       "marks": {
-        "h1": "-",
-        "h2": "++",
-        "h3": "--"
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
       },
-      "confidence": 0.7333333333333334
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/may/25/iran-denies-deal-us-imminent-israel-oman-strait-of-hormuz",
@@ -145,10 +145,10 @@
       "published_date": "2026-05-25T23:26:26+00:00",
       "marks": {
         "h1": "--",
-        "h2": "++",
+        "h2": "-",
         "h3": "++"
       },
-      "confidence": 0.6333333333333333
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/19/giorgia-meloni-stunned-donald-trump-claims-begged-him-photo",
@@ -157,11 +157,11 @@
       "source": "The Guardian",
       "published_date": "2026-06-19T14:10:19+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "++",
-        "h3": "--"
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
       },
-      "confidence": 0.5333333333333333
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/apr/24/iran-foreign-minister-to-embark-on-three-nation-tour-as-us-peace-talks-remain-stalled",
@@ -170,11 +170,11 @@
       "source": "The Guardian",
       "published_date": "2026-04-24T18:43:00+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "++",
+        "h1": "--",
+        "h2": "-",
         "h3": "++"
       },
-      "confidence": 0.5333333333333333
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/06/us-says-iran-radar-sites-struck-and-drones-intercepted-in-latest-threat-to-fragile-ceasefire",
@@ -183,11 +183,11 @@
       "source": "The Guardian",
       "published_date": "2026-06-06T11:09:31+00:00",
       "marks": {
-        "h1": "-",
-        "h2": "+",
+        "h1": "--",
+        "h2": "-",
         "h3": "++"
       },
-      "confidence": 0.7000000000000001
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/mar/16/airman-killed-iran-war-cousin",
@@ -196,11 +196,11 @@
       "source": "The Guardian",
       "published_date": "2026-03-16T12:34:38+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "+",
+        "h1": "--",
+        "h2": "-",
         "h3": "++"
       },
-      "confidence": 0.7666666666666666
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/15/tallying-the-global-cost-of-the-us-israel-war-against-iran",
@@ -209,11 +209,11 @@
       "source": "The Guardian",
       "published_date": "2026-06-15T13:45:01+00:00",
       "marks": {
-        "h1": "-",
-        "h2": "++",
+        "h1": "--",
+        "h2": "-",
         "h3": "++"
       },
-      "confidence": 0.6666666666666666
+      "confidence": 1.0
     }
   ]
 }

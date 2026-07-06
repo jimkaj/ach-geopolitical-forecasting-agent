@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260705_221818",
-  "last_update": "2026-07-05T22:18:18.710813",
+  "matrix_version": "20260705_234330",
+  "last_update": "2026-07-06T00:06:46.820770",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -15,10 +15,10 @@
       "published_date": "2026-05-13T21:31:52+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "++"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.8666666666666667
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/may/31/yves-sakila-death-congolese-man-ireland-race-relations",
@@ -31,7 +31,7 @@
         "h2": "N/A",
         "h3": "N/A"
       },
-      "confidence": 0.8666666666666667
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/16/eu-uk-announce-summit-reset-post-brexit-relations",
@@ -41,10 +41,10 @@
       "published_date": "2026-06-16T17:02:33+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
+        "h2": "N/A",
         "h3": "N/A"
       },
-      "confidence": 0.8666666666666667
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/may/15/matthew-wale-elected-solomon-islands-prime-minister",
@@ -53,11 +53,11 @@
       "source": "The Guardian",
       "published_date": "2026-05-15T02:43:43+00:00",
       "marks": {
-        "h1": "-",
-        "h2": "++",
-        "h3": "--"
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
       },
-      "confidence": 0.6333333333333333
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/apr/18/hungary-peter-magyar-donald-tusk-poland-europe",
@@ -67,10 +67,10 @@
       "published_date": "2026-04-18T11:00:12+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7333333333333334
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/apr/16/giorgia-meloni-relations-donald-trump-italy",
@@ -79,11 +79,11 @@
       "source": "The Guardian",
       "published_date": "2026-04-16T11:47:45+00:00",
       "marks": {
-        "h1": "-",
-        "h2": "++",
-        "h3": "--"
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.6
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/mar/30/us-reopens-embassy-venezuela",
@@ -93,10 +93,10 @@
       "published_date": "2026-03-30T17:27:57+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7333333333333334
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/may/07/marco-rubio-to-meet-pope-at-the-vatican-after-trump-attacks-on-pontiff",
@@ -106,10 +106,10 @@
       "published_date": "2026-05-08T18:31:23+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "++",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7666666666666666
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/apr/10/new-zealand-comfort-women-statue-could-jeopardise-diplomatic-relations-japan-says",
@@ -119,10 +119,10 @@
       "published_date": "2026-04-10T02:16:28+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "++"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7000000000000001
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/20/what-lessons-will-irans-new-leadership-draw-from-the-110-day-war",
@@ -132,10 +132,10 @@
       "published_date": "2026-06-20T10:00:01+00:00",
       "marks": {
         "h1": "-",
-        "h2": "++",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "+"
       },
-      "confidence": 0.6666666666666666
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/may/19/vladimir-putin-beijing-china-state-visit-xi-jinping-russia",
@@ -144,11 +144,11 @@
       "source": "The Guardian",
       "published_date": "2026-05-20T00:28:36+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "++",
-        "h3": "-"
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
       },
-      "confidence": 0.6666666666666666
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/21/canada-immigration-us-deportation",
@@ -158,10 +158,10 @@
       "published_date": "2026-06-21T07:00:24+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "++"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7999999999999999
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/may/12/uae-secret-attack-iran-risks-gulf-states-regional-conflict",
@@ -170,11 +170,11 @@
       "source": "The Guardian",
       "published_date": "2026-05-12T17:42:48+00:00",
       "marks": {
-        "h1": "++",
-        "h2": "-",
-        "h3": "++"
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
       },
-      "confidence": 0.3666666666666667
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/may/26/eu-could-deny-new-member-states-veto-rights-as-bloc-pushes-for-enlargement",
@@ -184,10 +184,10 @@
       "published_date": "2026-05-26T10:27:31+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
+        "h2": "N/A",
         "h3": "N/A"
       },
-      "confidence": 0.7666666666666666
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/may/19/china-exploits-trump-taiwan-weapons-sales-analysis",
@@ -196,11 +196,11 @@
       "source": "The Guardian",
       "published_date": "2026-05-19T00:22:53+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "+",
-        "h3": "-"
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
       },
-      "confidence": 0.6
+      "confidence": 0.7999999999999999
     },
     {
       "article_id": "world/2026/apr/24/india-trump-hellhole-post",
@@ -210,10 +210,10 @@
       "published_date": "2026-04-24T00:36:23+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "++"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.8666666666666667
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/mar/31/third-front-china-mao-military-factories-defences",
@@ -222,24 +222,24 @@
       "source": "The Guardian",
       "published_date": "2026-03-30T23:00:24+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "+",
+        "h1": "--",
+        "h2": "-",
         "h3": "++"
       },
-      "confidence": 0.9666666666666667
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/23/marco-rubio-gulf-allies-us-iran-ceasefire-deal",
-      "title": "Marco Rubio to meet Gulf allies amid division over US-Iran ceasefire deal",
+      "title": "Rubio insists strait of Hormuz will be toll-free as he arrives for Gulf meeting",
       "url": "https://www.theguardian.com/world/2026/jun/23/marco-rubio-gulf-allies-us-iran-ceasefire-deal",
       "source": "The Guardian",
-      "published_date": "2026-06-23T13:07:02+00:00",
+      "published_date": "2026-06-23T18:37:39+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7333333333333334
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/apr/10/gulf-states-rethink-security-us-israel-war-iran-ceasefire",
@@ -249,10 +249,10 @@
       "published_date": "2026-04-10T06:44:58+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.6666666666666666
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/may/22/camp-humphreys-south-korea-us-military-base",
@@ -261,11 +261,11 @@
       "source": "The Guardian",
       "published_date": "2026-05-22T00:25:59+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "++",
-        "h3": "-"
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
       },
-      "confidence": 0.5666666666666667
+      "confidence": 0.9666666666666667
     },
     {
       "article_id": "world/2026/mar/16/belgian-pm-bart-de-wever-call-repair-relations-russia-energy-costs-condemned",
@@ -275,10 +275,10 @@
       "published_date": "2026-03-16T16:38:11+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "++"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.8666666666666667
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/apr/09/majority-hungary-voters-back-continued-eu-membership-poll-finds-election-orban",
@@ -288,10 +288,10 @@
       "published_date": "2026-04-09T12:03:12+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.8333333333333334
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/apr/19/israel-europe-support-iran-war-orban-meloni",
@@ -301,10 +301,10 @@
       "published_date": "2026-04-19T11:36:05+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7000000000000001
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jan/30/trump-dangerous-uk-china-starmer-xi-jinping-beijing",
@@ -314,10 +314,10 @@
       "published_date": "2026-01-30T12:39:17+00:00",
       "marks": {
         "h1": "--",
-        "h2": "++",
+        "h2": "+",
         "h3": "++"
       },
-      "confidence": 0.7333333333333334
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/mar/31/pakistan-china-propose-five-part-peace-plan-middle-east",
@@ -327,10 +327,10 @@
       "published_date": "2026-03-31T15:30:15+00:00",
       "marks": {
         "h1": "-",
-        "h2": "++",
-        "h3": "++"
+        "h2": "+",
+        "h3": "-"
       },
-      "confidence": 0.5
+      "confidence": 0.9666666666666667
     },
     {
       "article_id": "world/2026/apr/30/taiwan-accuses-china-of-vegetable-laundering-via-vietnam",
@@ -340,10 +340,10 @@
       "published_date": "2026-04-30T05:25:51+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "-"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7999999999999999
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/24/dettol-apologises-toxic-men-advert-backlash-china",
@@ -353,10 +353,10 @@
       "published_date": "2026-06-24T07:16:22+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "++"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7666666666666666
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/26/russia-provocation-baltic-states-poland",
@@ -366,10 +366,10 @@
       "published_date": "2026-06-26T11:45:27+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "++"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.9666666666666667
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/25/three-recent-powerful-earthquakes-not-related",
@@ -379,10 +379,10 @@
       "published_date": "2026-06-26T00:01:12+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "+",
-        "h3": "--"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7333333333333334
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jul/02/china-japan-relations-tokyo-beijing-tensions",
@@ -391,11 +391,11 @@
       "source": "The Guardian",
       "published_date": "2026-07-01T23:56:14+00:00",
       "marks": {
-        "h1": "-",
-        "h2": "++",
-        "h3": "++"
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7333333333333334
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jul/05/founder-of-prominent-underground-church-released-from-prison-in-china",
@@ -404,11 +404,11 @@
       "source": "The Guardian",
       "published_date": "2026-07-05T01:40:15+00:00",
       "marks": {
-        "h1": "++",
-        "h2": "N/A",
+        "h1": "+",
+        "h2": "-",
         "h3": "-"
       },
-      "confidence": 0.8333333333333334
+      "confidence": 0.9333333333333332
     }
   ]
 }

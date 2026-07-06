@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260705_221820",
-  "last_update": "2026-07-05T22:18:20.365831",
+  "matrix_version": "20260706_002153",
+  "last_update": "2026-07-06T00:25:31.654082",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -14,11 +14,11 @@
       "source": "The Guardian",
       "published_date": "2026-03-28T05:00:19+00:00",
       "marks": {
-        "h1": "N/A",
-        "h2": "++",
+        "h1": "+",
+        "h2": "N/A",
         "h3": "-"
       },
-      "confidence": 0.5
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/may/26/iran-peace-deal-talks-us-bombing-ceasefire-strait-hormuz",
@@ -27,11 +27,11 @@
       "source": "The Guardian",
       "published_date": "2026-05-26T20:18:31+00:00",
       "marks": {
-        "h1": "++",
+        "h1": "+",
         "h2": "++",
         "h3": "-"
       },
-      "confidence": 0.5
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/mar/14/gulf-strait-of-hormuz-nightmare-anger-frustration-at-us",
@@ -41,10 +41,10 @@
       "published_date": "2026-03-14T14:27:01+00:00",
       "marks": {
         "h1": "N/A",
-        "h2": "++",
-        "h3": "--"
+        "h2": "N/A",
+        "h3": "N/A"
       },
-      "confidence": 0.7000000000000001
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/may/22/uranium-strait-of-hormuz-us-iran-war-talks-pakistan",
@@ -53,11 +53,11 @@
       "source": "The Guardian",
       "published_date": "2026-05-23T01:14:00+00:00",
       "marks": {
-        "h1": "++",
-        "h2": "N/A",
-        "h3": "--"
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
       },
-      "confidence": 0.7000000000000001
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/21/us-iran-talks-jd-vance-switzerland-strait-of-hormuz-lebanon",
@@ -66,11 +66,11 @@
       "source": "The Guardian",
       "published_date": "2026-06-22T01:57:50+00:00",
       "marks": {
-        "h1": "++",
-        "h2": "N/A",
-        "h3": "--"
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
       },
-      "confidence": 0.8666666666666667
+      "confidence": 0.7333333333333334
     }
   ]
 }

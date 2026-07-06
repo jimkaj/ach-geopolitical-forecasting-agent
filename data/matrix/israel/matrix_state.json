@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260705_221820",
-  "last_update": "2026-07-05T22:18:20.126257",
+  "matrix_version": "20260706_001804",
+  "last_update": "2026-07-06T00:21:53.676706",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -14,11 +14,11 @@
       "source": "The Guardian",
       "published_date": "2026-05-14T09:47:35+00:00",
       "marks": {
-        "h1": "++",
-        "h2": "N/A",
-        "h3": "--"
+        "h1": "+",
+        "h2": "-",
+        "h3": "N/A"
       },
-      "confidence": 0.7666666666666666
+      "confidence": 0.8666666666666667
     },
     {
       "article_id": "world/2026/may/01/trump-iran-war-hostilities-letter",
@@ -27,11 +27,11 @@
       "source": "The Guardian",
       "published_date": "2026-05-01T22:25:17+00:00",
       "marks": {
-        "h1": "++",
+        "h1": "+",
         "h2": "N/A",
-        "h3": "--"
+        "h3": "-"
       },
-      "confidence": 0.7666666666666666
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/08/israel-netanyahu-airstrikes-iran-retaliation-defies-trump",
@@ -40,11 +40,11 @@
       "source": "The Guardian",
       "published_date": "2026-06-08T09:22:15+00:00",
       "marks": {
-        "h1": "++",
-        "h2": "N/A",
-        "h3": "--"
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
       },
-      "confidence": 0.7999999999999999
+      "confidence": 1.0
     },
     {
       "article_id": "world/live/2026/may/26/iran-war-live-updates-us-attacks-iran-missile-sites-self-defence-during-peace-talks",
@@ -54,10 +54,10 @@
       "published_date": "2026-05-26T20:41:51+00:00",
       "marks": {
         "h1": "++",
-        "h2": "N/A",
-        "h3": "-"
+        "h2": "-",
+        "h3": "--"
       },
-      "confidence": 0.9333333333333332
+      "confidence": 0.8333333333333334
     },
     {
       "article_id": "world/live/2026/jun/15/iran-us-peace-deal-live-updates-trump-israel-lebanon-hormuz-nuclear-program-europe-response",
@@ -66,11 +66,11 @@
       "source": "The Guardian",
       "published_date": "2026-06-16T03:45:39+00:00",
       "marks": {
-        "h1": "++",
-        "h2": "N/A",
-        "h3": "-"
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
       },
-      "confidence": 0.7999999999999999
+      "confidence": 1.0
     }
   ]
 }

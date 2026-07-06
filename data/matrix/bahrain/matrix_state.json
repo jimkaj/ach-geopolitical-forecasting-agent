@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260705_221821",
-  "last_update": "2026-07-05T22:18:21.402467",
+  "matrix_version": "20260706_004834",
+  "last_update": "2026-07-06T00:49:59.890424",
   "hypothesis_names": {
     "h1": "Bahrain supports the United States",
     "h2": "Bahrain maintains a neutral stance with the United States",
@@ -15,10 +15,10 @@
       "published_date": "2026-05-14T13:11:37+00:00",
       "marks": {
         "h1": "++",
-        "h2": "N/A",
+        "h2": "-",
         "h3": "--"
       },
-      "confidence": 0.4000000000000001
+      "confidence": 1.0
     },
     {
       "article_id": "world/2026/jun/27/bahrain-iran-drone-attack-overnight-us-strikes-strait-hormuz",
@@ -28,10 +28,10 @@
       "published_date": "2026-06-27T16:49:24+00:00",
       "marks": {
         "h1": "++",
-        "h2": "N/A",
-        "h3": "-"
+        "h2": "-",
+        "h3": "--"
       },
-      "confidence": 0.6
+      "confidence": 1.0
     }
   ]
 }
