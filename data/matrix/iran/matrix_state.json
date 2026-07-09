@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260709_135253",
-  "last_update": "2026-07-09T13:52:53.492894",
+  "matrix_version": "20260709_142746",
+  "last_update": "2026-07-09T14:37:11.670479",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -212,6 +212,175 @@
         "h1": "--",
         "h2": "-",
         "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/09/iran-trade-strikes-ceasefire-extended-donald-trump",
+      "title": "US and Iran trade most intense strikes since ceasefire extended",
+      "url": "https://www.theguardian.com/world/2026/jul/09/iran-trade-strikes-ceasefire-extended-donald-trump",
+      "source": "The Guardian",
+      "published_date": "2026-07-09T14:03:20+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/03/ali-khamenei-six-day-funeral-millions-iran",
+      "title": "Ali Khamenei\u2019s six-day funeral expected to draw millions in Iran",
+      "url": "https://www.theguardian.com/world/2026/jul/03/ali-khamenei-six-day-funeral-millions-iran",
+      "source": "The Guardian",
+      "published_date": "2026-07-03T14:05:44+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/05/iran-control-strait-of-hormuz-ali-khamenei-funeral",
+      "title": "Iran seeks to tighten control over strait of Hormuz alongside Khamenei funeral",
+      "url": "https://www.theguardian.com/world/2026/jul/05/iran-control-strait-of-hormuz-ali-khamenei-funeral",
+      "source": "The Guardian",
+      "published_date": "2026-07-05T14:50:09+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/07/us-military-strikes-iran-war-latest-news-updates",
+      "title": "Middle East crisis: Trump threatens US will hit Iran \u2018hard again tonight\u2019 after saying truce is over \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/07/us-military-strikes-iran-war-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-08T18:39:57+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/07/qatar-says-iran-fully-responsible-after-tankers-struck-in-strait-of-hormuz",
+      "title": "US launches \u200bstrikes against Iran after attacks on vessels in strait \u200bof \u200bHormuz",
+      "url": "https://www.theguardian.com/world/2026/jul/07/qatar-says-iran-fully-responsible-after-tankers-struck-in-strait-of-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-07-07T21:58:51+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/05/iran-ali-khamenei-funeral-supreme-leader-mojtaba-absent",
+      "title": "Calls for killing of Trump at funeral of Iran supreme leader Ali Khamenei",
+      "url": "https://www.theguardian.com/world/2026/jul/05/iran-ali-khamenei-funeral-supreme-leader-mojtaba-absent",
+      "source": "The Guardian",
+      "published_date": "2026-07-05T17:39:40+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/08/oil-prices-rise-iran-attack-tankers-strait-of-hormuz",
+      "title": "Oil prices rise sharply after Iran launches attacks on tankers near strait of Hormuz",
+      "url": "https://www.theguardian.com/world/2026/jul/08/oil-prices-rise-iran-attack-tankers-strait-of-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-07-08T15:45:39+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz",
+      "title": "US and Iran threaten return to war after fiercest exchange of fire since truce",
+      "url": "https://www.theguardian.com/world/2026/jul/08/iran-us-war-ceasefire-peace-agreement-strikes-strait-of-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-07-08T18:32:47+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/08/atmosphere-in-iran-remains-highly-charged-after-ayatollahs-funeral-and-escalation-of-grievances-with-us",
+      "title": "Atmosphere in Iran remains highly charged after Ayatollah\u2019s funeral and escalation of grievances with US",
+      "url": "https://www.theguardian.com/world/2026/jul/08/atmosphere-in-iran-remains-highly-charged-after-ayatollahs-funeral-and-escalation-of-grievances-with-us",
+      "source": "The Guardian",
+      "published_date": "2026-07-08T19:05:46+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/07/millions-mourners-iran-regime-social-base",
+      "title": "Tehran teemed with Khamenei mourners, but divisions \u2013 and demands for change \u2013 remain",
+      "url": "https://www.theguardian.com/world/2026/jul/07/millions-mourners-iran-regime-social-base",
+      "source": "The Guardian",
+      "published_date": "2026-07-07T11:10:30+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/07/europe-faces-up-to-prospect-us-may-be-unable-to-arm-nato-allies",
+      "title": "Europe faces up to prospect US may be unable to arm Nato allies",
+      "url": "https://www.theguardian.com/world/2026/jul/07/europe-faces-up-to-prospect-us-may-be-unable-to-arm-nato-allies",
+      "source": "The Guardian",
+      "published_date": "2026-07-07T04:00:30+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/06/iran-tehran-ali-khamenei-funeral-day-four",
+      "title": "\u2018We are Iran\u2019s true missiles\u2019: millions gather in Tehran for day four of Ali Khamenei\u2019s funeral",
+      "url": "https://www.theguardian.com/world/2026/jul/06/iran-tehran-ali-khamenei-funeral-day-four",
+      "source": "The Guardian",
+      "published_date": "2026-07-06T18:54:35+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/06/keir-starmer-european-nato-us-ankara-summit",
+      "title": "Starmer to rally European allies at Nato summit amid concerns over US stance",
+      "url": "https://www.theguardian.com/world/2026/jul/06/keir-starmer-european-nato-us-ankara-summit",
+      "source": "The Guardian",
+      "published_date": "2026-07-06T21:30:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260709_135308",
-  "last_update": "2026-07-09T13:53:08.577563",
+  "matrix_version": "20260709_144315",
+  "last_update": "2026-07-09T14:45:33.576044",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -71,6 +71,45 @@
         "h3": "-"
       },
       "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/jul/09/world-cup-racism-increase-social-media-kylian-mbappe",
+      "title": "Increase in racism during World Cup reflects \u2018growing pattern of abuse\u2019",
+      "url": "https://www.theguardian.com/world/2026/jul/09/world-cup-racism-increase-social-media-kylian-mbappe",
+      "source": "The Guardian",
+      "published_date": "2026-07-09T09:36:34+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/06/ukraine-drone-deals-seven-nato-countries-end-of-year",
+      "title": "Ukraine hopes to sign \u2018drone deals\u2019 with seven Nato countries by end of year",
+      "url": "https://www.theguardian.com/world/2026/jul/06/ukraine-drone-deals-seven-nato-countries-end-of-year",
+      "source": "The Guardian",
+      "published_date": "2026-07-06T04:00:03+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/03/canada-alberta-pipeline",
+      "title": "New pipeline in Canada to proceed after C$150bn pledged to ease BC and First Nations concerns",
+      "url": "https://www.theguardian.com/world/2026/jul/03/canada-alberta-pipeline",
+      "source": "The Guardian",
+      "published_date": "2026-07-03T15:34:32+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260709_135244",
-  "last_update": "2026-07-09T13:52:44.980097",
+  "matrix_version": "20260709_140736",
+  "last_update": "2026-07-09T14:27:46.457011",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -409,6 +409,318 @@
         "h3": "-"
       },
       "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/jul/09/snakes-cobras-escape-breeding-farms-southern-china-flooding",
+      "title": "Venomous snakes escape breeding farms in southern China during flooding",
+      "url": "https://www.theguardian.com/world/2026/jul/09/snakes-cobras-escape-breeding-farms-southern-china-flooding",
+      "source": "The Guardian",
+      "published_date": "2026-07-09T08:08:20+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/06/typhoon-maysak-kills-two-and-forces-thousands-to-evacuate-in-china",
+      "title": "Typhoon Maysak kills two and forces thousands to evacuate in China",
+      "url": "https://www.theguardian.com/world/2026/jul/06/typhoon-maysak-kills-two-and-forces-thousands-to-evacuate-in-china",
+      "source": "The Guardian",
+      "published_date": "2026-07-06T17:50:08+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/03/china-man-small-plane-beijing-skyscraper-tower-mental-health-problems-statement",
+      "title": "China says man who flew plane into Beijing skyscraper had mental health problems",
+      "url": "https://www.theguardian.com/world/2026/jul/03/china-man-small-plane-beijing-skyscraper-tower-mental-health-problems-statement",
+      "source": "The Guardian",
+      "published_date": "2026-07-03T03:15:13+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/08/china-football-plenty-of-players-no-grassroots",
+      "title": "Plenty of players but no grassroots: can China ever grow into a footballing giant?",
+      "url": "https://www.theguardian.com/world/2026/jul/08/china-football-plenty-of-players-no-grassroots",
+      "source": "The Guardian",
+      "published_date": "2026-07-07T23:53:50+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/04/ukraine-war-briefing-germany-calls-reports-russian-soldiers-are-being-trained-in-china-deeply-disturbing",
+      "title": "Ukraine war briefing: Germany calls reports Russian soldiers are being trained in China \u2018deeply disturbing\u2019",
+      "url": "https://www.theguardian.com/world/2026/jul/04/ukraine-war-briefing-germany-calls-reports-russian-soldiers-are-being-trained-in-china-deeply-disturbing",
+      "source": "The Guardian",
+      "published_date": "2026-07-04T02:17:46+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/07/china-missile-test-where-when-timing-response-controversy",
+      "title": "China missile test: what do we know and why are countries in the region concerned?",
+      "url": "https://www.theguardian.com/world/2026/jul/07/china-missile-test-where-when-timing-response-controversy",
+      "source": "The Guardian",
+      "published_date": "2026-07-07T05:59:13+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/03/china-woman-sexual-harassment-me-too-court-victory",
+      "title": "\u2018I have successfully defended my personal dignity\u2019: woman wins rare MeToo court victory in China",
+      "url": "https://www.theguardian.com/world/2026/jul/03/china-woman-sexual-harassment-me-too-court-victory",
+      "source": "The Guardian",
+      "published_date": "2026-07-03T00:24:55+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/07/nato-braces-for-difficult-summit-as-trump-puts-pressure-on-spending",
+      "title": "Nato braces for difficult summit as Trump puts pressure on spending",
+      "url": "https://www.theguardian.com/world/2026/jul/07/nato-braces-for-difficult-summit-as-trump-puts-pressure-on-spending",
+      "source": "The Guardian",
+      "published_date": "2026-07-07T04:00:31+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/08/trump-nato-summit-greenland-us-turkey-rutte-marine-le-pen-europe-latest-news-updates",
+      "title": "Nato summit: Trump says US could let Ukraine make Patriots and renews criticism of Spain and UK \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/08/trump-nato-summit-greenland-us-turkey-rutte-marine-le-pen-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-08T17:38:54+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/07/trump-renews-call-us-take-over-greenland-nato",
+      "title": "Trump renews call for US to take over Greenland as he arrives for Nato summit",
+      "url": "https://www.theguardian.com/world/2026/jul/07/trump-renews-call-us-take-over-greenland-nato",
+      "source": "The Guardian",
+      "published_date": "2026-07-07T21:49:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/jul/08/trump-zelenskyy-vague-promise-licence-manufacture-patriot-missiles",
+      "title": "Trump gives Zelenskyy vague promise of licence to manufacture Patriot missiles",
+      "url": "https://www.theguardian.com/world/2026/jul/08/trump-zelenskyy-vague-promise-licence-manufacture-patriot-missiles",
+      "source": "The Guardian",
+      "published_date": "2026-07-08T16:30:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/08/murder-canada-sikh-activist-hardeep-singh-nijjar-indian-criminal-gang-leader-charged",
+      "title": "US charges Indian criminal gang leader with organising murder of Canadian Sikh activist",
+      "url": "https://www.theguardian.com/world/2026/jul/08/murder-canada-sikh-activist-hardeep-singh-nijjar-indian-criminal-gang-leader-charged",
+      "source": "The Guardian",
+      "published_date": "2026-07-08T18:34:20+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/07/prosaic-dreams-anthology-europe-wolfram-lotz",
+      "title": "Together in prosaic dreams: anthology reveals Europeans\u2019 anticlimactic subconscious",
+      "url": "https://www.theguardian.com/world/2026/jul/07/prosaic-dreams-anthology-europe-wolfram-lotz",
+      "source": "The Guardian",
+      "published_date": "2026-07-07T04:00:32+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/08/us-iran-strikes-trump-nato-summit-live-updates",
+      "title": "Ceasefire plunged into greater uncertainty amid fresh US strikes in Iran \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/08/us-iran-strikes-trump-nato-summit-live-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-09T02:39:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/07/chinese-government-tells-critics-not-to-overinterpret-missile-test-in-pacific-as-criticism-grows",
+      "title": "Australian PM says Chinese missile test could have caused \u2018considerable damage\u2019 if weaponised",
+      "url": "https://www.theguardian.com/world/2026/jul/07/chinese-government-tells-critics-not-to-overinterpret-missile-test-in-pacific-as-criticism-grows",
+      "source": "The Guardian",
+      "published_date": "2026-07-07T04:28:02+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/07/explosions-rock-damascus-near-hotel-where-french-president-was-staying",
+      "title": "Bombs explode near Damascus hotel housing Macron on Syria visit",
+      "url": "https://www.theguardian.com/world/2026/jul/07/explosions-rock-damascus-near-hotel-where-french-president-was-staying",
+      "source": "The Guardian",
+      "published_date": "2026-07-07T14:14:48+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/06/iran-middle-east-crisis-funeral-supreme-leader-ali-khamenei-tehran-latest-news-updates",
+      "title": "Middle East crisis: Funeral procession for supreme leader Ali Khamenei begins in Iran \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/06/iran-middle-east-crisis-funeral-supreme-leader-ali-khamenei-tehran-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-06T15:58:04+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/08/us-carries-out-another-wave-of-strikes-on-iran",
+      "title": "US launches strikes on Iran for a second day after Trump says agreement to end the war is \u2018over\u2019",
+      "url": "https://www.theguardian.com/world/2026/jul/08/us-carries-out-another-wave-of-strikes-on-iran",
+      "source": "The Guardian",
+      "published_date": "2026-07-09T02:42:09+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/09/iran-us-middle-east-strikes-centcom-bahrain-kuwait-qatar-strait-of-hormuz-latest-news-updates",
+      "title": "Trump says truce \u2018over\u2019 as Iran reports US attack near nuclear plant \u2013 Middle East crisis live",
+      "url": "https://www.theguardian.com/world/live/2026/jul/09/iran-us-middle-east-strikes-centcom-bahrain-kuwait-qatar-strait-of-hormuz-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-09T14:03:43+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/06/australia-fiji-defence-alliance-china-pacific-influence",
+      "title": "Australia and Fiji sign surprise defence alliance amid push to limit China\u2019s influence in the Pacific",
+      "url": "https://www.theguardian.com/world/2026/jul/06/australia-fiji-defence-alliance-china-pacific-influence",
+      "source": "The Guardian",
+      "published_date": "2026-07-06T03:40:44+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/09/thursday-briefing-nato-can-no-longer-count-on-us-protection-so-what-now-for-europe",
+      "title": "Thursday briefing: Nato can no longer count on US protection \u2013 so what now for Europe?",
+      "url": "https://www.theguardian.com/world/2026/jul/09/thursday-briefing-nato-can-no-longer-count-on-us-protection-so-what-now-for-europe",
+      "source": "The Guardian",
+      "published_date": "2026-07-09T05:46:00+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/08/trump-declares-ceasefire-iran-over-broadside-nato-summit",
+      "title": "Trump declares ceasefire with Iran over during angry broadside at Nato summit",
+      "url": "https://www.theguardian.com/world/2026/jul/08/trump-declares-ceasefire-iran-over-broadside-nato-summit",
+      "source": "The Guardian",
+      "published_date": "2026-07-08T11:50:36+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/06/ali-khamenei-funeral-procession-iran-supreme-leader",
+      "title": "Millions join funeral procession for Iran\u2019s supreme leader Ali Khamenei",
+      "url": "https://www.theguardian.com/world/2026/jul/06/ali-khamenei-funeral-procession-iran-supreme-leader",
+      "source": "The Guardian",
+      "published_date": "2026-07-06T17:25:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/08/erratic-trump-dominates-final-hours-nato-summit",
+      "title": "Sabre-rattling to \u2018tremendous love\u2019: erratic Trump dominates final hours of Nato summit",
+      "url": "https://www.theguardian.com/world/2026/jul/08/erratic-trump-dominates-final-hours-nato-summit",
+      "source": "The Guardian",
+      "published_date": "2026-07-08T19:00:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260709_135323",
-  "last_update": "2026-07-09T13:53:23.692302",
+  "matrix_version": "20260709_144535",
+  "last_update": "2026-07-09T14:47:13.752441",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -78,6 +78,32 @@
       "url": "https://www.theguardian.com/world/2026/jul/01/pakistan-roof-collapse-lahore-tutoring-learning-centre",
       "source": "The Guardian",
       "published_date": "2026-06-30T23:34:00+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/06/russia-launches-deadly-missile-drone-attacks-kyiv-ukraine",
+      "title": "Wave of Russian strikes in Ukraine kills at least 21 people on eve of Nato summit",
+      "url": "https://www.theguardian.com/world/2026/jul/06/russia-launches-deadly-missile-drone-attacks-kyiv-ukraine",
+      "source": "The Guardian",
+      "published_date": "2026-07-06T16:06:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/03/friday-briefing-the-us-at-250-who-gets-to-tell-the-story",
+      "title": "Friday briefing: The US at 250: who gets to tell the story?",
+      "url": "https://www.theguardian.com/world/2026/jul/03/friday-briefing-the-us-at-250-who-gets-to-tell-the-story",
+      "source": "The Guardian",
+      "published_date": "2026-07-03T05:47:24+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260709_135301",
-  "last_update": "2026-07-09T13:53:01.026886",
+  "matrix_version": "20260709_143711",
+  "last_update": "2026-07-09T14:43:15.305460",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -69,6 +69,110 @@
         "h1": "--",
         "h2": "-",
         "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/06/hamas-offers-hand-over-authority-gaza-us-backed-administration",
+      "title": "Hamas offers to hand over authority in Gaza to US-backed administration",
+      "url": "https://www.theguardian.com/world/2026/jul/06/hamas-offers-hand-over-authority-gaza-us-backed-administration",
+      "source": "The Guardian",
+      "published_date": "2026-07-06T17:47:39+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.6999999999999998
+    },
+    {
+      "article_id": "world/2026/jul/06/israel-command-system-identified-850000-targets-gaza-lebanon-war-supplier-elbit-systems",
+      "title": "Israeli command system identified 850,000 targets in Gaza and Lebanon wars, says supplier",
+      "url": "https://www.theguardian.com/world/2026/jul/06/israel-command-system-identified-850000-targets-gaza-lebanon-war-supplier-elbit-systems",
+      "source": "The Guardian",
+      "published_date": "2026-07-06T08:00:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/05/we-must-protect-palestinian-children-from-being-killed",
+      "title": "We must protect Palestinian children from being killed",
+      "url": "https://www.theguardian.com/world/2026/jul/05/we-must-protect-palestinian-children-from-being-killed",
+      "source": "The Guardian",
+      "published_date": "2026-07-05T16:04:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "australia-news/2026/jul/03/afp-investigating-alleged-war-crimes-committed-by-australian-citizen-serving-in-idf-in-gaza-ntwnfb",
+      "title": "AFP assessing allegation of Gaza war crimes committed by Australian citizen serving in IDF",
+      "url": "https://www.theguardian.com/australia-news/2026/jul/03/afp-investigating-alleged-war-crimes-committed-by-australian-citizen-serving-in-idf-in-gaza-ntwnfb",
+      "source": "The Guardian",
+      "published_date": "2026-07-02T19:44:18+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/04/crowds-gather-six-day-funeral-former-iranian-supreme-leader-ali-khamenei",
+      "title": "Crowds gather as six-day funeral for former Iranian supreme leader begins",
+      "url": "https://www.theguardian.com/world/2026/jul/04/crowds-gather-six-day-funeral-former-iranian-supreme-leader-ali-khamenei",
+      "source": "The Guardian",
+      "published_date": "2026-07-04T12:51:41+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "-",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/06/british-charity-friends-of-yeshivat-shavei-illegal-settlement-hebron",
+      "title": "UK charity funding school at heart of illegal Israeli settlement expansion",
+      "url": "https://www.theguardian.com/world/2026/jul/06/british-charity-friends-of-yeshivat-shavei-illegal-settlement-hebron",
+      "source": "The Guardian",
+      "published_date": "2026-07-06T21:37:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/03/spyware-used-against-mep-investigating-pegasus-abuses-report-finds",
+      "title": "Spyware used against MEP investigating Pegasus abuses, report finds",
+      "url": "https://www.theguardian.com/world/2026/jul/03/spyware-used-against-mep-investigating-pegasus-abuses-report-finds",
+      "source": "The Guardian",
+      "published_date": "2026-07-03T05:00:20+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/08/photo-palestinian-prisoner-corroborates-israeli-torture-claims",
+      "title": "Photo of bound Palestinian detainee corroborates Israeli torture reports, say rights groups",
+      "url": "https://www.theguardian.com/world/2026/jul/08/photo-palestinian-prisoner-corroborates-israeli-torture-claims",
+      "source": "The Guardian",
+      "published_date": "2026-07-08T14:23:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }
