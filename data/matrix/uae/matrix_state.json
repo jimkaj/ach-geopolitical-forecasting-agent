@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260709_144716",
-  "last_update": "2026-07-09T14:47:16.368411",
+  "matrix_version": "20260711_165340",
+  "last_update": "2026-07-11T16:54:26.693624",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -156,6 +156,19 @@
       "url": "https://www.theguardian.com/australia-news/2026/mar/04/wong-says-legality-of-strikes-on-iran-a-matter-for-israel-and-us-as-australia-sends-crisis-consular-teams-to-middle-east",
       "source": "The Guardian",
       "published_date": "2026-03-04T06:54:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/11/venezuela-quake-deaths-passes-4000-recovery-effort",
+      "title": "Venezuela quake death toll passes 4,000 as scale of recovery effort looms large",
+      "url": "https://www.theguardian.com/world/2026/jul/11/venezuela-quake-deaths-passes-4000-recovery-effort",
+      "source": "The Guardian",
+      "published_date": "2026-07-11T00:37:54+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

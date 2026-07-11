@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260709_144315",
-  "last_update": "2026-07-09T14:45:33.576044",
+  "matrix_version": "20260711_165251",
+  "last_update": "2026-07-11T16:53:37.275949",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -104,6 +104,19 @@
       "url": "https://www.theguardian.com/world/2026/jul/03/canada-alberta-pipeline",
       "source": "The Guardian",
       "published_date": "2026-07-03T15:34:32+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/09/iran-residents-terror-us-fresh-strikes-port-cities",
+      "title": "\u2018It was back-to-back explosions\u2019: Iranians recall 48 hours of terror after US attack on port cities",
+      "url": "https://www.theguardian.com/world/2026/jul/09/iran-residents-terror-us-fresh-strikes-port-cities",
+      "source": "The Guardian",
+      "published_date": "2026-07-09T15:02:25+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

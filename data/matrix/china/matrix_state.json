@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260709_140736",
-  "last_update": "2026-07-09T14:27:46.457011",
+  "matrix_version": "20260711_164705",
+  "last_update": "2026-07-11T16:52:47.569409",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -715,6 +715,97 @@
       "url": "https://www.theguardian.com/world/2026/jul/08/erratic-trump-dominates-final-hours-nato-summit",
       "source": "The Guardian",
       "published_date": "2026-07-08T19:00:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/10/weather-tracker-typhoon-leaves-people-stranded-on-rooftops-in-china",
+      "title": "Weather tracker: Typhoon leaves people stranded on rooftops in China",
+      "url": "https://www.theguardian.com/world/2026/jul/10/weather-tracker-typhoon-leaves-people-stranded-on-rooftops-in-china",
+      "source": "The Guardian",
+      "published_date": "2026-07-10T09:18:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/09/iran-mourns-khamenei-united-against-trump-and-uncertain-of-its-future",
+      "title": "Extra Edition: Iran mourns Khamenei united against Trump \u2013 and uncertain of its future",
+      "url": "https://www.theguardian.com/world/2026/jul/09/iran-mourns-khamenei-united-against-trump-and-uncertain-of-its-future",
+      "source": "The Guardian",
+      "published_date": "2026-07-09T15:44:30+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/10/protests-west-bengal-state-india-girl-murder-rape",
+      "title": "Protests engulf Indian state after rape and murder of 11-year-old girl",
+      "url": "https://www.theguardian.com/world/2026/jul/10/protests-west-bengal-state-india-girl-murder-rape",
+      "source": "The Guardian",
+      "published_date": "2026-07-10T13:43:13+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/11/nigeria-army-kills-bandits-north-western-state-zamfara",
+      "title": "Nigeria says army has killed 300 bandits in north-western state of Zamfara",
+      "url": "https://www.theguardian.com/world/2026/jul/11/nigeria-army-kills-bandits-north-western-state-zamfara",
+      "source": "The Guardian",
+      "published_date": "2026-07-11T11:59:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/11/europe-considers-proposals-navigational-fees-strait-of-hormuz-iran-us",
+      "title": "Europe considering proposals to allow navigation fees in strait of Hormuz",
+      "url": "https://www.theguardian.com/world/2026/jul/11/europe-considers-proposals-navigational-fees-strait-of-hormuz-iran-us",
+      "source": "The Guardian",
+      "published_date": "2026-07-11T04:32:15+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/10/one-million-women-without-humanitarian-support-un-report",
+      "title": "One million women lost access to humanitarian support in past 18 months, UN report says",
+      "url": "https://www.theguardian.com/world/2026/jul/10/one-million-women-without-humanitarian-support-un-report",
+      "source": "The Guardian",
+      "published_date": "2026-07-10T15:33:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/09/mexico-drug-lord-arrest-sinaloa-cartel-investigation",
+      "title": "Mexico investigates whether US lied about role in capture of drug lord",
+      "url": "https://www.theguardian.com/world/2026/jul/09/mexico-drug-lord-arrest-sinaloa-cartel-investigation",
+      "source": "The Guardian",
+      "published_date": "2026-07-09T18:17:49+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
