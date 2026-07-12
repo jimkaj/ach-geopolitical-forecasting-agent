@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260711_172123",
-  "last_update": "2026-07-11T17:21:23.020402",
+  "matrix_version": "20260712_203129",
+  "last_update": "2026-07-12T20:33:36.111191",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -806,6 +806,32 @@
       "url": "https://www.theguardian.com/world/2026/jul/09/mexico-drug-lord-arrest-sinaloa-cartel-investigation",
       "source": "The Guardian",
       "published_date": "2026-07-09T18:17:49+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/12/eu-accused-dragging-its-feet-ban-trade-israeli-settlements",
+      "title": "EU accused of dragging its feet over ban on trade with illegal Israeli settlements",
+      "url": "https://www.theguardian.com/world/2026/jul/12/eu-accused-dragging-its-feet-ban-trade-israeli-settlements",
+      "source": "The Guardian",
+      "published_date": "2026-07-12T05:00:09+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/12/iran-gulf-us-strikes-jordan-qatar-uae-strait-hormuz-latest-news-updates-live",
+      "title": "Middle East crisis live: Trump claims strait of Hormuz open to commercial traffic despite Iran earlier announcing closure \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/12/iran-gulf-us-strikes-jordan-qatar-uae-strait-hormuz-latest-news-updates-live",
+      "source": "The Guardian",
+      "published_date": "2026-07-12T14:57:09+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

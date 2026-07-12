@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260711_172124",
-  "last_update": "2026-07-11T17:21:24.642862",
+  "matrix_version": "20260712_203337",
+  "last_update": "2026-07-12T20:35:01.928915",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -173,6 +173,32 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/11/ro-khanna-congressman-detained-israel-settlers-west-bank",
+      "title": "US congressman says he was detained by armed Israeli settlers in occupied West Bank",
+      "url": "https://www.theguardian.com/world/2026/jul/11/ro-khanna-congressman-detained-israel-settlers-west-bank",
+      "source": "The Guardian",
+      "published_date": "2026-07-11T17:21:14+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed",
+      "title": "Trump rejects Iran\u2019s strait of Hormuz closure claim as fight for control goes on",
+      "url": "https://www.theguardian.com/world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed",
+      "source": "The Guardian",
+      "published_date": "2026-07-12T18:49:08+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
       },
       "confidence": 1.0
     }
