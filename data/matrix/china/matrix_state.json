@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260712_203129",
-  "last_update": "2026-07-12T20:33:36.111191",
+  "matrix_version": "20260713_130945",
+  "last_update": "2026-07-13T13:11:03.088353",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -832,6 +832,19 @@
       "url": "https://www.theguardian.com/world/live/2026/jul/12/iran-gulf-us-strikes-jordan-qatar-uae-strait-hormuz-latest-news-updates-live",
       "source": "The Guardian",
       "published_date": "2026-07-12T14:57:09+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/13/middle-east-crisis-live-us-launches-new-wave-of-strikes-on-iran-tehran-says-attacks-render-diplomacy-futile",
+      "title": "Iran launches retaliatory attacks after fresh US strikes \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/13/middle-east-crisis-live-us-launches-new-wave-of-strikes-on-iran-tehran-says-attacks-render-diplomacy-futile",
+      "source": "The Guardian",
+      "published_date": "2026-07-13T04:39:50+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260712_203336",
-  "last_update": "2026-07-12T20:33:36.136326",
+  "matrix_version": "20260713_131103",
+  "last_update": "2026-07-13T13:12:30.647653",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -381,6 +381,32 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/13/us-iran-war-missile-strikes-news-attacks-strait-of-hormuz",
+      "title": "US launches new wave of strikes against Iran as Tehran says diplomacy has proven \u2018futile\u2019",
+      "url": "https://www.theguardian.com/world/2026/jul/13/us-iran-war-missile-strikes-news-attacks-strait-of-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-07-13T11:35:55+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/13/us-iran-strikes-middle-east-strait-of-hormuz-military-latest-news-updates",
+      "title": "Traffic through strait of Hormuz plummets after US and Iran trade strikes \u2013 Middle East crisis live",
+      "url": "https://www.theguardian.com/world/live/2026/jul/13/us-iran-strikes-middle-east-strait-of-hormuz-military-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-13T13:03:38+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
       },
       "confidence": 1.0
     }
