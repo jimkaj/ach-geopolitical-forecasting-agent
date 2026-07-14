@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260713_131233",
-  "last_update": "2026-07-13T13:12:33.546698",
+  "matrix_version": "20260714_151317",
+  "last_update": "2026-07-14T15:14:10.469391",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -104,6 +104,19 @@
       "url": "https://www.theguardian.com/world/2026/jul/03/friday-briefing-the-us-at-250-who-gets-to-tell-the-story",
       "source": "The Guardian",
       "published_date": "2026-07-03T05:47:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/13/emmanuel-macron-keir-starmer-friedrich-merz-volodymyr-zelenskyy-coalition-of-the-willing-ukraine-russia-latest-news-updates",
+      "title": "Leaders give press conference after \u2018coalition of the willing\u2019 meeting in Paris \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/13/emmanuel-macron-keir-starmer-friedrich-merz-volodymyr-zelenskyy-coalition-of-the-willing-ukraine-russia-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-13T19:22:35+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

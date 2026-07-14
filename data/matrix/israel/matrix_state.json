@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260713_131230",
-  "last_update": "2026-07-13T13:12:30.657243",
+  "matrix_version": "20260714_151108",
+  "last_update": "2026-07-14T15:12:31.005525",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -199,6 +199,32 @@
         "h1": "+",
         "h2": "N/A",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/13/israel-sets-october-date-first-elections-since-hamas-attacks-2023",
+      "title": "Israel sets October date for first elections since Hamas attacks in 2023",
+      "url": "https://www.theguardian.com/world/2026/jul/13/israel-sets-october-date-first-elections-since-hamas-attacks-2023",
+      "source": "The Guardian",
+      "published_date": "2026-07-13T18:08:18+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "+"
+      },
+      "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/jul/13/israel-courted-mahmoud-ahmadinejad-iran-former-hardline-president-post-regime-role-reports-claim",
+      "title": "Israel courted Iran\u2019s former hardline president for post-regime role, reports claim",
+      "url": "https://www.theguardian.com/world/2026/jul/13/israel-courted-mahmoud-ahmadinejad-iran-former-hardline-president-post-regime-role-reports-claim",
+      "source": "The Guardian",
+      "published_date": "2026-07-13T17:36:49+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "-",
+        "h3": "--"
       },
       "confidence": 1.0
     }

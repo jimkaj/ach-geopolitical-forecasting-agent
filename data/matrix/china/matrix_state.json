@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260713_130945",
-  "last_update": "2026-07-13T13:11:03.088353",
+  "matrix_version": "20260714_150821",
+  "last_update": "2026-07-14T15:09:42.786189",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -851,6 +851,19 @@
         "h3": "N/A"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/14/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-trump-latest-news",
+      "title": "Explosions heard across Iran, state media reports, after UAE oil tankers hit in Hormuz strait \u2013 Middle East crisis live",
+      "url": "https://www.theguardian.com/world/live/2026/jul/14/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-trump-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-07-14T14:51:12+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 0.9666666666666667
     }
   ]
 }

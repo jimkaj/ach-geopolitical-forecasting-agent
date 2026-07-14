@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260713_131103",
-  "last_update": "2026-07-13T13:12:30.647653",
+  "matrix_version": "20260714_150942",
+  "last_update": "2026-07-14T15:11:08.031473",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -403,6 +403,32 @@
       "url": "https://www.theguardian.com/world/live/2026/jul/13/us-iran-strikes-middle-east-strait-of-hormuz-military-latest-news-updates",
       "source": "The Guardian",
       "published_date": "2026-07-13T13:03:38+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/14/us-strikes-iran-bahrain-jordan-uae-tankers",
+      "title": "Iran targets Bahrain and Jordan in retaliation as US strikes continue",
+      "url": "https://www.theguardian.com/world/2026/jul/14/us-strikes-iran-bahrain-jordan-uae-tankers",
+      "source": "The Guardian",
+      "published_date": "2026-07-14T13:35:15+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/13/us-launches-third-night-of-strikes-on-iran-as-trump-announces-hormuz-blockade",
+      "title": "US launches third night of strikes on Iran as Trump announces Hormuz blockade",
+      "url": "https://www.theguardian.com/world/2026/jul/13/us-launches-third-night-of-strikes-on-iran-as-trump-announces-hormuz-blockade",
+      "source": "The Guardian",
+      "published_date": "2026-07-13T22:43:12+00:00",
       "marks": {
         "h1": "--",
         "h2": "-",
