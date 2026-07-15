@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260714_150821",
-  "last_update": "2026-07-14T15:09:42.786189",
+  "matrix_version": "20260715_192759",
+  "last_update": "2026-07-15T19:31:41.008428",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -864,6 +864,58 @@
         "h3": "-"
       },
       "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/jul/13/mexico-criminal-complaint-migrant-ice-deaths",
+      "title": "Mexico to demand criminal complaints over migrants killed by ICE in US",
+      "url": "https://www.theguardian.com/world/2026/jul/13/mexico-criminal-complaint-migrant-ice-deaths",
+      "source": "The Guardian",
+      "published_date": "2026-07-13T22:06:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/15/chaos-confusion-no-closer-resolution-strait-hormuz-us-iran-donald-trump",
+      "title": "Chaos and confusion bring US no closer to resolution on strait of Hormuz",
+      "url": "https://www.theguardian.com/world/2026/jul/15/chaos-confusion-no-closer-resolution-strait-hormuz-us-iran-donald-trump",
+      "source": "The Guardian",
+      "published_date": "2026-07-15T17:32:52+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/14/eu-rejects-trump-administration-claims-icc-threatens-us-sovereignty",
+      "title": "EU rejects Trump administration claims that ICC threatens US sovereignty",
+      "url": "https://www.theguardian.com/world/2026/jul/14/eu-rejects-trump-administration-claims-icc-threatens-us-sovereignty",
+      "source": "The Guardian",
+      "published_date": "2026-07-14T15:41:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/15/ursula-von-der-leyen-ukraine-russia-volodymyr-zelenskyy-vladimir-putin-europe-live-news",
+      "title": "Moscow warns that foreign troops in Ukraine would be seen as legitimate targets \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/15/ursula-von-der-leyen-ukraine-russia-volodymyr-zelenskyy-vladimir-putin-europe-live-news",
+      "source": "The Guardian",
+      "published_date": "2026-07-15T15:15:38+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
     }
   ]
 }

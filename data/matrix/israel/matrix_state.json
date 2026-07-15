@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260714_151108",
-  "last_update": "2026-07-14T15:12:31.005525",
+  "matrix_version": "20260715_193316",
+  "last_update": "2026-07-15T19:35:32.543770",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -225,6 +225,45 @@
         "h1": "++",
         "h2": "-",
         "h3": "--"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/14/us-military-aid-israel-house-democrats",
+      "title": "Top House Democrats vow to oppose bid to cut US military aid to Israel",
+      "url": "https://www.theguardian.com/world/2026/jul/14/us-military-aid-israel-house-democrats",
+      "source": "The Guardian",
+      "published_date": "2026-07-14T21:07:48+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/jul/15/gaza-flotilla-activist-rape-complaint-israel-anna-liedtke",
+      "title": "\u2018They want to break our will\u2019: Gaza flotilla activist tells of rape in Israeli detention",
+      "url": "https://www.theguardian.com/world/2026/jul/15/gaza-flotilla-activist-rape-complaint-israel-anna-liedtke",
+      "source": "The Guardian",
+      "published_date": "2026-07-15T13:00:55+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/14/the-uk-and-international-law-palestine-is-the-test",
+      "title": "The UK and international law \u2013 Palestine is the test",
+      "url": "https://www.theguardian.com/world/2026/jul/14/the-uk-and-international-law-palestine-is-the-test",
+      "source": "The Guardian",
+      "published_date": "2026-07-14T16:36:22+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }
