@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260715_193141",
-  "last_update": "2026-07-15T19:33:16.202176",
+  "matrix_version": "20260718_152814",
+  "last_update": "2026-07-18T15:32:31.696586",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -455,6 +455,84 @@
       "url": "https://www.theguardian.com/world/live/2026/jul/15/us-iran-war-live-updates-strikes-trump-power-plants-bridges-middle-east-crisis-latest-news",
       "source": "The Guardian",
       "published_date": "2026-07-15T19:21:48+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/17/us-marines-board-ship-gulf-oman-expanded-airstrikes-iran",
+      "title": "US hits civilian infrastructure as it expands strikes against Iran",
+      "url": "https://www.theguardian.com/world/2026/jul/17/us-marines-board-ship-gulf-oman-expanded-airstrikes-iran",
+      "source": "The Guardian",
+      "published_date": "2026-07-17T16:06:19+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/17/us-launches-seventh-night-of-iran-strikes-as-hormuz-conflict-escalates",
+      "title": "US launches seventh night of Iran strikes as Hormuz conflict escalates",
+      "url": "https://www.theguardian.com/world/2026/jul/17/us-launches-seventh-night-of-iran-strikes-as-hormuz-conflict-escalates",
+      "source": "The Guardian",
+      "published_date": "2026-07-18T06:03:13+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/17/iran-inflict-damage-us-attacks",
+      "title": "Iran proves it can still inflict damage despite waves of US attacks",
+      "url": "https://www.theguardian.com/world/2026/jul/17/iran-inflict-damage-us-attacks",
+      "source": "The Guardian",
+      "published_date": "2026-07-17T14:52:10+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/18/trump-iran-war-political-midterm-risk",
+      "title": "Why is Trump risking midterm disaster by resuming an already unpopular war with Iran?",
+      "url": "https://www.theguardian.com/world/2026/jul/18/trump-iran-war-political-midterm-risk",
+      "source": "The Guardian",
+      "published_date": "2026-07-18T09:00:02+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/16/us-gas-prices-rise-strait-of-hormuz",
+      "title": "US gas prices edge up again as US-Iran tensions heighten over strait of Hormuz",
+      "url": "https://www.theguardian.com/world/2026/jul/16/us-gas-prices-rise-strait-of-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-07-16T12:26:57+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/17/us-iran-war-strait-of-hormuz-donald-trump-israel-lebanon-latest-news-updates",
+      "title": "Iranian airport and bridges hit as US forces board ship amid ports blockade \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/17/us-iran-war-strait-of-hormuz-donald-trump-israel-lebanon-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-17T14:24:32+00:00",
       "marks": {
         "h1": "--",
         "h2": "-",

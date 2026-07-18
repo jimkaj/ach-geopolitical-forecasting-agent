@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260715_192759",
-  "last_update": "2026-07-15T19:31:41.008428",
+  "matrix_version": "20260718_151824",
+  "last_update": "2026-07-18T15:28:14.749230",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -910,6 +910,162 @@
       "url": "https://www.theguardian.com/world/live/2026/jul/15/ursula-von-der-leyen-ukraine-russia-volodymyr-zelenskyy-vladimir-putin-europe-live-news",
       "source": "The Guardian",
       "published_date": "2026-07-15T15:15:38+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/16/us-intensifies-attacks-on-iran-as-tehran-hits-back-at-gulf-states",
+      "title": "US intensifies attacks on Iran as Tehran hits back at Gulf states",
+      "url": "https://www.theguardian.com/world/2026/jul/16/us-intensifies-attacks-on-iran-as-tehran-hits-back-at-gulf-states",
+      "source": "The Guardian",
+      "published_date": "2026-07-16T16:32:18+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/17/even-politburo-members-can-be-touched-what-the-latest-purge-says-about-xi-jinpings-china",
+      "title": "\u2018Even Politburo members can be touched\u2019: what the latest purge says about Xi Jinping\u2019s China",
+      "url": "https://www.theguardian.com/world/2026/jul/17/even-politburo-members-can-be-touched-what-the-latest-purge-says-about-xi-jinpings-china",
+      "source": "The Guardian",
+      "published_date": "2026-07-17T02:06:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/17/zelenskyy-defends-sacking-ukraine-defence-minister-mykhailo-fedorov",
+      "title": "Political crisis and protests in Ukraine as Zelenskyy defends sacking defence minister",
+      "url": "https://www.theguardian.com/world/2026/jul/17/zelenskyy-defends-sacking-ukraine-defence-minister-mykhailo-fedorov",
+      "source": "The Guardian",
+      "published_date": "2026-07-16T18:25:48+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/16/thursday-briefing-why-magical-kingdoms-feel-more-relatable-than-realworld-romance-for-todays-young-women",
+      "title": "Thursday briefing: Why magical kingdoms feel more relatable than real\u2011world romance\u200b for today\u2019s young women",
+      "url": "https://www.theguardian.com/world/2026/jul/16/thursday-briefing-why-magical-kingdoms-feel-more-relatable-than-realworld-romance-for-todays-young-women",
+      "source": "The Guardian",
+      "published_date": "2026-07-16T05:49:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/17/ukraine-war-briefing-outgoing-british-pm-starmer-tells-zelenskyy-that-kyiv-will-win-this-war",
+      "title": "Ukraine war briefing: Kyiv \u2018will win this war\u2019, Keir Starmer tells Zelenskyy on final trip as PM",
+      "url": "https://www.theguardian.com/world/2026/jul/17/ukraine-war-briefing-outgoing-british-pm-starmer-tells-zelenskyy-that-kyiv-will-win-this-war",
+      "source": "The Guardian",
+      "published_date": "2026-07-17T00:31:07+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/16/iran-us-donald-trump-war-strait-hormuz-oil-israel-lebanon-latest-news-updates",
+      "title": "Iran reports fresh strikes near Qeshm Island and accuses US over \u2018barbaric\u2019 hospital attack \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/16/iran-us-donald-trump-war-strait-hormuz-oil-israel-lebanon-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-16T16:47:55+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/16/us-attacks-oil-tanker-strait-of-hormuz-iran-tehran-strikes",
+      "title": "US attacks oil tanker in strait of Hormuz as strikes reported in Tehran",
+      "url": "https://www.theguardian.com/world/2026/jul/16/us-attacks-oil-tanker-strait-of-hormuz-iran-tehran-strikes",
+      "source": "The Guardian",
+      "published_date": "2026-07-16T02:40:19+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/17/cuban-dissident-artist-luis-manuel-otero-alcantara-cleared-to-travel-to-us",
+      "title": "Cuban dissident artist Luis Manuel Otero Alc\u00e1ntara cleared to travel to US",
+      "url": "https://www.theguardian.com/world/2026/jul/17/cuban-dissident-artist-luis-manuel-otero-alcantara-cleared-to-travel-to-us",
+      "source": "The Guardian",
+      "published_date": "2026-07-17T22:28:42+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/16/europe-ukraine-russia-zelenskyy-starmer-macron-merz-latest-news-updates",
+      "title": "Outrage at sacking of Ukraine\u2019s defence minister overshadows Starmer\u2019s final visit as PM \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/16/europe-ukraine-russia-zelenskyy-starmer-macron-merz-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-16T15:06:49+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/13/ukraine-war-briefing-zelenskyy-replaces-pm-and-flags-law-enforcement-overhaul",
+      "title": "Ukraine war briefing: Zelenskyy replaces PM and flags law enforcement overhaul",
+      "url": "https://www.theguardian.com/world/2026/jul/13/ukraine-war-briefing-zelenskyy-replaces-pm-and-flags-law-enforcement-overhaul",
+      "source": "The Guardian",
+      "published_date": "2026-07-13T00:42:27+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/12/ukraine-war-briefing-zelenskyy-decries-housing-of-weapons-in-civilian-area-kyiv-russian-strike-deaths",
+      "title": "Ukraine war briefing: Zelenskyy decries housing of weapons in civilian area after Russian strike kills 10",
+      "url": "https://www.theguardian.com/world/2026/jul/12/ukraine-war-briefing-zelenskyy-decries-housing-of-weapons-in-civilian-area-kyiv-russian-strike-deaths",
+      "source": "The Guardian",
+      "published_date": "2026-07-12T02:13:27+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/18/cuba-edges-toward-breakdown-as-power-cuts-and-us-meddling-push-society-to-brink",
+      "title": "Cuba edges toward breakdown as power cuts and US meddling push society to brink",
+      "url": "https://www.theguardian.com/world/2026/jul/18/cuba-edges-toward-breakdown-as-power-cuts-and-us-meddling-push-society-to-brink",
+      "source": "The Guardian",
+      "published_date": "2026-07-18T13:14:57+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
