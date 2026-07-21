@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260718_151824",
-  "last_update": "2026-07-18T15:28:14.749230",
+  "matrix_version": "20260721_162556",
+  "last_update": "2026-07-21T16:32:50.689133",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -1070,6 +1070,110 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/21/chinese-ship-opens-fire-japan-economic-zone-south-china-sea",
+      "title": "Chinese warship holds live-fire drills inside Japan\u2019s economic waters for first time",
+      "url": "https://www.theguardian.com/world/2026/jul/21/chinese-ship-opens-fire-japan-economic-zone-south-china-sea",
+      "source": "The Guardian",
+      "published_date": "2026-07-21T04:20:26+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/20/us-state-department-list-leftists-cuba",
+      "title": "\u2018Front groups and fellow travelers\u2019: state department attacks US left over Cuba",
+      "url": "https://www.theguardian.com/world/2026/jul/20/us-state-department-list-leftists-cuba",
+      "source": "The Guardian",
+      "published_date": "2026-07-20T22:50:46+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/20/canada-air-quality-warnings-us-wildfire-smoke-trump-tariffs",
+      "title": "Canada issues air quality warnings over US wildfire smoke after Trump tariff threat",
+      "url": "https://www.theguardian.com/world/2026/jul/20/canada-air-quality-warnings-us-wildfire-smoke-trump-tariffs",
+      "source": "The Guardian",
+      "published_date": "2026-07-20T15:52:58+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/19/middle-east-crisis-live-us-launches-new-round-of-airstrikes-to-swiftly-punish-iran-after-american-troops-killed",
+      "title": "Middle East crisis: US military says service member killed during \u2018controlled detonation\u2019 of downed Iranian drone \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/19/middle-east-crisis-live-us-launches-new-round-of-airstrikes-to-swiftly-punish-iran-after-american-troops-killed",
+      "source": "The Guardian",
+      "published_date": "2026-07-19T20:25:52+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/21/us-state-department-report-cuba",
+      "title": "US claims of Cuba\u2019s \u2018unique threat\u2019 jar with reality of hunger and blackouts",
+      "url": "https://www.theguardian.com/world/2026/jul/21/us-state-department-report-cuba",
+      "source": "The Guardian",
+      "published_date": "2026-07-21T13:33:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/20/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-latest-news",
+      "title": "US issues \u2018worldwide caution\u2019 for American citizens \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/20/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-07-21T05:32:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/21/ukraine-russia-zelenskyy-greece-italy-spain-france-social-media-latest-news-updates",
+      "title": "Prosecutors in Hungary raid offices of Viktor Orb\u00e1n\u2019s Fidesz and seize databases, says party \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/21/ukraine-russia-zelenskyy-greece-italy-spain-france-social-media-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-21T15:05:49+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/21/us-iran-war-live-updates-strait-of-hormuz-attacks-houthis-blockade-red-sea-middle-east-crisis-latest-news",
+      "title": "Trump pledges to \u2018take care of\u2019 Houthis if group blocks Saudi ships \u2013 Middle East crisis live",
+      "url": "https://www.theguardian.com/world/live/2026/jul/21/us-iran-war-live-updates-strait-of-hormuz-attacks-houthis-blockade-red-sea-middle-east-crisis-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-07-21T16:18:01+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
       },
       "confidence": 1.0
     }

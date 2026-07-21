@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260718_153231",
-  "last_update": "2026-07-18T15:34:44.495926",
+  "matrix_version": "20260721_163540",
+  "last_update": "2026-07-21T16:37:14.784393",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -299,6 +299,32 @@
       "url": "https://www.theguardian.com/world/2026/jul/17/israeli-strike-gaza-funeral-multiple-deaths",
       "source": "The Guardian",
       "published_date": "2026-07-17T16:06:37+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/19/israel-threatens-to-seize-ancient-water-reservoirs-near-bethlehem",
+      "title": "Israel threatens to seize ancient water reservoirs near Bethlehem",
+      "url": "https://www.theguardian.com/world/2026/jul/19/israel-threatens-to-seize-ancient-water-reservoirs-near-bethlehem",
+      "source": "The Guardian",
+      "published_date": "2026-07-19T06:00:19+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/19/inside-church-of-england-debate-over-palestine-gaza",
+      "title": "\u2018We hear your voices\u2019: inside the Church of England\u2019s debate over Palestine",
+      "url": "https://www.theguardian.com/world/2026/jul/19/inside-church-of-england-debate-over-palestine-gaza",
+      "source": "The Guardian",
+      "published_date": "2026-07-19T10:52:36+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260718_152814",
-  "last_update": "2026-07-18T15:32:31.696586",
+  "matrix_version": "20260721_163250",
+  "last_update": "2026-07-21T16:35:40.218154",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -533,6 +533,58 @@
       "url": "https://www.theguardian.com/world/live/2026/jul/17/us-iran-war-strait-of-hormuz-donald-trump-israel-lebanon-latest-news-updates",
       "source": "The Guardian",
       "published_date": "2026-07-17T14:24:32+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/19/israel-threatens-full-force-response-iran-fires-missiles",
+      "title": "Israel threatens \u2018full force\u2019 response if Iran fires missiles towards it",
+      "url": "https://www.theguardian.com/world/2026/jul/19/israel-threatens-full-force-response-iran-fires-missiles",
+      "source": "The Guardian",
+      "published_date": "2026-07-19T17:30:32+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/20/us-strikes-iran-strait-of-hormuz-oil-prices",
+      "title": "US launches 10th round of strikes as Iran says it is in \u2018full-scale war\u2019",
+      "url": "https://www.theguardian.com/world/2026/jul/20/us-strikes-iran-strait-of-hormuz-oil-prices",
+      "source": "The Guardian",
+      "published_date": "2026-07-20T20:19:46+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/21/us-troops-injured-killed-iran-war-attacks-pentagon",
+      "title": "Almost 100 troops injured in recent weeks, Pentagon admits, as Iran launches reprisals on US allies",
+      "url": "https://www.theguardian.com/world/2026/jul/21/us-troops-injured-killed-iran-war-attacks-pentagon",
+      "source": "The Guardian",
+      "published_date": "2026-07-21T04:09:54+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/18/iran-attacks-us-allies-in-middle-east-in-second-week-of-renewed-conflict",
+      "title": "Two US troops killed and one missing in Jordan after Iranian attacks",
+      "url": "https://www.theguardian.com/world/2026/jul/18/iran-attacks-us-allies-in-middle-east-in-second-week-of-renewed-conflict",
+      "source": "The Guardian",
+      "published_date": "2026-07-19T04:41:49+00:00",
       "marks": {
         "h1": "--",
         "h2": "-",
