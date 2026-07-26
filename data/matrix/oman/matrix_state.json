@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260726_015116",
-  "last_update": "2026-07-26T01:52:02.856323",
+  "matrix_version": "20260726_192842",
+  "last_update": "2026-07-26T19:29:29.435869",
   "hypothesis_names": {
     "h1": "Oman supports the United States",
     "h2": "Oman maintains a neutral stance with the United States",
@@ -156,6 +156,19 @@
       "url": "https://www.theguardian.com/world/2026/jul/23/aviation-hero-arthur-whitten-brown-long-lost-granddaughter-uncovers-secret-past",
       "source": "The Guardian",
       "published_date": "2026-07-23T05:00:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/26/uk-prediction-market-boom-regulation-polymarket-gambling",
+      "title": "Will prediction market \u2018catch fire\u2019 in UK, replicating US boom?",
+      "url": "https://www.theguardian.com/world/2026/jul/26/uk-prediction-market-boom-regulation-polymarket-gambling",
+      "source": "The Guardian",
+      "published_date": "2026-07-26T13:00:11+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

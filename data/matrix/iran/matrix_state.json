@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260726_014002",
-  "last_update": "2026-07-26T01:45:42.478975",
+  "matrix_version": "20260726_192609",
+  "last_update": "2026-07-26T19:27:54.752836",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -689,6 +689,19 @@
       "url": "https://www.theguardian.com/world/2026/jul/22/pickaxe-mountain-iran-nuclear-site-trump",
       "source": "The Guardian",
       "published_date": "2026-07-22T03:02:03+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/26/us-pauses-trump-netanyahu-attacks-on-iran-talks-hormuz",
+      "title": "US pauses Iran attacks for second night after Trump advised to halt bombing",
+      "url": "https://www.theguardian.com/world/2026/jul/26/us-pauses-trump-netanyahu-attacks-on-iran-talks-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-07-26T18:45:41+00:00",
       "marks": {
         "h1": "--",
         "h2": "-",

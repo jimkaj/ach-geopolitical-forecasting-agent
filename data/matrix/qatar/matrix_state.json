@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260726_014755",
-  "last_update": "2026-07-26T01:50:24.983220",
+  "matrix_version": "20260726_192755",
+  "last_update": "2026-07-26T19:28:39.271688",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -162,6 +162,19 @@
         "h3": "N/A"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/26/sheikh-hamad-bin-khalifa-al-thani-obituary",
+      "title": "Sheikh Hamad bin Khalifa Al Thani obituary",
+      "url": "https://www.theguardian.com/world/2026/jul/26/sheikh-hamad-bin-khalifa-al-thani-obituary",
+      "source": "The Guardian",
+      "published_date": "2026-07-26T16:08:01+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "-",
+        "h3": "-"
+      },
+      "confidence": 0.8666666666666667
     }
   ]
 }
