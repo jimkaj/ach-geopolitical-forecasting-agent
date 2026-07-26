@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260721_163250",
-  "last_update": "2026-07-21T16:35:40.218154",
+  "matrix_version": "20260726_014002",
+  "last_update": "2026-07-26T01:45:42.478975",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -585,6 +585,110 @@
       "url": "https://www.theguardian.com/world/2026/jul/18/iran-attacks-us-allies-in-middle-east-in-second-week-of-renewed-conflict",
       "source": "The Guardian",
       "published_date": "2026-07-19T04:41:49+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/23/iran-crisis-is-not-solely-a-product-of-trumps-rule",
+      "title": "Iran crisis is not solely a product of Trump\u2019s rule",
+      "url": "https://www.theguardian.com/world/2026/jul/23/iran-crisis-is-not-solely-a-product-of-trumps-rule",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T15:26:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/23/trump-says-he-is-close-to-decision-on-largest-yet-attack-on-iran",
+      "title": "Donald Trump says decision on \u2018massive attack\u2019 against Iran is close",
+      "url": "https://www.theguardian.com/world/2026/jul/23/trump-says-he-is-close-to-decision-on-largest-yet-attack-on-iran",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T16:58:25+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/23/houthis-claim-attack-ship-tanker-saudi-arabia-red-sea",
+      "title": "Houthis claim strikes on two Saudi tankers as US attacks on Iran widen",
+      "url": "https://www.theguardian.com/world/2026/jul/23/houthis-claim-attack-ship-tanker-saudi-arabia-red-sea",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T04:19:03+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/22/wednesday-briefing-how-trumps-iran-gamble-has-produced-a-crisis-reshaping-the-global-order",
+      "title": "Wednesday briefing: How Trump\u2019s Iran gamble has produced a crisis reshaping the global order",
+      "url": "https://www.theguardian.com/world/2026/jul/22/wednesday-briefing-how-trumps-iran-gamble-has-produced-a-crisis-reshaping-the-global-order",
+      "source": "The Guardian",
+      "published_date": "2026-07-22T05:45:49+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/24/us-expands-iran-attacks-as-trump-warns-tehran-and-houthis-over-red-sea-strikes",
+      "title": "US expands Iran attacks as Trump warns Tehran and Houthis over Red Sea strikes",
+      "url": "https://www.theguardian.com/world/2026/jul/24/us-expands-iran-attacks-as-trump-warns-tehran-and-houthis-over-red-sea-strikes",
+      "source": "The Guardian",
+      "published_date": "2026-07-24T17:58:22+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/23/iran-war-us-troops",
+      "title": "The latest US troops killed in Trump\u2019s Iran war are remembered for lives of service",
+      "url": "https://www.theguardian.com/world/2026/jul/23/iran-war-us-troops",
+      "source": "The Guardian",
+      "published_date": "2026-07-24T12:31:09+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/23/uk-ready-to-defend-itself-iran-threat-us-bases",
+      "title": "UK \u2018ready to defend itself\u2019 after Iranian threat over US bases",
+      "url": "https://www.theguardian.com/world/2026/jul/23/uk-ready-to-defend-itself-iran-threat-us-bases",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T22:41:37+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/22/pickaxe-mountain-iran-nuclear-site-trump",
+      "title": "What is Pickaxe Mountain, Iran\u2019s underground nuclear facility Trump is threatening to attack?",
+      "url": "https://www.theguardian.com/world/2026/jul/22/pickaxe-mountain-iran-nuclear-site-trump",
+      "source": "The Guardian",
+      "published_date": "2026-07-22T03:02:03+00:00",
       "marks": {
         "h1": "--",
         "h2": "-",

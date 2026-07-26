@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260721_162556",
-  "last_update": "2026-07-21T16:32:50.689133",
+  "matrix_version": "20260726_012621",
+  "last_update": "2026-07-26T01:40:02.079705",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -1174,6 +1174,227 @@
         "h1": "+",
         "h2": "N/A",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/22/middle-east-us-iran-war-trump-houthis-strait-of-hormuz-nuclear-pickaxe-mountain-latest-news-updates",
+      "title": "Iran warns of \u2018eye for an eye\u2019 response if US follows through on Trump\u2019s threats to destroy infrastructure \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/22/middle-east-us-iran-war-trump-houthis-strait-of-hormuz-nuclear-pickaxe-mountain-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-22T21:51:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/21/houthis-threaten-attack-tankers-saudi-arabian-ports-red-sea-shipping",
+      "title": "Houthis threaten to attack shipping tankers if they use Saudi Arabian ports on Red Sea",
+      "url": "https://www.theguardian.com/world/2026/jul/21/houthis-threaten-attack-tankers-saudi-arabian-ports-red-sea-shipping",
+      "source": "The Guardian",
+      "published_date": "2026-07-21T17:27:45+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/24/irans-much-improved-missile-systems-pose-a-real-threat-to-the-us",
+      "title": "How Chinese tech and Russian tactics are aiding Iran\u2019s bombing of US bases",
+      "url": "https://www.theguardian.com/world/2026/jul/24/irans-much-improved-missile-systems-pose-a-real-threat-to-the-us",
+      "source": "The Guardian",
+      "published_date": "2026-07-24T17:13:36+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/23/us-iran-war-live-updates-strikes-houthis-red-sea-saudi-nuclear-deal-middle-east-crisis-latest-news",
+      "title": "Middle East crisis is \u2018getting out of control\u2019, UN chief warns \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/23/us-iran-war-live-updates-strikes-houthis-red-sea-saudi-nuclear-deal-middle-east-crisis-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-07-24T02:33:09+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/23/taiwan-hong-kong-independent-bookstore-raids-china-censorship",
+      "title": "\u2018A statement of freedom\u2019: T-shirt slogan goes viral and book sales rocket in Taiwan after Hong Kong raids",
+      "url": "https://www.theguardian.com/world/2026/jul/23/taiwan-hong-kong-independent-bookstore-raids-china-censorship",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T01:36:07+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/jul/23/dubai-offers-tourists-benefits",
+      "title": "Dubai offers \u00a3600 rewards to residents who lure friends to visit as tourist numbers plummet",
+      "url": "https://www.theguardian.com/world/2026/jul/23/dubai-offers-tourists-benefits",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T11:28:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/25/houthis-vow-retaliate-saudi-strikes-yemen-iran-war",
+      "title": "Iran-backed Houthis claim missile attack on Saudi Arabia as regional tensions escalate",
+      "url": "https://www.theguardian.com/world/2026/jul/25/houthis-vow-retaliate-saudi-strikes-yemen-iran-war",
+      "source": "The Guardian",
+      "published_date": "2026-07-25T12:28:31+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "++",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/24/ukraine-war-briefing-eu-sanctions-oust-russian-president-of-world-chess",
+      "title": "Ukraine war briefing: EU sanctions oust Russian president of world chess",
+      "url": "https://www.theguardian.com/world/2026/jul/24/ukraine-war-briefing-eu-sanctions-oust-russian-president-of-world-chess",
+      "source": "The Guardian",
+      "published_date": "2026-07-24T01:32:34+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/22/andy-burnhams-domestic-revolution-could-unobtrusively-pull-britain-closer-to-europe",
+      "title": "\u200bAndy Burnham\u2019s \u200bdomestic \u200brevolution \u200bcould \u200bunobtrusively pull Britain \u200bcloser to Europe",
+      "url": "https://www.theguardian.com/world/2026/jul/22/andy-burnhams-domestic-revolution-could-unobtrusively-pull-britain-closer-to-europe",
+      "source": "The Guardian",
+      "published_date": "2026-07-22T14:40:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/25/aukus-nuclear-submarines-danger-weapons-grade-uranium",
+      "title": "A global threat for millennia: experts warn Australia\u2019s nuclear submarine legacy will be weapons-usable uranium cache",
+      "url": "https://www.theguardian.com/world/2026/jul/25/aukus-nuclear-submarines-danger-weapons-grade-uranium",
+      "source": "The Guardian",
+      "published_date": "2026-07-24T15:00:19+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/24/us-iran-donald-trump-iraq-bahrain-kuwait-jordan-latest-news-updates",
+      "title": "Middle East crisis: US carries out strikes across Iran as Tehran targets American bases in region \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/24/us-iran-donald-trump-iraq-bahrain-kuwait-jordan-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-24T17:20:09+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "-",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/23/what-is-the-us-saudi-arabia-nuclear-power-deal-explained",
+      "title": "What is the US-Saudi Arabia nuclear deal and why is it causing concern?",
+      "url": "https://www.theguardian.com/world/2026/jul/23/what-is-the-us-saudi-arabia-nuclear-power-deal-explained",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T02:21:49+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying",
+      "title": "Two Russian men jailed in Angola for terrorism and spying",
+      "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T14:24:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/25/ukraine-war-briefing-ten-killed-russian-attack-weapons-exhibition-near-kyiv",
+      "title": "Ukraine war briefing: Russia launches deadly attack on weapons exhibition near Kyiv",
+      "url": "https://www.theguardian.com/world/2026/jul/25/ukraine-war-briefing-ten-killed-russian-attack-weapons-exhibition-near-kyiv",
+      "source": "The Guardian",
+      "published_date": "2026-07-25T01:33:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/23/eu-sanctions-russia-ukraine-marcio-rubio-sergei-lavrov-kallas-google-latest-news-updates",
+      "title": "Ousted Ukrainian defence minister refuses any other role in Zelenskyy\u2019s government \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/23/eu-sanctions-russia-ukraine-marcio-rubio-sergei-lavrov-kallas-google-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T16:13:00+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/22/ukraine-war-russia-sanctions-europe-eu-latest-news-updates",
+      "title": "New Ukraine army chief vows to step up counteroffensive as EU bids to finalise fresh Russia sanctions \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/22/ukraine-war-russia-sanctions-europe-eu-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-22T15:49:20+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/25/japan-sanae-takaichi-investment-plan-liz-truss-economy",
+      "title": "Can Japan avoid a Liz Truss-style shock as its PM embarks on a giant spending spree?",
+      "url": "https://www.theguardian.com/world/2026/jul/25/japan-sanae-takaichi-investment-plan-liz-truss-economy",
+      "source": "The Guardian",
+      "published_date": "2026-07-25T12:00:41+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

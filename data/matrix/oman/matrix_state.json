@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260721_163719",
-  "last_update": "2026-07-21T16:37:19.953111",
+  "matrix_version": "20260726_015116",
+  "last_update": "2026-07-26T01:52:02.856323",
   "hypothesis_names": {
     "h1": "Oman supports the United States",
     "h2": "Oman maintains a neutral stance with the United States",
@@ -147,6 +147,19 @@
         "h1": "+",
         "h2": "++",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/23/aviation-hero-arthur-whitten-brown-long-lost-granddaughter-uncovers-secret-past",
+      "title": "\u2018Overdue reunion\u2019: aviation hero\u2019s long lost granddaughter uncovers secret past",
+      "url": "https://www.theguardian.com/world/2026/jul/23/aviation-hero-arthur-whitten-brown-long-lost-granddaughter-uncovers-secret-past",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T05:00:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

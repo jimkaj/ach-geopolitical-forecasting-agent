@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260721_163540",
-  "last_update": "2026-07-21T16:37:14.784393",
+  "matrix_version": "20260726_014542",
+  "last_update": "2026-07-26T01:47:55.653752",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -329,6 +329,45 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/24/palestinians-israeli-killed-west-bank-shooting",
+      "title": "Israel planning \u2018extensive\u2019 military operation in West Bank after settler attack",
+      "url": "https://www.theguardian.com/world/2026/jul/24/palestinians-israeli-killed-west-bank-shooting",
+      "source": "The Guardian",
+      "published_date": "2026-07-24T16:54:02+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/23/israel-security-minister-itamar-ben-gvir-jewish-extremists-storm-al-aqsa-mosque-compound-jerusalem",
+      "title": "Israeli security minister joins Jewish extremists as they storm al-Aqsa mosque compound",
+      "url": "https://www.theguardian.com/world/2026/jul/23/israel-security-minister-itamar-ben-gvir-jewish-extremists-storm-al-aqsa-mosque-compound-jerusalem",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T14:33:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/22/iran-foreign-minister-abbas-aragchi-attack-killed-khamenei",
+      "title": "Iran\u2019s foreign minister describes moment of attack that killed Khamenei",
+      "url": "https://www.theguardian.com/world/2026/jul/22/iran-foreign-minister-abbas-aragchi-attack-killed-khamenei",
+      "source": "The Guardian",
+      "published_date": "2026-07-22T05:00:07+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "-",
+        "h3": "--"
       },
       "confidence": 1.0
     }

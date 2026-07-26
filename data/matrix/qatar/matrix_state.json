@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260721_163714",
-  "last_update": "2026-07-21T16:37:14.855750",
+  "matrix_version": "20260726_014755",
+  "last_update": "2026-07-26T01:50:24.983220",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -117,6 +117,45 @@
       "url": "https://www.theguardian.com/world/2026/jul/09/iran-residents-terror-us-fresh-strikes-port-cities",
       "source": "The Guardian",
       "published_date": "2026-07-09T15:02:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/20/madrid-spain-fans-celebrate-world-cup-win",
+      "title": "In Madrid fans defy heat, early starts and the torpor of a slow game to cheer Spain to World Cup victory",
+      "url": "https://www.theguardian.com/world/2026/jul/20/madrid-spain-fans-celebrate-world-cup-win",
+      "source": "The Guardian",
+      "published_date": "2026-07-19T23:53:38+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/24/the-captain-told-me-to-wear-a-nappy-on-board-why-is-air-travel-so-humiliating-for-disabled-passengers",
+      "title": "\u2018The captain told me to wear a nappy on board\u2019 \u2013 why is air travel so humiliating for disabled passengers?",
+      "url": "https://www.theguardian.com/world/2026/jul/24/the-captain-told-me-to-wear-a-nappy-on-board-why-is-air-travel-so-humiliating-for-disabled-passengers",
+      "source": "The Guardian",
+      "published_date": "2026-07-24T10:04:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/24/france-spain-wildfires-cap-ferret-europe-latest-news-updates",
+      "title": "France evacuates Cap Ferret peninsula as Spanish wildfires merge near Madrid \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/24/france-spain-wildfires-cap-ferret-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-24T15:09:33+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
