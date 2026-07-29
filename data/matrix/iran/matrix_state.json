@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260726_192609",
-  "last_update": "2026-07-26T19:27:54.752836",
+  "matrix_version": "20260729_195617",
+  "last_update": "2026-07-29T19:58:19.997308",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -708,6 +708,45 @@
         "h3": "++"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/26/ukraine-war-briefing-iran-accuses-kyiv-vessel-caspian-sea",
+      "title": "Ukraine war briefing: Iran accuses Kyiv of deadly attack on Iranian vessel in Caspian Sea",
+      "url": "https://www.theguardian.com/world/2026/jul/26/ukraine-war-briefing-iran-accuses-kyiv-vessel-caspian-sea",
+      "source": "The Guardian",
+      "published_date": "2026-07-26T02:08:07+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/jul/29/iran-missile-attack-us-base-forces",
+      "title": "US joins forces with Saudis to strike Tehran-backed militias in Iraq",
+      "url": "https://www.theguardian.com/world/2026/jul/29/iran-missile-attack-us-base-forces",
+      "source": "The Guardian",
+      "published_date": "2026-07-29T09:52:44+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "uk-news/2026/jul/29/norwegian-teenager-johannes-kongsnes-natland-guilty-uk-contract-killing",
+      "title": "Norwegian teenager guilty of travelling to UK to carry out contract killing",
+      "url": "https://www.theguardian.com/uk-news/2026/jul/29/norwegian-teenager-johannes-kongsnes-natland-guilty-uk-contract-killing",
+      "source": "The Guardian",
+      "published_date": "2026-07-29T17:02:07+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 0.9
     }
   ]
 }

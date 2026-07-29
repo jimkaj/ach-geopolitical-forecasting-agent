@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260726_192841",
-  "last_update": "2026-07-26T19:28:41.720489",
+  "matrix_version": "20260729_200342",
+  "last_update": "2026-07-29T20:04:29.126200",
   "hypothesis_names": {
     "h1": "Bahrain supports the United States",
     "h2": "Bahrain maintains a neutral stance with the United States",
@@ -30,6 +30,19 @@
         "h1": "++",
         "h2": "-",
         "h3": "--"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/29/a-decade-on-the-iberian-frontline-has-shown-me-that-europes-climate-emergency-is-impossible-to-deny",
+      "title": "A \u200bdecade on the Iberian \u200bfrontline\u200b has shown me that Europe\u2019s \u200bclimate \u200bemergency\u200b is \u200bimpossible to \u200bdeny",
+      "url": "https://www.theguardian.com/world/2026/jul/29/a-decade-on-the-iberian-frontline-has-shown-me-that-europes-climate-emergency-is-impossible-to-deny",
+      "source": "The Guardian",
+      "published_date": "2026-07-29T14:35:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

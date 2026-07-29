@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260726_192755",
-  "last_update": "2026-07-26T19:28:39.271688",
+  "matrix_version": "20260729_195950",
+  "last_update": "2026-07-29T20:00:35.390461",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -175,6 +175,19 @@
         "h3": "-"
       },
       "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/jul/23/mayor-shot-dead-mexico-after-surviving-assassination",
+      "title": "Mayor shot dead in Mexico months after surviving assassination attempt",
+      "url": "https://www.theguardian.com/world/2026/jul/23/mayor-shot-dead-mexico-after-surviving-assassination",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T16:32:53+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
     }
   ]
 }

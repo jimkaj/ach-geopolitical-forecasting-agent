@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260726_192839",
-  "last_update": "2026-07-26T19:28:39.281569",
+  "matrix_version": "20260729_200035",
+  "last_update": "2026-07-29T20:02:09.779285",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -184,6 +184,32 @@
       "published_date": "2026-07-14T09:43:54+00:00",
       "marks": {
         "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/28/asia-energy-oil-crisis-red-sea-blockade-houthis",
+      "title": "Asia \u2018scraping the bottom of the barrel\u2019 as Red Sea oil blockade worsens energy crisis",
+      "url": "https://www.theguardian.com/world/2026/jul/28/asia-energy-oil-crisis-red-sea-blockade-houthis",
+      "source": "The Guardian",
+      "published_date": "2026-07-28T01:37:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/23/thursday-briefing-now-he-has-the-power-to-do-it-can-andy-burham-really-end-homelessness-in-the-uk",
+      "title": "Thursday briefing: \u200bNow he has the power to do it, can Andy Burham really end homelessness in the UK?",
+      "url": "https://www.theguardian.com/world/2026/jul/23/thursday-briefing-now-he-has-the-power-to-do-it-can-andy-burham-really-end-homelessness-in-the-uk",
+      "source": "The Guardian",
+      "published_date": "2026-07-23T05:49:36+00:00",
+      "marks": {
+        "h1": "+",
         "h2": "N/A",
         "h3": "N/A"
       },

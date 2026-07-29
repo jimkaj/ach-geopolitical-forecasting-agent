@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260726_192840",
-  "last_update": "2026-07-26T19:28:40.960402",
+  "matrix_version": "20260729_200254",
+  "last_update": "2026-07-29T20:03:41.995056",
   "hypothesis_names": {
     "h1": "Kuwait supports the United States",
     "h2": "Kuwait maintains a neutral stance with the United States",
@@ -160,6 +160,19 @@
         "h1": "++",
         "h2": "-",
         "h3": "--"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/26/berlin-pride-van-knife-rampage-islamist-terrorist-attack-germany",
+      "title": "Police shoot dead Berlin Pride van and knife rampage suspect, officials say",
+      "url": "https://www.theguardian.com/world/2026/jul/26/berlin-pride-van-knife-rampage-islamist-terrorist-attack-germany",
+      "source": "The Guardian",
+      "published_date": "2026-07-26T17:53:50+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

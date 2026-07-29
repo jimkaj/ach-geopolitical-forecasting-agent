@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260726_192840",
-  "last_update": "2026-07-26T19:28:40.043984",
+  "matrix_version": "20260729_200209",
+  "last_update": "2026-07-29T20:02:54.756490",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -130,6 +130,19 @@
       "url": "https://www.theguardian.com/world/2026/jul/25/uk-largest-muslim-event-jalsa-salana-security-anti-muslim-hate-crime",
       "source": "The Guardian",
       "published_date": "2026-07-25T05:00:36+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/28/pakistan-accused-firing-unarmed-protesters-kashmir-killings",
+      "title": "Pakistan accused of fatally shooting 30 unarmed protesters in Kashmir",
+      "url": "https://www.theguardian.com/world/2026/jul/28/pakistan-accused-firing-unarmed-protesters-kashmir-killings",
+      "source": "The Guardian",
+      "published_date": "2026-07-28T16:41:14+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260726_192606",
-  "last_update": "2026-07-26T19:26:06.582727",
+  "matrix_version": "20260729_195039",
+  "last_update": "2026-07-29T19:56:17.780600",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -1391,6 +1391,97 @@
       "url": "https://www.theguardian.com/world/2026/jul/25/japan-sanae-takaichi-investment-plan-liz-truss-economy",
       "source": "The Guardian",
       "published_date": "2026-07-25T12:00:41+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/27/trump-warns-return-strong-military-action-iran-diplomacy-fails",
+      "title": "Trump warns of return to \u2018strong military action\u2019 if Iran diplomacy fails",
+      "url": "https://www.theguardian.com/world/2026/jul/27/trump-warns-return-strong-military-action-iran-diplomacy-fails",
+      "source": "The Guardian",
+      "published_date": "2026-07-27T22:14:33+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/28/india-cockroach-janta-party-cjp-demands-protesters-release",
+      "title": "India\u2019s Cockroach movement threatens to restart protests after mass student arrests",
+      "url": "https://www.theguardian.com/world/2026/jul/28/india-cockroach-janta-party-cjp-demands-protesters-release",
+      "source": "The Guardian",
+      "published_date": "2026-07-28T07:23:37+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/28/canadians-us-travel-drop-trump",
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump\u2019s return to office",
+      "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump",
+      "source": "The Guardian",
+      "published_date": "2026-07-28T16:46:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/29/caribbean-climate-related-economic-damage-developing-islands",
+      "title": "Caribbean bears brunt of \u00a343bn climate-fuelled damage to developing islands",
+      "url": "https://www.theguardian.com/world/2026/jul/29/caribbean-climate-related-economic-damage-developing-islands",
+      "source": "The Guardian",
+      "published_date": "2026-07-29T11:00:30+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife",
+      "title": "Bird flu is spreading locally and Australia faces more wildlife deaths. How bad could it get?",
+      "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife",
+      "source": "The Guardian",
+      "published_date": "2026-07-29T15:00:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/29/us-saudi-strikes-in-iraq-have-pushed-the-region-into-uncharted-territory-analysts-warn",
+      "title": "US-Saudi strikes in Iraq push region into \u2018uncharted territory\u2019, analysts warn",
+      "url": "https://www.theguardian.com/world/2026/jul/29/us-saudi-strikes-in-iraq-have-pushed-the-region-into-uncharted-territory-analysts-warn",
+      "source": "The Guardian",
+      "published_date": "2026-07-29T17:55:37+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/29/trump-iran-attacks-us-military-power",
+      "title": "Trump pausing Iran attacks shows US military power is not enough on its own",
+      "url": "https://www.theguardian.com/world/2026/jul/29/trump-iran-attacks-us-military-power",
+      "source": "The Guardian",
+      "published_date": "2026-07-28T23:00:16+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
