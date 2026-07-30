@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260729_195617",
-  "last_update": "2026-07-29T19:58:19.997308",
+  "matrix_version": "20260730_234447",
+  "last_update": "2026-07-30T23:45:33.271804",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -747,6 +747,19 @@
         "h3": "++"
       },
       "confidence": 0.9
+    },
+    {
+      "article_id": "world/2026/jul/30/iran-war-us-conflict-internal-crises-economy-dissent",
+      "title": "Iran\u2019s war with the US is not its only conflict as internal crises mount",
+      "url": "https://www.theguardian.com/world/2026/jul/30/iran-war-us-conflict-internal-crises-economy-dissent",
+      "source": "The Guardian",
+      "published_date": "2026-07-30T15:24:31+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260729_195039",
-  "last_update": "2026-07-29T19:56:17.780600",
+  "matrix_version": "20260730_234158",
+  "last_update": "2026-07-30T23:44:47.800512",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -1482,6 +1482,45 @@
       "url": "https://www.theguardian.com/world/2026/jul/29/trump-iran-attacks-us-military-power",
       "source": "The Guardian",
       "published_date": "2026-07-28T23:00:16+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/30/pope-leo-immigrant-and-enslaved-roots-us-founding-ideals",
+      "title": "Pope Leo calls himself pontiff who \u2018happens to be American\u2019",
+      "url": "https://www.theguardian.com/world/2026/jul/30/pope-leo-immigrant-and-enslaved-roots-us-founding-ideals",
+      "source": "The Guardian",
+      "published_date": "2026-07-30T14:51:33+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/30/us-iran-war-live-updates-missile-strikes-attacks-iraq-egypt-middle-east-crisis-latest-news",
+      "title": "Middle East crisis live: Trump claims breakthrough reached in Gaza disarmament; Israel and Hamas yet to comment",
+      "url": "https://www.theguardian.com/world/live/2026/jul/30/us-iran-war-live-updates-missile-strikes-attacks-iraq-egypt-middle-east-crisis-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-07-30T23:38:18+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/30/saudi-forces-planning-major-offensive-against-houthis-central-yemen",
+      "title": "Saudi Arabia prepares sea and possible land offensive against Houthis",
+      "url": "https://www.theguardian.com/world/2026/jul/30/saudi-forces-planning-major-offensive-against-houthis-central-yemen",
+      "source": "The Guardian",
+      "published_date": "2026-07-30T17:50:21+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

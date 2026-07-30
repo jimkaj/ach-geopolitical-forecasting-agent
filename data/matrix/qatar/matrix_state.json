@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260729_195950",
-  "last_update": "2026-07-29T20:00:35.390461",
+  "matrix_version": "20260730_234534",
+  "last_update": "2026-07-30T23:46:20.942863",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -182,6 +182,19 @@
       "url": "https://www.theguardian.com/world/2026/jul/23/mayor-shot-dead-mexico-after-surviving-assassination",
       "source": "The Guardian",
       "published_date": "2026-07-23T16:32:53+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/30/europe-burns-france-spain-visual-guide-wildfires",
+      "title": "Europe burns: a visual guide to the wildfires",
+      "url": "https://www.theguardian.com/world/2026/jul/30/europe-burns-france-spain-visual-guide-wildfires",
+      "source": "The Guardian",
+      "published_date": "2026-07-30T13:00:15+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
