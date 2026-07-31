@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260730_234158",
-  "last_update": "2026-07-30T23:44:47.800512",
+  "matrix_version": "20260731_133232",
+  "last_update": "2026-07-31T13:35:30.332172",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -1521,6 +1521,45 @@
       "url": "https://www.theguardian.com/world/2026/jul/30/saudi-forces-planning-major-offensive-against-houthis-central-yemen",
       "source": "The Guardian",
       "published_date": "2026-07-30T17:50:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/31/china-ai-jobs-workers-labour-market-technology",
+      "title": "Could AI take your job? Some workers in China already know the answer",
+      "url": "https://www.theguardian.com/world/2026/jul/31/china-ai-jobs-workers-labour-market-technology",
+      "source": "The Guardian",
+      "published_date": "2026-07-31T02:22:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/31/friday-briefing-why-attacks-on-hospitals-from-ukraine-to-lebanon-now-happen-with-impunity",
+      "title": "Friday briefing: Why attacks on hospitals from Ukraine to Lebanon now happen with impunity",
+      "url": "https://www.theguardian.com/world/2026/jul/31/friday-briefing-why-attacks-on-hospitals-from-ukraine-to-lebanon-now-happen-with-impunity",
+      "source": "The Guardian",
+      "published_date": "2026-07-31T05:45:50+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/31/cueta-spain-morocco-italy-migration-schengen-europe-latest-news-updates",
+      "title": "Spain\u2019s S\u00e1nchez blames trafficking gangs as estimated 60,000 migrants reach Ceuta \u2013 Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/jul/31/cueta-spain-morocco-italy-migration-schengen-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-31T13:31:51+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

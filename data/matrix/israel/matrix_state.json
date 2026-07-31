@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260730_234533",
-  "last_update": "2026-07-30T23:45:33.291383",
+  "matrix_version": "20260731_133740",
+  "last_update": "2026-07-31T13:38:28.367013",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -396,6 +396,19 @@
         "h3": "N/A"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/25/swimming-classes-resume-gaza-after-three-years-war",
+      "title": "Reclaiming stolen childhoods: swimming classes resume in Gaza after three years of war",
+      "url": "https://www.theguardian.com/world/2026/jul/25/swimming-classes-resume-gaza-after-three-years-war",
+      "source": "The Guardian",
+      "published_date": "2026-07-25T05:00:36+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.6666666666666666
     }
   ]
 }

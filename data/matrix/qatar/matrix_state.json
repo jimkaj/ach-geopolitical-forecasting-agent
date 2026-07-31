@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260730_234534",
-  "last_update": "2026-07-30T23:46:20.942863",
+  "matrix_version": "20260731_133828",
+  "last_update": "2026-07-31T13:39:13.672273",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -195,6 +195,19 @@
       "url": "https://www.theguardian.com/world/2026/jul/30/europe-burns-france-spain-visual-guide-wildfires",
       "source": "The Guardian",
       "published_date": "2026-07-30T13:00:15+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/29/canada-wildfire-emergency-agency",
+      "title": "Canada\u2019s worst wildfire season fuels calls for national agency to tackle threat",
+      "url": "https://www.theguardian.com/world/2026/jul/29/canada-wildfire-emergency-agency",
+      "source": "The Guardian",
+      "published_date": "2026-07-29T10:00:29+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
