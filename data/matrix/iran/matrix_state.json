@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260803_002601",
-  "last_update": "2026-08-03T00:28:11.957912",
+  "matrix_version": "20260803_153741",
+  "last_update": "2026-08-03T15:39:47.548339",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -838,6 +838,45 @@
         "h3": "+"
       },
       "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/aug/02/trump-climbs-down-on-iran-strikes-after-saudi-alarm-and-threats-from-tehran",
+      "title": "Trump backs down on Iran strikes in expectation of \u2018rapidly\u2019 reaching a deal",
+      "url": "https://www.theguardian.com/world/2026/aug/02/trump-climbs-down-on-iran-strikes-after-saudi-alarm-and-threats-from-tehran",
+      "source": "The Guardian",
+      "published_date": "2026-08-02T20:16:50+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/aug/03/us-iran-trump-strait-of-hormuz-talks-israel-gaza-lebanon-latest-news-updates",
+      "title": "Middle East crisis live: Iran denies Trump\u2019s claims that talks due to take place",
+      "url": "https://www.theguardian.com/world/live/2026/aug/03/us-iran-trump-strait-of-hormuz-talks-israel-gaza-lebanon-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-08-03T14:30:30+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/03/trump-us-iran-talks-strait-of-hormuz-nuclear-programme",
+      "title": "Trump says Iran talks set for Monday as Tehran and Oman discuss strait of Hormuz deal",
+      "url": "https://www.theguardian.com/world/2026/aug/03/trump-us-iran-talks-strait-of-hormuz-nuclear-programme",
+      "source": "The Guardian",
+      "published_date": "2026-08-03T01:31:53+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
     }
   ]
 }

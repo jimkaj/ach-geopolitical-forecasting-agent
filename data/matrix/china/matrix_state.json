@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260803_001922",
-  "last_update": "2026-08-03T00:26:01.028945",
+  "matrix_version": "20260803_153323",
+  "last_update": "2026-08-03T15:37:41.233801",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -1664,6 +1664,71 @@
       "url": "https://www.theguardian.com/world/2026/aug/03/mohamed-al-fayed-abuse-survivors-confirmed-human-trafficking-victims",
       "source": "The Guardian",
       "published_date": "2026-08-02T23:01:33+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/03/suspected-mass-bird-flu-deaths-found-in-second-state-as-murray-watt-warns-this-is-the-beginning",
+      "title": "Suspected mass bird flu deaths found in second state as Murray Watt warns \u2018this is the beginning\u2019",
+      "url": "https://www.theguardian.com/world/2026/aug/03/suspected-mass-bird-flu-deaths-found-in-second-state-as-murray-watt-warns-this-is-the-beginning",
+      "source": "The Guardian",
+      "published_date": "2026-08-03T10:27:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/03/iran-in-talks-with-oman-over-shipping-route-but-not-us-says-tehran",
+      "title": "Iran in talks with Oman over shipping but US negotiations on hold, says Tehran",
+      "url": "https://www.theguardian.com/world/2026/aug/03/iran-in-talks-with-oman-over-shipping-route-but-not-us-says-tehran",
+      "source": "The Guardian",
+      "published_date": "2026-08-03T11:52:56+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/03/ceuta-leader-border-crossing-morocco-spain",
+      "title": "Ceuta leader accuses Morocco over \u2018atrocity\u2019 of mass border crossing",
+      "url": "https://www.theguardian.com/world/2026/aug/03/ceuta-leader-border-crossing-morocco-spain",
+      "source": "The Guardian",
+      "published_date": "2026-08-03T14:13:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/03/trump-japan-currency-yen-explainer",
+      "title": "Why has Trump stepped in to prop up Japan\u2019s currency?",
+      "url": "https://www.theguardian.com/world/2026/aug/03/trump-japan-currency-yen-explainer",
+      "source": "The Guardian",
+      "published_date": "2026-08-03T04:45:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/03/palestinian-village-trapped-surge-settler-violence-turmus-ayya-west-bank",
+      "title": "Abandoned by the US: Palestinian Americans trapped in a surge of Israeli settler violence",
+      "url": "https://www.theguardian.com/world/2026/aug/03/palestinian-village-trapped-surge-settler-violence-turmus-ayya-west-bank",
+      "source": "The Guardian",
+      "published_date": "2026-08-03T10:00:14+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
