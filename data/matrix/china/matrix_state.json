@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260731_133232",
-  "last_update": "2026-07-31T13:35:30.332172",
+  "matrix_version": "20260803_001922",
+  "last_update": "2026-08-03T00:26:01.028945",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -1560,6 +1560,110 @@
       "url": "https://www.theguardian.com/world/live/2026/jul/31/cueta-spain-morocco-italy-migration-schengen-europe-latest-news-updates",
       "source": "The Guardian",
       "published_date": "2026-07-31T13:31:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn",
+      "title": "Anti-LGBTQ+ laws are on the rise across west Africa, campaigners warn",
+      "url": "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn",
+      "source": "The Guardian",
+      "published_date": "2026-08-02T04:00:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
+      "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
+      "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
+      "source": "The Guardian",
+      "published_date": "2026-08-01T19:03:39+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/31/ceuta-spain-morocco-border-deaths",
+      "title": "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
+      "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths",
+      "source": "The Guardian",
+      "published_date": "2026-07-31T17:52:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/31/nirmal-purja-10-climbers-missing-pakistan-broad-peak-mountain",
+      "title": "World-renowned climber Nirmal Purja among 11 struck by avalanche on Pakistan mountain",
+      "url": "https://www.theguardian.com/world/2026/jul/31/nirmal-purja-10-climbers-missing-pakistan-broad-peak-mountain",
+      "source": "The Guardian",
+      "published_date": "2026-07-31T15:35:53+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/aug/01/ukraine-russia-zelenskyy-spain-france-wildfires-climate-heatwave-ceuta-morocco",
+      "title": "EU offered Spain support \u2018from first moment\u2019 of Ceuta crisis, says von der Leyen, after S\u00e1nchez hits out \u2013 Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/aug/01/ukraine-russia-zelenskyy-spain-france-wildfires-climate-heatwave-ceuta-morocco",
+      "source": "The Guardian",
+      "published_date": "2026-08-01T14:58:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/31/ceuta-spain-eu-border-africa",
+      "title": "Why is Ceuta a migration flashpoint and how were so many people able to cross from Morocco?",
+      "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-eu-border-africa",
+      "source": "The Guardian",
+      "published_date": "2026-07-31T15:57:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/31/trump-hamas-disarmament-agreement-gaza-board-of-peace",
+      "title": "Trump says \u2018complete disarmament\u2019 of Hamas agreed in Gaza but Israel yet to accept",
+      "url": "https://www.theguardian.com/world/2026/jul/31/trump-hamas-disarmament-agreement-gaza-board-of-peace",
+      "source": "The Guardian",
+      "published_date": "2026-07-31T14:09:46+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/03/mohamed-al-fayed-abuse-survivors-confirmed-human-trafficking-victims",
+      "title": "At least five Mohamed Al Fayed abuse survivors confirmed as human-trafficking victims",
+      "url": "https://www.theguardian.com/world/2026/aug/03/mohamed-al-fayed-abuse-survivors-confirmed-human-trafficking-victims",
+      "source": "The Guardian",
+      "published_date": "2026-08-02T23:01:33+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

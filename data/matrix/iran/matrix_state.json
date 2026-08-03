@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260731_133530",
-  "last_update": "2026-07-31T13:37:40.958760",
+  "matrix_version": "20260803_002601",
+  "last_update": "2026-08-03T00:28:11.957912",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -799,6 +799,45 @@
         "h3": "++"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/31/iran-strikes-tankers-us-escort-hormuz-strait-trump-gathers-cabinet",
+      "title": "Iran strikes tankers under US escort in Hormuz strait as Trump gathers cabinet to discuss war",
+      "url": "https://www.theguardian.com/world/2026/jul/31/iran-strikes-tankers-us-escort-hormuz-strait-trump-gathers-cabinet",
+      "source": "The Guardian",
+      "published_date": "2026-07-31T14:48:53+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/jul/28/prisoners-iran-largest-jail-sew-lips-shut-hunger-strike-executions-soar",
+      "title": "Prisoners at Iran\u2019s largest jail sew lips shut in hunger strike as executions soar",
+      "url": "https://www.theguardian.com/world/2026/jul/28/prisoners-iran-largest-jail-sew-lips-shut-hunger-strike-executions-soar",
+      "source": "The Guardian",
+      "published_date": "2026-07-28T10:26:38+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.9
+    },
+    {
+      "article_id": "world/2026/jul/27/monday-briefing-how-the-cockroach-protests-have-exposed-the-cracks-in-indias-government",
+      "title": "Monday briefing: \u200bHow the Cockroach \u200bprotests \u200bhave expose\u200bd the \u200bcracks in \u200bIndia\u2019s government",
+      "url": "https://www.theguardian.com/world/2026/jul/27/monday-briefing-how-the-cockroach-protests-have-exposed-the-cracks-in-indias-government",
+      "source": "The Guardian",
+      "published_date": "2026-07-27T05:47:17+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9666666666666667
     }
   ]
 }

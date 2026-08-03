@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260731_133828",
-  "last_update": "2026-07-31T13:39:13.672273",
+  "matrix_version": "20260803_002813",
+  "last_update": "2026-08-03T00:29:59.384374",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -208,6 +208,32 @@
       "url": "https://www.theguardian.com/world/2026/jul/29/canada-wildfire-emergency-agency",
       "source": "The Guardian",
       "published_date": "2026-07-29T10:00:29+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/30/europe-ukraine-russia-poland-wildfires-france-spain-greece-latest-news-updates",
+      "title": "Nato \u2018will take all necessary measures\u2019 to defend territory after Russian missile crashes in Poland \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/30/europe-ukraine-russia-poland-wildfires-france-spain-greece-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-30T15:03:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/jul/28/europe-wildfires-fires-heatwave-bordeaux-france-spain-latest-news-updates",
+      "title": "\u200bFrance and Spain race to control wildfires as fresh heatwave hits, as UN warns \u2018the climate alarm is blaring\u2019 \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jul/28/europe-wildfires-fires-heatwave-bordeaux-france-spain-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-07-28T16:15:06+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

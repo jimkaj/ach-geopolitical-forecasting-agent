@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260731_133914",
-  "last_update": "2026-07-31T13:39:14.804855",
+  "matrix_version": "20260803_002959",
+  "last_update": "2026-08-03T00:31:29.836841",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -143,6 +143,32 @@
       "url": "https://www.theguardian.com/world/2026/jul/28/pakistan-accused-firing-unarmed-protesters-kashmir-killings",
       "source": "The Guardian",
       "published_date": "2026-07-28T16:41:14+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/01/top-mountaineer-nirmal-purja-confirmed-dead-after-11-hit-by-avalanche-in-pakistan",
+      "title": "Top mountaineer Nirmal Purja confirmed dead after 11 hit by avalanche in Pakistan",
+      "url": "https://www.theguardian.com/world/2026/aug/01/top-mountaineer-nirmal-purja-confirmed-dead-after-11-hit-by-avalanche-in-pakistan",
+      "source": "The Guardian",
+      "published_date": "2026-08-01T13:41:44+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/02/indias-gen-z-have-discovered-the-power-of-collective-action",
+      "title": "India\u2019s gen Z have discovered the power of collective action",
+      "url": "https://www.theguardian.com/world/2026/aug/02/indias-gen-z-have-discovered-the-power-of-collective-action",
+      "source": "The Guardian",
+      "published_date": "2026-08-02T16:12:41+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
