@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260806_163058",
-  "last_update": "2026-08-06T16:30:58.506986",
+  "matrix_version": "20260809_224349",
+  "last_update": "2026-08-09T22:48:12.185875",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -409,6 +409,84 @@
         "h3": "N/A"
       },
       "confidence": 0.6666666666666666
+    },
+    {
+      "article_id": "world/2026/aug/05/israel-strikes-southern-lebanon-deadliest-ceasefire",
+      "title": "Israel strikes southern Lebanon killing one and injuring 11",
+      "url": "https://www.theguardian.com/world/2026/aug/05/israel-strikes-southern-lebanon-deadliest-ceasefire",
+      "source": "The Guardian",
+      "published_date": "2026-08-05T16:34:58+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/06/israel-charges-west-bank-settler-killing-palestinian-activist-awdah-hathaleen",
+      "title": "Israel indicts settler over death of Palestinian activist who worked on No Other Land",
+      "url": "https://www.theguardian.com/world/2026/aug/06/israel-charges-west-bank-settler-killing-palestinian-activist-awdah-hathaleen",
+      "source": "The Guardian",
+      "published_date": "2026-08-07T13:49:18+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/06/israeli-strike-that-killed-journalist-in-lebanon-was-war-say-rights-groups",
+      "title": "Israeli strike that killed journalist in Lebanon was war crime, say rights groups",
+      "url": "https://www.theguardian.com/world/2026/aug/06/israeli-strike-that-killed-journalist-in-lebanon-was-war-say-rights-groups",
+      "source": "The Guardian",
+      "published_date": "2026-08-06T06:00:34+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/09/israel-rejects-us-led-15-point-gaza-peace-plan-says-netanyahu",
+      "title": "Netanyahu rejects US-led 15-point Gaza peace plan in rare public break with Trump",
+      "url": "https://www.theguardian.com/world/2026/aug/09/israel-rejects-us-led-15-point-gaza-peace-plan-says-netanyahu",
+      "source": "The Guardian",
+      "published_date": "2026-08-09T20:00:48+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/04/mass-funeral-gaza-victims-2023-israeli-strike",
+      "title": "Mass funeral held in Gaza for victims of 2023 Israeli strike",
+      "url": "https://www.theguardian.com/world/2026/aug/04/mass-funeral-gaza-victims-2023-israeli-strike",
+      "source": "The Guardian",
+      "published_date": "2026-08-04T17:24:41+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/aug/04/jordan-convenes-emergency-meeting-israel-religious-conflict-jerusalem",
+      "title": "Jerusalem\u2019s most important Muslim religious site facing \u2018imminent\u2019 threat of Israeli takeover, says Jordan",
+      "url": "https://www.theguardian.com/world/2026/aug/04/jordan-convenes-emergency-meeting-israel-religious-conflict-jerusalem",
+      "source": "The Guardian",
+      "published_date": "2026-08-04T13:15:34+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
     }
   ]
 }

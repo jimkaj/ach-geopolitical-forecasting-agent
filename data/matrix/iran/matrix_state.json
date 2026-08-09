@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260806_163051",
-  "last_update": "2026-08-06T16:30:51.468734",
+  "matrix_version": "20260809_223759",
+  "last_update": "2026-08-09T22:43:49.010016",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -871,6 +871,110 @@
       "url": "https://www.theguardian.com/world/2026/aug/03/trump-us-iran-talks-strait-of-hormuz-nuclear-programme",
       "source": "The Guardian",
       "published_date": "2026-08-03T01:31:53+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/05/iran-oman-reach-hormuz-route-coordinates",
+      "title": "Understanding reached on coordinates for shipping route through Hormuz, Iran says",
+      "url": "https://www.theguardian.com/world/2026/aug/05/iran-oman-reach-hormuz-route-coordinates",
+      "source": "The Guardian",
+      "published_date": "2026-08-05T19:31:03+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/04/us-qatar-progress-iran-ceasefire-hormuz-strait",
+      "title": "US and Qatar report progress on Iran ceasefire and reopening Hormuz strait",
+      "url": "https://www.theguardian.com/world/2026/aug/04/us-qatar-progress-iran-ceasefire-hormuz-strait",
+      "source": "The Guardian",
+      "published_date": "2026-08-04T17:19:58+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/ng-interactive/2026/aug/08/trump-iran-war-criticism-groundhog-day",
+      "title": "Bluster and backdown have turned Iran war into Trump\u2019s own Groundhog Day",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/aug/08/trump-iran-war-criticism-groundhog-day",
+      "source": "The Guardian",
+      "published_date": "2026-08-08T09:00:43+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/04/irans-president-denies-threatening-to-resign-during-talks-over-strait-of-hormuz",
+      "title": "Iran\u2019s president denies threatening to resign during talks over strait of Hormuz",
+      "url": "https://www.theguardian.com/world/2026/aug/04/irans-president-denies-threatening-to-resign-during-talks-over-strait-of-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-08-04T18:24:35+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/live/2026/aug/06/iran-oman-strait-of-hormuz-yemen-houthis-israel-lebanon-gaza-us-donald-trump-middle-east-crisis-live-news",
+      "title": "Iran says a deal with Oman to reopen the strait of Hormuz is close to being finalised \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/aug/06/iran-oman-strait-of-hormuz-yemen-houthis-israel-lebanon-gaza-us-donald-trump-middle-east-crisis-live-news",
+      "source": "The Guardian",
+      "published_date": "2026-08-06T19:15:33+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/aug/09/iran-us-irgc-strait-of-hormuz-israel-netanyahu-trump-gaza-plan-latest-news-updates",
+      "title": "Netanyahu rejects Trump\u2019s Gaza plan and vows no withdrawal until Hamas disarms \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/aug/09/iran-us-irgc-strait-of-hormuz-israel-netanyahu-trump-gaza-plan-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-08-09T19:54:53+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/07/houthi-strikes-yemen-saudi-arabia-attacks-iran-war-middle-east-crisis",
+      "title": "Saudi Arabia, Pakistan and Turkey sign Nato-style defence pact amid deadly Houthi strikes in Yemen",
+      "url": "https://www.theguardian.com/world/2026/aug/07/houthi-strikes-yemen-saudi-arabia-attacks-iran-war-middle-east-crisis",
+      "source": "The Guardian",
+      "published_date": "2026-08-07T13:00:30+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/09/ordinary-seafarers-trapped-strait-of-hormuz-iran-strikes-killed",
+      "title": "\u2018Like being in prison\u2019: the ship crews stuck in Gulf since February",
+      "url": "https://www.theguardian.com/world/2026/aug/09/ordinary-seafarers-trapped-strait-of-hormuz-iran-strikes-killed",
+      "source": "The Guardian",
+      "published_date": "2026-08-09T08:00:10+00:00",
       "marks": {
         "h1": "--",
         "h2": "-",

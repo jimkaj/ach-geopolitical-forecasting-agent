@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260806_163133",
-  "last_update": "2026-08-06T16:31:33.694066",
+  "matrix_version": "20260809_225158",
+  "last_update": "2026-08-09T22:52:44.410178",
   "hypothesis_names": {
     "h1": "Bahrain supports the United States",
     "h2": "Bahrain maintains a neutral stance with the United States",
@@ -39,6 +39,19 @@
       "url": "https://www.theguardian.com/world/2026/jul/29/a-decade-on-the-iberian-frontline-has-shown-me-that-europes-climate-emergency-is-impossible-to-deny",
       "source": "The Guardian",
       "published_date": "2026-07-29T14:35:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/04/eu-criticises-spain-migrant-plan-ceuta-crisis-meeting",
+      "title": "EU chief criticises Spain\u2019s migrant plan after Ceuta crisis meeting",
+      "url": "https://www.theguardian.com/world/2026/aug/04/eu-criticises-spain-migrant-plan-ceuta-crisis-meeting",
+      "source": "The Guardian",
+      "published_date": "2026-08-04T16:51:51+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

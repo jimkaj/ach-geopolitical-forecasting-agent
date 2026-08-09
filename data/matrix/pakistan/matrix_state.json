@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260806_163119",
-  "last_update": "2026-08-06T16:31:19.615641",
+  "matrix_version": "20260809_224859",
+  "last_update": "2026-08-09T22:51:12.302695",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -169,6 +169,45 @@
       "url": "https://www.theguardian.com/world/2026/aug/02/indias-gen-z-have-discovered-the-power-of-collective-action",
       "source": "The Guardian",
       "published_date": "2026-08-02T16:12:41+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/05/pakistan-precinct-suspends-all-officers-and-staff",
+      "title": "Pakistan precinct suspends all 78 officers and staff over alleged rape at police station",
+      "url": "https://www.theguardian.com/world/2026/aug/05/pakistan-precinct-suspends-all-officers-and-staff",
+      "source": "The Guardian",
+      "published_date": "2026-08-05T15:23:06+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/05/pakistani-authorities-ban-international-media-from-reporting-in-most-of-country",
+      "title": "Pakistani authorities ban international media from reporting in most of country",
+      "url": "https://www.theguardian.com/world/2026/aug/05/pakistani-authorities-ban-international-media-from-reporting-in-most-of-country",
+      "source": "The Guardian",
+      "published_date": "2026-08-05T16:59:20+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/05/kashmir-deadly-cloudbursts-devastate-mountain-communities-erratic-weather-climate-change",
+      "title": "\u2018I just want to find them\u2019: deadly cloudbursts devastate Kashmir\u2019s mountain communities",
+      "url": "https://www.theguardian.com/world/2026/aug/05/kashmir-deadly-cloudbursts-devastate-mountain-communities-erratic-weather-climate-change",
+      "source": "The Guardian",
+      "published_date": "2026-08-05T04:00:10+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

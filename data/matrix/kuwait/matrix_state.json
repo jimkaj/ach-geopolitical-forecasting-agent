@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260806_163126",
-  "last_update": "2026-08-06T16:31:26.649980",
+  "matrix_version": "20260809_225112",
+  "last_update": "2026-08-09T22:51:58.331860",
   "hypothesis_names": {
     "h1": "Kuwait supports the United States",
     "h2": "Kuwait maintains a neutral stance with the United States",
@@ -169,6 +169,19 @@
       "url": "https://www.theguardian.com/world/2026/jul/26/berlin-pride-van-knife-rampage-islamist-terrorist-attack-germany",
       "source": "The Guardian",
       "published_date": "2026-07-26T17:53:50+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/05/exiled-pm-vows-to-return-sheikh-hasina-bangladesh-despite-execution-threat",
+      "title": "Exiled PM vows to return to Bangladesh despite execution threat",
+      "url": "https://www.theguardian.com/world/2026/aug/05/exiled-pm-vows-to-return-sheikh-hasina-bangladesh-despite-execution-threat",
+      "source": "The Guardian",
+      "published_date": "2026-08-05T17:45:17+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

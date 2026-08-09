@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260806_163044",
-  "last_update": "2026-08-06T16:30:44.431537",
+  "matrix_version": "20260809_222128",
+  "last_update": "2026-08-09T22:37:59.635333",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -1729,6 +1729,266 @@
       "url": "https://www.theguardian.com/world/2026/aug/03/palestinian-village-trapped-surge-settler-violence-turmus-ayya-west-bank",
       "source": "The Guardian",
       "published_date": "2026-08-03T10:00:14+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/06/india-bangladesh-relations-exiled-pm-speech-delhi-sheikh-hasina",
+      "title": "India-Bangladesh relations hit new low over exiled PM\u2019s speech to press in Delhi",
+      "url": "https://www.theguardian.com/world/2026/aug/06/india-bangladesh-relations-exiled-pm-speech-delhi-sheikh-hasina",
+      "source": "The Guardian",
+      "published_date": "2026-08-06T14:30:43+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/07/iran-war-trump-midterm-ballot",
+      "title": "Iran plots to deal Trump a blow in midterms by keeping him entangled in war",
+      "url": "https://www.theguardian.com/world/2026/aug/07/iran-war-trump-midterm-ballot",
+      "source": "The Guardian",
+      "published_date": "2026-08-07T11:47:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/06/trump-influence-morocco-spotlight-ceuta-border-disaster",
+      "title": "\u2018Morocco feels emboldened\u2019: Trump\u2019s influence in spotlight after Ceuta disaster",
+      "url": "https://www.theguardian.com/world/2026/aug/06/trump-influence-morocco-spotlight-ceuta-border-disaster",
+      "source": "The Guardian",
+      "published_date": "2026-08-06T09:45:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/03/trump-meets-his-obstinate-match-in-irans-hardball-regime",
+      "title": "Trump meets his obstinate match in Iran\u2019s hardball regime",
+      "url": "https://www.theguardian.com/world/2026/aug/03/trump-meets-his-obstinate-match-in-irans-hardball-regime",
+      "source": "The Guardian",
+      "published_date": "2026-08-03T18:27:41+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/05/suspect-washington-state-wildfire",
+      "title": "Suspect in Washington state wildfire was questioned about blazes last year",
+      "url": "https://www.theguardian.com/world/2026/aug/05/suspect-washington-state-wildfire",
+      "source": "The Guardian",
+      "published_date": "2026-08-05T17:15:22+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/08/ukraine-war-briefing-wildberries-warehouse-struck-by-kyivs-drones-more-than-2000km-from-russian-border",
+      "title": "Ukraine war briefing: Wildberries warehouse struck by Kyiv\u2019s drones more than 2,000km from Russian border",
+      "url": "https://www.theguardian.com/world/2026/aug/08/ukraine-war-briefing-wildberries-warehouse-struck-by-kyivs-drones-more-than-2000km-from-russian-border",
+      "source": "The Guardian",
+      "published_date": "2026-08-08T02:26:22+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/09/hamish-falconer-uk-minister-european-relations-eu",
+      "title": "\u2018I was on my honeymoon!\u2019: Hamish Falconer\u2019s surprise call-up to Burnham\u2019s cabinet",
+      "url": "https://www.theguardian.com/world/2026/aug/09/hamish-falconer-uk-minister-european-relations-eu",
+      "source": "The Guardian",
+      "published_date": "2026-08-09T18:00:22+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/aug/05/us-iran-israel-oman-strait-of-hormuz-latest-news-updates",
+      "title": "Iran and Oman agree on coordinates of route through strait of Hormuz, says Iranian foreign ministry \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/aug/05/us-iran-israel-oman-strait-of-hormuz-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-08-05T19:34:36+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/08/iran-issues-tough-demands-to-reopen-strait-of-hormuz-as-deal-remains-out-of-reach",
+      "title": "Iran issues tough demands to reopen strait of Hormuz as deal still out of reach",
+      "url": "https://www.theguardian.com/world/2026/aug/08/iran-issues-tough-demands-to-reopen-strait-of-hormuz-as-deal-remains-out-of-reach",
+      "source": "The Guardian",
+      "published_date": "2026-08-08T21:01:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/06/ukraine-nato-air-defences-missiles-russia-zelenskyy-patriot",
+      "title": "Nato to \u2018urgently\u2019 get air defences for Ukraine, as Zelenskyy warns of surge in Russian missile production",
+      "url": "https://www.theguardian.com/world/2026/aug/06/ukraine-nato-air-defences-missiles-russia-zelenskyy-patriot",
+      "source": "The Guardian",
+      "published_date": "2026-08-06T02:00:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/07/typhoon-dim-sum-hong-kong-name-explainer",
+      "title": "Typhoon Dim-sum: how Hong Kong put a tasty snack on the storm map",
+      "url": "https://www.theguardian.com/world/2026/aug/07/typhoon-dim-sum-hong-kong-name-explainer",
+      "source": "The Guardian",
+      "published_date": "2026-08-07T00:38:45+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/09/costa-rican-diplomat-rebeca-grynspan-contender-first-female-head-of-un",
+      "title": "Costa Rican diplomat emerges as strong contender to be first female head of UN",
+      "url": "https://www.theguardian.com/world/2026/aug/09/costa-rican-diplomat-rebeca-grynspan-contender-first-female-head-of-un",
+      "source": "The Guardian",
+      "published_date": "2026-08-09T07:00:08+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown",
+      "title": "US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown",
+      "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown",
+      "source": "The Guardian",
+      "published_date": "2026-08-08T04:08:18+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/aug/04/europe-drought-extreme-heat-wildfires-climate-crisis-hungary-romania-ceuta-spain-migration-eu-latest-news-updates",
+      "title": "Spain says 70,000 out of 72,000 migrants that entered Ceuta in mass border crossing have returned to Morocco \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/aug/04/europe-drought-extreme-heat-wildfires-climate-crisis-hungary-romania-ceuta-spain-migration-eu-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-08-04T15:35:40+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/05/alex-eala-philippines-tennis-fever",
+      "title": "\u2018Our new champion\u2019: Philippines swept up in tennis fever after Alex Eala\u2019s historic win",
+      "url": "https://www.theguardian.com/world/2026/aug/05/alex-eala-philippines-tennis-fever",
+      "source": "The Guardian",
+      "published_date": "2026-08-05T02:10:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/04/ukraine-war-briefing-militarys-former-top-commander-says-kyiv-has-no-chance-of-joining-nato",
+      "title": "Ukraine war briefing: Military\u2019s former top commander says Kyiv has no chance of joining Nato",
+      "url": "https://www.theguardian.com/world/2026/aug/04/ukraine-war-briefing-militarys-former-top-commander-says-kyiv-has-no-chance-of-joining-nato",
+      "source": "The Guardian",
+      "published_date": "2026-08-04T01:24:40+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/06/thursday-briefing-is-this-the-final-whistle-for-gianni-infantino-at-fifa",
+      "title": "Thursday briefing: \u200bIs this the final whistle for Gianni Infantino at Fifa?",
+      "url": "https://www.theguardian.com/world/2026/aug/06/thursday-briefing-is-this-the-final-whistle-for-gianni-infantino-at-fifa",
+      "source": "The Guardian",
+      "published_date": "2026-08-06T05:49:26+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen",
+      "title": "Stronger EU borders needed after Ceuta crisis, von der Leyen says",
+      "url": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen",
+      "source": "The Guardian",
+      "published_date": "2026-08-03T17:44:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/05/cuba-true-believers-revolution-moncada",
+      "title": "As the lights go out, Cuba\u2019s true believers vow to resist US intervention",
+      "url": "https://www.theguardian.com/world/2026/aug/05/cuba-true-believers-revolution-moncada",
+      "source": "The Guardian",
+      "published_date": "2026-08-05T13:38:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/aug/04/middle-east-crisis-qatar-iran-us-israel-war-donald-trump-strait-hormuz-gaza-latest-news-updates",
+      "title": "Rubio hopes US can reach Hormuz deal with Iran \u2018very shortly\u2019 as officials say progress has been made \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/aug/04/middle-east-crisis-qatar-iran-us-israel-war-donald-trump-strait-hormuz-gaza-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-08-04T22:13:58+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
