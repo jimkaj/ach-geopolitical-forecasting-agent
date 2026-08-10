@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260809_225244",
-  "last_update": "2026-08-09T22:53:26.451437",
+  "matrix_version": "20260810_140041",
+  "last_update": "2026-08-10T14:01:24.814393",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -188,6 +188,19 @@
         "h3": "-"
       },
       "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/aug/10/daniel-kinahan-lifestyle-shift-dubai-luxury-irish-prison-cell",
+      "title": "From Dubai luxury to an Irish jail cell: Daniel Kinahan\u2019s drastic lifestyle shift",
+      "url": "https://www.theguardian.com/world/2026/aug/10/daniel-kinahan-lifestyle-shift-dubai-luxury-irish-prison-cell",
+      "source": "The Guardian",
+      "published_date": "2026-08-10T13:54:04+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
     }
   ]
 }

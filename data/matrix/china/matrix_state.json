@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260809_222128",
-  "last_update": "2026-08-09T22:37:59.635333",
+  "matrix_version": "20260810_135659",
+  "last_update": "2026-08-10T13:59:49.309489",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -1989,6 +1989,45 @@
       "url": "https://www.theguardian.com/world/live/2026/aug/04/middle-east-crisis-qatar-iran-us-israel-war-donald-trump-strait-hormuz-gaza-latest-news-updates",
       "source": "The Guardian",
       "published_date": "2026-08-04T22:13:58+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/10/typhoon-dolphin-china-shanghai-flooding-evacuations",
+      "title": "Typhoon Dolphin: more than a million people evacuated in China as record rainfall dumped on Shanghai",
+      "url": "https://www.theguardian.com/world/2026/aug/10/typhoon-dolphin-china-shanghai-flooding-evacuations",
+      "source": "The Guardian",
+      "published_date": "2026-08-10T04:55:18+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/10/monday-briefing-how-the-new-phase-of-confrontation-at-al-aqsa-signals-a-challenge-to-the-status-quo",
+      "title": "Monday briefing: How the new phase of confrontation at al-Aqsa signals a challenge to the status quo",
+      "url": "https://www.theguardian.com/world/2026/aug/10/monday-briefing-how-the-new-phase-of-confrontation-at-al-aqsa-signals-a-challenge-to-the-status-quo",
+      "source": "The Guardian",
+      "published_date": "2026-08-10T05:45:18+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/09/yemen-houthis-saudi-oil-refinery-defence-pact-iran-strait-of-hormuz",
+      "title": "Iran-aligned Houthis claim they attacked oil refinery in Saudi Arabia",
+      "url": "https://www.theguardian.com/world/2026/aug/09/yemen-houthis-saudi-oil-refinery-defence-pact-iran-strait-of-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-08-09T15:11:28+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
