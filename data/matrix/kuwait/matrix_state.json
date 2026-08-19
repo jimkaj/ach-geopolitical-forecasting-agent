@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260810_140040",
-  "last_update": "2026-08-10T14:00:40.539397",
+  "matrix_version": "20260819_233124",
+  "last_update": "2026-08-19T23:32:55.069578",
   "hypothesis_names": {
     "h1": "Kuwait supports the United States",
     "h2": "Kuwait maintains a neutral stance with the United States",
@@ -182,6 +182,32 @@
       "url": "https://www.theguardian.com/world/2026/aug/05/exiled-pm-vows-to-return-sheikh-hasina-bangladesh-despite-execution-threat",
       "source": "The Guardian",
       "published_date": "2026-08-05T17:45:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/16/greek-island-salamis-belgium-high-fens-helicopters-wildfire",
+      "title": "Wildfires kill two in Greece and torch Belgian nature reserve",
+      "url": "https://www.theguardian.com/world/2026/aug/16/greek-island-salamis-belgium-high-fens-helicopters-wildfire",
+      "source": "The Guardian",
+      "published_date": "2026-08-16T21:27:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/14/ukraine-war-briefing-crimea-bomb-robert-shageyev-defected",
+      "title": "Ukraine war briefing: Crimea bomb kills \u2018Ukrainian sub commander who defected\u2019",
+      "url": "https://www.theguardian.com/world/2026/aug/14/ukraine-war-briefing-crimea-bomb-robert-shageyev-defected",
+      "source": "The Guardian",
+      "published_date": "2026-08-14T02:05:22+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260810_135949",
-  "last_update": "2026-08-10T14:00:39.425130",
+  "matrix_version": "20260819_231543",
+  "last_update": "2026-08-19T23:22:22.932954",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -988,6 +988,123 @@
       "url": "https://www.theguardian.com/world/2026/aug/05/wednesday-briefing-how-misinformation-and-a-hardened-immigration-policy-turned-ceuta-into-europes-latest-flashpoint",
       "source": "The Guardian",
       "published_date": "2026-08-05T05:54:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/17/netanyahu-party-campaign-billboard-mamdani-iran-hezbollah",
+      "title": "Netanyahu party campaign billboard likens Mamdani to leaders of Iran and Hezbollah",
+      "url": "https://www.theguardian.com/world/2026/aug/17/netanyahu-party-campaign-billboard-mamdani-iran-hezbollah",
+      "source": "The Guardian",
+      "published_date": "2026-08-17T19:54:03+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/13/south-korea-incheon-airport-iran-war-middle-east",
+      "title": "South Korean airport becomes busiest in world for global traffic amid Iran war",
+      "url": "https://www.theguardian.com/world/2026/aug/13/south-korea-incheon-airport-iran-war-middle-east",
+      "source": "The Guardian",
+      "published_date": "2026-08-13T09:45:56+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/15/afghan-soldier-iran-war-abandoned-by-australia-us-british-troops-taliban",
+      "title": "Abbas fought the Taliban alongside US and Australian troops. Now exiled in Iran, he feels abandoned",
+      "url": "https://www.theguardian.com/world/2026/aug/15/afghan-soldier-iran-war-abandoned-by-australia-us-british-troops-taliban",
+      "source": "The Guardian",
+      "published_date": "2026-08-14T15:00:33+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/aug/17/trump-kushner-netanyahu-hamas-gaza-israel-blair-us-iran-hormuz-oil-latest-news-updates",
+      "title": "Trump threatens to bomb Oman if it \u2018gets in the way\u2019 of Iran deal as Kushner meets Netanyahu \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/aug/17/trump-kushner-netanyahu-hamas-gaza-israel-blair-us-iran-hormuz-oil-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-08-17T16:48:26+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/15/israeli-strike-on-southern-lebanon-kills-seven-in-worst-toll-since-june-state-media-says",
+      "title": "Israeli strikes on southern Lebanon kill 11 in worst toll since June truce",
+      "url": "https://www.theguardian.com/world/2026/aug/15/israeli-strike-on-southern-lebanon-kills-seven-in-worst-toll-since-june-state-media-says",
+      "source": "The Guardian",
+      "published_date": "2026-08-15T13:55:28+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/17/monday-briefing-what-can-andy-burnham-learn-from-spains-pedro-sanchez",
+      "title": "Monday briefing: What can Andy Burnham learn from Spain\u2019s Pedro S\u00e1nchez?",
+      "url": "https://www.theguardian.com/world/2026/aug/17/monday-briefing-what-can-andy-burnham-learn-from-spains-pedro-sanchez",
+      "source": "The Guardian",
+      "published_date": "2026-08-17T05:47:23+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/aug/12/trump-greenland-oil",
+      "title": "Greenland forces Trump-linked US oil firm to delay drilling",
+      "url": "https://www.theguardian.com/world/2026/aug/12/trump-greenland-oil",
+      "source": "The Guardian",
+      "published_date": "2026-08-12T18:00:41+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro",
+      "title": "Brazil\u2019s Lula launches historic fourth term bid \u2013 but son of jailed Bolsonaro stands in his way",
+      "url": "https://www.theguardian.com/world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro",
+      "source": "The Guardian",
+      "published_date": "2026-08-16T18:44:41+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/14/benjamin-netanyahu-describes-uk-first-islamic-republic-to-get-nuclear-weapon",
+      "title": "Benjamin Netanyahu describes UK as \u2018first Islamic republic to get a nuclear weapon\u2019",
+      "url": "https://www.theguardian.com/world/2026/aug/14/benjamin-netanyahu-describes-uk-first-islamic-republic-to-get-nuclear-weapon",
+      "source": "The Guardian",
+      "published_date": "2026-08-14T12:00:42+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

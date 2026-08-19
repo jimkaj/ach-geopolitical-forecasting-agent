@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260810_140039",
-  "last_update": "2026-08-10T14:00:39.990180",
+  "matrix_version": "20260819_232951",
+  "last_update": "2026-08-19T23:31:23.371380",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -210,6 +210,32 @@
       "published_date": "2026-07-23T05:49:36+00:00",
       "marks": {
         "h1": "+",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/19/is-bulgarian-prime-minister-rumen-radev-sizing-up-eu-orban-shaped-hole",
+      "title": "Is Bulgarian prime minister Rumen Radev sizing up the EU\u2019s Orb\u00e1n-shaped hole?",
+      "url": "https://www.theguardian.com/world/2026/aug/19/is-bulgarian-prime-minister-rumen-radev-sizing-up-eu-orban-shaped-hole",
+      "source": "The Guardian",
+      "published_date": "2026-08-19T10:47:33+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/17/finland-halts-deportation-russian-family-opposed-ukraine-invasion",
+      "title": "Finland halts deportation of Russian family who \u2018risked everything\u2019 to oppose Ukraine invasion",
+      "url": "https://www.theguardian.com/world/2026/aug/17/finland-halts-deportation-russian-family-opposed-ukraine-invasion",
+      "source": "The Guardian",
+      "published_date": "2026-08-17T14:04:25+00:00",
+      "marks": {
+        "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
       },

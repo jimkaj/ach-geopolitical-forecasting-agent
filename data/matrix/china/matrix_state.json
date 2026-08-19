@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260810_135659",
-  "last_update": "2026-08-10T13:59:49.309489",
+  "matrix_version": "20260819_225651",
+  "last_update": "2026-08-19T23:15:43.226294",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -2028,6 +2028,331 @@
       "url": "https://www.theguardian.com/world/2026/aug/09/yemen-houthis-saudi-oil-refinery-defence-pact-iran-strait-of-hormuz",
       "source": "The Guardian",
       "published_date": "2026-08-09T15:11:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/15/concern-grow-global-ties-taliban-afghanistan-human-rights",
+      "title": "Concerns grow over increased global ties with Taliban in Afghanistan",
+      "url": "https://www.theguardian.com/world/2026/aug/15/concern-grow-global-ties-taliban-afghanistan-human-rights",
+      "source": "The Guardian",
+      "published_date": "2026-08-15T05:00:49+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/13/the-west-turns-a-blind-eye-to-xi-jinping-repressive-regime-in-china",
+      "title": "The west turns a blind eye to Xi Jinping\u2019s repressive regime in China",
+      "url": "https://www.theguardian.com/world/2026/aug/13/the-west-turns-a-blind-eye-to-xi-jinping-repressive-regime-in-china",
+      "source": "The Guardian",
+      "published_date": "2026-08-13T16:39:16+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall",
+      "title": "Mass evacuations in Beijing as Typhoon Dolphin brings more torrential rain to China",
+      "url": "https://www.theguardian.com/world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall",
+      "source": "The Guardian",
+      "published_date": "2026-08-12T04:43:19+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/12/cook-islands-election-mark-brown-pm-prime-minister",
+      "title": "Cook Islands election: PM Mark Brown speaks on the diplomatic crises that defined his year",
+      "url": "https://www.theguardian.com/world/2026/aug/12/cook-islands-election-mark-brown-pm-prime-minister",
+      "source": "The Guardian",
+      "published_date": "2026-08-12T00:24:55+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/19/kim-jong-un-sister-doubt-trump-claims-secret-us-north-korea-talks",
+      "title": "Kim Jong-un\u2019s sister casts doubt on Trump\u2019s claims of secret US-North Korea talks",
+      "url": "https://www.theguardian.com/world/2026/aug/19/kim-jong-un-sister-doubt-trump-claims-secret-us-north-korea-talks",
+      "source": "The Guardian",
+      "published_date": "2026-08-19T17:39:56+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/17/strait-hormuz-alternative-china-ships-north-sea-route-arctic-ice-silk-road",
+      "title": "After Hormuz, China looks to the promise \u2013 and peril \u2013 of the Arctic\u2019s \u2018ice silk road\u2019",
+      "url": "https://www.theguardian.com/world/2026/aug/17/strait-hormuz-alternative-china-ships-north-sea-route-arctic-ice-silk-road",
+      "source": "The Guardian",
+      "published_date": "2026-08-17T00:09:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.6666666666666666
+    },
+    {
+      "article_id": "world/2026/aug/14/taiwan-taipei-internet-blackout-air-raid-drill-china-threat",
+      "title": "\u2018TikTok wouldn\u2019t open at all\u2019: Taiwan simulates an internet blackout, with an eye on China threat",
+      "url": "https://www.theguardian.com/world/2026/aug/14/taiwan-taipei-internet-blackout-air-raid-drill-china-threat",
+      "source": "The Guardian",
+      "published_date": "2026-08-14T03:17:54+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/aug/12/comac-c919-chinese-passenger-jet-china-plane-first-international-flight",
+      "title": "Passenger jet billed as China\u2019s answer to Boeing and Airbus prepares to make first international flight",
+      "url": "https://www.theguardian.com/world/2026/aug/12/comac-c919-chinese-passenger-jet-china-plane-first-international-flight",
+      "source": "The Guardian",
+      "published_date": "2026-08-12T02:02:04+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/16/japans-defence-minister-heads-to-australia-to-meet-marles-in-wake-of-melon-gate-controversy",
+      "title": "Japan\u2019s defence minister heads to Australia to meet Marles in wake of melon-gate controversy",
+      "url": "https://www.theguardian.com/world/2026/aug/16/japans-defence-minister-heads-to-australia-to-meet-marles-in-wake-of-melon-gate-controversy",
+      "source": "The Guardian",
+      "published_date": "2026-08-16T04:44:30+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping",
+      "title": "American missionary kidnapped in Niger freed after nine months",
+      "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping",
+      "source": "The Guardian",
+      "published_date": "2026-08-14T14:55:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/17/andrei-klepach-russian-banker-fired-warning-economy",
+      "title": "Senior Russian banker fired after scathing speech on wartime economy",
+      "url": "https://www.theguardian.com/world/2026/aug/17/andrei-klepach-russian-banker-fired-warning-economy",
+      "source": "The Guardian",
+      "published_date": "2026-08-17T10:29:58+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/19/trump-south-korea-alliance-military-seoul-security",
+      "title": "In cutting joint drills, Trump has given South Korea\u2019s president what he wants. So why is Seoul so uneasy?",
+      "url": "https://www.theguardian.com/world/2026/aug/19/trump-south-korea-alliance-military-seoul-security",
+      "source": "The Guardian",
+      "published_date": "2026-08-19T05:40:29+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/aug/16/ukraine-war-briefing-kyiv-faces-missile-barrage-after-zelenskyy-targets-russian-satellite-network",
+      "title": "Ukraine war briefing: Kyiv faces missile barrage after Zelenskyy targets Russian satellite network",
+      "url": "https://www.theguardian.com/world/2026/aug/16/ukraine-war-briefing-kyiv-faces-missile-barrage-after-zelenskyy-targets-russian-satellite-network",
+      "source": "The Guardian",
+      "published_date": "2026-08-16T02:22:46+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/12/zhu-rongji-obituary",
+      "title": "Zhu Rongji obituary",
+      "url": "https://www.theguardian.com/world/2026/aug/12/zhu-rongji-obituary",
+      "source": "The Guardian",
+      "published_date": "2026-08-12T16:42:38+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/18/ukraine-drone-chase-videos-russian-soldiers",
+      "title": "\u2018Our task is to laugh at these enemies\u2019: the Ukrainian unit posting drone videos of Russian soldiers\u2019 last moments",
+      "url": "https://www.theguardian.com/world/2026/aug/18/ukraine-drone-chase-videos-russian-soldiers",
+      "source": "The Guardian",
+      "published_date": "2026-08-18T11:43:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/17/trump-cuts-south-korea-joint-drills-us-military-good-relationship-kim-jong-un",
+      "title": "Trump orders cuts to South Korea joint drills despite warnings about Kim regime",
+      "url": "https://www.theguardian.com/world/2026/aug/17/trump-cuts-south-korea-joint-drills-us-military-good-relationship-kim-jong-un",
+      "source": "The Guardian",
+      "published_date": "2026-08-17T09:10:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/19/germanys-firewall-was-meant-to-hold-the-far-right-at-bay-it-may-have-done-the-reverse",
+      "title": "Germany\u2019s firewall was meant to hold the far right at bay. It may have done the reverse",
+      "url": "https://www.theguardian.com/world/2026/aug/19/germanys-firewall-was-meant-to-hold-the-far-right-at-bay-it-may-have-done-the-reverse",
+      "source": "The Guardian",
+      "published_date": "2026-08-19T14:30:13+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/19/us-south-korea-army-drills-cut-trump-push-kim-jong-un-talks",
+      "title": "US-led drills to end six days early, South Korea says, amid Trump push for Kim Jong-un talks",
+      "url": "https://www.theguardian.com/world/2026/aug/19/us-south-korea-army-drills-cut-trump-push-kim-jong-un-talks",
+      "source": "The Guardian",
+      "published_date": "2026-08-19T02:18:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/19/activist-forced-out-of-us-after-criticising-trump-aligned-colombian-politician",
+      "title": "Activist forced out of US after criticising Trump-aligned Colombian politician",
+      "url": "https://www.theguardian.com/world/2026/aug/19/activist-forced-out-of-us-after-criticising-trump-aligned-colombian-politician",
+      "source": "The Guardian",
+      "published_date": "2026-08-19T09:00:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/12/germany-approves-lifting-curbs-spy-agencies-security-revolution",
+      "title": "Germany approves lifting curbs on spy agencies in security \u2018revolution\u2019",
+      "url": "https://www.theguardian.com/world/2026/aug/12/germany-approves-lifting-curbs-spy-agencies-security-revolution",
+      "source": "The Guardian",
+      "published_date": "2026-08-12T10:43:25+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/aug/18/kuril-islands-putin-takaichi-dispute-japan-russia-northern-territories",
+      "title": "The Kuril Islands: how a visit from Putin reignited a 150-year-old dispute between Japan and Russia",
+      "url": "https://www.theguardian.com/world/2026/aug/18/kuril-islands-putin-takaichi-dispute-japan-russia-northern-territories",
+      "source": "The Guardian",
+      "published_date": "2026-08-18T05:19:40+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/17/niu-lai-derided-animated-film-challenges-blockbusters-at-chinese-box-office",
+      "title": "\u2018Bad in every aspect\u2019: derided low-tech animation Niu Lai rivals blockbusters at Chinese box office",
+      "url": "https://www.theguardian.com/world/2026/aug/17/niu-lai-derided-animated-film-challenges-blockbusters-at-chinese-box-office",
+      "source": "The Guardian",
+      "published_date": "2026-08-17T16:30:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/18/south-korea-president-trump-military-drills-control-opcon-kim-jong-un",
+      "title": "South Korea president calls for military independence in wake of Trump call to cut joint drills",
+      "url": "https://www.theguardian.com/world/2026/aug/18/south-korea-president-trump-military-drills-control-opcon-kim-jong-un",
+      "source": "The Guardian",
+      "published_date": "2026-08-18T05:50:33+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/17/donald-trump-threatens-bomb-oman",
+      "title": "Donald Trump threatens to bomb Oman if it \u2018gets in the way\u2019 of ending Iran war",
+      "url": "https://www.theguardian.com/world/2026/aug/17/donald-trump-threatens-bomb-oman",
+      "source": "The Guardian",
+      "published_date": "2026-08-17T13:43:26+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/13/japan-condemns-vladimir-putin-visit-kuril-islands",
+      "title": "\u2018Absolutely unacceptable\u2019: Japan condemns visit by Vladimir Putin to disputed Kuril Islands",
+      "url": "https://www.theguardian.com/world/2026/aug/13/japan-condemns-vladimir-putin-visit-kuril-islands",
+      "source": "The Guardian",
+      "published_date": "2026-08-13T12:56:57+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

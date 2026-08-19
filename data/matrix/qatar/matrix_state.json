@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260810_140039",
-  "last_update": "2026-08-10T14:00:39.717394",
+  "matrix_version": "20260819_232734",
+  "last_update": "2026-08-19T23:29:51.719983",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -253,6 +253,45 @@
         "h3": "N/A"
       },
       "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/aug/13/transport-watchdog-investigates-another-near-miss-at-sydney-airport",
+      "title": "Transport watchdog investigates third safety incident at Sydney airport",
+      "url": "https://www.theguardian.com/world/2026/aug/13/transport-watchdog-investigates-another-near-miss-at-sydney-airport",
+      "source": "The Guardian",
+      "published_date": "2026-08-13T12:35:02+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/18/bird-flu-wildlife-australian-birds-most-at-risk",
+      "title": "Bird flu has devastated wildlife around the world. What Australian birds are most at risk?",
+      "url": "https://www.theguardian.com/world/2026/aug/18/bird-flu-wildlife-australian-birds-most-at-risk",
+      "source": "The Guardian",
+      "published_date": "2026-08-17T15:00:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/17/ukraine-war-briefing-kyiv-capable-ballistic-missiles-russia-in-months",
+      "title": "Ukraine war briefing: Kyiv could hit Russia with domestic ballistic missiles in months, former defence minister says",
+      "url": "https://www.theguardian.com/world/2026/aug/17/ukraine-war-briefing-kyiv-capable-ballistic-missiles-russia-in-months",
+      "source": "The Guardian",
+      "published_date": "2026-08-17T00:51:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
     }
   ]
 }

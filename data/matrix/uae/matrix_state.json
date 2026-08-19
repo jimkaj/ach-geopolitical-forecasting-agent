@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260810_140041",
-  "last_update": "2026-08-10T14:01:24.814393",
+  "matrix_version": "20260819_233342",
+  "last_update": "2026-08-19T23:35:58.896866",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -199,6 +199,45 @@
         "h1": "+",
         "h2": "N/A",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu",
+      "title": "Zambia elections haunted by ghost of incumbent president\u2019s arch-rival",
+      "url": "https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu",
+      "source": "The Guardian",
+      "published_date": "2026-08-13T04:00:49+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/15/ukraine-war-briefing-zelenskyy-warns-egypt-of-food-supply-threat-caused-by-russian-strikes-in-black-sea",
+      "title": "Ukraine war briefing: Zelenskyy warns Egypt of food supply threat caused by Russian strikes in Black Sea",
+      "url": "https://www.theguardian.com/world/2026/aug/15/ukraine-war-briefing-zelenskyy-warns-egypt-of-food-supply-threat-caused-by-russian-strikes-in-black-sea",
+      "source": "The Guardian",
+      "published_date": "2026-08-15T01:53:30+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/12/nz-christopher-luxon-leadership-showdown-confidence-vote",
+      "title": "New Zealand PM Christopher Luxon wins confidence vote, surviving second challenge to leadership",
+      "url": "https://www.theguardian.com/world/2026/aug/12/nz-christopher-luxon-leadership-showdown-confidence-vote",
+      "source": "The Guardian",
+      "published_date": "2026-08-12T02:19:18+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }
