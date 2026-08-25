@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260819_232222",
-  "last_update": "2026-08-19T23:27:34.019257",
+  "matrix_version": "20260825_233441",
+  "last_update": "2026-08-25T23:36:51.126336",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -576,6 +576,45 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/21/uk-australia-canada-criticise-israel-gaza-aid-convoy-killings-decision",
+      "title": "\u2018Shameful\u2019: UK, Australia and Canada criticise Israel over Gaza aid convoy killings decision",
+      "url": "https://www.theguardian.com/world/2026/aug/21/uk-australia-canada-criticise-israel-gaza-aid-convoy-killings-decision",
+      "source": "The Guardian",
+      "published_date": "2026-08-21T15:03:34+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/commentisfree/2026/aug/21/zomi-frankcom-killing-death-israel-idf-ntwnfb",
+      "title": "Zomi Frankcom did not deserve to die. Israel\u2019s refusal to investigate her death and its failure to apologise is despicable",
+      "url": "https://www.theguardian.com/world/commentisfree/2026/aug/21/zomi-frankcom-killing-death-israel-idf-ntwnfb",
+      "source": "The Guardian",
+      "published_date": "2026-08-20T23:29:35+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "-",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/21/israeli-settler-attacks-shift-to-heart-of-territory-earmarked-for-palestinian-state",
+      "title": "Israeli settler attacks shift focus to West Bank areas under direct Palestinian rule",
+      "url": "https://www.theguardian.com/world/2026/aug/21/israeli-settler-attacks-shift-to-heart-of-territory-earmarked-for-palestinian-state",
+      "source": "The Guardian",
+      "published_date": "2026-08-21T06:00:26+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
       },
       "confidence": 1.0
     }

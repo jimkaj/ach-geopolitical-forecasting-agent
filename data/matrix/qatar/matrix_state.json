@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260819_232734",
-  "last_update": "2026-08-19T23:29:51.719983",
+  "matrix_version": "20260825_233651",
+  "last_update": "2026-08-25T23:39:10.033895",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -286,6 +286,45 @@
       "url": "https://www.theguardian.com/world/2026/aug/17/ukraine-war-briefing-kyiv-capable-ballistic-missiles-russia-in-months",
       "source": "The Guardian",
       "published_date": "2026-08-17T00:51:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates",
+      "title": "EU\u2019s von der Leyen warns of \u2018escalating campaign of threats\u2019 as Romania destroys naval drone \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates",
+      "source": "The Guardian",
+      "published_date": "2026-08-20T15:21:52+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/20/imran-khan-hospital-pakistan",
+      "title": "Jailed ex-Pakistan PM Imran Khan allowed brief hospital visit after uproar over health",
+      "url": "https://www.theguardian.com/world/2026/aug/20/imran-khan-hospital-pakistan",
+      "source": "The Guardian",
+      "published_date": "2026-08-20T23:07:10+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/24/ukraine-war-briefing-nord-stream-bombings-were-not-us-zelenskyy-insists",
+      "title": "Ukraine war briefing: Nord Stream bombings were not us, Zelenskyy insists",
+      "url": "https://www.theguardian.com/world/2026/aug/24/ukraine-war-briefing-nord-stream-bombings-were-not-us-zelenskyy-insists",
+      "source": "The Guardian",
+      "published_date": "2026-08-24T01:13:08+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

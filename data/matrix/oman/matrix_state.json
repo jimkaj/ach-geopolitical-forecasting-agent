@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260819_233255",
-  "last_update": "2026-08-19T23:33:42.676670",
+  "matrix_version": "20260825_233912",
+  "last_update": "2026-08-25T23:40:41.717875",
   "hypothesis_names": {
     "h1": "Oman supports the United States",
     "h2": "Oman maintains a neutral stance with the United States",
@@ -188,6 +188,32 @@
         "h3": "+"
       },
       "confidence": 0.8333333333333334
+    },
+    {
+      "article_id": "world/2026/aug/21/russia-launch-missiles-kuril-islands-japan",
+      "title": "Russia\u2019s missile tests around disputed islands anger Japan",
+      "url": "https://www.theguardian.com/world/2026/aug/21/russia-launch-missiles-kuril-islands-japan",
+      "source": "The Guardian",
+      "published_date": "2026-08-21T04:54:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/20/ukraine-war-briefing-russia-running-on-imported-gasoline-government-confirms",
+      "title": "Ukraine war briefing: Russia running on imported gasoline, government confirms",
+      "url": "https://www.theguardian.com/world/2026/aug/20/ukraine-war-briefing-russia-running-on-imported-gasoline-government-confirms",
+      "source": "The Guardian",
+      "published_date": "2026-08-20T00:54:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
     }
   ]
 }

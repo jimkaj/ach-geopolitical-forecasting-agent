@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260819_231543",
-  "last_update": "2026-08-19T23:22:22.932954",
+  "matrix_version": "20260825_233223",
+  "last_update": "2026-08-25T23:34:41.836933",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1105,6 +1105,45 @@
       "url": "https://www.theguardian.com/world/2026/aug/14/benjamin-netanyahu-describes-uk-first-islamic-republic-to-get-nuclear-weapon",
       "source": "The Guardian",
       "published_date": "2026-08-14T12:00:42+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/25/canada-retaliatory-tariffs-on-range-of-us-goods",
+      "title": "Canada announces retaliatory tariffs on wide range of US goods",
+      "url": "https://www.theguardian.com/world/2026/aug/25/canada-retaliatory-tariffs-on-range-of-us-goods",
+      "source": "The Guardian",
+      "published_date": "2026-08-25T16:17:44+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/25/tuesday-briefing-will-uk-ministers-make-policy-change-to-save-young-lives-on-the-road",
+      "title": "Tuesday briefing: Will UK ministers make policy change to save young lives on the road?",
+      "url": "https://www.theguardian.com/world/2026/aug/25/tuesday-briefing-will-uk-ministers-make-policy-change-to-save-young-lives-on-the-road",
+      "source": "The Guardian",
+      "published_date": "2026-08-25T05:45:39+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/25/australia-has-just-12000-sea-lions-left-and-carnage-may-await-them-as-bird-flu-takes-hold-scientists-warn",
+      "title": "Australia has just 12,000 sea lions left \u2013 and \u2018carnage\u2019 may await them as bird flu takes hold, scientists warn",
+      "url": "https://www.theguardian.com/world/2026/aug/25/australia-has-just-12000-sea-lions-left-and-carnage-may-await-them-as-bird-flu-takes-hold-scientists-warn",
+      "source": "The Guardian",
+      "published_date": "2026-08-24T15:00:36+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
