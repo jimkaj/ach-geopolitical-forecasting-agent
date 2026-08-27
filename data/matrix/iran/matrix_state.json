@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260825_233223",
-  "last_update": "2026-08-25T23:34:41.836933",
+  "matrix_version": "20260827_011756",
+  "last_update": "2026-08-27T01:20:03.520354",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1148,6 +1148,45 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/26/iran-faces-strait-of-hormuz-paradox-as-strategic-value-of-chokehold-erodes",
+      "title": "Iran faces strait of Hormuz paradox as strategic value of chokehold erodes",
+      "url": "https://www.theguardian.com/world/2026/aug/26/iran-faces-strait-of-hormuz-paradox-as-strategic-value-of-chokehold-erodes",
+      "source": "The Guardian",
+      "published_date": "2026-08-26T04:00:33+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/26/jared-huffman-rising-christian-nationalism-no-prophets-book",
+      "title": "\u2018A Bible-sized blind spot\u2019: congressman sounds alarm on rising Christian nationalism",
+      "url": "https://www.theguardian.com/world/2026/aug/26/jared-huffman-rising-christian-nationalism-no-prophets-book",
+      "source": "The Guardian",
+      "published_date": "2026-08-26T12:00:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/23/ukraine-war-briefing-macron-focuses-on-delivery-of-missile-interceptors-as-russian-attacks-intensify",
+      "title": "Ukraine war briefing: Macron focuses on delivery of missile interceptors as Russian attacks intensify",
+      "url": "https://www.theguardian.com/world/2026/aug/23/ukraine-war-briefing-macron-focuses-on-delivery-of-missile-interceptors-as-russian-attacks-intensify",
+      "source": "The Guardian",
+      "published_date": "2026-08-23T01:04:23+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
       },
       "confidence": 1.0
     }

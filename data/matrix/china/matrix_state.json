@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260825_231846",
-  "last_update": "2026-08-25T23:32:23.688507",
+  "matrix_version": "20260827_011252",
+  "last_update": "2026-08-27T01:17:56.200363",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -2591,6 +2591,84 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/26/tell-us-have-you-been-affected-by-the-flash-floods-on-the-nepal-tibet-border",
+      "title": "Tell us: have you been affected by the flash floods on the Nepal-Tibet border?",
+      "url": "https://www.theguardian.com/world/2026/aug/26/tell-us-have-you-been-affected-by-the-flash-floods-on-the-nepal-tibet-border",
+      "source": "The Guardian",
+      "published_date": "2026-08-26T13:02:04+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/26/goodbye-to-the-soviet-union-dissolution-1991",
+      "title": "Goodbye to the Soviet Union \u2013 archive, 1991",
+      "url": "https://www.theguardian.com/world/2026/aug/26/goodbye-to-the-soviet-union-dissolution-1991",
+      "source": "The Guardian",
+      "published_date": "2026-08-26T10:25:10+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern",
+      "title": "In China, talking to AI is normal. Now the government fears it might replace human intimacy",
+      "url": "https://www.theguardian.com/world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern",
+      "source": "The Guardian",
+      "published_date": "2026-08-26T00:47:38+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/aug/26/nepal-tibet-himalayas-flash-floods-missing-foreign-tourists-latest-news-updates",
+      "title": "Nepalese police say more than 150 bodies recovered \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/aug/26/nepal-tibet-himalayas-flash-floods-missing-foreign-tourists-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-08-27T00:58:07+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/aug/27/nepal-flash-flood-live-updates-tibet-border-death-toll-missing-himalayas-floods-flooding-latest-news",
+      "title": "Nepal flash flood live updates: search on for hundreds missing near Tibet border as officials warn death toll could rise higher",
+      "url": "https://www.theguardian.com/world/live/2026/aug/27/nepal-flash-flood-live-updates-tibet-border-death-toll-missing-himalayas-floods-flooding-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-08-27T01:12:42+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/26/wednesday-briefing-how-canada-has-turned-a-trade-dispute-into-a-defence-of-its-sovereignty",
+      "title": "Wednesday briefing: How Canada has turned a trade dispute into a defence of its sovereignty",
+      "url": "https://www.theguardian.com/world/2026/aug/26/wednesday-briefing-how-canada-has-turned-a-trade-dispute-into-a-defence-of-its-sovereignty",
+      "source": "The Guardian",
+      "published_date": "2026-08-26T05:47:32+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
       },
       "confidence": 1.0
     }

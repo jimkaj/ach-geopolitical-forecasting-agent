@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260825_233441",
-  "last_update": "2026-08-25T23:36:51.126336",
+  "matrix_version": "20260827_012003",
+  "last_update": "2026-08-27T01:22:16.066977",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -615,6 +615,45 @@
         "h1": "-",
         "h2": "N/A",
         "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/26/only-sanctions-imposed-on-israel-will-work",
+      "title": "Only sanctions imposed on Israel will work",
+      "url": "https://www.theguardian.com/world/2026/aug/26/only-sanctions-imposed-on-israel-will-work",
+      "source": "The Guardian",
+      "published_date": "2026-08-26T16:06:20+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+      "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+      "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+      "source": "The Guardian",
+      "published_date": "2026-08-26T11:00:11+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/aug/21/thursday-briefing-what-does-the-mass-closure-of-charity-shops-tell-us-about-britain",
+      "title": "Friday briefing: What does the mass closure of charity shops tell us about Britain?",
+      "url": "https://www.theguardian.com/world/2026/aug/21/thursday-briefing-what-does-the-mass-closure-of-charity-shops-tell-us-about-britain",
+      "source": "The Guardian",
+      "published_date": "2026-08-21T05:46:47+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260825_233911",
-  "last_update": "2026-08-25T23:39:11.243126",
+  "matrix_version": "20260827_012300",
+  "last_update": "2026-08-27T01:23:43.459519",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -208,6 +208,19 @@
       "url": "https://www.theguardian.com/world/2026/aug/05/kashmir-deadly-cloudbursts-devastate-mountain-communities-erratic-weather-climate-change",
       "source": "The Guardian",
       "published_date": "2026-08-05T04:00:10+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/aug/26/newborn-babies-die-fire-pakistan-hospital-maternity-ward",
+      "title": "At least 14 newborn babies die in fire at Pakistan hospital\u2019s maternity ward",
+      "url": "https://www.theguardian.com/world/2026/aug/26/newborn-babies-die-fire-pakistan-hospital-maternity-ward",
+      "source": "The Guardian",
+      "published_date": "2026-08-26T07:05:43+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
