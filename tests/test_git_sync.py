@@ -21,8 +21,9 @@ def _run_side_effect(diff_returncode):
 def test_stages_commits_and_pushes_when_changes_exist(mock_run, tmp_path):
     mock_run.side_effect = _run_side_effect(diff_returncode=1)
 
-    sync_matrix_to_git(tmp_path, tmp_path / "data")
+    result = sync_matrix_to_git(tmp_path, tmp_path / "data")
 
+    assert result is True
     commands = [call.args[0] for call in mock_run.call_args_list]
     assert commands[0][:2] == ["git", "add"]
     assert commands[1][:3] == ["git", "diff", "--cached"]
@@ -34,8 +35,9 @@ def test_stages_commits_and_pushes_when_changes_exist(mock_run, tmp_path):
 def test_skips_commit_and_push_when_nothing_staged(mock_run, tmp_path):
     mock_run.side_effect = _run_side_effect(diff_returncode=0)
 
-    sync_matrix_to_git(tmp_path, tmp_path / "data")
+    result = sync_matrix_to_git(tmp_path, tmp_path / "data")
 
+    assert result is True
     commands = [call.args[0] for call in mock_run.call_args_list]
     assert len(commands) == 2  # add + diff only
     assert not any(cmd[:2] == ["git", "commit"] for cmd in commands)
@@ -46,11 +48,15 @@ def test_skips_commit_and_push_when_nothing_staged(mock_run, tmp_path):
 def test_git_failure_is_caught_not_raised(mock_run, tmp_path):
     mock_run.side_effect = subprocess.CalledProcessError(1, ["git", "add"])
 
-    sync_matrix_to_git(tmp_path, tmp_path / "data")  # must not raise
+    result = sync_matrix_to_git(tmp_path, tmp_path / "data")  # must not raise
+
+    assert result is False
 
 
 @patch("tools.git_sync.subprocess.run")
 def test_missing_git_binary_is_caught_not_raised(mock_run, tmp_path):
     mock_run.side_effect = FileNotFoundError("git not found")
 
-    sync_matrix_to_git(tmp_path, tmp_path / "data")  # must not raise
+    result = sync_matrix_to_git(tmp_path, tmp_path / "data")  # must not raise
+
+    assert result is False

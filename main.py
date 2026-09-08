@@ -213,7 +213,20 @@ def run_agent_pipeline() -> None:
             print(f"\nSummary page: {summary_path}")
 
         if settings.auto_git_sync:
-            sync_matrix_to_git(PROJECT_ROOT, settings.data_dir)
+            synced = sync_matrix_to_git(PROJECT_ROOT, settings.data_dir)
+            if not synced:
+                warning = (
+                    "\n[bold red]WARNING:[/bold red] Matrix output was committed "
+                    "locally but [bold]NOT pushed[/bold] to GitHub — Pages will "
+                    "stay stale until this is resolved (see logs/errors.log, "
+                    "then `git pull` and `git push` manually)."
+                )
+                try:
+                    from rich.console import Console
+                    Console().print(warning)
+                except ImportError:
+                    print(warning.replace("[bold red]", "").replace("[/bold red]", "")
+                          .replace("[bold]", "").replace("[/bold]", ""))
 
         logger.info("Pipeline execution complete")
 

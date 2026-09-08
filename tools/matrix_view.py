@@ -45,6 +45,10 @@ _NATION_COLORS = [
     "#6366f1",  # indigo
 ]
 
+# nation_id.title() renders "uae" as "Uae"; override acronym nation IDs here
+# so the summary page's chart legend and scoreboard show the correct casing.
+_NATION_LABEL_OVERRIDES = {"uae": "UAE"}
+
 _CSS = """
 :root { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
 body { margin: 24px; color: #1a1a1a; background: #fafafa; }
@@ -86,6 +90,20 @@ th { background: #f1f3f4; text-align: left; font-weight: 600; }
 .nation-legend a { display:inline-block; margin-right:18px; font-size:13px; font-weight:600;
                    text-decoration:none; padding:3px 0; border-bottom:3px solid; }
 .nation-legend a:hover { opacity:0.75; }
+.scoreboard { display: flex; gap: 14px; margin-bottom: 24px; flex-wrap: wrap; }
+.scoreboard-col { flex: 1 1 220px; background: #fff; border-radius: 6px; border-top: 4px solid;
+                  box-shadow: 0 1px 3px rgba(0,0,0,.12); padding: 12px 14px; }
+.scoreboard-col.support { border-top-color: #16a34a; }
+.scoreboard-col.neutral { border-top-color: #9ca3af; }
+.scoreboard-col.oppose { border-top-color: #dc2626; }
+.scoreboard-col h3 { font-size: 13px; margin: 0 0 8px; color: #333; }
+.scoreboard-col h3 .count { color: #999; font-weight: 400; }
+.scoreboard-item { padding: 6px 0; border-bottom: 1px solid #f0f0f0; }
+.scoreboard-item:last-child { border-bottom: none; }
+.scoreboard-item a { font-weight: 600; text-decoration: none; color: #1a1a1a; font-size: 13px; }
+.scoreboard-item a:hover { text-decoration: underline; }
+.scoreboard-hyp { display: block; font-size: 11px; color: #777; margin-top: 1px; }
+.scoreboard-empty { color: #aaa; font-size: 12px; font-style: italic; }
 .about-section { max-width: 760px; margin-top: 32px; padding-top: 20px; border-top: 1px solid #e5e5e5; }
 .about-section p { font-size: 13px; line-height: 1.6; color: #333; margin: 0 0 10px; }
 .about-section ul { font-size: 13px; line-height: 1.6; color: #333; margin: 4px 0 12px 22px; padding: 0; }
@@ -521,6 +539,31 @@ def render_matrix_html(
 """
 
 
+def _scoreboard_column(title: str, css_class: str, entries: list) -> str:
+    if entries:
+        items = "".join(
+            f'<div class="scoreboard-item"><a href="{escape(e["href"])}">{escape(e["label"])}</a>'
+            f'<span class="scoreboard-hyp">{escape(e["hyp"])}</span></div>'
+            for e in entries
+        )
+    else:
+        items = '<div class="scoreboard-empty">None currently</div>'
+    return (
+        f'<div class="scoreboard-col {css_class}">'
+        f'<h3>{escape(title)} <span class="count">({len(entries)})</span></h3>'
+        f"{items}</div>"
+    )
+
+
+def _scoreboard_html(scoreboard: dict) -> str:
+    cols = (
+        _scoreboard_column("Supporting the US", "support", scoreboard["support"])
+        + _scoreboard_column("Staying Neutral", "neutral", scoreboard["neutral"])
+        + _scoreboard_column("Opposing the US", "oppose", scoreboard["oppose"])
+    )
+    return f'<div class="scoreboard">{cols}</div>'
+
+
 # ---------------------------------------------------------------------------
 # Public: all-nations summary page
 # ---------------------------------------------------------------------------
@@ -536,12 +579,19 @@ def render_summary_html(nation_states: dict) -> str:
         Each nation's legend entry and chart line links to
         {nation_id}/acch_matrix.html (relative path).
     """
-    # Build per-nation series data
+    # Local import avoids a circular import (agents.matrix_agent imports this
+    # module for HTML rendering) — same pattern main.py uses for the same reason.
+    from agents.matrix_agent import compute_scores, rank_by_inconsistency
+
+    # Build per-nation series data, and bucket each nation by its leading
+    # hypothesis (lowest inconsistency, Heuer Step 5) for the scoreboard:
+    # h1 (index 0) = supports US, h3 (last index) = opposes US, else neutral.
     series = []
+    scoreboard = {"support": [], "neutral": [], "oppose": []}
     for i, (nation_id, state) in enumerate(nation_states.items()):
         score_series = _compute_score_series(state.evidence_rows, state.hypothesis_names)
         color = _NATION_COLORS[i % len(_NATION_COLORS)]
-        label = nation_id.replace("_", " ").title()
+        label = _NATION_LABEL_OVERRIDES.get(nation_id, nation_id.replace("_", " ").title())
         href = f"{nation_id}/acch_matrix.html"
         series.append({
             "label": label,
@@ -549,6 +599,23 @@ def render_summary_html(nation_states: dict) -> str:
             "href": href,
             "points": [[p[0], p[1]] for p in score_series],  # [date, score] only
         })
+
+        hyp_ids = list(state.hypothesis_names.keys())
+        if hyp_ids:
+            scores = compute_scores(state.evidence_rows, hyp_ids)
+            ranking = rank_by_inconsistency(scores)
+            leader_id = ranking[0]
+            leader_idx = hyp_ids.index(leader_id)
+            bucket = (
+                "support" if leader_idx == 0
+                else "oppose" if leader_idx == len(hyp_ids) - 1
+                else "neutral"
+            )
+            scoreboard[bucket].append({
+                "label": label,
+                "href": href,
+                "hyp": state.hypothesis_names.get(leader_id, leader_id),
+            })
 
     series_json = json.dumps(series, ensure_ascii=False)
 
@@ -588,21 +655,32 @@ def render_summary_html(nation_states: dict) -> str:
   var refT=new Date('{_REFERENCE_DATE_ISO}T00:00:00').getTime();
   var t0=Math.min.apply(null,allT.concat([refT])),t1=Math.max.apply(null,allT.concat([refT]));
   var tRng=t1-t0||1;
+
+  // Symlog y-scale: sign(v)*log(1+|v|). One outlier nation's extreme score
+  // otherwise stretches a linear scale so far that every other nation's line
+  // flattens into a narrow band; this compresses large magnitudes while
+  // staying near-linear close to zero, so smaller differences stay visible.
+  // See the "About the Y-axis scale" note below the chart.
+  function symlog(v){{return Math.sign(v)*Math.log(1+Math.abs(v));}}
+  function symlogInv(l){{return Math.sign(l)*(Math.exp(Math.abs(l))-1);}}
+
   var sMax=Math.max.apply(null,allSc.concat([1]));
   var sMin=Math.min.apply(null,allSc.concat([-1]));
-  var pad2=Math.max(1,(sMax-sMin)*0.15);
-  var sLo=sMin-pad2,sHi=sMax+pad2,sRng=sHi-sLo;
+  var lMax=symlog(sMax),lMin=symlog(sMin);
+  var padL=Math.max(0.2,(lMax-lMin)*0.15);
+  var lLo=lMin-padL,lHi=lMax+padL,lRng=lHi-lLo;
 
   function xf(ts){{return PL+((ts-t0)/tRng)*cW;}}
-  function yf(s){{return PT+cH*(1-(s-sLo)/sRng);}}
+  function yfL(lv){{return PT+cH*(1-(lv-lLo)/lRng);}}
+  function yf(s){{return yfL(symlog(s));}}
   var y0=yf(0);
 
   // Grid
   var gSteps=5;
   for(var gi=0;gi<=gSteps;gi++){{
-    var gv=sLo+sRng*gi/gSteps;
+    var lv=lLo+lRng*gi/gSteps;
     ctx.strokeStyle='#ececec';ctx.lineWidth=0.8;
-    ctx.beginPath();ctx.moveTo(PL,yf(gv));ctx.lineTo(PL+cW,yf(gv));ctx.stroke();
+    ctx.beginPath();ctx.moveTo(PL,yfL(lv));ctx.lineTo(PL+cW,yfL(lv));ctx.stroke();
   }}
 
   // Zero line
@@ -615,15 +693,17 @@ def render_summary_html(nation_states: dict) -> str:
   ctx.beginPath();ctx.moveTo(PL,PT);ctx.lineTo(PL,PT+cH);ctx.stroke();
   ctx.beginPath();ctx.moveTo(PL,PT+cH);ctx.lineTo(PL+cW,PT+cH);ctx.stroke();
 
-  // Y labels
+  // Y labels (transformed gridline position, but the printed number is the
+  // real cumulative score obtained via symlogInv, so the axis reads in
+  // original score units even though its spacing is non-linear)
   ctx.fillStyle='#666';ctx.font='11px sans-serif';ctx.textAlign='right';
   for(var yi=0;yi<=gSteps;yi++){{
-    var yv=sLo+sRng*yi/gSteps;
-    ctx.fillText(Math.round(yv),PL-5,yf(yv)+4);
+    var lv=lLo+lRng*yi/gSteps;
+    ctx.fillText(Math.round(symlogInv(lv)),PL-5,yfL(lv)+4);
   }}
   ctx.save();ctx.fillStyle='#999';ctx.font='10px sans-serif';
   ctx.translate(13,PT+cH/2);ctx.rotate(-Math.PI/2);
-  ctx.textAlign='center';ctx.fillText('Cumulative score',0,0);ctx.restore();
+  ctx.textAlign='center';ctx.fillText('Cumulative score (symlog scale)',0,0);ctx.restore();
 
   // Y-axis polarity annotations
   ctx.textAlign='left';ctx.font='bold 11px sans-serif';
@@ -714,6 +794,10 @@ def render_summary_html(nation_states: dict) -> str:
 <h1>Orientation toward U.S. of Key Stakeholders in U.S.-Iran War According to Guardian Reporting — Summary</h1>
 <div class="meta">{nation_count} nation{"s" if nation_count != 1 else ""} tracked &middot; click a line or legend entry to view the full ACH matrix</div>
 
+<h2 style="font-size:15px;margin-bottom:2px">Scoreboard — Leading Hypothesis by Nation</h2>
+<div class="note">Leading hypothesis = lowest inconsistency (evidence against), per Heuer Step 5 — the same ranking used on each nation's own matrix page, not simply the most-supported hypothesis. Click a nation to view its full ACH matrix.</div>
+{_scoreboard_html(scoreboard)}
+
 <h2 style="font-size:15px;margin-bottom:4px">Cumulative US-Alignment Score by Nation</h2>
 <div class="note">Above zero = evidence leans toward supporting the US. Below zero = evidence leans toward opposing the US.</div>
 <div class="chart-wrap">
@@ -722,6 +806,12 @@ def render_summary_html(nation_states: dict) -> str:
   <div id="summaryChart_tip" class="chart-tip"></div>
 </div>
 {legend_html}
+<div class="note">Y-axis note: scores use a symlog transform (compresses large magnitudes, stays
+linear near zero) instead of a plain linear scale, because one nation's cumulative score is
+so much more extreme than the others' that a linear axis would squeeze every other nation's
+line into a narrow band near zero. The transform preserves each point's sign and relative
+ordering, and axis labels always show the real, untransformed score &mdash; only the spacing
+between gridlines is non-linear.</div>
 <script>{js}</script>
 {_ABOUT_HTML}
 </body></html>
