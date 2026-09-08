@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260827_011252",
-  "last_update": "2026-08-27T01:17:56.200363",
+  "matrix_version": "20260908_175519",
+  "last_update": "2026-09-08T18:14:02.627238",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -2669,6 +2669,331 @@
         "h1": "-",
         "h2": "N/A",
         "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/ng-interactive/2026/sep/05/why-bayeux-tapestry-franco-british-politics-natural-bedfellows",
+      "title": "Why the Bayeux tapestry and Franco-British relations are natural bedfellows",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/sep/05/why-bayeux-tapestry-franco-british-politics-natural-bedfellows",
+      "source": "The Guardian",
+      "published_date": "2026-09-05T05:00:27+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/anti-afd-protests-germany-far-right-berlin-mecklenburg-western-pomerania",
+      "title": "Anti-AfD protests sweep Germany as far right closes in on two more states",
+      "url": "https://www.theguardian.com/world/2026/sep/08/anti-afd-protests-germany-far-right-berlin-mecklenburg-western-pomerania",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T12:54:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/07/typhoon-saudel-mass-evacuations-south-east-china-weather-tracker",
+      "title": "Weather tracker: Typhoon Saudel causes mass evacuations in south-east China",
+      "url": "https://www.theguardian.com/world/2026/sep/07/typhoon-saudel-mass-evacuations-south-east-china-weather-tracker",
+      "source": "The Guardian",
+      "published_date": "2026-09-07T08:27:08+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/06/china-prepares-40bn-stimulus-for-financial-sector-amid-fears-over-sluggish-growth",
+      "title": "China prepares \u00a340bn stimulus for financial sector amid fears over sluggish growth",
+      "url": "https://www.theguardian.com/world/2026/sep/06/china-prepares-40bn-stimulus-for-financial-sector-amid-fears-over-sluggish-growth",
+      "source": "The Guardian",
+      "published_date": "2026-09-06T15:16:43+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/01/nepal-tibet-flood-deaths-police-relatives-dna-identification",
+      "title": "Nepal-Tibet flood deaths pass 1,000 as police ask relatives for DNA to identify victims",
+      "url": "https://www.theguardian.com/world/2026/sep/01/nepal-tibet-flood-deaths-police-relatives-dna-identification",
+      "source": "The Guardian",
+      "published_date": "2026-09-01T17:32:40+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/06/iran-war-trump-leon-panetta-interview",
+      "title": "Iran war likely to drag on for another six months, ex-US defense secretary warns",
+      "url": "https://www.theguardian.com/world/2026/sep/06/iran-war-trump-leon-panetta-interview",
+      "source": "The Guardian",
+      "published_date": "2026-09-06T13:26:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/sep/03/climate-injustices-have-been-laid-bare-in-the-nepal-tibet-flood-disaster",
+      "title": "Climate injustices have been laid bare in the Nepal-Tibet flood disaster",
+      "url": "https://www.theguardian.com/world/2026/sep/03/climate-injustices-have-been-laid-bare-in-the-nepal-tibet-flood-disaster",
+      "source": "The Guardian",
+      "published_date": "2026-09-03T16:52:29+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/02/venezuela-oil-deal-trump-chris-wright",
+      "title": "Trump ally defends Venezuela oil deal amid \u2018gunpoint diplomacy\u2019 criticism",
+      "url": "https://www.theguardian.com/world/2026/sep/02/venezuela-oil-deal-trump-chris-wright",
+      "source": "The Guardian",
+      "published_date": "2026-09-02T14:44:39+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/01/germany-blames-russia-drone-attack-leipzig-airport",
+      "title": "Germany blames Russia for drone attack at Leipzig airport",
+      "url": "https://www.theguardian.com/world/2026/sep/01/germany-blames-russia-drone-attack-leipzig-airport",
+      "source": "The Guardian",
+      "published_date": "2026-09-02T01:45:56+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/06/far-right-afd-saxony-anhalt-state-election-germany",
+      "title": "Far-right AfD predicted to win big in crucial German state election",
+      "url": "https://www.theguardian.com/world/2026/sep/06/far-right-afd-saxony-anhalt-state-election-germany",
+      "source": "The Guardian",
+      "published_date": "2026-09-06T10:50:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/07/german-chancellor-friedrich-merz-cdu-afd-saxony-anhalt",
+      "title": "German chancellor vows to stay in office despite AfD triumph in state election",
+      "url": "https://www.theguardian.com/world/2026/sep/07/german-chancellor-friedrich-merz-cdu-afd-saxony-anhalt",
+      "source": "The Guardian",
+      "published_date": "2026-09-07T17:48:37+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/03/venezuelan-opposition-leader-questions-us-oil-deal-with-illegitimate-regime",
+      "title": "Nobel laureate Machado: \u2018Illegitimate\u2019 Venezuela regime has no right to strike US oil deal",
+      "url": "https://www.theguardian.com/world/2026/sep/03/venezuelan-opposition-leader-questions-us-oil-deal-with-illegitimate-regime",
+      "source": "The Guardian",
+      "published_date": "2026-09-03T16:17:29+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/03/us-venezuela-visual-look-century-old-relationship-drenched-in-oil",
+      "title": "The US and Venezuela: a century-old relationship drenched in oil",
+      "url": "https://www.theguardian.com/world/2026/sep/03/us-venezuela-visual-look-century-old-relationship-drenched-in-oil",
+      "source": "The Guardian",
+      "published_date": "2026-09-03T10:00:50+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.8333333333333334
+    },
+    {
+      "article_id": "world/2026/sep/05/saxony-anhalt-far-right-afd-plans-german-state-poll",
+      "title": "All eyes on Saxony-Anhalt \u2013 what will AfD do if it wins German state poll?",
+      "url": "https://www.theguardian.com/world/2026/sep/05/saxony-anhalt-far-right-afd-plans-german-state-poll",
+      "source": "The Guardian",
+      "published_date": "2026-09-05T05:00:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/organised-crime-illicit-cigarette-factory-boom-eu",
+      "title": "Organised crime driving illicit cigarette factory boom \u2018in almost every EU state\u2019",
+      "url": "https://www.theguardian.com/world/2026/sep/08/organised-crime-illicit-cigarette-factory-boom-eu",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T15:00:42+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/07/canada-tariffs-us-trump",
+      "title": "Canada\u2019s retaliatory US tariffs take effect as trade dispute grows",
+      "url": "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T04:00:59+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
+      "title": "UN votes to adopt new world map that shows Africa\u2019s true scale",
+      "url": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
+      "source": "The Guardian",
+      "published_date": "2026-09-04T16:49:29+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/04/minorities-fear-first-far-right-win-in-german-state-election-saxony-anhalt-afd",
+      "title": "\u2018This could just be the beginning\u2019: minorities fear first far-right win in German state election",
+      "url": "https://www.theguardian.com/world/2026/sep/04/minorities-fear-first-far-right-win-in-german-state-election-saxony-anhalt-afd",
+      "source": "The Guardian",
+      "published_date": "2026-09-04T04:00:57+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/06/saxony-anhalt-germany-afd-exit-poll-ulrich-siegmund",
+      "title": "Far-right AfD wins key German state election but falls just short of majority",
+      "url": "https://www.theguardian.com/world/2026/sep/06/saxony-anhalt-germany-afd-exit-poll-ulrich-siegmund",
+      "source": "The Guardian",
+      "published_date": "2026-09-07T02:42:09+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/germany-afd-far-right-election-victory-saxony-anhalt",
+      "title": "\u2018It breaks my heart\u2019: far-right\u2019s big election victory sparks dismay in German state capital",
+      "url": "https://www.theguardian.com/world/2026/sep/08/germany-afd-far-right-election-victory-saxony-anhalt",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T06:13:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/07/why-far-right-afd-state-victory-significant-german-politics-germany-explainer",
+      "title": "Why is the far-right AfD\u2019s state victory significant and what might happen next in German politics?",
+      "url": "https://www.theguardian.com/world/2026/sep/07/why-far-right-afd-state-victory-significant-german-politics-germany-explainer",
+      "source": "The Guardian",
+      "published_date": "2026-09-07T14:04:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/02/uk-must-end-all-trade-with-israel-says-co-founder-of-bds-movement",
+      "title": "UK must end all trade with Israel, says co-founder of BDS movement",
+      "url": "https://www.theguardian.com/world/2026/sep/02/uk-must-end-all-trade-with-israel-says-co-founder-of-bds-movement",
+      "source": "The Guardian",
+      "published_date": "2026-09-02T06:00:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/04/nepal-tibet-floods-disaster-search-for-missing-china-censorship",
+      "title": "\u2018Everyone seems to have forgotten\u2019: In Tibet, flood-hit families search for the missing and grapple with China\u2019s silence",
+      "url": "https://www.theguardian.com/world/2026/sep/04/nepal-tibet-floods-disaster-search-for-missing-china-censorship",
+      "source": "The Guardian",
+      "published_date": "2026-09-04T02:47:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/01/nepal-tibet-floods-death-toll-rescue-hydropower-tunnels-china-latest-updates",
+      "title": "Nepal-Tibet floods: millions at risk from glacial floods in Himalayas in years to come, UN warns, as death toll passes 1,000 \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/01/nepal-tibet-floods-death-toll-rescue-hydropower-tunnels-china-latest-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-01T16:43:48+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/06/us-iran-nuclear-agreement-chris-wright",
+      "title": "Energy secretary says US might not reach nuclear agreement with Iran",
+      "url": "https://www.theguardian.com/world/2026/sep/06/us-iran-nuclear-agreement-chris-wright",
+      "source": "The Guardian",
+      "published_date": "2026-09-06T17:39:10+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

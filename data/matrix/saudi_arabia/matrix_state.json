@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260827_012300",
-  "last_update": "2026-08-27T01:23:00.450008",
+  "matrix_version": "20260908_183204",
+  "last_update": "2026-09-08T18:34:10.226213",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -234,6 +234,45 @@
       "url": "https://www.theguardian.com/world/2026/aug/17/finland-halts-deportation-russian-family-opposed-ukraine-invasion",
       "source": "The Guardian",
       "published_date": "2026-08-17T14:04:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/rami-naimi-abducted-saudi-arabia-mira-lozi",
+      "title": "British family of man abducted by Saudi Arabia speak out over nine-year ordeal",
+      "url": "https://www.theguardian.com/world/2026/sep/08/rami-naimi-abducted-saudi-arabia-mira-lozi",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T15:45:18+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/05/yemen-ground-fighting-escalates-houthi-rebels-government-forces",
+      "title": "Civilians among at least 60 killed in Yemen as ground fighting escalates",
+      "url": "https://www.theguardian.com/world/2026/sep/05/yemen-ground-fighting-escalates-houthi-rebels-government-forces",
+      "source": "The Guardian",
+      "published_date": "2026-09-05T13:47:19+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/sep/01/edouard-balladur-obituary",
+      "title": "Edouard Balladur obituary",
+      "url": "https://www.theguardian.com/world/2026/sep/01/edouard-balladur-obituary",
+      "source": "The Guardian",
+      "published_date": "2026-09-01T16:13:11+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260827_012003",
-  "last_update": "2026-08-27T01:22:16.066977",
+  "matrix_version": "20260908_182440",
+  "last_update": "2026-09-08T18:29:29.728992",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -654,6 +654,97 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/israel-close-british-consulate-jerusalem-sanctions",
+      "title": "Israel to close British consulate in Jerusalem after sanctions announced",
+      "url": "https://www.theguardian.com/world/2026/sep/08/israel-close-british-consulate-jerusalem-sanctions",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T16:55:26+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9
+    },
+    {
+      "article_id": "world/2026/sep/02/israel-seeking-trumps-support-for-plan-to-expel-palestinians-from-gaza",
+      "title": "Israel \u2018seeking Trump\u2019s support for plan to expel Palestinians from Gaza\u2019",
+      "url": "https://www.theguardian.com/world/2026/sep/02/israel-seeking-trumps-support-for-plan-to-expel-palestinians-from-gaza",
+      "source": "The Guardian",
+      "published_date": "2026-09-02T18:20:36+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "-",
+        "h3": "--"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/sep/07/un-francesca-albanese-miliband-israel-palestine-settlements-trade",
+      "title": "UN expert Francesca Albanese calls for \u2018true paradigm shift\u2019 as Miliband resets policy on Israel",
+      "url": "https://www.theguardian.com/world/2026/sep/07/un-francesca-albanese-miliband-israel-palestine-settlements-trade",
+      "source": "The Guardian",
+      "published_date": "2026-09-07T04:00:25+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/netanyahu-warned-7-october-hamas-book-haaretz",
+      "title": "Netanyahu was warned of 7 October Hamas attacks, book claims",
+      "url": "https://www.theguardian.com/world/2026/sep/08/netanyahu-warned-7-october-hamas-book-haaretz",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T15:25:38+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/03/thursday-briefing-what-life-is-like-in-a-west-bank-village-under-siege-from-israeli-settlers",
+      "title": "Thursday briefing: What life is like in a West Bank village under siege from Israeli settlers",
+      "url": "https://www.theguardian.com/world/2026/sep/03/thursday-briefing-what-life-is-like-in-a-west-bank-village-under-siege-from-israeli-settlers",
+      "source": "The Guardian",
+      "published_date": "2026-09-03T05:45:49+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/tuesday-briefing-what-happens-next-after-germanys-far-right-breakthrough",
+      "title": "Tuesday briefing: What happens next after Germany\u2019s far-right breakthrough?",
+      "url": "https://www.theguardian.com/world/2026/sep/08/tuesday-briefing-what-happens-next-after-germanys-far-right-breakthrough",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T05:49:09+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/07/syrian-reactor-could-nuclear-weapons-if-completed-un",
+      "title": "Syrian reactor could have been used for nuclear weapons if completed, UN says",
+      "url": "https://www.theguardian.com/world/2026/sep/07/syrian-reactor-could-nuclear-weapons-if-completed-un",
+      "source": "The Guardian",
+      "published_date": "2026-09-07T16:37:31+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
       },
       "confidence": 1.0
     }

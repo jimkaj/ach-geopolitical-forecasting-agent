@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260827_012344",
-  "last_update": "2026-08-27T01:23:44.017501",
+  "matrix_version": "20260908_183413",
+  "last_update": "2026-09-08T18:34:56.828044",
   "hypothesis_names": {
     "h1": "Oman supports the United States",
     "h2": "Oman maintains a neutral stance with the United States",
@@ -208,6 +208,19 @@
       "url": "https://www.theguardian.com/world/2026/aug/20/ukraine-war-briefing-russia-running-on-imported-gasoline-government-confirms",
       "source": "The Guardian",
       "published_date": "2026-08-20T00:54:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/05/us-military-iran-tankers",
+      "title": "US military says it struck three Iranian tankers after American warships came under missile attack",
+      "url": "https://www.theguardian.com/world/2026/sep/05/us-military-iran-tankers",
+      "source": "The Guardian",
+      "published_date": "2026-09-05T15:41:22+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

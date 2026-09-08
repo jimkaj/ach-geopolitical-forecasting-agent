@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260827_012344",
-  "last_update": "2026-08-27T01:23:44.299266",
+  "matrix_version": "20260908_183456",
+  "last_update": "2026-09-08T18:35:50.511679",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -234,6 +234,19 @@
       "url": "https://www.theguardian.com/world/2026/aug/12/nz-christopher-luxon-leadership-showdown-confidence-vote",
       "source": "The Guardian",
       "published_date": "2026-08-12T02:19:18+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/01/ukraine-russia-strikes-attacks-odesa-zelenskyy-putin-eu-defence-europe-latest-news-updates",
+      "title": "Germany directly blames Russia for attempted drone attack at Leipzig airport \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/01/ukraine-russia-strikes-attacks-odesa-zelenskyy-putin-eu-defence-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-01T18:02:18+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

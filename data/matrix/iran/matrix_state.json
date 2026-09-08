@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260827_011756",
-  "last_update": "2026-08-27T01:20:03.520354",
+  "matrix_version": "20260908_181402",
+  "last_update": "2026-09-08T18:24:40.647953",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1189,6 +1189,162 @@
         "h3": "++"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/02/iran-us-middle-east-war-strikes-tehran-washington-wedding-trump-kuwait-jordan-latest-news-updates",
+      "title": "Iran\u2019s currency hits record low \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/02/iran-us-middle-east-war-strikes-tehran-washington-wedding-trump-kuwait-jordan-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-02T22:12:52+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/01/us-iran-military-strikes-live-updates",
+      "title": "Iran says \u2018regretful response\u2019 to US attacks has begun after state TV reports four killed at wedding in Sirik region \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/01/us-iran-military-strikes-live-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-01T21:47:45+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/03/iran-strikes-wedding-jd-vance",
+      "title": "JD Vance reacts to airstrike that killed four at Iran wedding: \u2018Things happen\u2019",
+      "url": "https://www.theguardian.com/world/2026/sep/03/iran-strikes-wedding-jd-vance",
+      "source": "The Guardian",
+      "published_date": "2026-09-03T21:04:18+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/01/us-iran-airstrikes-launch",
+      "title": "US and Iran exchange more airstrikes, fuelling fears of wider return to hostilities",
+      "url": "https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch",
+      "source": "The Guardian",
+      "published_date": "2026-09-02T01:06:08+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/03/howard-lutnick-iran-war-deaths-trump",
+      "title": "US commerce secretary erroneously said no Americans have died in Iran war, Trump claims",
+      "url": "https://www.theguardian.com/world/2026/sep/03/howard-lutnick-iran-war-deaths-trump",
+      "source": "The Guardian",
+      "published_date": "2026-09-03T14:38:40+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/03/iran-targets-us-bases-as-israel-warns-sanctions-could-drive-tehran-to-desperate-steps",
+      "title": "Iran targets US bases as Israel warns sanctions could drive Tehran to \u2018desperate steps\u2019",
+      "url": "https://www.theguardian.com/world/2026/sep/03/iran-targets-us-bases-as-israel-warns-sanctions-could-drive-tehran-to-desperate-steps",
+      "source": "The Guardian",
+      "published_date": "2026-09-03T14:16:54+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/02/iran-us-missile-blast-wedding",
+      "title": "Iran accuses US of \u2018war crime\u2019 after missile blast kills four people at wedding",
+      "url": "https://www.theguardian.com/world/2026/sep/02/iran-us-missile-blast-wedding",
+      "source": "The Guardian",
+      "published_date": "2026-09-02T15:19:04+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/06/taraneh-romina-rahimi-twin-sisters-jailed-over-iran-protests",
+      "title": "Broken feet, ripped-out hair and now a death sentence: the fate of twin sisters jailed over Iran protests",
+      "url": "https://www.theguardian.com/world/2026/sep/06/taraneh-romina-rahimi-twin-sisters-jailed-over-iran-protests",
+      "source": "The Guardian",
+      "published_date": "2026-09-06T06:00:58+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/will-uk-sanctions-have-any-impact-on-israel-settler-terrorists-west-bank",
+      "title": "Will UK sanctions have any impact on Israel\u2019s \u2018settler terrorists\u2019 in West Bank?",
+      "url": "https://www.theguardian.com/world/2026/sep/08/will-uk-sanctions-have-any-impact-on-israel-settler-terrorists-west-bank",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T18:08:19+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/houthi-strike-saudi-arabia-oil-facilities-middle-east-war-iran",
+      "title": "Houthis strike Saudi Arabian cities in significant expansion of Middle East war",
+      "url": "https://www.theguardian.com/world/2026/sep/08/houthi-strike-saudi-arabia-oil-facilities-middle-east-war-iran",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T12:05:31+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/04/south-korea-pushes-back-reports-hormuz-deployment-us-pressure",
+      "title": "South Korea pushes back on reports it is readying Hormuz deployment amid US pressure",
+      "url": "https://www.theguardian.com/world/2026/sep/04/south-korea-pushes-back-reports-hormuz-deployment-us-pressure",
+      "source": "The Guardian",
+      "published_date": "2026-09-04T07:47:41+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/sep/08/hijacking-pirates-somalia-geopolitical-chaos",
+      "title": "Hijacking pirates exploit regional chaos to return to seas off Somalia",
+      "url": "https://www.theguardian.com/world/2026/sep/08/hijacking-pirates-somalia-geopolitical-chaos",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T04:00:27+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.9666666666666667
     }
   ]
 }
