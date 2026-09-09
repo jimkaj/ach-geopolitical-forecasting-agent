@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260908_182440",
-  "last_update": "2026-09-08T18:29:29.728992",
+  "matrix_version": "20260909_130148",
+  "last_update": "2026-09-09T13:03:12.525370",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -745,6 +745,32 @@
         "h1": "+",
         "h2": "N/A",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/09/wednesday-briefing-inside-sweeping-uk-sanctions-on-trade-with-israeli-settlements",
+      "title": "Wednesday briefing: Inside sweeping UK sanctions on trade with Israeli settlements",
+      "url": "https://www.theguardian.com/world/2026/sep/09/wednesday-briefing-inside-sweeping-uk-sanctions-on-trade-with-israeli-settlements",
+      "source": "The Guardian",
+      "published_date": "2026-09-09T05:46:18+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/ed-miliband-overturned-decades-foreign-office-inertia-illegal-israeli-settlements",
+      "title": "Ed Miliband has overturned decades of Foreign Office inertia on illegal Israeli settlements",
+      "url": "https://www.theguardian.com/world/2026/sep/08/ed-miliband-overturned-decades-foreign-office-inertia-illegal-israeli-settlements",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T18:34:03+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
       },
       "confidence": 1.0
     }

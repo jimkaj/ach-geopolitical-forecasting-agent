@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260908_175519",
-  "last_update": "2026-09-08T18:14:02.627238",
+  "matrix_version": "20260909_130008",
+  "last_update": "2026-09-09T13:01:47.473049",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -2990,6 +2990,32 @@
       "url": "https://www.theguardian.com/world/2026/sep/06/us-iran-nuclear-agreement-chris-wright",
       "source": "The Guardian",
       "published_date": "2026-09-06T17:39:10+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/09/eu-buy-european-public-procurement-rules-china-goods-services",
+      "title": "EU unveils \u2018buy European\u2019 public procurement rules to counter China",
+      "url": "https://www.theguardian.com/world/2026/sep/09/eu-buy-european-public-procurement-rules-china-goods-services",
+      "source": "The Guardian",
+      "published_date": "2026-09-09T11:30:49+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/09/europeans-want-united-europe-union-study-finds",
+      "title": "Europeans want a united Europe but question whether it can get there, study finds",
+      "url": "https://www.theguardian.com/world/2026/sep/09/europeans-want-united-europe-union-study-finds",
+      "source": "The Guardian",
+      "published_date": "2026-09-09T05:00:01+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
