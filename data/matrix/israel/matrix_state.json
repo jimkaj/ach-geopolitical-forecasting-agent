@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260909_130148",
-  "last_update": "2026-09-09T13:03:12.525370",
+  "matrix_version": "20260911_155545",
+  "last_update": "2026-09-11T15:57:14.419180",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -771,6 +771,32 @@
         "h1": "--",
         "h2": "N/A",
         "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/09/israelis-welcome-uk-sanctions-on-settlements-palestine-west-bank",
+      "title": "\u2018It\u2019s a good start\u2019: prominent Israelis welcome UK sanctions on illegal settlements",
+      "url": "https://www.theguardian.com/world/2026/sep/09/israelis-welcome-uk-sanctions-on-settlements-palestine-west-bank",
+      "source": "The Guardian",
+      "published_date": "2026-09-09T17:36:42+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/10/secret-systems-used-by-israel-in-mass-killings-of-gaza-civilians-revealed-in-new-film",
+      "title": "Secret systems used by Israel in mass killings of Gaza civilians revealed in new film",
+      "url": "https://www.theguardian.com/world/2026/sep/10/secret-systems-used-by-israel-in-mass-killings-of-gaza-civilians-revealed-in-new-film",
+      "source": "The Guardian",
+      "published_date": "2026-09-10T13:42:20+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

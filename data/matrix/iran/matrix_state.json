@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260909_130147",
-  "last_update": "2026-09-09T13:01:47.504215",
+  "matrix_version": "20260911_155229",
+  "last_update": "2026-09-11T15:55:45.557018",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1345,6 +1345,71 @@
         "h3": "++"
       },
       "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/sep/09/iran-claims-to-have-attacked-10-ships-near-strait-of-hormuz-after-us-strikes",
+      "title": "Iran claims to have attacked 10 ships near strait of Hormuz after US strikes",
+      "url": "https://www.theguardian.com/world/2026/sep/09/iran-claims-to-have-attacked-10-ships-near-strait-of-hormuz-after-us-strikes",
+      "source": "The Guardian",
+      "published_date": "2026-09-09T16:18:14+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/11/iran-houthi-allies-capture-strategic-island-bab-al-mandab-strait",
+      "title": "Iran\u2019s Houthi allies capture strategic island on vital oil shipping route",
+      "url": "https://www.theguardian.com/world/2026/sep/11/iran-houthi-allies-capture-strategic-island-bab-al-mandab-strait",
+      "source": "The Guardian",
+      "published_date": "2026-09-11T12:00:00+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/10/violence-erupts-in-yemen-again-why-it-matters-globally-and-how-it-is-linked-to-the-us-iran-war",
+      "title": "Violence erupts in Yemen again: why it matters globally and how it is linked to the US-Iran war",
+      "url": "https://www.theguardian.com/world/2026/sep/10/violence-erupts-in-yemen-again-why-it-matters-globally-and-how-it-is-linked-to-the-us-iran-war",
+      "source": "The Guardian",
+      "published_date": "2026-09-11T15:49:23+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/10/houthis-seize-key-port-mocha-yemen-red-sea-coast-iran-saudi-arabia-us",
+      "title": "Houthis seize key Yemeni port of Mocha in drive to take control of Red Sea coast",
+      "url": "https://www.theguardian.com/world/2026/sep/10/houthis-seize-key-port-mocha-yemen-red-sea-coast-iran-saudi-arabia-us",
+      "source": "The Guardian",
+      "published_date": "2026-09-10T11:39:56+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/04/iranian-town-kuhestak-devastated-strike-wedding",
+      "title": "\u2018Unimaginable grief\u2019: Iranian town left devastated after US strike on wedding",
+      "url": "https://www.theguardian.com/world/2026/sep/04/iranian-town-kuhestak-devastated-strike-wedding",
+      "source": "The Guardian",
+      "published_date": "2026-09-04T10:19:23+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
     }
   ]
 }

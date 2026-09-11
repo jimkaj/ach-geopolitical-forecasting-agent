@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260909_130312",
-  "last_update": "2026-09-09T13:03:56.606139",
+  "matrix_version": "20260911_155714",
+  "last_update": "2026-09-11T15:58:01.966915",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -390,6 +390,19 @@
       "url": "https://www.theguardian.com/world/2026/sep/02/leipzig-airport-attack-fallout-lays-bare-germanys-polarisation-on-russia",
       "source": "The Guardian",
       "published_date": "2026-09-02T17:07:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/11/tornado-storm-chasers",
+      "title": "They drive toward tornadoes. We went with them to see how their work could save lives",
+      "url": "https://www.theguardian.com/world/2026/sep/11/tornado-storm-chasers",
+      "source": "The Guardian",
+      "published_date": "2026-09-11T12:00:05+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

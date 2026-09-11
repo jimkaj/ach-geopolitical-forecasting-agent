@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260909_130400",
-  "last_update": "2026-09-09T13:04:45.606404",
+  "matrix_version": "20260911_155805",
+  "last_update": "2026-09-11T15:58:56.911161",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -260,6 +260,19 @@
       "url": "https://www.theguardian.com/world/2026/sep/05/gaza-aid-workers-world-central-kitchen-idf-israel",
       "source": "The Guardian",
       "published_date": "2026-09-05T00:00:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/10/russian-drone-strike-ukraine-zelenskyy-macron-nato-rutte-latest-news-updates",
+      "title": "Russia\u2019s actions have strengthened European case for boosting defence spending, says Nato chief \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/10/russian-drone-strike-ukraine-zelenskyy-macron-nato-rutte-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-10T15:07:57+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

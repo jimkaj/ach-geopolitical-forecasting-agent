@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260909_130008",
-  "last_update": "2026-09-09T13:01:47.473049",
+  "matrix_version": "20260911_154928",
+  "last_update": "2026-09-11T15:52:29.242359",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3016,6 +3016,32 @@
       "url": "https://www.theguardian.com/world/2026/sep/09/europeans-want-united-europe-union-study-finds",
       "source": "The Guardian",
       "published_date": "2026-09-09T05:00:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/09/i-fear-the-price-could-be-high-inside-the-german-state-where-the-far-right-surged",
+      "title": "\u2018I fear the price could be high\u2019: Inside the German city where the far right surged",
+      "url": "https://www.theguardian.com/world/2026/sep/09/i-fear-the-price-could-be-high-inside-the-german-state-where-the-far-right-surged",
+      "source": "The Guardian",
+      "published_date": "2026-09-09T14:45:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/11/afd-mps-scrutiny-ex-stasi-actor-neopagan-neo-nazi",
+      "title": "AfD\u2019s new state MPs include ex-Stasi officer, former porn actor, neopagans and neo-Nazis",
+      "url": "https://www.theguardian.com/world/2026/sep/11/afd-mps-scrutiny-ex-stasi-actor-neopagan-neo-nazi",
+      "source": "The Guardian",
+      "published_date": "2026-09-11T15:43:01+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
