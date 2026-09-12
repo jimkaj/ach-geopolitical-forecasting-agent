@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260911_154928",
-  "last_update": "2026-09-11T15:52:29.242359",
+  "matrix_version": "20260912_130008",
+  "last_update": "2026-09-12T13:01:43.698854",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3042,6 +3042,32 @@
       "url": "https://www.theguardian.com/world/2026/sep/11/afd-mps-scrutiny-ex-stasi-actor-neopagan-neo-nazi",
       "source": "The Guardian",
       "published_date": "2026-09-11T15:43:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations",
+      "title": "Xi Jinping gets red carpet at Brics summit amid thaw in India-China relations",
+      "url": "https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations",
+      "source": "The Guardian",
+      "published_date": "2026-09-12T12:39:12+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/nepal-floods-climate-compensation",
+      "title": "Nepal says big polluters must \u2018wake up\u2019 as it calls for climate compensation over flood disaster",
+      "url": "https://www.theguardian.com/world/2026/sep/08/nepal-floods-climate-compensation",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T00:58:09+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

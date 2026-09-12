@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260911_155229",
-  "last_update": "2026-09-11T15:55:45.557018",
+  "matrix_version": "20260912_130143",
+  "last_update": "2026-09-12T13:02:23.318803",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1404,6 +1404,19 @@
       "url": "https://www.theguardian.com/world/2026/sep/04/iranian-town-kuhestak-devastated-strike-wedding",
       "source": "The Guardian",
       "published_date": "2026-09-04T10:19:23+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/12/yemen-houthi-advance-red-sea-coast-displaces-civilians-bab-al-mandab",
+      "title": "Nearly 50,000 Yemeni civilians flee as Houthis advance along Red Sea coast",
+      "url": "https://www.theguardian.com/world/2026/sep/12/yemen-houthi-advance-red-sea-coast-displaces-civilians-bab-al-mandab",
+      "source": "The Guardian",
+      "published_date": "2026-09-12T04:00:24+00:00",
       "marks": {
         "h1": "--",
         "h2": "-",
