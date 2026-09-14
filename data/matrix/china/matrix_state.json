@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260912_130008",
-  "last_update": "2026-09-12T13:01:43.698854",
+  "matrix_version": "20260914_172602",
+  "last_update": "2026-09-14T17:30:04.377115",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3068,6 +3068,71 @@
       "url": "https://www.theguardian.com/world/2026/sep/08/nepal-floods-climate-compensation",
       "source": "The Guardian",
       "published_date": "2026-09-08T00:58:09+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/14/gulf-states-postpone-strait-of-hormuz-talks-iran-yemen-houthi-saudi-arabia-airbase-pipeline",
+      "title": "Gulf states postpone strait of Hormuz talks with Iran as Yemen conflict intensifies",
+      "url": "https://www.theguardian.com/world/2026/sep/14/gulf-states-postpone-strait-of-hormuz-talks-iran-yemen-houthi-saudi-arabia-airbase-pipeline",
+      "source": "The Guardian",
+      "published_date": "2026-09-14T12:22:48+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "us-news/2026/sep/12/donald-trump-says-he-would-love-to-see-united-ireland",
+      "title": "Donald Trump says he would \u2018love\u2019 to see united Ireland",
+      "url": "https://www.theguardian.com/us-news/2026/sep/12/donald-trump-says-he-would-love-to-see-united-ireland",
+      "source": "The Guardian",
+      "published_date": "2026-09-12T16:05:32+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/13/the-far-rights-rise-is-a-wake-up-call-for-europe",
+      "title": "The far right\u2019s rise is a wake-up call for Europe",
+      "url": "https://www.theguardian.com/world/2026/sep/13/the-far-rights-rise-is-a-wake-up-call-for-europe",
+      "source": "The Guardian",
+      "published_date": "2026-09-13T15:58:00+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/13/spain-james-fergie-chambers-extradition-request",
+      "title": "Pressure builds in Spain to deny US extradition request for leftwing donor",
+      "url": "https://www.theguardian.com/world/2026/sep/13/spain-james-fergie-chambers-extradition-request",
+      "source": "The Guardian",
+      "published_date": "2026-09-13T12:00:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/12/friedrich-merz-far-right-firewall-afd-germany-future",
+      "title": "Firewall compromised: has Friedrich Merz blown \u2018democracy\u2019s last shot\u2019?",
+      "url": "https://www.theguardian.com/world/2026/sep/12/friedrich-merz-far-right-firewall-afd-germany-future",
+      "source": "The Guardian",
+      "published_date": "2026-09-12T04:00:23+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

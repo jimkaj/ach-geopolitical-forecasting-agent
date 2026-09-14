@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260912_130143",
-  "last_update": "2026-09-12T13:02:23.318803",
+  "matrix_version": "20260914_173004",
+  "last_update": "2026-09-14T17:33:32.150994",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1421,6 +1421,71 @@
         "h1": "--",
         "h2": "-",
         "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/14/sweden-election-magdalena-andersson-social-democrats-centre-left-latest-news-updates",
+      "title": "Ukraine and Russia have agreed not to hit energy targets, Trump claims \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/14/sweden-election-magdalena-andersson-social-democrats-centre-left-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-14T16:55:41+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/14/saudi-pipeline-drone-attack-houthis-global-oil-supply-prices",
+      "title": "Satellite images show extent of damage to major Saudi pipeline, amid global oil supply fears",
+      "url": "https://www.theguardian.com/world/2026/sep/14/saudi-pipeline-drone-attack-houthis-global-oil-supply-prices",
+      "source": "The Guardian",
+      "published_date": "2026-09-14T02:44:12+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/12/saudi-arabia-shuts-down-oil-pipeline-blaming-drones-from-iraq",
+      "title": "Saudi Arabia shuts down key oil pipeline, blaming drones from Iraq",
+      "url": "https://www.theguardian.com/world/2026/sep/12/saudi-arabia-shuts-down-oil-pipeline-blaming-drones-from-iraq",
+      "source": "The Guardian",
+      "published_date": "2026-09-12T15:35:12+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/13/houthis-claim-attack-on-saudi-base-as-fighting-flares-with-yemeni-forces",
+      "title": "Houthis claim attack on Saudi base as fighting flares with Yemeni forces",
+      "url": "https://www.theguardian.com/world/2026/sep/13/houthis-claim-attack-on-saudi-base-as-fighting-flares-with-yemeni-forces",
+      "source": "The Guardian",
+      "published_date": "2026-09-13T11:26:06+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/14/ukraine-war-briefing-poland-calls-for-double-support-to-kyiv-after-russian-train-attack-near-border",
+      "title": "Ukraine war briefing: Poland calls for \u2018double\u2019 support to Kyiv after Russian train attack",
+      "url": "https://www.theguardian.com/world/2026/sep/14/ukraine-war-briefing-poland-calls-for-double-support-to-kyiv-after-russian-train-attack-near-border",
+      "source": "The Guardian",
+      "published_date": "2026-09-14T02:23:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

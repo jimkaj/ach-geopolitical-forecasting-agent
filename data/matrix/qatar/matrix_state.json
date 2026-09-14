@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260912_130223",
-  "last_update": "2026-09-12T13:03:56.880367",
+  "matrix_version": "20260914_173458",
+  "last_update": "2026-09-14T17:35:40.812120",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -429,6 +429,19 @@
       "url": "https://www.theguardian.com/world/2026/sep/09/ecuador-drugs-gang-terrorist-group-los-tiguerones-rubio",
       "source": "The Guardian",
       "published_date": "2026-09-09T22:19:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "environment/2026/sep/14/weather-tracker-floods-eastern-india-hurricane-damage-california",
+      "title": "Weather tracker: Floods in eastern India and hurricane damage in California",
+      "url": "https://www.theguardian.com/environment/2026/sep/14/weather-tracker-floods-eastern-india-hurricane-damage-california",
+      "source": "The Guardian",
+      "published_date": "2026-09-14T09:28:42+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

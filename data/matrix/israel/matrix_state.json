@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260912_130223",
-  "last_update": "2026-09-12T13:02:23.330971",
+  "matrix_version": "20260914_173332",
+  "last_update": "2026-09-14T17:34:58.740714",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -793,6 +793,32 @@
       "url": "https://www.theguardian.com/world/2026/sep/10/secret-systems-used-by-israel-in-mass-killings-of-gaza-civilians-revealed-in-new-film",
       "source": "The Guardian",
       "published_date": "2026-09-10T13:42:20+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/ng-interactive/2026/sep/14/israel-palestinian-living-conditions-eliminated-west-bank-human-rights-report",
+      "title": "Israel accused of trying to \u2018eliminate\u2019 living conditions for Palestinians in West Bank",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/sep/14/israel-palestinian-living-conditions-eliminated-west-bank-human-rights-report",
+      "source": "The Guardian",
+      "published_date": "2026-09-14T07:23:04+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/12/idf-soldier-filmed-shooting-palestinian-in-leg-amid-west-bank-settler-standoff",
+      "title": "IDF soldier filmed shooting Palestinian in leg amid West Bank settler standoff",
+      "url": "https://www.theguardian.com/world/2026/sep/12/idf-soldier-filmed-shooting-palestinian-in-leg-amid-west-bank-settler-standoff",
+      "source": "The Guardian",
+      "published_date": "2026-09-12T13:44:10+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

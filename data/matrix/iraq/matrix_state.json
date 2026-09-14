@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260912_130358",
-  "last_update": "2026-09-12T13:03:58.654616",
+  "matrix_version": "20260914_173544",
+  "last_update": "2026-09-14T17:36:27.743935",
   "hypothesis_names": {
     "h1": "Iraq supports the United States",
     "h2": "Iraq maintains a neutral stance with the United States",
@@ -58,6 +58,19 @@
         "h3": "N/A"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/ng-interactive/2026/sep/13/iraq-normal-again-mass-arrests-cash-seizures-end-corruption",
+      "title": "Making Iraq \u2018normal\u2019 again: do mass arrests and cash seizures signal end to corruption?",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/sep/13/iraq-normal-again-mass-arrests-cash-seizures-end-corruption",
+      "source": "The Guardian",
+      "published_date": "2026-09-13T04:00:52+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "-",
+        "h3": "-"
+      },
+      "confidence": 0.7666666666666666
     }
   ]
 }
