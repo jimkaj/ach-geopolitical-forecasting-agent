@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260914_173332",
-  "last_update": "2026-09-14T17:34:58.740714",
+  "matrix_version": "20260915_160611",
+  "last_update": "2026-09-15T16:06:52.786116",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -825,6 +825,19 @@
         "h3": "N/A"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/uk-accuses-israeli-terrorists-ethnic-cleansing-west-bank-government-backing",
+      "title": "UK accuses Israeli \u2018terrorists\u2019 of ethnic cleansing in West Bank with government backing",
+      "url": "https://www.theguardian.com/world/2026/sep/08/uk-accuses-israeli-terrorists-ethnic-cleansing-west-bank-government-backing",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T19:00:50+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9666666666666667
     }
   ]
 }

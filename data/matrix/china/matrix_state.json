@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260914_172602",
-  "last_update": "2026-09-14T17:30:04.377115",
+  "matrix_version": "20260915_160256",
+  "last_update": "2026-09-15T16:06:09.675486",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3133,6 +3133,58 @@
       "url": "https://www.theguardian.com/world/2026/sep/12/friedrich-merz-far-right-firewall-afd-germany-future",
       "source": "The Guardian",
       "published_date": "2026-09-12T04:00:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/15/jiaofeng-the-long-watch-china-turns-taiwan-tensions-into-tv-spy-drama",
+      "title": "\u2018This is seriously bold\u2019: How China turned Taiwan tensions into a top-rating TV spy drama",
+      "url": "https://www.theguardian.com/world/2026/sep/15/jiaofeng-the-long-watch-china-turns-taiwan-tensions-into-tv-spy-drama",
+      "source": "The Guardian",
+      "published_date": "2026-09-15T02:25:18+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/14/china-dismisses-ai-fearmongering-as-spy-chief-warns-of-threat-to-communist-party-rule",
+      "title": "China dismisses AI \u2018fearmongering\u2019 as spy chief warns of threat to Communist party rule",
+      "url": "https://www.theguardian.com/world/2026/sep/14/china-dismisses-ai-fearmongering-as-spy-chief-warns-of-threat-to-communist-party-rule",
+      "source": "The Guardian",
+      "published_date": "2026-09-14T19:04:10+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/15/white-south-africans-denied-refugee-status-us",
+      "title": "\u2018I believed the hype\u2019: the white South Africans denied refugee status in the US",
+      "url": "https://www.theguardian.com/world/2026/sep/15/white-south-africans-denied-refugee-status-us",
+      "source": "The Guardian",
+      "published_date": "2026-09-15T04:00:27+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/08/nepal-tibet-flood-disaster-china-clean-internet-media-censorship-suppression",
+      "title": "How the Nepal-Tibet disaster became the latest victim of China\u2019s \u2018Clean Internet\u2019 campaign",
+      "url": "https://www.theguardian.com/world/2026/sep/08/nepal-tibet-flood-disaster-china-clean-internet-media-censorship-suppression",
+      "source": "The Guardian",
+      "published_date": "2026-09-08T03:14:43+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

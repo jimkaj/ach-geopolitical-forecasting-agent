@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260914_173540",
-  "last_update": "2026-09-14T17:35:40.822350",
+  "matrix_version": "20260915_160653",
+  "last_update": "2026-09-15T16:07:34.796098",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -273,6 +273,19 @@
       "url": "https://www.theguardian.com/world/2026/sep/01/edouard-balladur-obituary",
       "source": "The Guardian",
       "published_date": "2026-09-01T16:13:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/15/houthi-rebels-seize-red-sea-hanish-islands-saudi-oil-warning",
+      "title": "Houthis seize strategic Red Sea islands as analysts warn of impending oil crunch",
+      "url": "https://www.theguardian.com/world/2026/sep/15/houthi-rebels-seize-red-sea-hanish-islands-saudi-oil-warning",
+      "source": "The Guardian",
+      "published_date": "2026-09-15T04:22:16+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

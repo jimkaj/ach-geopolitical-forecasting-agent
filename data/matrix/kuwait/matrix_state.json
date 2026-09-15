@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260914_173542",
-  "last_update": "2026-09-14T17:35:42.185509",
+  "matrix_version": "20260915_160816",
+  "last_update": "2026-09-15T16:08:58.667767",
   "hypothesis_names": {
     "h1": "Kuwait supports the United States",
     "h2": "Kuwait maintains a neutral stance with the United States",
@@ -208,6 +208,19 @@
       "url": "https://www.theguardian.com/world/2026/aug/14/ukraine-war-briefing-crimea-bomb-robert-shageyev-defected",
       "source": "The Guardian",
       "published_date": "2026-08-14T02:05:22+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/14/eu-countries-delay-ees-entry-exit-system-border-checks-france-greece-portugal-italy",
+      "title": "Nine EU countries further delay EES border checks",
+      "url": "https://www.theguardian.com/world/2026/sep/14/eu-countries-delay-ees-entry-exit-system-border-checks-france-greece-portugal-italy",
+      "source": "The Guardian",
+      "published_date": "2026-09-14T11:57:28+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260914_173541",
-  "last_update": "2026-09-14T17:35:41.410134",
+  "matrix_version": "20260915_160734",
+  "last_update": "2026-09-15T16:08:16.544420",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -225,6 +225,19 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/15/imran-khan-sons-accuse-pakistan-army-chief-vendetta-asim-munir",
+      "title": "Imran Khan\u2019s sons accuse Pakistani army chief of vendetta against imprisoned father",
+      "url": "https://www.theguardian.com/world/2026/sep/15/imran-khan-sons-accuse-pakistan-army-chief-vendetta-asim-munir",
+      "source": "The Guardian",
+      "published_date": "2026-09-15T11:23:16+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
       },
       "confidence": 1.0
     }
