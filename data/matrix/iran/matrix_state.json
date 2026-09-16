@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260915_160609",
-  "last_update": "2026-09-15T16:06:09.701440",
+  "matrix_version": "20260916_170704",
+  "last_update": "2026-09-16T17:09:05.997175",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1486,6 +1486,45 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/15/iran-war-cost-cbo-report",
+      "title": "US House votes for third time to end Iran war after $38bn cost is revealed",
+      "url": "https://www.theguardian.com/world/2026/sep/15/iran-war-cost-cbo-report",
+      "source": "The Guardian",
+      "published_date": "2026-09-15T21:47:39+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/15/houthis-threaten-saudi-arabia-strikes-un-warning-humanitarian-crisis-yemen",
+      "title": "Houthis threaten more Saudi strikes as UN warns of humanitarian crisis in Yemen",
+      "url": "https://www.theguardian.com/world/2026/sep/15/houthis-threaten-saudi-arabia-strikes-un-warning-humanitarian-crisis-yemen",
+      "source": "The Guardian",
+      "published_date": "2026-09-15T17:25:02+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/16/al-qaida-and-is-linked-violence-in-africas-sahel-belt-set-to-hit-record-levels-this-year",
+      "title": "Al-Qaida and IS-linked violence in Africa\u2019s Sahel belt set to hit record levels this year",
+      "url": "https://www.theguardian.com/world/2026/sep/16/al-qaida-and-is-linked-violence-in-africas-sahel-belt-set-to-hit-record-levels-this-year",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T06:00:12+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
       },
       "confidence": 1.0
     }

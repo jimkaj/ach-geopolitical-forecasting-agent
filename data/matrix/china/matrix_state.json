@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260915_160256",
-  "last_update": "2026-09-15T16:06:09.675486",
+  "matrix_version": "20260916_165906",
+  "last_update": "2026-09-16T17:07:04.777976",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3185,6 +3185,123 @@
       "url": "https://www.theguardian.com/world/2026/sep/08/nepal-tibet-flood-disaster-china-clean-internet-media-censorship-suppression",
       "source": "The Guardian",
       "published_date": "2026-09-08T03:14:43+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member",
+      "title": "European Union invites Canada to become first ever \u2018associate member\u2019",
+      "url": "https://www.theguardian.com/world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T13:48:07+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/16/abortion-ban-report-pregnancy",
+      "title": "Abortion bans make \u2018evidence-based medicine\u2019 impossible in some cases, new report says",
+      "url": "https://www.theguardian.com/world/2026/sep/16/abortion-ban-report-pregnancy",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T13:18:34+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/16/nature-land-defenders-self-defence-murder-organised-crime",
+      "title": "People protecting nature and land set up self-defence units amid threat of murder",
+      "url": "https://www.theguardian.com/world/2026/sep/16/nature-land-defenders-self-defence-murder-organised-crime",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T05:00:10+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/16/european-union-ursula-von-der-leyen-eu-europe-latest-news-updates",
+      "title": "Former Kosovo president Tha\u00e7i sentenced to 25 years in prison by international court in The Hague \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/16/european-union-ursula-von-der-leyen-eu-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T15:04:40+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/16/us-officials-decide-against-backing-saudi-arabia-yemen-meeting-houthi-leaders",
+      "title": "US opts not to back Saudi Arabia in Yemen after meeting Houthi leaders",
+      "url": "https://www.theguardian.com/world/2026/sep/16/us-officials-decide-against-backing-saudi-arabia-yemen-meeting-houthi-leaders",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T14:56:40+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/15/canada-eu-economic-alliance",
+      "title": "Carney says Canada will pursue \u2018unique security and economic alliance\u2019 with EU amid US trade spat",
+      "url": "https://www.theguardian.com/world/2026/sep/15/canada-eu-economic-alliance",
+      "source": "The Guardian",
+      "published_date": "2026-09-15T19:08:37+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/16/us-visa-restrictions-south-africans-trump-claims-anti-white-discrimination",
+      "title": "US to bar some South Africans over claims of anti-white discrimination",
+      "url": "https://www.theguardian.com/world/2026/sep/16/us-visa-restrictions-south-africans-trump-claims-anti-white-discrimination",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T12:35:45+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/16/eu-social-media-ban-under-13s",
+      "title": "EU moves closer to social media ban for under 13s",
+      "url": "https://www.theguardian.com/world/2026/sep/16/eu-social-media-ban-under-13s",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T14:39:26+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/16/singapore-pays-citizens-read-books",
+      "title": "Singapore pays people to pick up a book in battle against doomscrolling",
+      "url": "https://www.theguardian.com/world/2026/sep/16/singapore-pays-citizens-read-books",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T02:21:06+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
