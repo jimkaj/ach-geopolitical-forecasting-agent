@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260916_165906",
-  "last_update": "2026-09-16T17:07:04.777976",
+  "matrix_version": "20260917_130008",
+  "last_update": "2026-09-17T13:03:14.920535",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3304,6 +3304,58 @@
       "published_date": "2026-09-16T02:21:06+00:00",
       "marks": {
         "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/16/made-in-europe-laws-could-derail-uk-eu-reset-plans",
+      "title": "\u2018Made in Europe\u2019 law threatens UK plans for reset with EU",
+      "url": "https://www.theguardian.com/world/2026/sep/16/made-in-europe-laws-could-derail-uk-eu-reset-plans",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T19:39:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/16/eu-offer-canada-blueprint-britain-brexit",
+      "title": "Is EU\u2019s offer to Canada a blueprint for Britain \u2013 or a reminder it is out in the cold?",
+      "url": "https://www.theguardian.com/world/2026/sep/16/eu-offer-canada-blueprint-britain-brexit",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T18:57:14+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9
+    },
+    {
+      "article_id": "world/2026/sep/17/trump-calls-eu-offer-to-canada-associate-membership-laughable-threatens-tariffs",
+      "title": "Trump threatens to stop trading with EU over \u2018laughable\u2019 membership offer to Canada",
+      "url": "https://www.theguardian.com/world/2026/sep/17/trump-calls-eu-offer-to-canada-associate-membership-laughable-threatens-tariffs",
+      "source": "The Guardian",
+      "published_date": "2026-09-17T08:25:32+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/17/donald-trump-eu-european-union-mark-carney-canada-associate-membership-tariffs-threats-germany-merz-latest-news-updates",
+      "title": "Swedish PM Kristersson resigns after election defeat \u2013 Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/sep/17/donald-trump-eu-european-union-mark-carney-canada-associate-membership-tariffs-threats-germany-merz-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-17T12:32:55+00:00",
+      "marks": {
+        "h1": "--",
         "h2": "N/A",
         "h3": "N/A"
       },

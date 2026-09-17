@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260916_170704",
-  "last_update": "2026-09-16T17:09:05.997175",
+  "matrix_version": "20260917_130314",
+  "last_update": "2026-09-17T13:04:38.374714",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1525,6 +1525,32 @@
         "h1": "--",
         "h2": "N/A",
         "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/16/saudi-arabia-houthi-drone-shot-down-mecca-iran-middle-east",
+      "title": "Saudi Arabia warns of \u2018red line\u2019 after Houthi drone intercepted close to holy city of Mecca",
+      "url": "https://www.theguardian.com/world/2026/sep/16/saudi-arabia-houthi-drone-shot-down-mecca-iran-middle-east",
+      "source": "The Guardian",
+      "published_date": "2026-09-16T02:56:37+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/17/thursday-briefing-yemens-war-continues-to-threaten-oil-supplies-but-what-about-its-people",
+      "title": "Thursday briefing: Yemen\u2019s war continues to threaten oil supplies\u2013 but what about its people?",
+      "url": "https://www.theguardian.com/world/2026/sep/17/thursday-briefing-yemens-war-continues-to-threaten-oil-supplies-but-what-about-its-people",
+      "source": "The Guardian",
+      "published_date": "2026-09-17T05:45:50+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
       },
       "confidence": 1.0
     }
