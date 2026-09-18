@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260917_130314",
-  "last_update": "2026-09-17T13:04:38.374714",
+  "matrix_version": "20260918_130434",
+  "last_update": "2026-09-18T13:05:16.377992",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1550,6 +1550,19 @@
       "marks": {
         "h1": "--",
         "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/18/i-spend-a-bagful-of-money-and-dont-fill-a-bag-the-energy-crisis-hits-bangladesh",
+      "title": "\u2018I spend a bagful of money and don\u2019t fill a bag\u2019: the energy crisis hits Bangladesh",
+      "url": "https://www.theguardian.com/world/2026/sep/18/i-spend-a-bagful-of-money-and-dont-fill-a-bag-the-energy-crisis-hits-bangladesh",
+      "source": "The Guardian",
+      "published_date": "2026-09-18T09:00:14+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
         "h3": "++"
       },
       "confidence": 1.0
