@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260918_130516",
-  "last_update": "2026-09-18T13:05:16.930884",
+  "matrix_version": "20260919_130232",
+  "last_update": "2026-09-19T13:03:15.508042",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -286,6 +286,19 @@
       "url": "https://www.theguardian.com/world/2026/sep/15/houthi-rebels-seize-red-sea-hanish-islands-saudi-oil-warning",
       "source": "The Guardian",
       "published_date": "2026-09-15T04:22:16+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/18/yemen-anti-houthi-forces-inquest-military-collapse",
+      "title": "Yemen\u2019s anti-Houthi forces launch inquest into sudden military collapse",
+      "url": "https://www.theguardian.com/world/2026/sep/18/yemen-anti-houthi-forces-inquest-military-collapse",
+      "source": "The Guardian",
+      "published_date": "2026-09-18T14:12:10+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

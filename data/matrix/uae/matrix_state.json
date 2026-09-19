@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260918_130518",
-  "last_update": "2026-09-18T13:05:18.306702",
+  "matrix_version": "20260919_130316",
+  "last_update": "2026-09-19T13:03:59.787089",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -273,6 +273,19 @@
       "url": "https://www.theguardian.com/world/live/2026/sep/10/russian-drone-strike-ukraine-zelenskyy-macron-nato-rutte-latest-news-updates",
       "source": "The Guardian",
       "published_date": "2026-09-10T15:07:57+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
+      "title": "Survivors recount panic and struggle to breathe in Nigerian prison cell where 37 died",
+      "url": "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
+      "source": "The Guardian",
+      "published_date": "2026-09-18T17:27:39+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
