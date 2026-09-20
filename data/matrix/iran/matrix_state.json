@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260919_130230",
-  "last_update": "2026-09-19T13:02:30.717135",
+  "matrix_version": "20260920_130312",
+  "last_update": "2026-09-20T13:03:53.122393",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1563,6 +1563,19 @@
       "marks": {
         "h1": "--",
         "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/19/saudi-arabia-riyadh-airport",
+      "title": "Thick smoke seen near Riyadh airport as Houthis claim attack on Saudi capital",
+      "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
+      "source": "The Guardian",
+      "published_date": "2026-09-20T00:21:04+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
         "h3": "++"
       },
       "confidence": 1.0
