@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260920_130312",
-  "last_update": "2026-09-20T13:03:53.122393",
+  "matrix_version": "20260921_150904",
+  "last_update": "2026-09-21T15:09:44.552606",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1573,6 +1573,19 @@
       "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
       "source": "The Guardian",
       "published_date": "2026-09-20T00:21:04+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/20/middle-east-braces-for-more-violence-as-iran-claims-us-is-planning-to-renew-bombing-campaign",
+      "title": "Middle East braces for more violence as Iran claims US is planning to renew bombing campaign",
+      "url": "https://www.theguardian.com/world/2026/sep/20/middle-east-braces-for-more-violence-as-iran-claims-us-is-planning-to-renew-bombing-campaign",
+      "source": "The Guardian",
+      "published_date": "2026-09-20T18:56:45+00:00",
       "marks": {
         "h1": "--",
         "h2": "-",

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260920_130008",
-  "last_update": "2026-09-20T13:03:12.371217",
+  "matrix_version": "20260921_150601",
+  "last_update": "2026-09-21T15:09:04.198142",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3523,6 +3523,45 @@
       "url": "https://www.theguardian.com/world/2026/sep/20/the-rules-have-changed-has-russia-begun-to-order-assassinations-on-us-soil",
       "source": "The Guardian",
       "published_date": "2026-09-20T04:00:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/21/how-metoo-movement-changed-in-china-womens-rights-sophia-huang-xueqin",
+      "title": "\u2018People had naive expectations\u2019: How MeToo has changed in China",
+      "url": "https://www.theguardian.com/world/2026/sep/21/how-metoo-movement-changed-in-china-womens-rights-sophia-huang-xueqin",
+      "source": "The Guardian",
+      "published_date": "2026-09-21T02:39:30+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/20/friedrich-merz-chancellor-germany-state-elections-cdu-afd-linke-berlin",
+      "title": "Friedrich Merz vows to stay in office after CDU \u2018disaster\u2019 in German state elections",
+      "url": "https://www.theguardian.com/world/2026/sep/20/friedrich-merz-chancellor-germany-state-elections-cdu-afd-linke-berlin",
+      "source": "The Guardian",
+      "published_date": "2026-09-20T18:33:02+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/21/putin-consolidates-grip-russia-ukraine-war-veterans-elected-duma",
+      "title": "Putin consolidates grip on Russia as 49 Ukraine war veterans elected to parliament",
+      "url": "https://www.theguardian.com/world/2026/sep/21/putin-consolidates-grip-russia-ukraine-war-veterans-elected-duma",
+      "source": "The Guardian",
+      "published_date": "2026-09-21T13:40:39+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
