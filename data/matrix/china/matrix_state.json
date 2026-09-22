@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260921_150601",
-  "last_update": "2026-09-21T15:09:04.198142",
+  "matrix_version": "20260922_131813",
+  "last_update": "2026-09-22T13:22:10.148160",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3562,6 +3562,71 @@
       "url": "https://www.theguardian.com/world/2026/sep/21/putin-consolidates-grip-russia-ukraine-war-veterans-elected-duma",
       "source": "The Guardian",
       "published_date": "2026-09-21T13:40:39+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/21/race-next-un-secretary-general-us-china-trade-offs",
+      "title": "Race to be next UN secretary general could rest on US and China trade-offs",
+      "url": "https://www.theguardian.com/world/2026/sep/21/race-next-un-secretary-general-us-china-trade-offs",
+      "source": "The Guardian",
+      "published_date": "2026-09-21T16:56:29+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/sep/22/australia-investigating-how-f-35-fighter-jet-parts-bound-for-us-went-missing-in-hong-kong",
+      "title": "Australia investigating how F-35 fighter jet parts bound for US went missing in Hong Kong",
+      "url": "https://www.theguardian.com/world/2026/sep/22/australia-investigating-how-f-35-fighter-jet-parts-bound-for-us-went-missing-in-hong-kong",
+      "source": "The Guardian",
+      "published_date": "2026-09-22T10:00:15+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "+"
+      },
+      "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/sep/22/trump-united-nations-address",
+      "title": "Trump\u2019s bizarre social media blitz leaves world guessing ahead of UN address",
+      "url": "https://www.theguardian.com/world/2026/sep/22/trump-united-nations-address",
+      "source": "The Guardian",
+      "published_date": "2026-09-22T06:00:36+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/21/us-boat-strikes-crime-against-humanity",
+      "title": "US strikes on alleged drug boats may constitute \u2018crimes against humanity\u2019, UN expert says",
+      "url": "https://www.theguardian.com/world/2026/sep/21/us-boat-strikes-crime-against-humanity",
+      "source": "The Guardian",
+      "published_date": "2026-09-21T15:54:43+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/22/tuesday-briefing-europe-thinks-russia-is-preparing-to-test-natos-limits",
+      "title": "Tuesday briefing: Europe thinks Russia is preparing to test Nato\u2019s limits",
+      "url": "https://www.theguardian.com/world/2026/sep/22/tuesday-briefing-europe-thinks-russia-is-preparing-to-test-natos-limits",
+      "source": "The Guardian",
+      "published_date": "2026-09-22T05:40:24+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

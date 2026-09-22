@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260921_150904",
-  "last_update": "2026-09-21T15:09:44.552606",
+  "matrix_version": "20260922_132210",
+  "last_update": "2026-09-22T13:24:16.893532",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1586,6 +1586,45 @@
       "url": "https://www.theguardian.com/world/2026/sep/20/middle-east-braces-for-more-violence-as-iran-claims-us-is-planning-to-renew-bombing-campaign",
       "source": "The Guardian",
       "published_date": "2026-09-20T18:56:45+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/22/middle-east-iran-irgc-donald-trump-mahmoud-mahmoud-pezeshkian-abbas-araqchi-unga-latest-news-updates",
+      "title": "Middle East crisis live: Iran ready to reopen strait of Hormuz within seven days if US lifts blockade, official says",
+      "url": "https://www.theguardian.com/world/live/2026/sep/22/middle-east-iran-irgc-donald-trump-mahmoud-mahmoud-pezeshkian-abbas-araqchi-unga-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-22T12:35:56+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/22/ukraine-war-briefing-sanctions-must-continue-eus-top-diplomat-stresses-as-russian-attacks-kill-five",
+      "title": "Ukraine war briefing: Sanctions must continue, EU\u2019s top diplomat stresses, as Russian attacks kill five",
+      "url": "https://www.theguardian.com/world/2026/sep/22/ukraine-war-briefing-sanctions-must-continue-eus-top-diplomat-stresses-as-russian-attacks-kill-five",
+      "source": "The Guardian",
+      "published_date": "2026-09-22T01:40:49+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/21/houthis-seize-strategic-terrain-yemen-trump-calls-off-airstrikes-last-minute",
+      "title": "Houthis move to seize strategic terrain after Trump calls off airstrikes at last minute",
+      "url": "https://www.theguardian.com/world/2026/sep/21/houthis-seize-strategic-terrain-yemen-trump-calls-off-airstrikes-last-minute",
+      "source": "The Guardian",
+      "published_date": "2026-09-21T16:14:38+00:00",
       "marks": {
         "h1": "--",
         "h2": "-",
