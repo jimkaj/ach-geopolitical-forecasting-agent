@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260922_132210",
-  "last_update": "2026-09-22T13:24:16.893532",
+  "matrix_version": "20260923_173722",
+  "last_update": "2026-09-23T17:40:05.390622",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1625,6 +1625,58 @@
       "url": "https://www.theguardian.com/world/2026/sep/21/houthis-seize-strategic-terrain-yemen-trump-calls-off-airstrikes-last-minute",
       "source": "The Guardian",
       "published_date": "2026-09-21T16:14:38+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/22/iran-us-talks-sidelines-un-summit-trump-israel-us",
+      "title": "Iran and US have held talks on sidelines of UN summit, says Donald Trump",
+      "url": "https://www.theguardian.com/world/2026/sep/22/iran-us-talks-sidelines-un-summit-trump-israel-us",
+      "source": "The Guardian",
+      "published_date": "2026-09-22T21:21:59+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/sep/23/iranian-leader-hits-back-at-bully-trump-signals-willingness-to-talk",
+      "title": "Iran\u2019s president hits out at \u2018bully\u2019 Trump in UN speech but signals willingness to talk",
+      "url": "https://www.theguardian.com/world/2026/sep/23/iranian-leader-hits-back-at-bully-trump-signals-willingness-to-talk",
+      "source": "The Guardian",
+      "published_date": "2026-09-23T16:44:57+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/23/wednesday-briefing-can-burnham-seek-a-different-path-to-trumps-world-order",
+      "title": "Wednesday briefing: \u200bCan Burnham \u200bseek a \u200bdifferent \u200bpath\u200b to Trump\u2019s world order?",
+      "url": "https://www.theguardian.com/world/2026/sep/23/wednesday-briefing-can-burnham-seek-a-different-path-to-trumps-world-order",
+      "source": "The Guardian",
+      "published_date": "2026-09-23T05:45:26+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/22/yemen-houthis-battle-strategic-red-sea-heights",
+      "title": "Up to 169 killed in Yemen as Houthis battle for Red Sea coastal heights",
+      "url": "https://www.theguardian.com/world/2026/sep/22/yemen-houthis-battle-strategic-red-sea-heights",
+      "source": "The Guardian",
+      "published_date": "2026-09-22T13:57:36+00:00",
       "marks": {
         "h1": "--",
         "h2": "-",

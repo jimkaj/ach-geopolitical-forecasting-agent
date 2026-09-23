@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260922_131813",
-  "last_update": "2026-09-22T13:22:10.148160",
+  "matrix_version": "20260923_173305",
+  "last_update": "2026-09-23T17:37:22.083264",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3627,6 +3627,71 @@
       "url": "https://www.theguardian.com/world/2026/sep/22/tuesday-briefing-europe-thinks-russia-is-preparing-to-test-natos-limits",
       "source": "The Guardian",
       "published_date": "2026-09-22T05:40:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/23/united-nations-general-assembly-unga-zelenksyy-trump-xi-china-ukraine-russia-europe-latest-news-updates",
+      "title": "Iran\u2019s president says his country\u2019s people have been \u2018victims of terrorism\u2019 by the United States - live",
+      "url": "https://www.theguardian.com/world/live/2026/sep/23/united-nations-general-assembly-unga-zelenksyy-trump-xi-china-ukraine-russia-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-23T17:32:08+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "business/2026/sep/22/eu-imports-china-exports-trade-deficit-xi-jinping-donald-trump",
+      "title": "EU spends three times more on imports from China than bloc exports there",
+      "url": "https://www.theguardian.com/business/2026/sep/22/eu-imports-china-exports-trade-deficit-xi-jinping-donald-trump",
+      "source": "The Guardian",
+      "published_date": "2026-09-22T11:54:08+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/23/iran-denies-dropping-preconditions-very-productive-three-hour-un-talks-new-york",
+      "title": "Iran denies dropping preconditions amid \u2018very productive\u2019 three-hour UN talks in New York",
+      "url": "https://www.theguardian.com/world/2026/sep/23/iran-denies-dropping-preconditions-very-productive-three-hour-un-talks-new-york",
+      "source": "The Guardian",
+      "published_date": "2026-09-23T10:41:41+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/23/japan-pm-sanae-takaichi-un-speech-support-for-icc-trump",
+      "title": "Japan PM pledges support for international criminal court after Trump calls it \u2018out of control\u2019",
+      "url": "https://www.theguardian.com/world/2026/sep/23/japan-pm-sanae-takaichi-un-speech-support-for-icc-trump",
+      "source": "The Guardian",
+      "published_date": "2026-09-23T04:48:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/22/eu-trump-russia-putin-sanctions-ukraine-greenland-denmark-zelenskyy-latest-news-updates",
+      "title": "US to build new military bases in Greenland as deal seeks to end tensions between Nato allies - as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/22/eu-trump-russia-putin-sanctions-ukraine-greenland-denmark-zelenskyy-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-22T16:51:13+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
