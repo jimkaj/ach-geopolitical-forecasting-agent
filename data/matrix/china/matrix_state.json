@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260923_173305",
-  "last_update": "2026-09-23T17:37:22.083264",
+  "matrix_version": "20260924_130008",
+  "last_update": "2026-09-24T13:03:33.755659",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3692,6 +3692,58 @@
       "url": "https://www.theguardian.com/world/live/2026/sep/22/eu-trump-russia-putin-sanctions-ukraine-greenland-denmark-zelenskyy-latest-news-updates",
       "source": "The Guardian",
       "published_date": "2026-09-22T16:51:13+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/24/united-nations-general-assembly-key-takeaways-day-two-iran-venezuela-ukraine",
+      "title": "Defiance, threats and a \u2018rebirth\u2019: five key points from day two of the UN\u2019s big gathering",
+      "url": "https://www.theguardian.com/world/2026/sep/24/united-nations-general-assembly-key-takeaways-day-two-iran-venezuela-ukraine",
+      "source": "The Guardian",
+      "published_date": "2026-09-24T03:38:56+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/23/how-the-poisonous-tide-of-disinformation-stokes-division-and-sows-despair",
+      "title": "How the \u2018poisonous tide\u2019 of disinformation spreads division and despair",
+      "url": "https://www.theguardian.com/world/2026/sep/23/how-the-poisonous-tide-of-disinformation-stokes-division-and-sows-despair",
+      "source": "The Guardian",
+      "published_date": "2026-09-23T19:24:39+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/24/russia-ukraine-un-zelenskyy-putin-kharkiv-macron-eu-competitiveness-latest-news-updates",
+      "title": "Denmark warns that Russia expected to escalate hybrid warfare against Nato allies in coming months \u2013 Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/sep/24/russia-ukraine-un-zelenskyy-putin-kharkiv-macron-eu-competitiveness-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-24T12:25:49+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/24/netanyahu-to-deliver-defiant-un-speech-facing-protests-political-isolation",
+      "title": "Benjamin Netanyahu to deliver defiant UN speech while facing protests and political isolation",
+      "url": "https://www.theguardian.com/world/2026/sep/24/netanyahu-to-deliver-defiant-un-speech-facing-protests-political-isolation",
+      "source": "The Guardian",
+      "published_date": "2026-09-24T08:00:12+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
