@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260924_130502",
-  "last_update": "2026-09-24T13:05:02.957428",
+  "matrix_version": "20260925_170844",
+  "last_update": "2026-09-25T17:09:24.656142",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -303,6 +303,19 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/25/saudi-arabia-intercepts-houthi-missiles-oil-prices-climbs",
+      "title": "Saudi Arabia intercepts wave of Houthi missiles as oil climbs to one-week high",
+      "url": "https://www.theguardian.com/world/2026/sep/25/saudi-arabia-intercepts-houthi-missiles-oil-prices-climbs",
+      "source": "The Guardian",
+      "published_date": "2026-09-25T02:54:27+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
       },
       "confidence": 1.0
     }

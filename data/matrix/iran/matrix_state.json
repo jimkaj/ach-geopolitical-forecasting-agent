@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260924_130333",
-  "last_update": "2026-09-24T13:03:33.790079",
+  "matrix_version": "20260925_170724",
+  "last_update": "2026-09-25T17:08:44.082244",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1683,6 +1683,32 @@
         "h3": "++"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/25/trump-tough-choices-iran-accelerated-deal-reopen-hormuz-midterm-elections",
+      "title": "Trump faces tough choices as Iran dangles deal to reopen Hormuz before US midterms",
+      "url": "https://www.theguardian.com/world/2026/sep/25/trump-tough-choices-iran-accelerated-deal-reopen-hormuz-midterm-elections",
+      "source": "The Guardian",
+      "published_date": "2026-09-25T15:43:59+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/sep/24/twins-sentenced-to-death-and-jail-iran-un-appeal",
+      "title": "Family of Iranian twins sentenced to death and decades in jail ask UN for help",
+      "url": "https://www.theguardian.com/world/2026/sep/24/twins-sentenced-to-death-and-jail-iran-un-appeal",
+      "source": "The Guardian",
+      "published_date": "2026-09-24T13:15:48+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9333333333333332
     }
   ]
 }

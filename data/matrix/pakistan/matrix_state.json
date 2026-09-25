@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260924_130504",
-  "last_update": "2026-09-24T13:05:04.076800",
+  "matrix_version": "20260925_170924",
+  "last_update": "2026-09-25T17:10:07.518110",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -247,6 +247,19 @@
       "url": "https://www.theguardian.com/world/2026/sep/21/pakistan-jails-sisters-of-imran-khan-before-protest-seeking-his-release",
       "source": "The Guardian",
       "published_date": "2026-09-21T14:48:49+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/25/pakistan-lockdown-islamabad-imran-khan-party-march",
+      "title": "Pakistan locks down Islamabad as Imran Khan\u2019s party vows to march on capital",
+      "url": "https://www.theguardian.com/world/2026/sep/25/pakistan-lockdown-islamabad-imran-khan-party-march",
+      "source": "The Guardian",
+      "published_date": "2026-09-25T13:44:55+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

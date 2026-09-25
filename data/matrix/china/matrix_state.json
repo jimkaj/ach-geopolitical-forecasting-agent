@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260924_130008",
-  "last_update": "2026-09-24T13:03:33.755659",
+  "matrix_version": "20260925_170421",
+  "last_update": "2026-09-25T17:07:24.528938",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3744,6 +3744,45 @@
       "url": "https://www.theguardian.com/world/2026/sep/24/netanyahu-to-deliver-defiant-un-speech-facing-protests-political-isolation",
       "source": "The Guardian",
       "published_date": "2026-09-24T08:00:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "us-news/2026/sep/25/donald-trump-xi-jinping-china-president-us-visit-red-carpet-treatment",
+      "title": "Pomp over progress in Xi\u2019s US summit with Trump is a win for China",
+      "url": "https://www.theguardian.com/us-news/2026/sep/25/donald-trump-xi-jinping-china-president-us-visit-red-carpet-treatment",
+      "source": "The Guardian",
+      "published_date": "2026-09-25T12:41:14+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/24/ed-miliband-meets-iran-foreign-minister-us-ultimatum-strait-hormuz",
+      "title": "Iran awaiting response from Trump on proposal to open strait of Hormuz in six days",
+      "url": "https://www.theguardian.com/world/2026/sep/24/ed-miliband-meets-iran-foreign-minister-us-ultimatum-strait-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-09-24T21:57:34+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "us-news/2026/sep/24/netanyahu-un-speech-mahmoud-abbas",
+      "title": "Netanyahu calls Israel\u2019s war in Gaza \u2018opposite of genocide\u2019 in UN speech",
+      "url": "https://www.theguardian.com/us-news/2026/sep/24/netanyahu-un-speech-mahmoud-abbas",
+      "source": "The Guardian",
+      "published_date": "2026-09-24T19:28:08+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

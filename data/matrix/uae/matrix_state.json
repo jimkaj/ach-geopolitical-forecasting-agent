@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260924_130507",
-  "last_update": "2026-09-24T13:05:50.901635",
+  "matrix_version": "20260925_171008",
+  "last_update": "2026-09-25T17:10:59.469982",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -316,6 +316,19 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/25/pope-leo-france-paris-notre-dame-metz-ai-europe-latest-news-updates",
+      "title": "Pope Leo warns against AI and says technology \u2018must remain at service of humans\u2019 during first visit to France \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/25/pope-leo-france-paris-notre-dame-metz-ai-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-25T15:09:13+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
       },
       "confidence": 1.0
     }
