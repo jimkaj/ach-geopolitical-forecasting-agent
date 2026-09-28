@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260925_170844",
-  "last_update": "2026-09-25T17:08:44.095524",
+  "matrix_version": "20260928_154654",
+  "last_update": "2026-09-28T15:47:37.443666",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -914,6 +914,19 @@
         "h1": "+",
         "h2": "-",
         "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/25/trump-israel-icc-threats",
+      "title": "Alarm at UN over sanctions threatened by US on international criminal court",
+      "url": "https://www.theguardian.com/world/2026/sep/25/trump-israel-icc-threats",
+      "source": "The Guardian",
+      "published_date": "2026-09-25T18:33:54+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
       },
       "confidence": 1.0
     }

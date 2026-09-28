@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260925_170844",
-  "last_update": "2026-09-25T17:08:44.577987",
+  "matrix_version": "20260928_154737",
+  "last_update": "2026-09-28T15:49:47.882826",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -442,6 +442,45 @@
       "url": "https://www.theguardian.com/environment/2026/sep/14/weather-tracker-floods-eastern-india-hurricane-damage-california",
       "source": "The Guardian",
       "published_date": "2026-09-14T09:28:42+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/23/eus-canada-offer-is-more-mood-than-reality-but-it-could-hint-at-a-future-geometry-for-the-bloc",
+      "title": "The EU\u2019s Canada offer is more mood than reality but it could hint at a future geometry for the bloc",
+      "url": "https://www.theguardian.com/world/2026/sep/23/eus-canada-offer-is-more-mood-than-reality-but-it-could-hint-at-a-future-geometry-for-the-bloc",
+      "source": "The Guardian",
+      "published_date": "2026-09-23T14:30:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/25/lula-says-trump-wants-to-colonise-and-capture-brazils-resources-by-meddling-in-election",
+      "title": "Lula says Trump wants to \u2018colonise\u2019 and capture Brazil\u2019s resources by meddling in election",
+      "url": "https://www.theguardian.com/world/2026/sep/25/lula-says-trump-wants-to-colonise-and-capture-brazils-resources-by-meddling-in-election",
+      "source": "The Guardian",
+      "published_date": "2026-09-25T03:33:48+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/26/us-airstrikes-ecuador-fishers",
+      "title": "US strikes on Ecuadorian fishing boats raise humanitarian concerns but Trump admin not wavering",
+      "url": "https://www.theguardian.com/world/2026/sep/26/us-airstrikes-ecuador-fishers",
+      "source": "The Guardian",
+      "published_date": "2026-09-26T16:00:39+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

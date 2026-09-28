@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260925_170421",
-  "last_update": "2026-09-25T17:07:24.528938",
+  "matrix_version": "20260928_153943",
+  "last_update": "2026-09-28T15:43:10.782227",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3783,6 +3783,58 @@
       "url": "https://www.theguardian.com/us-news/2026/sep/24/netanyahu-un-speech-mahmoud-abbas",
       "source": "The Guardian",
       "published_date": "2026-09-24T19:28:08+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/28/trump-xi-jinping-china-buy-weapons",
+      "title": "Trump asked Xi Jinping if China would like to buy US weapons, American ambassador says",
+      "url": "https://www.theguardian.com/world/2026/sep/28/trump-xi-jinping-china-buy-weapons",
+      "source": "The Guardian",
+      "published_date": "2026-09-28T10:40:18+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/27/ukraine-war-briefing-german-foreign-minister-urges-russia-to-abandon-dangerous-escalation-in-rare-meeting",
+      "title": "Ukraine war briefing: German foreign minister urges Russia to abandon dangerous escalation in rare meeting",
+      "url": "https://www.theguardian.com/world/2026/sep/27/ukraine-war-briefing-german-foreign-minister-urges-russia-to-abandon-dangerous-escalation-in-rare-meeting",
+      "source": "The Guardian",
+      "published_date": "2026-09-27T02:30:02+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/26/ukraine-war-briefing-russian-attacks-close-largest-steelmaker-arcelormittal",
+      "title": "Ukraine war briefing: Russian attacks force closure of Ukraine\u2019s largest steelmaker",
+      "url": "https://www.theguardian.com/world/2026/sep/26/ukraine-war-briefing-russian-attacks-close-largest-steelmaker-arcelormittal",
+      "source": "The Guardian",
+      "published_date": "2026-09-26T01:00:39+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/28/europe-ukraine-defence-ministers-pope-leo-france-visit-latest-news-updates",
+      "title": "Poland scrambles military aircraft in response to Russian strikes on western Ukraine \u2013 Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/sep/28/europe-ukraine-defence-ministers-pope-leo-france-visit-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-28T15:39:30+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

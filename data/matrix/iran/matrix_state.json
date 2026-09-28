@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260925_170724",
-  "last_update": "2026-09-25T17:08:44.082244",
+  "matrix_version": "20260928_154310",
+  "last_update": "2026-09-28T15:46:54.483522",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1709,6 +1709,71 @@
         "h3": "+"
       },
       "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
+      "title": "Trump rejects Iran\u2019s seven-day peace deal to reopen strait of Hormuz",
+      "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-09-27T06:34:43+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement",
+      "title": "Children forced to give up school for work as fighting upends daily life in Yemen",
+      "url": "https://www.theguardian.com/world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement",
+      "source": "The Guardian",
+      "published_date": "2026-09-28T07:07:26+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/27/poland-military-spending-economic-growth-economy-defence-boom",
+      "title": "Poland is racing ahead with military spending \u2013 but will it help or damage its economic growth story?",
+      "url": "https://www.theguardian.com/world/2026/sep/27/poland-military-spending-economic-growth-economy-defence-boom",
+      "source": "The Guardian",
+      "published_date": "2026-09-27T05:00:56+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/23/no-signs-chagos-deal-adapted-suit-donald-trump-officials-believe",
+      "title": "No signs Chagos deal can be adapted to suit Trump, say UK officials",
+      "url": "https://www.theguardian.com/world/2026/sep/23/no-signs-chagos-deal-adapted-suit-donald-trump-officials-believe",
+      "source": "The Guardian",
+      "published_date": "2026-09-23T17:26:00+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/live/2026/sep/21/merz-german-chancellor-state-elections-russia-ukraine-europe-live-latest-news",
+      "title": "Germany\u2019s Merz \u2018grateful\u2019 centre-left SPD wants to stay in coalition after CDU\u2019s heavy losses \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/21/merz-german-chancellor-state-elections-russia-ukraine-europe-live-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-09-21T15:02:44+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260925_171007",
-  "last_update": "2026-09-25T17:10:07.527343",
+  "matrix_version": "20260928_154952",
+  "last_update": "2026-09-28T15:50:36.309758",
   "hypothesis_names": {
     "h1": "Kuwait supports the United States",
     "h2": "Kuwait maintains a neutral stance with the United States",
@@ -221,6 +221,19 @@
       "url": "https://www.theguardian.com/world/2026/sep/14/eu-countries-delay-ees-entry-exit-system-border-checks-france-greece-portugal-italy",
       "source": "The Guardian",
       "published_date": "2026-09-14T11:57:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/28/protect-free-speech-labour-liberty-poll",
+      "title": "Failure to protect free speech could cost Labour votes at next election, says Liberty",
+      "url": "https://www.theguardian.com/world/2026/sep/28/protect-free-speech-labour-liberty-poll",
+      "source": "The Guardian",
+      "published_date": "2026-09-27T23:01:17+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
