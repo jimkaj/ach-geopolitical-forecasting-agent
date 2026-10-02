@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260928_154654",
-  "last_update": "2026-09-28T15:47:37.443666",
+  "matrix_version": "20261002_221907",
+  "last_update": "2026-10-02T22:24:45.526929",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -927,6 +927,110 @@
         "h1": "+",
         "h2": "N/A",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/01/hero-pilot-stabbed-flydubai-plane-flight-israel",
+      "title": "\u2018Hero\u2019 pilot, plumber and dentist among those who saved flydubai flight to Israel",
+      "url": "https://www.theguardian.com/world/2026/oct/01/hero-pilot-stabbed-flydubai-plane-flight-israel",
+      "source": "The Guardian",
+      "published_date": "2026-10-01T02:56:02+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/30/what-we-know-alleged-stabbing-pilot-copilot-flight-israel",
+      "title": "What we know so far about alleged stabbing of pilot by co-pilot on flight to Israel",
+      "url": "https://www.theguardian.com/world/2026/sep/30/what-we-know-alleged-stabbing-pilot-copilot-flight-israel",
+      "source": "The Guardian",
+      "published_date": "2026-09-30T15:00:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/01/netanyahu-flydubai-halts-all-flights-to-israel",
+      "title": "Co-pilot in flight stabbing had \u2018Islamic radical indoctrination\u2019, says Netanyahu",
+      "url": "https://www.theguardian.com/world/2026/oct/01/netanyahu-flydubai-halts-all-flights-to-israel",
+      "source": "The Guardian",
+      "published_date": "2026-10-01T16:04:48+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/30/whoever-is-hearing-me-we-need-help-how-flight-1073-survived-its-5000-metre-plunge",
+      "title": "\u2018Whoever is hearing me, we need help\u2019: how flight 1073 survived its 17,000ft plunge",
+      "url": "https://www.theguardian.com/world/2026/sep/30/whoever-is-hearing-me-we-need-help-how-flight-1073-survived-its-5000-metre-plunge",
+      "source": "The Guardian",
+      "published_date": "2026-09-30T17:47:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/29/jordan-bardella-national-rally-antisemitism-claims-france",
+      "title": "National Rally\u2019s Jordan Bardella rails at \u2018war\u2019 on party after antisemitism claims",
+      "url": "https://www.theguardian.com/world/2026/sep/29/jordan-bardella-national-rally-antisemitism-claims-france",
+      "source": "The Guardian",
+      "published_date": "2026-09-29T15:16:39+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/30/israeli-settler-violence-west-bank-attack-jalud-palestinians-icrc",
+      "title": "Israeli forces overwhelmed by violent settlers in \u2018terrorist attack\u2019 on Palestinian family",
+      "url": "https://www.theguardian.com/world/2026/sep/30/israeli-settler-violence-west-bank-attack-jalud-palestinians-icrc",
+      "source": "The Guardian",
+      "published_date": "2026-09-30T19:01:03+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/02/aviation-security-flydubai-flight-israel",
+      "title": "Suicide by plane or terrorism? Speculation over motive in flight 1073 attack",
+      "url": "https://www.theguardian.com/world/2026/oct/02/aviation-security-flydubai-flight-israel",
+      "source": "The Guardian",
+      "published_date": "2026-10-02T15:40:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/01/new-google-maps-images-reveal-massive-scale-of-devastation-in-gaza",
+      "title": "New Google Maps images reveal massive scale of devastation in Gaza",
+      "url": "https://www.theguardian.com/world/2026/oct/01/new-google-maps-images-reveal-massive-scale-of-devastation-in-gaza",
+      "source": "The Guardian",
+      "published_date": "2026-10-01T04:00:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

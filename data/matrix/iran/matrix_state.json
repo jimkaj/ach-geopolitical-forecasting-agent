@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260928_154310",
-  "last_update": "2026-09-28T15:46:54.483522",
+  "matrix_version": "20261002_221439",
+  "last_update": "2026-10-02T22:19:07.609580",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1772,6 +1772,84 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/01/ukraine-russian-oil-refinery-strikes-defying-trump-fuel-price-warnings",
+      "title": "Ukraine persists with Russian oil refinery strikes in defiance of Trump",
+      "url": "https://www.theguardian.com/world/2026/oct/01/ukraine-russian-oil-refinery-strikes-defying-trump-fuel-price-warnings",
+      "source": "The Guardian",
+      "published_date": "2026-10-01T12:09:34+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/01/israel-election-benjamin-netanyahu-gadi-eisenkot",
+      "title": "Israelis divided as vote that could oust Netanyahu only weeks away",
+      "url": "https://www.theguardian.com/world/2026/oct/01/israel-election-benjamin-netanyahu-gadi-eisenkot",
+      "source": "The Guardian",
+      "published_date": "2026-10-01T04:00:30+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/01/thursday-briefing-the-long-long-wait-for-a-male-contraceptive-pill-may-soon-be-over",
+      "title": "Thursday briefing: The long, long wait for a male contraceptive pill may soon be over",
+      "url": "https://www.theguardian.com/world/2026/oct/01/thursday-briefing-the-long-long-wait-for-a-male-contraceptive-pill-may-soon-be-over",
+      "source": "The Guardian",
+      "published_date": "2026-10-01T05:42:38+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/sep/29/tuesday-briefing-first-edition-raf-fairford-cotswolds",
+      "title": "Tuesday briefing: Inside the suspected bomb plot at RAF Fairford",
+      "url": "https://www.theguardian.com/world/2026/sep/29/tuesday-briefing-first-edition-raf-fairford-cotswolds",
+      "source": "The Guardian",
+      "published_date": "2026-09-29T05:45:56+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/28/monday-briefing-who-profits-from-the-global-gambling-empire",
+      "title": "Monday briefing: Who \u200bprofits\u200b from the illegal global gambling empire?",
+      "url": "https://www.theguardian.com/world/2026/sep/28/monday-briefing-who-profits-from-the-global-gambling-empire",
+      "source": "The Guardian",
+      "published_date": "2026-09-28T05:45:42+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/02/france-schools-protests-violence-ukraine-kallas-rome-pope-latest-news-updates",
+      "title": "G7 to release 100m barrels from reserves to combat surging diesel prices \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/02/france-schools-protests-violence-ukraine-kallas-rome-pope-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-02T16:11:12+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
       },
       "confidence": 1.0
     }

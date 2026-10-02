@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20260928_153943",
-  "last_update": "2026-09-28T15:43:10.782227",
+  "matrix_version": "20261002_220425",
+  "last_update": "2026-10-02T22:14:39.202570",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -3835,6 +3835,175 @@
       "url": "https://www.theguardian.com/world/live/2026/sep/28/europe-ukraine-defence-ministers-pope-leo-france-visit-latest-news-updates",
       "source": "The Guardian",
       "published_date": "2026-09-28T15:39:30+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/30/inside-the-ukrainian-military-unit-training-fighters-from-china",
+      "title": "Inside the Ukrainian military unit training fighters from China",
+      "url": "https://www.theguardian.com/world/2026/sep/30/inside-the-ukrainian-military-unit-training-fighters-from-china",
+      "source": "The Guardian",
+      "published_date": "2026-09-30T05:00:11+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "+"
+      },
+      "confidence": 0.8333333333333334
+    },
+    {
+      "article_id": "world/2026/sep/29/saudi-arabia-urged-to-reconcile-with-uae-to-drive-back-houthi-separatists-in-yemen",
+      "title": "Saudi Arabia urged to reconcile with UAE to drive back Houthi separatists in Yemen",
+      "url": "https://www.theguardian.com/world/2026/sep/29/saudi-arabia-urged-to-reconcile-with-uae-to-drive-back-houthi-separatists-in-yemen",
+      "source": "The Guardian",
+      "published_date": "2026-09-29T16:52:37+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/30/sweden-sami-harm-apology-report",
+      "title": "Sweden must apologise for harm done to Sami people, says state-backed report",
+      "url": "https://www.theguardian.com/world/2026/sep/30/sweden-sami-harm-apology-report",
+      "source": "The Guardian",
+      "published_date": "2026-09-30T15:40:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/01/australian-couple-on-flydubai-plane-to-israel-ntwnfb",
+      "title": "Australian couple on plane diverted after flydubai co-pilot\u2019s alleged attack on pilot",
+      "url": "https://www.theguardian.com/world/2026/oct/01/australian-couple-on-flydubai-plane-to-israel-ntwnfb",
+      "source": "The Guardian",
+      "published_date": "2026-10-01T07:55:50+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/30/israel-bound-passenger-plane-emergency-landing-saudi-arabia-pilots-feud",
+      "title": "Co-pilot who stabbed pilot on Israel-bound plane may have tried to crash it, says Netanyahu",
+      "url": "https://www.theguardian.com/world/2026/sep/30/israel-bound-passenger-plane-emergency-landing-saudi-arabia-pilots-feud",
+      "source": "The Guardian",
+      "published_date": "2026-09-30T22:30:53+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/02/friday-briefing-how-we-covered-the-flydubai-incident-as-it-unfolded",
+      "title": "Friday briefing: How we covered the flydubai incident as it unfolded",
+      "url": "https://www.theguardian.com/world/2026/oct/02/friday-briefing-how-we-covered-the-flydubai-incident-as-it-unfolded",
+      "source": "The Guardian",
+      "published_date": "2026-10-02T05:45:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/30/russia-ukraine-war-strikes-zelenskyy-putin-poland-romania-macron-sanchez-spain-europe-latest-news-updates",
+      "title": "No imminent threat to Nato territory but alliance is prepared for Russian aggression, says Rutte - as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/30/russia-ukraine-war-strikes-zelenskyy-putin-poland-romania-macron-sanchez-spain-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-30T15:25:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/sep/30/dubai-israel-saudi-arabia-flydubai-flight-diversion-pilots-fight-latest-news-updates",
+      "title": "Netanyahu says pilot arrested after stabbing fellow pilot and apparently trying to crash Israel-bound plane \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/sep/30/dubai-israel-saudi-arabia-flydubai-flight-diversion-pilots-fight-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-09-30T16:26:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/30/benin-patrice-talon-cotton-king",
+      "title": "Economic growth and democratic decline: the \u2018cotton king\u2019 who reshaped Benin",
+      "url": "https://www.theguardian.com/world/2026/sep/30/benin-patrice-talon-cotton-king",
+      "source": "The Guardian",
+      "published_date": "2026-09-30T04:00:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/01/finland-suspected-break-ins-mp-homes-foreign-power",
+      "title": "Finnish PM says suspected break-ins at MPs\u2019 homes could be work of foreign power",
+      "url": "https://www.theguardian.com/world/2026/oct/01/finland-suspected-break-ins-mp-homes-foreign-power",
+      "source": "The Guardian",
+      "published_date": "2026-10-01T14:29:26+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/28/ukraine-war-briefing-zelenskyy-moscow-terrorising-kyiv-latest-strikes",
+      "title": "Ukraine war briefing: Zelenskyy says Moscow terrorising Ukrainians as fresh strikes kill eight",
+      "url": "https://www.theguardian.com/world/2026/sep/28/ukraine-war-briefing-zelenskyy-moscow-terrorising-kyiv-latest-strikes",
+      "source": "The Guardian",
+      "published_date": "2026-09-28T01:15:42+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/29/south-korea-ukraine-north-korea-prisoners-of-war-dispute-explainer",
+      "title": "Why is South Korea so angry with Ukraine over two North Korean prisoners of war?",
+      "url": "https://www.theguardian.com/world/2026/sep/29/south-korea-ukraine-north-korea-prisoners-of-war-dispute-explainer",
+      "source": "The Guardian",
+      "published_date": "2026-09-29T05:00:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/sep/25/nepal-pm-flash-floods-warning-to-world-climate-change",
+      "title": "Nepal\u2019s PM says flash flood was \u2018warning to world\u2019 as he scolds leaders at UN over climate change",
+      "url": "https://www.theguardian.com/world/2026/sep/25/nepal-pm-flash-floods-warning-to-world-climate-change",
+      "source": "The Guardian",
+      "published_date": "2026-09-25T05:17:46+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
