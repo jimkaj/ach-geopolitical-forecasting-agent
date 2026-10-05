@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261002_220425",
-  "last_update": "2026-10-02T22:14:39.202570",
+  "matrix_version": "20261005_163443",
+  "last_update": "2026-10-05T16:41:01.997247",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -4004,6 +4004,97 @@
       "url": "https://www.theguardian.com/world/2026/sep/25/nepal-pm-flash-floods-warning-to-world-climate-change",
       "source": "The Guardian",
       "published_date": "2026-09-25T05:17:46+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+      "title": "Brazil\u2019s neck-and-neck election offers test for growing pro-Trump Latin American bloc",
+      "url": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+      "source": "The Guardian",
+      "published_date": "2026-10-03T07:00:35+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/03/flydubai-co-pilot-used-crash-axe-to-attack-captain-says-uae",
+      "title": "Flydubai co-pilot used crash axe to attack captain, says UAE",
+      "url": "https://www.theguardian.com/world/2026/oct/03/flydubai-co-pilot-used-crash-axe-to-attack-captain-says-uae",
+      "source": "The Guardian",
+      "published_date": "2026-10-03T11:56:46+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/03/remains-czar-samuel-return-bulgaria-greece-talks",
+      "title": "Greece returns priceless relics \u2013 and suggests UK should follow suit with Parthenon marbles",
+      "url": "https://www.theguardian.com/world/2026/oct/03/remains-czar-samuel-return-bulgaria-greece-talks",
+      "source": "The Guardian",
+      "published_date": "2026-10-03T14:46:50+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/04/knox-chitiyo-obituary",
+      "title": "Knox Chitiyo obituary",
+      "url": "https://www.theguardian.com/world/2026/oct/04/knox-chitiyo-obituary",
+      "source": "The Guardian",
+      "published_date": "2026-10-04T15:19:06+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/04/time-to-move-the-un-away-from-donald-trump-grasp",
+      "title": "Time to move the UN away from Donald Trump\u2019s grasp",
+      "url": "https://www.theguardian.com/world/2026/oct/04/time-to-move-the-un-away-from-donald-trump-grasp",
+      "source": "The Guardian",
+      "published_date": "2026-10-04T17:06:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/05/india-protests-supreme-court-changes-voter-roll-modi-election-commission",
+      "title": "India\u2019s supreme court demands answers over changes to voter roll",
+      "url": "https://www.theguardian.com/world/2026/oct/05/india-protests-supreme-court-changes-voter-roll-modi-election-commission",
+      "source": "The Guardian",
+      "published_date": "2026-10-05T14:22:16+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/ng-interactive/2026/oct/04/brazil-presidential-election-2026-first-round-live-results",
+      "title": "Brazil presidential election 2026: first-round live results",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/04/brazil-presidential-election-2026-first-round-live-results",
+      "source": "The Guardian",
+      "published_date": "2026-10-05T00:24:55+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

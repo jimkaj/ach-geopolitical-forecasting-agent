@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261002_221439",
-  "last_update": "2026-10-02T22:19:07.609580",
+  "matrix_version": "20261005_164102",
+  "last_update": "2026-10-05T16:44:28.221339",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1852,6 +1852,71 @@
         "h3": "++"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/05/iran-oil-minister-resigns-economic-crisis",
+      "title": "Iran\u2019s oil minister resigns as country\u2019s economic crisis worsens",
+      "url": "https://www.theguardian.com/world/2026/oct/05/iran-oil-minister-resigns-economic-crisis",
+      "source": "The Guardian",
+      "published_date": "2026-10-05T14:16:14+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom",
+      "title": "Egyptian journalist faces terrorism charges after entire newsroom detained",
+      "url": "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom",
+      "source": "The Guardian",
+      "published_date": "2026-10-04T15:16:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
+      "title": "Air campaign against Houthis under way in Yemen, says Saudi-led coalition",
+      "url": "https://www.theguardian.com/world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
+      "source": "The Guardian",
+      "published_date": "2026-10-05T15:21:54+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/05/monday-briefing-first-edition-us-midterms-donald-trump-washington",
+      "title": "Monday briefing: You asked, we answered \u2013 how will the US midterms go?",
+      "url": "https://www.theguardian.com/world/2026/oct/05/monday-briefing-first-edition-us-midterms-donald-trump-washington",
+      "source": "The Guardian",
+      "published_date": "2026-10-05T05:44:42+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/05/saudi-backed-yemen-government-military-drive-retake-houthi-territory",
+      "title": "Yemen\u2019s Saudi-backed government launches military drive to retake all Houthi-held territory",
+      "url": "https://www.theguardian.com/world/2026/oct/05/saudi-backed-yemen-government-military-drive-retake-houthi-territory",
+      "source": "The Guardian",
+      "published_date": "2026-10-05T00:38:54+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 0.9333333333333332
     }
   ]
 }

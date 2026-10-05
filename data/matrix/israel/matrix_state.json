@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261002_221907",
-  "last_update": "2026-10-02T22:24:45.526929",
+  "matrix_version": "20261005_164428",
+  "last_update": "2026-10-05T16:47:13.672939",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1031,6 +1031,58 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
+      "title": "Flydubai co-pilot\u2019s time in Australia being investigated by security agencies after alleged cockpit attack",
+      "url": "https://www.theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
+      "source": "The Guardian",
+      "published_date": "2026-10-04T01:26:39+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/05/australia-university-engineering-flydubai-co-pilot-rmit-ntwnfb",
+      "title": "Alleged flydubai attacker left Australia without finishing engineering course, university says",
+      "url": "https://www.theguardian.com/world/2026/oct/05/australia-university-engineering-flydubai-co-pilot-rmit-ntwnfb",
+      "source": "The Guardian",
+      "published_date": "2026-10-05T05:52:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/03/what-is-zionism-green-party-debate",
+      "title": "What is Zionism and why do some critics describe it as racist?",
+      "url": "https://www.theguardian.com/world/2026/oct/03/what-is-zionism-green-party-debate",
+      "source": "The Guardian",
+      "published_date": "2026-10-03T06:00:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/02/indian-pilot-smit-machchhar-recalls-flydubai-cockpit-attack",
+      "title": "\u2018I was fighting for my life\u2019: Indian pilot hailed as hero recalls flydubai cockpit attack",
+      "url": "https://www.theguardian.com/world/2026/oct/02/indian-pilot-smit-machchhar-recalls-flydubai-cockpit-attack",
+      "source": "The Guardian",
+      "published_date": "2026-10-02T08:39:40+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
       },
       "confidence": 1.0
     }

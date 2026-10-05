@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261002_222535",
-  "last_update": "2026-10-02T22:25:35.019445",
+  "matrix_version": "20261005_164843",
+  "last_update": "2026-10-05T16:49:23.209344",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -342,6 +342,19 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar",
+      "title": "Libyan unity talks upended as warlord\u2019s son linked to drone attacks on fuel facilities",
+      "url": "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar",
+      "source": "The Guardian",
+      "published_date": "2026-10-03T09:00:56+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "-",
+        "h3": "-"
       },
       "confidence": 1.0
     }

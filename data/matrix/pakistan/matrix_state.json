@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261002_222531",
-  "last_update": "2026-10-02T22:25:31.292923",
+  "matrix_version": "20261005_164716",
+  "last_update": "2026-10-05T16:48:41.717328",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -260,6 +260,32 @@
       "url": "https://www.theguardian.com/world/2026/sep/25/pakistan-lockdown-islamabad-imran-khan-party-march",
       "source": "The Guardian",
       "published_date": "2026-09-25T13:44:55+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/05/jailed-imran-khan-march-on-islamabad-pakistan",
+      "title": "Supporters of Imran Khan start march on locked-down Islamabad",
+      "url": "https://www.theguardian.com/world/2026/oct/05/jailed-imran-khan-march-on-islamabad-pakistan",
+      "source": "The Guardian",
+      "published_date": "2026-10-05T15:19:46+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/03/london-oldest-mosque-fazl-wandsworth-centenary",
+      "title": "\u2018A beacon of peace\u2019: London\u2019s oldest mosque celebrates centenary",
+      "url": "https://www.theguardian.com/world/2026/oct/03/london-oldest-mosque-fazl-wandsworth-centenary",
+      "source": "The Guardian",
+      "published_date": "2026-10-03T05:00:51+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
