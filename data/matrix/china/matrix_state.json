@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261005_163443",
-  "last_update": "2026-10-05T16:41:01.997247",
+  "matrix_version": "20261006_162240",
+  "last_update": "2026-10-06T16:28:52.925739",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -4095,6 +4095,110 @@
       "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/04/brazil-presidential-election-2026-first-round-live-results",
       "source": "The Guardian",
       "published_date": "2026-10-05T00:24:55+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/06/eu-plans-15-year-probation-period-new-member-states-viktor-orban",
+      "title": "\u2018No more Viktor Orb\u00e1n\u2019: EU plans 15-year probation period for new member states",
+      "url": "https://www.theguardian.com/world/2026/oct/06/eu-plans-15-year-probation-period-new-member-states-viktor-orban",
+      "source": "The Guardian",
+      "published_date": "2026-10-06T14:38:16+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/05/uk-threatens-to-expel-israeli-diplomats-after-closing-of-east-jerusalem-consulate",
+      "title": "UK threatens to expel Israeli diplomats over planned East Jerusalem consulate closure",
+      "url": "https://www.theguardian.com/world/2026/oct/05/uk-threatens-to-expel-israeli-diplomats-after-closing-of-east-jerusalem-consulate",
+      "source": "The Guardian",
+      "published_date": "2026-10-05T17:53:46+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/06/french-student-protests-barricades-paris-police",
+      "title": "\u2018This is state violence\u2019: Paris students rage at politicians and heavy-handed policing",
+      "url": "https://www.theguardian.com/world/2026/oct/06/french-student-protests-barricades-paris-police",
+      "source": "The Guardian",
+      "published_date": "2026-10-06T15:41:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/06/israeli-ambassador-australia-friendship-october-7-attack-anniversary-ntwnfb",
+      "title": "Israeli ambassador to Australia says he hopes for return to \u2018traditional friendship\u2019 on October 7 anniversary eve",
+      "url": "https://www.theguardian.com/world/2026/oct/06/israeli-ambassador-australia-friendship-october-7-attack-anniversary-ntwnfb",
+      "source": "The Guardian",
+      "published_date": "2026-10-06T07:00:06+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/06/germany-afd-first-far-right-tobias-rausch-speaker-since-war",
+      "title": "State parliament elects Germany\u2019s first far-right speaker since second world war",
+      "url": "https://www.theguardian.com/world/2026/oct/06/germany-afd-first-far-right-tobias-rausch-speaker-since-war",
+      "source": "The Guardian",
+      "published_date": "2026-10-06T15:38:58+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/06/europe-french-school-protests-paris-germany-afd-bulgaria-drones-russia-ukraine-latest-news-updates",
+      "title": "Clashes in France as 250,000 people join high school protests \u2013 Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/oct/06/europe-french-school-protests-paris-germany-afd-bulgaria-drones-russia-ukraine-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-06T16:04:15+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/06/what-do-we-know-death-darya-shipilova-anti-plague-institute-russia-wider-risk",
+      "title": "What do we know about death of anti-plague institute worker in Russia and is there a wider risk?",
+      "url": "https://www.theguardian.com/world/2026/oct/06/what-do-we-know-death-darya-shipilova-anti-plague-institute-russia-wider-risk",
+      "source": "The Guardian",
+      "published_date": "2026-10-06T13:52:08+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/06/oil-tankers-south-korea-russia-ukraine-war",
+      "title": "Fuel from South Korea being shipped to Russia as Ukraine war grinds on",
+      "url": "https://www.theguardian.com/world/2026/oct/06/oil-tankers-south-korea-russia-ukraine-war",
+      "source": "The Guardian",
+      "published_date": "2026-10-05T23:50:12+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

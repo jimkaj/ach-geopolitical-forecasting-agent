@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261005_164428",
-  "last_update": "2026-10-05T16:47:13.672939",
+  "matrix_version": "20261006_162854",
+  "last_update": "2026-10-06T16:30:19.477905",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1083,6 +1083,32 @@
         "h1": "+",
         "h2": "N/A",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/05/flydubai-co-pilot-originally-planned-attack-for-july-investigators-believe",
+      "title": "Flydubai co-pilot originally planned attack for July, investigators believe",
+      "url": "https://www.theguardian.com/world/2026/oct/05/flydubai-co-pilot-originally-planned-attack-for-july-investigators-believe",
+      "source": "The Guardian",
+      "published_date": "2026-10-05T18:00:47+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/06/tuesday-briefing-why-the-green-partys-zionism-vote-has-caused-a-backlash",
+      "title": "Tuesday briefing: Why the Green party\u2019s Zionism vote has caused a backlash",
+      "url": "https://www.theguardian.com/world/2026/oct/06/tuesday-briefing-why-the-green-partys-zionism-vote-has-caused-a-backlash",
+      "source": "The Guardian",
+      "published_date": "2026-10-06T05:45:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }
