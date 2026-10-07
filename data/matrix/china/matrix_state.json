@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261006_162240",
-  "last_update": "2026-10-06T16:28:52.925739",
+  "matrix_version": "20261007_142811",
+  "last_update": "2026-10-07T14:30:57.559468",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -4205,6 +4205,32 @@
         "h3": "N/A"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/07/uk-consulate-east-jerusalem-prepares-close-israel",
+      "title": "\u2018Palestinians will bear the cost\u2019: UK consulate in East Jerusalem prepares to shut its doors",
+      "url": "https://www.theguardian.com/world/2026/oct/07/uk-consulate-east-jerusalem-prepares-close-israel",
+      "source": "The Guardian",
+      "published_date": "2026-10-07T14:00:53+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/07/flavio-bolsonaro-advance-brazil-election-jolt-climate-campaigners",
+      "title": "Fl\u00e1vio Bolsonaro\u2019s advance in Brazil\u2019s election is grim jolt for climate campaigners",
+      "url": "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-advance-brazil-election-jolt-climate-campaigners",
+      "source": "The Guardian",
+      "published_date": "2026-10-07T12:03:52+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.8666666666666667
     }
   ]
 }

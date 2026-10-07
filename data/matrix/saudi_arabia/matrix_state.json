@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261006_163020",
-  "last_update": "2026-10-06T16:30:20.218120",
+  "matrix_version": "20261007_143313",
+  "last_update": "2026-10-07T14:33:56.239792",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -316,6 +316,19 @@
         "h1": "+",
         "h2": "N/A",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/07/flydubai-attack-investigation-widens-as-alleged-hijackers-training-in-new-zealand-scrutinised-ntwnfb",
+      "title": "Flydubai attack investigation widens as alleged hijacker\u2019s training in New Zealand scrutinised",
+      "url": "https://www.theguardian.com/world/2026/oct/07/flydubai-attack-investigation-widens-as-alleged-hijackers-training-in-new-zealand-scrutinised-ntwnfb",
+      "source": "The Guardian",
+      "published_date": "2026-10-07T05:25:10+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }
