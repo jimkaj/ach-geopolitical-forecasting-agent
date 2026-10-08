@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261007_143356",
-  "last_update": "2026-10-07T14:33:56.892983",
+  "matrix_version": "20261008_130610",
+  "last_update": "2026-10-08T13:06:53.833183",
   "hypothesis_names": {
     "h1": "Kuwait supports the United States",
     "h2": "Kuwait maintains a neutral stance with the United States",
@@ -234,6 +234,19 @@
       "url": "https://www.theguardian.com/world/2026/sep/28/protect-free-speech-labour-liberty-poll",
       "source": "The Guardian",
       "published_date": "2026-09-27T23:01:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/04/ukraine-war-briefing-kyiv-to-increase-oil-refinery-attacks-because-of-moscows-winter-strategy-zelenskyy-says",
+      "title": "Ukraine war briefing: Kyiv to increase oil refinery attacks because of Moscow\u2019s winter strategy, Zelenskyy says",
+      "url": "https://www.theguardian.com/world/2026/oct/04/ukraine-war-briefing-kyiv-to-increase-oil-refinery-attacks-because-of-moscows-winter-strategy-zelenskyy-says",
+      "source": "The Guardian",
+      "published_date": "2026-10-04T04:27:56+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

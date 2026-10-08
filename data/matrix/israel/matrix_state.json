@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261007_143139",
-  "last_update": "2026-10-07T14:32:29.936483",
+  "matrix_version": "20261008_130443",
+  "last_update": "2026-10-08T13:05:27.794837",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1122,6 +1122,19 @@
         "h1": "+",
         "h2": "N/A",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/06/israeli-settlers-beat-press-photographer-as-soldiers-watch-in-west-bank",
+      "title": "Israeli settlers beat press photographer as soldiers watch in West Bank",
+      "url": "https://www.theguardian.com/world/2026/oct/06/israeli-settlers-beat-press-photographer-as-soldiers-watch-in-west-bank",
+      "source": "The Guardian",
+      "published_date": "2026-10-06T21:00:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

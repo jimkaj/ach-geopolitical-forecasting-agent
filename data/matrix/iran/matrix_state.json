@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261007_143057",
-  "last_update": "2026-10-07T14:31:39.876057",
+  "matrix_version": "20261008_130231",
+  "last_update": "2026-10-08T13:04:42.993859",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1930,6 +1930,45 @@
         "h3": "++"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/08/tanker-attacked-qatar-coast-strait-of-hormuz-iran-oil-price",
+      "title": "Tanker attacked off Qatar as Iran claims route transporting oil through strait of Hormuz will be \u2018closed\u2019",
+      "url": "https://www.theguardian.com/world/2026/oct/08/tanker-attacked-qatar-coast-strait-of-hormuz-iran-oil-price",
+      "source": "The Guardian",
+      "published_date": "2026-10-08T03:15:10+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/07/germany-court-august-hanning-spying-arrest-detention-bnd",
+      "title": "German court orders detention of former intelligence chief after spying arrest",
+      "url": "https://www.theguardian.com/world/2026/oct/07/germany-court-august-hanning-spying-arrest-detention-bnd",
+      "source": "The Guardian",
+      "published_date": "2026-10-07T17:03:53+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/07/russia-ukraine-war-zelenskyy-putin-france-protests-europe-latest-news-updates",
+      "title": "Minister denies police brutality as student protests continue across France \u2013 Europe live, as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/07/russia-ukraine-war-zelenskyy-putin-france-protests-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-07T18:17:23+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.8666666666666667
     }
   ]
 }

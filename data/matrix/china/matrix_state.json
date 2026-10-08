@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261007_142811",
-  "last_update": "2026-10-07T14:30:57.559468",
+  "matrix_version": "20261008_130008",
+  "last_update": "2026-10-08T13:02:31.558785",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -4231,6 +4231,45 @@
         "h3": "N/A"
       },
       "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/oct/07/satellite-images-attack-jets-china-military-facility-laos",
+      "title": "Satellite images show attack jets at Chinese military facility in Laos",
+      "url": "https://www.theguardian.com/world/2026/oct/07/satellite-images-attack-jets-china-military-facility-laos",
+      "source": "The Guardian",
+      "published_date": "2026-10-07T14:46:01+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/08/bolotana-sardinia-centenarians-blue-zone",
+      "title": "Sardinian village where more women reach 100 may be new centenarian \u2018blue zone\u2019",
+      "url": "https://www.theguardian.com/world/2026/oct/08/bolotana-sardinia-centenarians-blue-zone",
+      "source": "The Guardian",
+      "published_date": "2026-10-08T04:00:09+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/08/france-protests-spain-housing-maria-del-carmen-abascal-burnham-merz-europe-latest-news",
+      "title": "Burnham committed to deeper EU cooperation, he tells Merz \u2013 Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/oct/08/france-protests-spain-housing-maria-del-carmen-abascal-burnham-merz-europe-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-10-08T12:56:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
     }
   ]
 }

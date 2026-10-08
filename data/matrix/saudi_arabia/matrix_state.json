@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261007_143313",
-  "last_update": "2026-10-07T14:33:56.239792",
+  "matrix_version": "20261008_130528",
+  "last_update": "2026-10-08T13:06:09.650604",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -331,6 +331,19 @@
         "h3": "N/A"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/07/houthi-forces-slow-advance-south-west-yemen-taiz-aden-airport",
+      "title": "Houthi forces appear to make slow advance in south-west Yemen",
+      "url": "https://www.theguardian.com/world/2026/oct/07/houthi-forces-slow-advance-south-west-yemen-taiz-aden-airport",
+      "source": "The Guardian",
+      "published_date": "2026-10-07T19:45:47+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.6666666666666666
     }
   ]
 }
