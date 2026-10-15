@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261008_130609",
-  "last_update": "2026-10-08T13:06:09.659403",
+  "matrix_version": "20261015_182728",
+  "last_update": "2026-10-15T18:28:11.242870",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -286,6 +286,19 @@
       "url": "https://www.theguardian.com/world/2026/oct/03/london-oldest-mosque-fazl-wandsworth-centenary",
       "source": "The Guardian",
       "published_date": "2026-10-03T05:00:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/11/steve-jones-obituary",
+      "title": "Steve Jones obituary",
+      "url": "https://www.theguardian.com/world/2026/oct/11/steve-jones-obituary",
+      "source": "The Guardian",
+      "published_date": "2026-10-11T17:26:58+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

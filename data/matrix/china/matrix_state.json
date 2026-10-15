@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261008_130008",
-  "last_update": "2026-10-08T13:02:31.558785",
+  "matrix_version": "20261015_175020",
+  "last_update": "2026-10-15T18:09:58.562136",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -4264,6 +4264,318 @@
       "url": "https://www.theguardian.com/world/live/2026/oct/08/france-protests-spain-housing-maria-del-carmen-abascal-burnham-merz-europe-latest-news",
       "source": "The Guardian",
       "published_date": "2026-10-08T12:56:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/09/eu-pulling-out-all-stops-with-minerals-projects-as-it-tries-to-avert-china-trade-war",
+      "title": "EU \u2018pulling out all stops\u2019 with minerals projects as it tries to avert China trade war",
+      "url": "https://www.theguardian.com/world/2026/oct/09/eu-pulling-out-all-stops-with-minerals-projects-as-it-tries-to-avert-china-trade-war",
+      "source": "The Guardian",
+      "published_date": "2026-10-09T13:31:04+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/11/did-trump-get-one-thing-right-about-greenland",
+      "title": "Did Trump get one thing right about Greenland?",
+      "url": "https://www.theguardian.com/world/2026/oct/11/did-trump-get-one-thing-right-about-greenland",
+      "source": "The Guardian",
+      "published_date": "2026-10-11T11:00:25+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/15/poland-economy-heights-transformed-regional-tech-hub",
+      "title": "Poland\u2019s ascent from communist state to top 20 economy reverses the brain drain",
+      "url": "https://www.theguardian.com/world/2026/oct/15/poland-economy-heights-transformed-regional-tech-hub",
+      "source": "The Guardian",
+      "published_date": "2026-10-15T05:56:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/10/school-protesters-sevran-paris-suburb-france",
+      "title": "\u2018We\u2019re not asking for luxury\u2019: school protesters in Paris suburb feel abandoned by French state",
+      "url": "https://www.theguardian.com/world/2026/oct/10/school-protesters-sevran-paris-suburb-france",
+      "source": "The Guardian",
+      "published_date": "2026-10-10T09:00:53+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/09/hurricane-isaias-makes-landfall",
+      "title": "Hurricane Isaias makes landfall in Florida and hammers Gulf coast",
+      "url": "https://www.theguardian.com/world/2026/oct/09/hurricane-isaias-makes-landfall",
+      "source": "The Guardian",
+      "published_date": "2026-10-10T03:56:50+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/09/2026-nobel-peace-prize-winner-russia-ukraine-sudan-war-france-protests-poland-latest-news-updates",
+      "title": "US imposes sanctions on ICC, hours after former judge Pillay wins Nobel peace prize \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/09/2026-nobel-peace-prize-winner-russia-ukraine-sudan-war-france-protests-poland-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-09T15:07:00+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/oct/10/jake-callum-robinson-australian-surfers-carter-rhoad-mexico-murder-guilty-verdict-ntwnfb",
+      "title": "Three men found guilty of murders of Australian surfer brothers and US friend in Mexico",
+      "url": "https://www.theguardian.com/world/2026/oct/10/jake-callum-robinson-australian-surfers-carter-rhoad-mexico-murder-guilty-verdict-ntwnfb",
+      "source": "The Guardian",
+      "published_date": "2026-10-10T00:50:52+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access",
+      "title": "Volodymyr Zelenskyy feels \u2018betrayed\u2019 by Donald Trump over Starlink access",
+      "url": "https://www.theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access",
+      "source": "The Guardian",
+      "published_date": "2026-10-14T23:00:08+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/15/israel-gadi-eisenkot-profile-netanyahu-election",
+      "title": "Unpolished, anti-Bibi, but evasive on peace: who is the Israeli opposition candidate Gadi Eisenkot?",
+      "url": "https://www.theguardian.com/world/2026/oct/15/israel-gadi-eisenkot-profile-netanyahu-election",
+      "source": "The Guardian",
+      "published_date": "2026-10-15T04:00:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/11/physicians-group-raw-milk-ban",
+      "title": "Physicians\u2019 group calls for ban on raw milk \u2013 as it\u2019s becoming increasingly popular in the US",
+      "url": "https://www.theguardian.com/world/2026/oct/11/physicians-group-raw-milk-ban",
+      "source": "The Guardian",
+      "published_date": "2026-10-11T12:00:26+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court",
+      "title": "Nicol\u00e1s Maduro and his wife indicted for alleged torture of US citizens",
+      "url": "https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court",
+      "source": "The Guardian",
+      "published_date": "2026-10-08T18:04:16+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
+      "title": "Middle East crisis: Riyadh airport hit again as Houthis claim attacks, including strike that killed 12 \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-11T18:03:22+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/09/why-eu-failing-act-growing-public-criticism-israel-gaza-west-bank",
+      "title": "\u2018Self-imposed irrelevance\u2019: why the EU is failing to act on growing public criticism of Israel",
+      "url": "https://www.theguardian.com/world/2026/oct/09/why-eu-failing-act-growing-public-criticism-israel-gaza-west-bank",
+      "source": "The Guardian",
+      "published_date": "2026-10-09T09:00:44+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/13/ships-hit-sunk-drones-bulgaria-black-sea-ukraine-russia-war-france-spains-sweden-pope-leo-europe-latest-news-updates",
+      "title": "Zelenskyy says Russia \u2018did not heed\u2019 Trump\u2019s call for ceasefire and Ukraine had \u2018no early warning\u2019 before strikes on Kyiv \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/13/ships-hit-sunk-drones-bulgaria-black-sea-ukraine-russia-war-france-spains-sweden-pope-leo-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-13T15:54:55+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/13/tuesday-briefing-could-burnham-take-britain-back-towards-the-eu",
+      "title": "Tuesday briefing: Could Burnham take Britain back towards the EU?",
+      "url": "https://www.theguardian.com/world/2026/oct/13/tuesday-briefing-could-burnham-take-britain-back-towards-the-eu",
+      "source": "The Guardian",
+      "published_date": "2026-10-13T05:42:46+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/14/russia-ukraine-war-latest-updates-zelenskyy-europe",
+      "title": "EU says \u2018no indication\u2019 intelligence sharing with Ukraine has stopped as Russian attacks leave 600,000 without power \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/14/russia-ukraine-war-latest-updates-zelenskyy-europe",
+      "source": "The Guardian",
+      "published_date": "2026-10-14T15:02:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/14/uk-made-in-europe-law-hurt-carmaking-eu-mercedes-benz-boss-ola-kallenius",
+      "title": "Excluding UK from \u2018Made in Europe\u2019 law will hurt entire EU car industry, Mercedes boss warns",
+      "url": "https://www.theguardian.com/world/2026/oct/14/uk-made-in-europe-law-hurt-carmaking-eu-mercedes-benz-boss-ola-kallenius",
+      "source": "The Guardian",
+      "published_date": "2026-10-14T13:57:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections",
+      "title": "Two container ships sink near strait of Hormuz amid surge in Iranian attacks",
+      "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections",
+      "source": "The Guardian",
+      "published_date": "2026-10-14T17:05:42+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/11/george-gibney-former-irish-olympic-swimming-coach-to-be-sentenced",
+      "title": "Former Irish Olympic swimming coach and child abuser George Gibney jailed for 15 years",
+      "url": "https://www.theguardian.com/world/2026/oct/11/george-gibney-former-irish-olympic-swimming-coach-to-be-sentenced",
+      "source": "The Guardian",
+      "published_date": "2026-10-12T13:27:42+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/10/flydubai-co-pilot-radicalisation-australia-uae-prosecutors-ntwnfb",
+      "title": "Flydubai co-pilot began radicalisation in Australia, UAE prosecutors say",
+      "url": "https://www.theguardian.com/world/2026/oct/10/flydubai-co-pilot-radicalisation-australia-uae-prosecutors-ntwnfb",
+      "source": "The Guardian",
+      "published_date": "2026-10-10T00:58:59+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/09/hurricane-isaias-path-landfall-florida-category-3-storm-latest-updates",
+      "title": "Hurricane Isaias makes landfall in Florida as category 2 storm  \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/09/hurricane-isaias-path-landfall-florida-category-3-storm-latest-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-10T02:04:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted",
+      "title": "Ukrainian military\u2019s access to Starlink satellite internet suddenly restricted",
+      "url": "https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted",
+      "source": "The Guardian",
+      "published_date": "2026-10-14T16:18:46+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
+      "title": "EU must curb energy prices to prevent people turning to populists, commissioner warns \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-10-15T15:25:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
+      "title": "Guinea-Bissau denies it has approved controversial vaccine trial in newborns",
+      "url": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
+      "source": "The Guardian",
+      "published_date": "2026-10-14T13:16:30+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

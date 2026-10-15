@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261008_130528",
-  "last_update": "2026-10-08T13:06:09.650604",
+  "matrix_version": "20261015_182603",
+  "last_update": "2026-10-15T18:27:28.286823",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -344,6 +344,32 @@
         "h3": "+"
       },
       "confidence": 0.6666666666666666
+    },
+    {
+      "article_id": "world/2026/oct/11/deaths-migrant-boat-capsizes-djibouti",
+      "title": "At least 139 dead including children after migrant boat capsizes off Djibouti",
+      "url": "https://www.theguardian.com/world/2026/oct/11/deaths-migrant-boat-capsizes-djibouti",
+      "source": "The Guardian",
+      "published_date": "2026-10-11T13:56:47+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/15/yemen-stockpile-supplies-houthis-advance-taiz",
+      "title": "Food and fuel run low as besieged Yemeni city braces for Houthi breakthrough",
+      "url": "https://www.theguardian.com/world/2026/oct/15/yemen-stockpile-supplies-houthis-advance-taiz",
+      "source": "The Guardian",
+      "published_date": "2026-10-15T10:18:58+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
     }
   ]
 }

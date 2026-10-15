@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261008_130654",
-  "last_update": "2026-10-08T13:06:54.902700",
+  "matrix_version": "20261015_182814",
+  "last_update": "2026-10-15T18:30:23.003880",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -355,6 +355,45 @@
         "h1": "+",
         "h2": "-",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/12/indonesia-earthquake-mosque-warning-systems-loundspeakers",
+      "title": "Indonesia looks to mosque loudspeakers to double as earthquake warning systems",
+      "url": "https://www.theguardian.com/world/2026/oct/12/indonesia-earthquake-mosque-warning-systems-loundspeakers",
+      "source": "The Guardian",
+      "published_date": "2026-10-12T00:29:31+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/08/giorgia-meloni-italy-wins-bonus-seat-electoral-reform-vote",
+      "title": "Italian opposition cries foul as Meloni\u2019s electoral reform passed in secret ballot",
+      "url": "https://www.theguardian.com/world/2026/oct/08/giorgia-meloni-italy-wins-bonus-seat-electoral-reform-vote",
+      "source": "The Guardian",
+      "published_date": "2026-10-08T13:42:50+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/14/landmines-ukraine-demining-drones-ai",
+      "title": "Ukraine is littered with landmines on a scale last seen in Vietnam. How can they be removed?",
+      "url": "https://www.theguardian.com/world/2026/oct/14/landmines-ukraine-demining-drones-ai",
+      "source": "The Guardian",
+      "published_date": "2026-10-14T04:00:43+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261008_130231",
-  "last_update": "2026-10-08T13:04:42.993859",
+  "matrix_version": "20261015_180958",
+  "last_update": "2026-10-15T18:17:59.664799",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -1969,6 +1969,162 @@
         "h3": "++"
       },
       "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/oct/12/why-are-the-houthis-attacking-saudi-airports-riyadh-yemen",
+      "title": "Why are the Houthis attacking Saudi airports and how are the missiles getting through?",
+      "url": "https://www.theguardian.com/world/2026/oct/12/why-are-the-houthis-attacking-saudi-airports-riyadh-yemen",
+      "source": "The Guardian",
+      "published_date": "2026-10-12T13:41:17+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+      "title": "Twelve killed and hundreds injured in Houthi attack at Riyadh airport",
+      "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+      "source": "The Guardian",
+      "published_date": "2026-10-10T23:37:27+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 0.9
+    },
+    {
+      "article_id": "world/2026/oct/10/ukraine-war-briefing-trumps-russian-diesel-deal-derided-as-weak-and-a-betrayal-of-ukraine-and-us-national-security",
+      "title": "Ukraine war briefing: Kyiv blasts peace talks as just \u2018smokescreen\u2019 for Trump\u2018s Russian diesel deal",
+      "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-war-briefing-trumps-russian-diesel-deal-derided-as-weak-and-a-betrayal-of-ukraine-and-us-national-security",
+      "source": "The Guardian",
+      "published_date": "2026-10-10T01:31:13+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/08/ethiopia-drone-attack-against-eritrean-troops-in-tigray",
+      "title": "Ethiopia launches drone attack against Eritrean troops who crossed into Tigray",
+      "url": "https://www.theguardian.com/world/2026/oct/08/ethiopia-drone-attack-against-eritrean-troops-in-tigray",
+      "source": "The Guardian",
+      "published_date": "2026-10-08T16:11:32+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/oct/09/pete-hegseth-public-execution-nidal-hasan-capital-sentences",
+      "title": "Pete Hegseth\u2019s plan to livestream execution puts US in dubious company",
+      "url": "https://www.theguardian.com/world/2026/oct/09/pete-hegseth-public-execution-nidal-hasan-capital-sentences",
+      "source": "The Guardian",
+      "published_date": "2026-10-09T13:55:07+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy",
+      "title": "Houthi attack on Riyadh airport forces swift rethink of Trump\u2019s new strategy",
+      "url": "https://www.theguardian.com/world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy",
+      "source": "The Guardian",
+      "published_date": "2026-10-11T13:23:02+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport",
+      "title": "Riyadh airport hit again after deadly Houthi missile attack, Saudi authorities say",
+      "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport",
+      "source": "The Guardian",
+      "published_date": "2026-10-11T22:28:50+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/12/saudi-arabia-suspends-flights-latest-deadly-houthi-attack-airport",
+      "title": "Saudi Arabia further suspends flights after latest deadly Houthi attack on airport",
+      "url": "https://www.theguardian.com/world/2026/oct/12/saudi-arabia-suspends-flights-latest-deadly-houthi-attack-airport",
+      "source": "The Guardian",
+      "published_date": "2026-10-12T15:42:37+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+      "title": "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
+      "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+      "source": "The Guardian",
+      "published_date": "2026-10-13T17:26:08+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack",
+      "title": "Three Saudis killed in Riyadh airport attack claimed by Houthis",
+      "url": "https://www.theguardian.com/world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack",
+      "source": "The Guardian",
+      "published_date": "2026-10-09T09:47:10+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/12/zelenskyy-vows-retaliate-russia-strikes-ukraine-power-grid",
+      "title": "Zelenskyy vows to retaliate if Russian strikes on Ukraine\u2019s power grid continue",
+      "url": "https://www.theguardian.com/world/2026/oct/12/zelenskyy-vows-retaliate-russia-strikes-ukraine-power-grid",
+      "source": "The Guardian",
+      "published_date": "2026-10-12T16:10:22+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/oct/09/ukraine-war-briefing-zelenskyy-criticises-us-calls-for-more-starlink-access-amid-deadly-russian-assault",
+      "title": "Ukraine war briefing: Zelenskyy criticises US, calls for more Starlink access, amid deadly Russian assault",
+      "url": "https://www.theguardian.com/world/2026/oct/09/ukraine-war-briefing-zelenskyy-criticises-us-calls-for-more-starlink-access-amid-deadly-russian-assault",
+      "source": "The Guardian",
+      "published_date": "2026-10-08T23:42:44+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
     }
   ]
 }

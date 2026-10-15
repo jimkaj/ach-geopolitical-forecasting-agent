@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261008_130443",
-  "last_update": "2026-10-08T13:05:27.794837",
+  "matrix_version": "20261015_181759",
+  "last_update": "2026-10-15T18:23:49.298006",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1131,6 +1131,110 @@
       "url": "https://www.theguardian.com/world/2026/oct/06/israeli-settlers-beat-press-photographer-as-soldiers-watch-in-west-bank",
       "source": "The Guardian",
       "published_date": "2026-10-06T21:00:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/08/israel-promotes-film-that-mimics-naza-documentary",
+      "title": "Israel promotes film that mimics NAZA documentary",
+      "url": "https://www.theguardian.com/world/2026/oct/08/israel-promotes-film-that-mimics-naza-documentary",
+      "source": "The Guardian",
+      "published_date": "2026-10-08T17:52:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/08/israel-downgrading-uk-consulate-tighten-hold-jerusalem",
+      "title": "Israel\u2019s downgrading of UK consulate aims to tighten its hold on Jerusalem",
+      "url": "https://www.theguardian.com/world/2026/oct/08/israel-downgrading-uk-consulate-tighten-hold-jerusalem",
+      "source": "The Guardian",
+      "published_date": "2026-10-08T17:16:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+      "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
+      "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+      "source": "The Guardian",
+      "published_date": "2026-10-09T16:30:09+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.8333333333333334
+    },
+    {
+      "article_id": "australia-news/2026/oct/11/out-of-the-rubble-and-on-to-the-beach-gazas-junior-surf-lifesavers-return-to-the-waves-after-three-years-of-war",
+      "title": "Out of the rubble and on to the beach: Gaza\u2019s junior surf lifesavers return to the waves after three years of war",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/11/out-of-the-rubble-and-on-to-the-beach-gazas-junior-surf-lifesavers-return-to-the-waves-after-three-years-of-war",
+      "source": "The Guardian",
+      "published_date": "2026-10-10T19:00:06+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/09/flydubai-co-pilot-planned-suicide-attack-on-israeli-airport-uae-prosecutors-say",
+      "title": "Flydubai co-pilot planned suicide attack on Israeli airport, UAE prosecutors say",
+      "url": "https://www.theguardian.com/world/2026/oct/09/flydubai-co-pilot-planned-suicide-attack-on-israeli-airport-uae-prosecutors-say",
+      "source": "The Guardian",
+      "published_date": "2026-10-09T20:38:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/10/thousands-in-london-express-support-for-palestinians-after-three-years-genocide",
+      "title": "Thousands gather in London to express support for Palestinians after three years of \u2018genocide\u2019",
+      "url": "https://www.theguardian.com/world/2026/oct/10/thousands-in-london-express-support-for-palestinians-after-three-years-genocide",
+      "source": "The Guardian",
+      "published_date": "2026-10-10T16:52:15+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/15/thursday-briefing-thanks-to-an-erratic-trump-peace-in-ukraine-is-still-far-away",
+      "title": "Thursday briefing: Thanks to an erratic Trump, peace in Ukraine is still far away",
+      "url": "https://www.theguardian.com/world/2026/oct/15/thursday-briefing-thanks-to-an-erratic-trump-peace-in-ukraine-is-still-far-away",
+      "source": "The Guardian",
+      "published_date": "2026-10-15T05:44:12+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.8333333333333334
+    },
+    {
+      "article_id": "world/2026/oct/15/trump-kushner-vucic-belgrade-serbia",
+      "title": "Revealed: Serbian ruler\u2019s secret role in \u2018illegal\u2019 effort to help Trump business",
+      "url": "https://www.theguardian.com/world/2026/oct/15/trump-kushner-vucic-belgrade-serbia",
+      "source": "The Guardian",
+      "published_date": "2026-10-15T11:00:11+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

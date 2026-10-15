@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261008_130527",
-  "last_update": "2026-10-08T13:05:27.805351",
+  "matrix_version": "20261015_182349",
+  "last_update": "2026-10-15T18:26:03.480249",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -511,6 +511,45 @@
         "h1": "+",
         "h2": "N/A",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/15/ukraine-war-briefing-uk-pledges-17m-to-repair-chornobyl-attack-damage-amid-fears-of-slipping-us-support",
+      "title": "Ukraine war briefing: UK pledges \u00a317m to repair Chornobyl attack damage amid fears of slipping US support",
+      "url": "https://www.theguardian.com/world/2026/oct/15/ukraine-war-briefing-uk-pledges-17m-to-repair-chornobyl-attack-damage-amid-fears-of-slipping-us-support",
+      "source": "The Guardian",
+      "published_date": "2026-10-15T01:03:29+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/09/russian-military-blogger-mikhail-zvinchuk-rybar-arrested-montenegro",
+      "title": "Pro-Kremlin Russian military blogger Mikhail Zvinchuk arrested in Montenegro",
+      "url": "https://www.theguardian.com/world/2026/oct/09/russian-military-blogger-mikhail-zvinchuk-rybar-arrested-montenegro",
+      "source": "The Guardian",
+      "published_date": "2026-10-09T16:10:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/10/hurricane-isaias-gulf-coast-alabama-florida-louisiana-mississippi-latest-updates",
+      "title": "Hurricane Isaias updates: at least four people dead and hundreds of thousands without power \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/10/hurricane-isaias-gulf-coast-alabama-florida-louisiana-mississippi-latest-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-10T22:18:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }
