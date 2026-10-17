@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261015_175020",
-  "last_update": "2026-10-15T18:09:58.562136",
+  "matrix_version": "20261017_182121",
+  "last_update": "2026-10-17T18:28:25.344225",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -4576,6 +4576,97 @@
       "url": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
       "source": "The Guardian",
       "published_date": "2026-10-14T13:16:30+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/16/eu-von-der-leyen-russia-sanctions-diesel-fuel-zelenskyy-donald-trump-membership-migration-latest-news-updates",
+      "title": "EU\u2019s support to Ukraine matters more than ever, von der Leyen says, as US relationship sours \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/16/eu-von-der-leyen-russia-sanctions-diesel-fuel-zelenskyy-donald-trump-membership-migration-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-16T17:37:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/17/volodymyr-zelenskyy-donald-trump-lift-sanctions-russia-intensify-war-ukraine",
+      "title": "Trump\u2019s pause on Russia sanctions is \u2018reward\u2019 for Putin, Zelenskyy says",
+      "url": "https://www.theguardian.com/world/2026/oct/17/volodymyr-zelenskyy-donald-trump-lift-sanctions-russia-intensify-war-ukraine",
+      "source": "The Guardian",
+      "published_date": "2026-10-17T15:38:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/16/friday-briefing-how-manchester-citys-financial-scandal-could-upend-the-whole-football-league",
+      "title": "Friday briefing: How Manchester City\u2019s \u200bfinancial scandal could upend the whole football league",
+      "url": "https://www.theguardian.com/world/2026/oct/16/friday-briefing-how-manchester-citys-financial-scandal-could-upend-the-whole-football-league",
+      "source": "The Guardian",
+      "published_date": "2026-10-16T05:44:29+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/17/uae-yemen-conflict-agreement-saudi-arabia-houthi-gains",
+      "title": "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
+      "url": "https://www.theguardian.com/world/2026/oct/17/uae-yemen-conflict-agreement-saudi-arabia-houthi-gains",
+      "source": "The Guardian",
+      "published_date": "2026-10-17T11:57:15+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/17/china-tourists-fake-typhoon-experience-dark-tourism",
+      "title": "China\u2019s tourists flock to experience a pretend typhoon as \u2018dark tourism\u2019 flourishes",
+      "url": "https://www.theguardian.com/world/2026/oct/17/china-tourists-fake-typhoon-experience-dark-tourism",
+      "source": "The Guardian",
+      "published_date": "2026-10-16T23:15:14+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/15/france-drops-opposition-to-uk-being-included-in-made-in-europe-legislation",
+      "title": "France drops opposition to UK being included in \u2018Made in Europe\u2019 legislation",
+      "url": "https://www.theguardian.com/world/2026/oct/15/france-drops-opposition-to-uk-being-included-in-made-in-europe-legislation",
+      "source": "The Guardian",
+      "published_date": "2026-10-15T19:28:34+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/16/fiery-speeches-led-hats-and-infighting-inside-an-alberta-separatist-conference",
+      "title": "Just 14% of Albertans want independence from Canada. Can a conference in a Calgary ballroom change that?",
+      "url": "https://www.theguardian.com/world/2026/oct/16/fiery-speeches-led-hats-and-infighting-inside-an-alberta-separatist-conference",
+      "source": "The Guardian",
+      "published_date": "2026-10-16T11:00:46+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

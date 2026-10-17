@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261015_180958",
-  "last_update": "2026-10-15T18:17:59.664799",
+  "matrix_version": "20261017_182825",
+  "last_update": "2026-10-17T18:31:30.865255",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -2123,6 +2123,58 @@
         "h1": "--",
         "h2": "N/A",
         "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/16/future-western-security-at-stake-yemen-civil-war-former-pm",
+      "title": "Future of western security is at stake in Yemen civil war, says country\u2019s former PM",
+      "url": "https://www.theguardian.com/world/2026/oct/16/future-western-security-at-stake-yemen-civil-war-former-pm",
+      "source": "The Guardian",
+      "published_date": "2026-10-16T04:00:50+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/15/houthi-missiles-strike-aden-yemen",
+      "title": "Houthi missiles strike Yemen presidential palace, killing five",
+      "url": "https://www.theguardian.com/world/2026/oct/15/houthi-missiles-strike-aden-yemen",
+      "source": "The Guardian",
+      "published_date": "2026-10-16T00:27:21+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy",
+      "title": "Starlink access still not fully restored for Ukraine\u2019s military, says Zelenskyy",
+      "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy",
+      "source": "The Guardian",
+      "published_date": "2026-10-16T18:01:19+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates",
+      "title": "Zelenskyy says \u2018increasingly clear\u2019 Russia does not want energy ceasefire after strikes on energy facilities \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-12T16:31:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

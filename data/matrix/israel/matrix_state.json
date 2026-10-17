@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261015_181759",
-  "last_update": "2026-10-15T18:23:49.298006",
+  "matrix_version": "20261017_183130",
+  "last_update": "2026-10-17T18:33:42.210449",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1241,6 +1241,45 @@
         "h3": "N/A"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/17/couples-families-separated-war-in-gaza",
+      "title": "\u2018I cannot carry all of this alone\u2019: the couples kept apart by the war in Gaza",
+      "url": "https://www.theguardian.com/world/2026/oct/17/couples-families-separated-war-in-gaza",
+      "source": "The Guardian",
+      "published_date": "2026-10-17T07:00:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/17/israeli-settlers-attack-european-diplomats-in-west-bank",
+      "title": "Israeli settlers attack European diplomats in West Bank",
+      "url": "https://www.theguardian.com/world/2026/oct/17/israeli-settlers-attack-european-diplomats-in-west-bank",
+      "source": "The Guardian",
+      "published_date": "2026-10-17T18:20:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/16/israeli-settlers-attack-olive-farmers-west-bank-washington-post-journalist-heidi-levine",
+      "title": "Israeli settlers attack olive farmers and Washington Post journalist in West Bank",
+      "url": "https://www.theguardian.com/world/2026/oct/16/israeli-settlers-attack-olive-farmers-west-bank-washington-post-journalist-heidi-levine",
+      "source": "The Guardian",
+      "published_date": "2026-10-16T16:34:58+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 0.8666666666666667
     }
   ]
 }
