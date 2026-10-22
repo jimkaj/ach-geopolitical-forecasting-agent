@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261017_183342",
-  "last_update": "2026-10-17T18:33:42.227725",
+  "matrix_version": "20261022_204644",
+  "last_update": "2026-10-22T20:48:57.765235",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -546,6 +546,45 @@
       "url": "https://www.theguardian.com/world/live/2026/oct/10/hurricane-isaias-gulf-coast-alabama-florida-louisiana-mississippi-latest-updates",
       "source": "The Guardian",
       "published_date": "2026-10-10T22:18:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest",
+      "title": "Macron accuses Trump and other foreign leaders of \u2018stupid comments\u2019 about France unrest",
+      "url": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest",
+      "source": "The Guardian",
+      "published_date": "2026-10-21T23:06:36+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/ng-interactive/2026/oct/18/invisible-clear-air-turbulence-airline-safety-climate-crisis",
+      "title": "Hiding in plane sight: the invisible turbulence that can strike out of a clear blue sky",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/18/invisible-clear-air-turbulence-airline-safety-climate-crisis",
+      "source": "The Guardian",
+      "published_date": "2026-10-17T19:00:40+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/19/britain-geopolitical-crises-rejoin-eu-thinktank",
+      "title": "Britain cannot deal effectively with geopolitical crises without rejoining EU, says thinktank",
+      "url": "https://www.theguardian.com/world/2026/oct/19/britain-geopolitical-crises-rejoin-eu-thinktank",
+      "source": "The Guardian",
+      "published_date": "2026-10-19T04:00:18+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

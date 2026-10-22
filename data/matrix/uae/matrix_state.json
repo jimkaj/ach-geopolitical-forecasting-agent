@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261017_183348",
-  "last_update": "2026-10-17T18:34:31.460535",
+  "matrix_version": "20261022_205444",
+  "last_update": "2026-10-22T20:56:12.154759",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -403,6 +403,32 @@
       "url": "https://www.theguardian.com/world/2026/oct/16/jamaica-slavery-reparations-petition-heard-uk-privy-council-march-2027-king-charles",
       "source": "The Guardian",
       "published_date": "2026-10-16T02:00:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+      "title": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
+      "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+      "source": "The Guardian",
+      "published_date": "2026-10-20T16:24:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada",
+      "title": "\u2018This is not poker\u2019: Alberta goes to polls in referendum that has exposed divisions, not least among separatists",
+      "url": "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada",
+      "source": "The Guardian",
+      "published_date": "2026-10-19T05:00:22+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

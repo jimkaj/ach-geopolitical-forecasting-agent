@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261017_183344",
-  "last_update": "2026-10-17T18:33:44.233818",
+  "matrix_version": "20261022_204857",
+  "last_update": "2026-10-22T20:51:06.812749",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -364,6 +364,45 @@
       "url": "https://www.theguardian.com/world/2026/oct/15/yemen-stockpile-supplies-houthis-advance-taiz",
       "source": "The Guardian",
       "published_date": "2026-10-15T10:18:58+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war",
+      "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited",
+      "url": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war",
+      "source": "The Guardian",
+      "published_date": "2026-10-19T17:15:23+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers",
+      "title": "Besieged Yemeni city on verge of \u2018unmanageable\u2019 crisis, aid workers warn",
+      "url": "https://www.theguardian.com/world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers",
+      "source": "The Guardian",
+      "published_date": "2026-10-21T14:24:02+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/21/wednesday-briefing-why-has-jackdaw-been-approved-in-the-middle-of-a-climate-crisis",
+      "title": "Wednesday briefing: \u200bWhy has Jackdaw been approved in the middle of a climate crisis?",
+      "url": "https://www.theguardian.com/world/2026/oct/21/wednesday-briefing-why-has-jackdaw-been-approved-in-the-middle-of-a-climate-crisis",
+      "source": "The Guardian",
+      "published_date": "2026-10-21T06:21:52+00:00",
       "marks": {
         "h1": "+",
         "h2": "N/A",

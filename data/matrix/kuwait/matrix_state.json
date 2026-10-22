@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261017_183346",
-  "last_update": "2026-10-17T18:33:46.289444",
+  "matrix_version": "20261022_205232",
+  "last_update": "2026-10-22T20:54:40.883732",
   "hypothesis_names": {
     "h1": "Kuwait supports the United States",
     "h2": "Kuwait maintains a neutral stance with the United States",
@@ -247,6 +247,45 @@
       "url": "https://www.theguardian.com/world/2026/oct/04/ukraine-war-briefing-kyiv-to-increase-oil-refinery-attacks-because-of-moscows-winter-strategy-zelenskyy-says",
       "source": "The Guardian",
       "published_date": "2026-10-04T04:27:56+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/16/trump-calls-ukraines-resumption-of-strikes-on-russian-oil-refineries-a-disgrace",
+      "title": "Trump calls Ukraine\u2019s renewed strikes on Russian oil refineries \u2018a disgrace\u2019",
+      "url": "https://www.theguardian.com/world/2026/oct/16/trump-calls-ukraines-resumption-of-strikes-on-russian-oil-refineries-a-disgrace",
+      "source": "The Guardian",
+      "published_date": "2026-10-16T10:01:58+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/16/singapore-threatens-prosecute-indonesia-fires-toxic-haze-smoke",
+      "title": "\u2018Clean air is not a favour\u2019: Indonesia\u2019s neighbours fed up with acrid haze as Singapore threatens to prosecute",
+      "url": "https://www.theguardian.com/world/2026/oct/16/singapore-threatens-prosecute-indonesia-fires-toxic-haze-smoke",
+      "source": "The Guardian",
+      "published_date": "2026-10-16T10:51:07+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
+      "title": "US has resumed sharing intelligence with Ukraine about Russian strikes, says Zelenskyy",
+      "url": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
+      "source": "The Guardian",
+      "published_date": "2026-10-20T19:32:28+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

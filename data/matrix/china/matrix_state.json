@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261017_182121",
-  "last_update": "2026-10-17T18:28:25.344225",
+  "matrix_version": "20261022_202835",
+  "last_update": "2026-10-22T20:39:12.129029",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -4671,6 +4671,188 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+      "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
+      "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+      "source": "The Guardian",
+      "published_date": "2026-10-22T01:16:20+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/20/france-culture-violent-policing-protests-riots",
+      "title": "Why are French police so violent? Their job is to protect the state, not the people",
+      "url": "https://www.theguardian.com/world/2026/oct/20/france-culture-violent-policing-protests-riots",
+      "source": "The Guardian",
+      "published_date": "2026-10-20T16:49:44+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/22/thursday-briefing-the-crisis-putting-maternity-units-in-england-at-risk-of-closure",
+      "title": "Thursday briefing: The crisis putting maternity units in England at risk of closure",
+      "url": "https://www.theguardian.com/world/2026/oct/22/thursday-briefing-the-crisis-putting-maternity-units-in-england-at-risk-of-closure",
+      "source": "The Guardian",
+      "published_date": "2026-10-22T05:42:19+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/22/serbia-election-student-protests-explainer-key-issues",
+      "title": "What is at stake in Serbia\u2019s election? The key players, main issues and potential fallout",
+      "url": "https://www.theguardian.com/world/2026/oct/22/serbia-election-student-protests-explainer-key-issues",
+      "source": "The Guardian",
+      "published_date": "2026-10-22T11:50:41+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/21/taiwan-five-men-plot-run-over-comedian-huang-yi-hao-xi-jinping-jokes",
+      "title": "Taiwan charges five men over plot to run over comedian for his Xi Jinping jokes",
+      "url": "https://www.theguardian.com/world/2026/oct/21/taiwan-five-men-plot-run-over-comedian-huang-yi-hao-xi-jinping-jokes",
+      "source": "The Guardian",
+      "published_date": "2026-10-21T16:13:53+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9
+    },
+    {
+      "article_id": "world/2026/oct/20/myanmar-aung-san-suu-kyi-rare-photos-gift-king-charles",
+      "title": "Myanmar\u2019s ousted leader Aung San Suu Kyi seen in rare photos after receiving gift from King Charles",
+      "url": "https://www.theguardian.com/world/2026/oct/20/myanmar-aung-san-suu-kyi-rare-photos-gift-king-charles",
+      "source": "The Guardian",
+      "published_date": "2026-10-20T05:07:00+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.7999999999999999
+    },
+    {
+      "article_id": "world/2026/oct/21/sanae-takaichi-took-on-japans-male-dominated-politics-and-won-can-she-survive-a-second-year-in-power",
+      "title": "Sanae Takaichi took on Japan\u2019s male-dominated politics and won \u2013 can she survive a second year in power?",
+      "url": "https://www.theguardian.com/world/2026/oct/21/sanae-takaichi-took-on-japans-male-dominated-politics-and-won-can-she-survive-a-second-year-in-power",
+      "source": "The Guardian",
+      "published_date": "2026-10-21T00:16:07+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.8333333333333334
+    },
+    {
+      "article_id": "world/live/2026/oct/20/france-protests-paris-curfews-italy-europe-ukraine-latest-news-updates",
+      "title": "Ukraine thankful that intelligence on missile strikes \u2018works now\u2019, says Zelenskyy \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/20/france-protests-paris-curfews-italy-europe-ukraine-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-20T17:41:17+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/21/europe-stands-by-ukraine-but-how-long-can-that-last",
+      "title": "\u200bEurope stands by Ukraine \u2013 but how long can that last?",
+      "url": "https://www.theguardian.com/world/2026/oct/21/europe-stands-by-ukraine-but-how-long-can-that-last",
+      "source": "The Guardian",
+      "published_date": "2026-10-21T14:33:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure",
+      "title": "Zelenskyy thanks Trump for resumed intelligence sharing after US Starlink \u2018message\u2019",
+      "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure",
+      "source": "The Guardian",
+      "published_date": "2026-10-18T16:37:52+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships",
+      "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
+      "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships",
+      "source": "The Guardian",
+      "published_date": "2026-10-19T14:48:56+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/22/ukraine-war-briefing-peace-proposals-lack-substance-witkoff-putin-meeting",
+      "title": "Ukraine war briefing: New peace proposals lack \u2018substance\u2019, says Kremlin after Witkoff-Putin meeting in Russia",
+      "url": "https://www.theguardian.com/world/2026/oct/22/ukraine-war-briefing-peace-proposals-lack-substance-witkoff-putin-meeting",
+      "source": "The Guardian",
+      "published_date": "2026-10-22T01:52:52+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b",
+      "title": "Controversial US-backed vaccine trial in African newborns halted",
+      "url": "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b",
+      "source": "The Guardian",
+      "published_date": "2026-10-21T17:18:56+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
+      "title": "\u2018Once-in-a-lifetime chance\u2019: Japan launches historic mission to collect rocks from Mars\u2019s moon Phobos",
+      "url": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
+      "source": "The Guardian",
+      "published_date": "2026-10-19T23:37:57+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
       },
       "confidence": 1.0
     }

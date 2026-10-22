@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261017_183130",
-  "last_update": "2026-10-17T18:33:42.210449",
+  "matrix_version": "20261022_204317",
+  "last_update": "2026-10-22T20:46:44.738251",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1280,6 +1280,71 @@
         "h3": "-"
       },
       "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/oct/22/aipac-politics-endorsements-israel",
+      "title": "Aipac halts candidate endorsements amid US backlash against Israel",
+      "url": "https://www.theguardian.com/world/2026/oct/22/aipac-politics-endorsements-israel",
+      "source": "The Guardian",
+      "published_date": "2026-10-22T19:54:40+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/18/us-ambassador-israel-mike-huckabee-west-bank-settler-attack-photojournalist-heidi-levine",
+      "title": "US ambassador to Israel calls West Bank settler attack on American photojournalist \u2018terror\u2019",
+      "url": "https://www.theguardian.com/world/2026/oct/18/us-ambassador-israel-mike-huckabee-west-bank-settler-attack-photojournalist-heidi-levine",
+      "source": "The Guardian",
+      "published_date": "2026-10-18T17:02:13+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "-",
+        "h3": "-"
+      },
+      "confidence": 0.9
+    },
+    {
+      "article_id": "world/2026/oct/18/theres-a-lot-of-racism-a-lot-of-hatred-far-right-gains-predicted-as-israel-heads-to-the-polls",
+      "title": "\u2018There\u2019s a lot of racism, a lot of hatred\u2019: Far right gains predicted as Israel heads to the polls",
+      "url": "https://www.theguardian.com/world/2026/oct/18/theres-a-lot-of-racism-a-lot-of-hatred-far-right-gains-predicted-as-israel-heads-to-the-polls",
+      "source": "The Guardian",
+      "published_date": "2026-10-18T05:00:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/21/israeli-military-detains-brad-lander-rabbis-west-bank-olive-harvest",
+      "title": "Israeli military detain US and UK volunteers in West Bank including Democratic NY politician Brad Lander",
+      "url": "https://www.theguardian.com/world/2026/oct/21/israeli-military-detains-brad-lander-rabbis-west-bank-olive-harvest",
+      "source": "The Guardian",
+      "published_date": "2026-10-21T14:08:28+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/19/israeli-police-detain-10-people-in-rare-raid-against-west-bank-settlers",
+      "title": "Israeli police detain 10 people in rare raid against West Bank settlers",
+      "url": "https://www.theguardian.com/world/2026/oct/19/israeli-police-detain-10-people-in-rare-raid-against-west-bank-settlers",
+      "source": "The Guardian",
+      "published_date": "2026-10-19T18:05:14+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
     }
   ]
 }

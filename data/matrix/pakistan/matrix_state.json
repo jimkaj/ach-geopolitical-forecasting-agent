@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261017_183345",
-  "last_update": "2026-10-17T18:33:45.267638",
+  "matrix_version": "20261022_205106",
+  "last_update": "2026-10-22T20:52:32.628162",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -299,6 +299,32 @@
       "url": "https://www.theguardian.com/world/2026/oct/11/steve-jones-obituary",
       "source": "The Guardian",
       "published_date": "2026-10-11T17:26:58+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/21/john-staley-obituary",
+      "title": "John Staley obituary",
+      "url": "https://www.theguardian.com/world/2026/oct/21/john-staley-obituary",
+      "source": "The Guardian",
+      "published_date": "2026-10-21T17:41:39+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/21/ukraine-war-briefing-us-envoy-witkoff-to-meet-putin-after-constructive-talks-with-zelenskyy-in-norway",
+      "title": "Ukraine war briefing: US envoy Witkoff to meet Putin after \u2018constructive\u2019 talks with Zelenskyy in Norway",
+      "url": "https://www.theguardian.com/world/2026/oct/21/ukraine-war-briefing-us-envoy-witkoff-to-meet-putin-after-constructive-talks-with-zelenskyy-in-norway",
+      "source": "The Guardian",
+      "published_date": "2026-10-20T23:33:14+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

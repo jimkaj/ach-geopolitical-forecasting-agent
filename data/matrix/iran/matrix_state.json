@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261017_182825",
-  "last_update": "2026-10-17T18:31:30.865255",
+  "matrix_version": "20261022_203912",
+  "last_update": "2026-10-22T20:43:17.274359",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -2177,6 +2177,84 @@
         "h3": "N/A"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/22/iran-threatens-seven-gulf-countries-us-israel-renew-attacks",
+      "title": "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks",
+      "url": "https://www.theguardian.com/world/2026/oct/22/iran-threatens-seven-gulf-countries-us-israel-renew-attacks",
+      "source": "The Guardian",
+      "published_date": "2026-10-22T15:03:00+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/22/tell-us-do-live-near-strait-of-hormuz-iran-us-conflict",
+      "title": "Tell us: do you live near the Strait of Hormuz? How is the US-Iran conflict affecting your life?",
+      "url": "https://www.theguardian.com/world/2026/oct/22/tell-us-do-live-near-strait-of-hormuz-iran-us-conflict",
+      "source": "The Guardian",
+      "published_date": "2026-10-22T13:02:04+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+      "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
+      "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+      "source": "The Guardian",
+      "published_date": "2026-10-22T13:05:30+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
+      "title": "Thousands march in Greece over public education failures as Macron blasts \u2018stupid\u2019 commentary on French protests \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-21T15:23:04+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/20/families-cross-red-sea-to-djibouti-houthi-conflict-yemen",
+      "title": "Fleeing the frontline: Yemeni families cross Red Sea to Djibouti as Houthi conflict rages",
+      "url": "https://www.theguardian.com/world/2026/oct/20/families-cross-red-sea-to-djibouti-houthi-conflict-yemen",
+      "source": "The Guardian",
+      "published_date": "2026-10-20T10:00:32+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/22/french-borrowing-costs-overtake-us-amid-budget-turmoil",
+      "title": "French borrowing costs overtake US amid budget turmoil",
+      "url": "https://www.theguardian.com/world/2026/oct/22/french-borrowing-costs-overtake-us-amid-budget-turmoil",
+      "source": "The Guardian",
+      "published_date": "2026-10-22T08:40:36+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.7333333333333334
     }
   ]
 }
