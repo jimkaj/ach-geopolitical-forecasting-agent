@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261022_205444",
-  "last_update": "2026-10-22T20:56:12.154759",
+  "matrix_version": "20261030_205800",
+  "last_update": "2026-10-30T20:58:41.848945",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -433,6 +433,19 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/25/lana-nusseibeh-emirati-diplomat-enters-un-secretary-general-race",
+      "title": "Emirati diplomat who helped deliver aid to Gaza enters UN secretary general race",
+      "url": "https://www.theguardian.com/world/2026/oct/25/lana-nusseibeh-emirati-diplomat-enters-un-secretary-general-race",
+      "source": "The Guardian",
+      "published_date": "2026-10-25T19:00:10+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
       },
       "confidence": 1.0
     }

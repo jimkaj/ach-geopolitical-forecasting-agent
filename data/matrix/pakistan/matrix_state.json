@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261022_205106",
-  "last_update": "2026-10-22T20:52:32.628162",
+  "matrix_version": "20261030_205712",
+  "last_update": "2026-10-30T20:57:57.155241",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -325,6 +325,19 @@
       "url": "https://www.theguardian.com/world/2026/oct/21/ukraine-war-briefing-us-envoy-witkoff-to-meet-putin-after-constructive-talks-with-zelenskyy-in-norway",
       "source": "The Guardian",
       "published_date": "2026-10-20T23:33:14+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/26/serbia-student-list-preparing-for-talks-on-forming-government-despite-no-clear-leader",
+      "title": "Serbia\u2019s Student List preparing for talks on forming government despite no clear leader",
+      "url": "https://www.theguardian.com/world/2026/oct/26/serbia-student-list-preparing-for-talks-on-forming-government-despite-no-clear-leader",
+      "source": "The Guardian",
+      "published_date": "2026-10-26T17:12:52+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

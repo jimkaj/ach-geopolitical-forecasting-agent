@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261022_202835",
-  "last_update": "2026-10-22T20:39:12.129029",
+  "matrix_version": "20261030_201430",
+  "last_update": "2026-10-30T20:36:28.075453",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -4853,6 +4853,331 @@
         "h1": "-",
         "h2": "N/A",
         "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/28/gulf-states-multipart-peace-deal-avert-renewal-us-iran-war",
+      "title": "Gulf states working on multipart peace deal to avert renewal of US-Iran war",
+      "url": "https://www.theguardian.com/world/2026/oct/28/gulf-states-multipart-peace-deal-avert-renewal-us-iran-war",
+      "source": "The Guardian",
+      "published_date": "2026-10-28T05:00:55+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
+      "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
+      "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
+      "source": "The Guardian",
+      "published_date": "2026-10-30T12:49:56+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
+      "title": "Kim Jong-un crosses newly opened bridge into China",
+      "url": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
+      "source": "The Guardian",
+      "published_date": "2026-10-24T13:34:56+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/oct/29/hello-kitty-japanese-spy-show-vivant-china-outcry",
+      "title": "Hello Kitty company cuts ties with Japanese spy show after China outcry",
+      "url": "https://www.theguardian.com/world/2026/oct/29/hello-kitty-japanese-spy-show-vivant-china-outcry",
+      "source": "The Guardian",
+      "published_date": "2026-10-29T08:03:00+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/30/china-expels-record-number-communist-party-xi-jinping-purges-officials-fifth-plenum",
+      "title": "China expels a record number from Communist party amid Xi\u2019s intensified purges of top officials",
+      "url": "https://www.theguardian.com/world/2026/oct/30/china-expels-record-number-communist-party-xi-jinping-purges-officials-fifth-plenum",
+      "source": "The Guardian",
+      "published_date": "2026-10-30T02:56:46+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/26/xi-jinping-corruption-crackdown-china-fifth-plenum",
+      "title": "Xi Jinping\u2019s corruption crackdown in the spotlight as China prepares for meeting of top leaders",
+      "url": "https://www.theguardian.com/world/2026/oct/26/xi-jinping-corruption-crackdown-china-fifth-plenum",
+      "source": "The Guardian",
+      "published_date": "2026-10-26T00:58:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/23/trump-musk-zelenskyy-who-is-blaming-who-in-ukraine-starlink-row",
+      "title": "Trump, Musk, Zelenskyy: who is blaming whom in the Ukraine-Starlink row?",
+      "url": "https://www.theguardian.com/world/2026/oct/23/trump-musk-zelenskyy-who-is-blaming-who-in-ukraine-starlink-row",
+      "source": "The Guardian",
+      "published_date": "2026-10-23T02:16:26+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/24/north-korea-new-yalu-river-bridge-russia-china",
+      "title": "North Korea has opened up bridges to Russia and China \u2013 in which direction will it go?",
+      "url": "https://www.theguardian.com/world/2026/oct/24/north-korea-new-yalu-river-bridge-russia-china",
+      "source": "The Guardian",
+      "published_date": "2026-10-23T23:10:16+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
+      "title": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
+      "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
+      "source": "The Guardian",
+      "published_date": "2026-10-27T04:42:50+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 0.9333333333333332
+    },
+    {
+      "article_id": "world/2026/oct/26/saudi-pakistani-turkish-delegation-iran-avert-flare-up-conflict-us",
+      "title": "Middle East peace held back by US insistence that Iran is a threat, Oman\u2019s foreign minister says",
+      "url": "https://www.theguardian.com/world/2026/oct/26/saudi-pakistani-turkish-delegation-iran-avert-flare-up-conflict-us",
+      "source": "The Guardian",
+      "published_date": "2026-10-26T19:12:09+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/25/myanmar-aung-san-suu-kyi-speaks-son-pr-move",
+      "title": "Myanmar\u2019s Aung San Suu Kyi \u2018sounds strong\u2019 but is isolated, son says",
+      "url": "https://www.theguardian.com/world/2026/oct/25/myanmar-aung-san-suu-kyi-speaks-son-pr-move",
+      "source": "The Guardian",
+      "published_date": "2026-10-25T02:00:49+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/26/serbia-vucic-elections-students-bulgaria-france-urkaine-russia-latest-news-updates",
+      "title": "Serbia wakes up to new reality after student-led movement ousts Vu\u010di\u0107 \u2013 as it hapepned",
+      "url": "https://www.theguardian.com/world/live/2026/oct/26/serbia-vucic-elections-students-bulgaria-france-urkaine-russia-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-26T16:39:07+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/26/brazil-presidential-elections-luiz-inacio-lula-da-silva-flavio-bolsonaro",
+      "title": "Brazil keeps left: what Lula\u2019s victory means for his country and beyond",
+      "url": "https://www.theguardian.com/world/2026/oct/26/brazil-presidential-elections-luiz-inacio-lula-da-silva-flavio-bolsonaro",
+      "source": "The Guardian",
+      "published_date": "2026-10-26T06:44:33+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+      "title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
+      "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+      "source": "The Guardian",
+      "published_date": "2026-10-30T05:00:45+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/29/bolsonaro-defeat-trump-orange-wave",
+      "title": "Fl\u00e1vio Bolsonaro\u2019s defeat is a major blow to Trump and his orange wave",
+      "url": "https://www.theguardian.com/world/2026/oct/29/bolsonaro-defeat-trump-orange-wave",
+      "source": "The Guardian",
+      "published_date": "2026-10-29T10:00:32+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/27/russia-ukraine-oleshky-serbia-france-europe-latest-news-updates",
+      "title": "Kyiv hopes for \u2018new momentum\u2019 in peace talks after Finnish and Norwegian leaders\u2019 call with Putin \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/27/russia-ukraine-oleshky-serbia-france-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-27T16:23:32+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/27/pablo-escobar-tried-to-bomb-me-in-bogota-to-stop-the-cartels-infiltrating-europe-we-should-legalise-cocaine",
+      "title": "Pablo Escobar tried to bomb me in Bogot\u00e1. To stop the cartels infiltrating Europe, we should legalise cocaine",
+      "url": "https://www.theguardian.com/world/2026/oct/27/pablo-escobar-tried-to-bomb-me-in-bogota-to-stop-the-cartels-infiltrating-europe-we-should-legalise-cocaine",
+      "source": "The Guardian",
+      "published_date": "2026-10-27T17:55:04+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+      "title": "Brazil runoff as it happened: world leaders congratulate Lula on historic election win as Bolsonaro refuses to concede",
+      "url": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+      "source": "The Guardian",
+      "published_date": "2026-10-26T17:10:31+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
+      "title": "Ukraine\u2019s military says Starlink satellite connection stable after recent restrictions",
+      "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
+      "source": "The Guardian",
+      "published_date": "2026-10-24T21:25:58+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/23/eu-uk-summit-burnham-ukraine-defence",
+      "title": "EU leaders to press Burnham to pay more towards Ukraine\u2019s defence",
+      "url": "https://www.theguardian.com/world/2026/oct/23/eu-uk-summit-burnham-ukraine-defence",
+      "source": "The Guardian",
+      "published_date": "2026-10-23T06:00:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/29/pragmatic-or-pointless-europe-rift-over-pick-up-phone-putin",
+      "title": "\u200bPragmatic or pointless? Europe\u2019s rift over whether to pick up the phone to Putin",
+      "url": "https://www.theguardian.com/world/2026/oct/29/pragmatic-or-pointless-europe-rift-over-pick-up-phone-putin",
+      "source": "The Guardian",
+      "published_date": "2026-10-29T12:55:22+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/30/pope-leo-votes-us-midterms-first-political-ballot-pontiff",
+      "title": "Pope Leo votes in US midterms in first known political ballot for any pontiff",
+      "url": "https://www.theguardian.com/world/2026/oct/30/pope-leo-votes-us-midterms-first-political-ballot-pontiff",
+      "source": "The Guardian",
+      "published_date": "2026-10-30T16:01:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/30/canada-european-union-alliance",
+      "title": "Canada and EU announce new alliance open to like-minded countries",
+      "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+      "source": "The Guardian",
+      "published_date": "2026-10-30T19:42:15+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
+      "title": "Melania Trump has helped broker ceasefire in Russian-occupied Ukrainian town, says White House \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-23T19:51:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/23/european-middle-eastern-ministers-summit-iran-us-israel",
+      "title": "US and Israel are warned against launching fresh strikes on Iran",
+      "url": "https://www.theguardian.com/world/2026/oct/23/european-middle-eastern-ministers-summit-iran-us-israel",
+      "source": "The Guardian",
+      "published_date": "2026-10-23T17:18:34+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

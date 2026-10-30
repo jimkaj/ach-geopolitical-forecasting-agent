@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261022_203912",
-  "last_update": "2026-10-22T20:43:17.274359",
+  "matrix_version": "20261030_203628",
+  "last_update": "2026-10-30T20:43:00.729566",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -2255,6 +2255,123 @@
         "h3": "N/A"
       },
       "confidence": 0.7333333333333334
+    },
+    {
+      "article_id": "world/2026/oct/26/netanyahu-reportedly-pressured-israel-military-attack-iran-runup-to-election",
+      "title": "Netanyahu reportedly pressured military to attack Iran in run-up to election",
+      "url": "https://www.theguardian.com/world/2026/oct/26/netanyahu-reportedly-pressured-israel-military-attack-iran-runup-to-election",
+      "source": "The Guardian",
+      "published_date": "2026-10-26T19:21:36+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9
+    },
+    {
+      "article_id": "world/2026/oct/29/jd-vance-letter-may-offer-last-chance-to-avert-fresh-conflict-between-us-and-iran",
+      "title": "JD Vance letter may offer last chance to avert fresh conflict between US and Iran",
+      "url": "https://www.theguardian.com/world/2026/oct/29/jd-vance-letter-may-offer-last-chance-to-avert-fresh-conflict-between-us-and-iran",
+      "source": "The Guardian",
+      "published_date": "2026-10-29T19:32:24+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/28/wednesday-briefing-we-asked-you-what-do-you-want-from-the-burnham-governments-first-budget",
+      "title": "Wednesday briefing: We asked you - what do you want from the Burnham government\u2019s first budget?",
+      "url": "https://www.theguardian.com/world/2026/oct/28/wednesday-briefing-we-asked-you-what-do-you-want-from-the-burnham-governments-first-budget",
+      "source": "The Guardian",
+      "published_date": "2026-10-28T06:43:48+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/29/bryan-adams-donald-trump-song",
+      "title": "Cuts like a knife: Canadian rocker Bryan Adams trolls Trump with new song",
+      "url": "https://www.theguardian.com/world/2026/oct/29/bryan-adams-donald-trump-song",
+      "source": "The Guardian",
+      "published_date": "2026-10-29T17:49:47+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates",
+      "title": "Major Israeli TV networks revise polling projections \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates",
+      "source": "The Guardian",
+      "published_date": "2026-10-28T04:08:29+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
+      "title": "Netanyahu bloc loses majority as most ballots counted \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-10-29T00:24:12+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "travel/2026/oct/28/cruise-passengers-stranded-cambodia-suspends-operations",
+      "title": "Passengers stranded in Cambodia after cruise halted due to high fuel costs",
+      "url": "https://www.theguardian.com/travel/2026/oct/28/cruise-passengers-stranded-cambodia-suspends-operations",
+      "source": "The Guardian",
+      "published_date": "2026-10-28T15:30:27+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
+      "title": "Fl\u00e1vio Bolsonaro flees Brazil after presidential election loss, reports say",
+      "url": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
+      "source": "The Guardian",
+      "published_date": "2026-10-28T06:36:14+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/29/albania-protest-attendance-fine-law",
+      "title": "Albania imposes $6,000 fine for demonstrators present at a protest that turns violent",
+      "url": "https://www.theguardian.com/world/2026/oct/29/albania-protest-attendance-fine-law",
+      "source": "The Guardian",
+      "published_date": "2026-10-29T00:53:26+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
     }
   ]
 }
