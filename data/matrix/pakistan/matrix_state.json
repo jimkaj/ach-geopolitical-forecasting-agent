@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261030_205712",
-  "last_update": "2026-10-30T20:57:57.155241",
+  "matrix_version": "20261102_184044",
+  "last_update": "2026-11-02T18:41:26.937477",
   "hypothesis_names": {
     "h1": "Pakistan supports the United States",
     "h2": "Pakistan maintains a neutral stance with the United States",
@@ -338,6 +338,19 @@
       "url": "https://www.theguardian.com/world/2026/oct/26/serbia-student-list-preparing-for-talks-on-forming-government-despite-no-clear-leader",
       "source": "The Guardian",
       "published_date": "2026-10-26T17:12:52+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/26/japanese-prosecuters-charge-marine-killing",
+      "title": "Japanese prosecutors charge US marine suspected of robbing and killing woman",
+      "url": "https://www.theguardian.com/world/2026/oct/26/japanese-prosecuters-charge-marine-killing",
+      "source": "The Guardian",
+      "published_date": "2026-10-26T13:41:41+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

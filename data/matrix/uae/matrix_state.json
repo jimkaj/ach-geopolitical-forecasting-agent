@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261030_205800",
-  "last_update": "2026-10-30T20:58:41.848945",
+  "matrix_version": "20261102_184127",
+  "last_update": "2026-11-02T18:42:53.729545",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -446,6 +446,32 @@
         "h1": "+",
         "h2": "N/A",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/31/bedouin-women-success-arab-parties-israel-election",
+      "title": "\u2018You need the power of all your votes\u2019: Bedouin women secure success for Arab parties in Israeli election",
+      "url": "https://www.theguardian.com/world/2026/oct/31/bedouin-women-success-arab-parties-israel-election",
+      "source": "The Guardian",
+      "published_date": "2026-10-31T17:16:24+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/28/soviet-troops-invade-hungary-russia-1956",
+      "title": "Soviet troops invade Hungary \u2013\u00a0archive, 1956",
+      "url": "https://www.theguardian.com/world/2026/oct/28/soviet-troops-invade-hungary-russia-1956",
+      "source": "The Guardian",
+      "published_date": "2026-10-28T13:09:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

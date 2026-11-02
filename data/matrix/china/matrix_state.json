@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261030_201430",
-  "last_update": "2026-10-30T20:36:28.075453",
+  "matrix_version": "20261102_183206",
+  "last_update": "2026-11-02T18:37:10.039439",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -5178,6 +5178,84 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/01/us-china-trade-war-trump-xi",
+      "title": "The US-China trade war seems to have subsided \u2013 but the sense of calm is misleading",
+      "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
+      "source": "The Guardian",
+      "published_date": "2026-11-01T12:00:12+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz",
+      "title": "Negotiators \u2018braced for worst\u2019 over US-Iran talks to reopen strait of Hormuz",
+      "url": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-11-01T17:49:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/02/uk-trade-ban-west-bank-settlements-israel-election-poll",
+      "title": "Most Israelis think settlements policy should change to avoid more sanctions, poll finds",
+      "url": "https://www.theguardian.com/world/2026/nov/02/uk-trade-ban-west-bank-settlements-israel-election-poll",
+      "source": "The Guardian",
+      "published_date": "2026-11-02T06:00:33+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/29/brazil-victory-planet-democracy-lessons-lula-win",
+      "title": "Brazil\u2019s victory for the planet and democracy: seven lessons from Lula\u2019s win",
+      "url": "https://www.theguardian.com/world/2026/oct/29/brazil-victory-planet-democracy-lessons-lula-win",
+      "source": "The Guardian",
+      "published_date": "2026-10-29T17:46:38+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.9
+    },
+    {
+      "article_id": "world/2026/oct/30/beijing-queer-film-festival-cancelled-after-police-harassment",
+      "title": "Beijing Queer film festival cancelled after harassment from authorities",
+      "url": "https://www.theguardian.com/world/2026/oct/30/beijing-queer-film-festival-cancelled-after-police-harassment",
+      "source": "The Guardian",
+      "published_date": "2026-10-30T11:04:12+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/27/us-bans-byd-electric-vehicles-kadena-military-base",
+      "title": "US bans vehicles from China\u2019s BYD at Japan military base, calling them \u2018unacceptable\u2019 risk",
+      "url": "https://www.theguardian.com/world/2026/oct/27/us-bans-byd-electric-vehicles-kadena-military-base",
+      "source": "The Guardian",
+      "published_date": "2026-10-27T02:50:31+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
       },
       "confidence": 1.0
     }

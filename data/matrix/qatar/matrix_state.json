@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261030_205332",
-  "last_update": "2026-10-30T20:56:27.302799",
+  "matrix_version": "20261102_183919",
+  "last_update": "2026-11-02T18:40:44.535264",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -637,6 +637,32 @@
       "url": "https://www.theguardian.com/world/2026/oct/30/flavio-bolsonaros-president-elect-claim-mockery-brazil",
       "source": "The Guardian",
       "published_date": "2026-10-30T14:08:41+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/28/european-union-canada",
+      "title": "EU backs away from offer to Canada to start \u2018associate member\u2019 talks",
+      "url": "https://www.theguardian.com/world/2026/oct/28/european-union-canada",
+      "source": "The Guardian",
+      "published_date": "2026-10-28T21:27:33+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
+      "title": "Fl\u00e1vio Bolsonaro calls himself the \u2018leader of Brazil\u2019 after fleeing to Miami",
+      "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
+      "source": "The Guardian",
+      "published_date": "2026-10-28T22:06:46+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
