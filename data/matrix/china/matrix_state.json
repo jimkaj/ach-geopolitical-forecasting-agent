@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261102_183206",
-  "last_update": "2026-11-02T18:37:10.039439",
+  "matrix_version": "20261105_203928",
+  "last_update": "2026-11-05T20:47:27.516103",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -5256,6 +5256,149 @@
         "h1": "--",
         "h2": "-",
         "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/03/trump-iran-middle-east-china-gulf-hormuz-xi-jinping",
+      "title": "Trump\u2019s troubles with Iran could open the door to China",
+      "url": "https://www.theguardian.com/world/2026/nov/03/trump-iran-middle-east-china-gulf-hormuz-xi-jinping",
+      "source": "The Guardian",
+      "published_date": "2026-11-03T13:13:50+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+      "title": "UK found to be \u2018dangerously\u2019 reliant on China for critical minerals needed for defence and AI",
+      "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+      "source": "The Guardian",
+      "published_date": "2026-11-05T05:00:55+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/commentisfree/2026/nov/04/what-are-the-aukus-submarines-actually-for-public-inquiry",
+      "title": "What are the Aukus submarines actually for? It\u2019s a question the government refuses to answer",
+      "url": "https://www.theguardian.com/world/commentisfree/2026/nov/04/what-are-the-aukus-submarines-actually-for-public-inquiry",
+      "source": "The Guardian",
+      "published_date": "2026-11-04T02:30:21+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
+      "title": "Zelenskyy says 40 now confirmed dead after \u2018insane\u2019 Russian attack on school \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-11-04T16:09:19+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/02/andy-burnham-ask-countries-affected-uk-role-slavery-shape-formal-apology",
+      "title": "PM to ask countries affected by UK\u2019s role in slavery to help shape formal apology",
+      "url": "https://www.theguardian.com/world/2026/nov/02/andy-burnham-ask-countries-affected-uk-role-slavery-shape-formal-apology",
+      "source": "The Guardian",
+      "published_date": "2026-11-02T22:30:30+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/05/1956-suez-crisis-guardian-reports",
+      "title": "\u2018Wrong on every count\u2019: How the Guardian reported the 1956 Suez crisis",
+      "url": "https://www.theguardian.com/world/2026/nov/05/1956-suez-crisis-guardian-reports",
+      "source": "The Guardian",
+      "published_date": "2026-11-05T13:28:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/05/uk-and-us-condemn-second-jail-term-handed-to-hong-kong-activist-joshua-wong",
+      "title": "UK and US condemn \u2018cruel\u2019 second jail term handed to Hong Kong activist Joshua Wong",
+      "url": "https://www.theguardian.com/world/2026/nov/05/uk-and-us-condemn-second-jail-term-handed-to-hong-kong-activist-joshua-wong",
+      "source": "The Guardian",
+      "published_date": "2026-11-05T14:38:37+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/04/wednesday-briefing-what-the-democrat-midterms-victory-tell-us-about-trumps-future-as-president",
+      "title": "Wednesday briefing: What the Democrat midterms victory tells us about Trump\u2019s future as president",
+      "url": "https://www.theguardian.com/world/2026/nov/04/wednesday-briefing-what-the-democrat-midterms-victory-tell-us-about-trumps-future-as-president",
+      "source": "The Guardian",
+      "published_date": "2026-11-04T07:11:36+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
+      "title": "Seven reported bomb threats against European flights confirmed as false alarms \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-11-03T18:22:57+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
+      "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
+      "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
+      "source": "The Guardian",
+      "published_date": "2026-11-05T07:56:21+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/03/us-strikes-irans-qeshm-island",
+      "title": "US strikes Iran\u2019s Qeshm Island as Vance voices optimism about a deal",
+      "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+      "source": "The Guardian",
+      "published_date": "2026-11-03T13:52:34+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "++",
+        "h3": "-"
       },
       "confidence": 1.0
     }

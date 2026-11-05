@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261102_183919",
-  "last_update": "2026-11-02T18:40:44.535264",
+  "matrix_version": "20261105_205216",
+  "last_update": "2026-11-05T20:53:42.346379",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -663,6 +663,32 @@
       "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
       "source": "The Guardian",
       "published_date": "2026-10-28T22:06:46+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/31/brazil-lula-social-media",
+      "title": "The secret behind Lula\u2019s win in Brazil may be an \u2018army\u2019 \u2013 of social media creators",
+      "url": "https://www.theguardian.com/world/2026/oct/31/brazil-lula-social-media",
+      "source": "The Guardian",
+      "published_date": "2026-10-31T13:37:39+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
+      "title": "US cancels G20 \u2018family photo\u2019 after Australia, UK and others refuse to appear with Russia",
+      "url": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
+      "source": "The Guardian",
+      "published_date": "2026-10-31T00:29:28+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

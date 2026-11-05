@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261102_183711",
-  "last_update": "2026-11-02T18:39:19.238468",
+  "matrix_version": "20261105_205054",
+  "last_update": "2026-11-05T20:52:16.784134",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1560,6 +1560,32 @@
       "url": "https://www.theguardian.com/world/2026/oct/26/british-politicians-among-international-delegates-barred-from-entering-west-bank",
       "source": "The Guardian",
       "published_date": "2026-10-26T21:39:42+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/04/israel-election-commission-rejects-netanyahu-claims-voting-fraud",
+      "title": "Israel\u2019s election commission rejects Netanyahu claims of voting fraud",
+      "url": "https://www.theguardian.com/world/2026/nov/04/israel-election-commission-rejects-netanyahu-claims-voting-fraud",
+      "source": "The Guardian",
+      "published_date": "2026-11-04T12:19:18+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/05/herzog-netanyahu-eisenkot-israel-election-decision",
+      "title": "Herzog to meet Israeli election rivals as decision nears on path to power",
+      "url": "https://www.theguardian.com/world/2026/nov/05/herzog-netanyahu-eisenkot-israel-election-decision",
+      "source": "The Guardian",
+      "published_date": "2026-11-05T18:13:01+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

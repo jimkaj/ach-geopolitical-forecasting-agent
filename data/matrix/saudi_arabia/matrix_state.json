@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261102_184044",
-  "last_update": "2026-11-02T18:40:44.690920",
+  "matrix_version": "20261105_205342",
+  "last_update": "2026-11-05T20:55:07.944884",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -416,6 +416,32 @@
       "url": "https://www.theguardian.com/world/2026/oct/30/houthis-taiz-stone-age-yemen-city-siege",
       "source": "The Guardian",
       "published_date": "2026-10-30T09:00:50+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/05/yemen-president-sacks-ministers-and-officers-houthis",
+      "title": "Yemen\u2019s president sacks ministers and officers in attempt to turn tide of war",
+      "url": "https://www.theguardian.com/world/2026/nov/05/yemen-president-sacks-ministers-and-officers-houthis",
+      "source": "The Guardian",
+      "published_date": "2026-11-05T13:47:00+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/05/eu-seeks-firmer-pledge-from-uk-discounted-university-tuition-fees",
+      "title": "EU presses UK to guarantee discounted university tuition fees for European students",
+      "url": "https://www.theguardian.com/world/2026/nov/05/eu-seeks-firmer-pledge-from-uk-discounted-university-tuition-fees",
+      "source": "The Guardian",
+      "published_date": "2026-11-05T16:58:54+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261102_183710",
-  "last_update": "2026-11-02T18:37:10.094692",
+  "matrix_version": "20261105_204727",
+  "last_update": "2026-11-05T20:50:54.198042",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -2370,6 +2370,71 @@
         "h1": "--",
         "h2": "N/A",
         "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/05/russia-agreed-to-supply-iran-90-helicopter-missile-launchers",
+      "title": "Russia agreed to supply Iran with 90 helicopter missile launchers",
+      "url": "https://www.theguardian.com/world/2026/nov/05/russia-agreed-to-supply-iran-90-helicopter-missile-launchers",
+      "source": "The Guardian",
+      "published_date": "2026-11-05T15:10:55+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/05/anti-trans-attacks-midterm-elections-republicans",
+      "title": "\u2018Sick to my stomach\u2019: trans Americans on politicians who spent $183m attacking them for votes",
+      "url": "https://www.theguardian.com/world/2026/nov/05/anti-trans-attacks-midterm-elections-republicans",
+      "source": "The Guardian",
+      "published_date": "2026-11-05T17:37:04+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/03/election-betting-polymarket-kalshi-accurate",
+      "title": "Are prediction markets accurate on elections? The US midterms are a big test",
+      "url": "https://www.theguardian.com/world/2026/nov/03/election-betting-polymarket-kalshi-accurate",
+      "source": "The Guardian",
+      "published_date": "2026-11-03T11:00:56+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+      "title": "Ukraine\u2019s Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
+      "url": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+      "source": "The Guardian",
+      "published_date": "2026-10-31T02:18:17+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts",
+      "title": "Ukraine war briefing: Kyiv says air raid warning app likely hacked after users receive false alerts",
+      "url": "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts",
+      "source": "The Guardian",
+      "published_date": "2026-11-02T00:34:41+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261102_184127",
-  "last_update": "2026-11-02T18:42:53.729545",
+  "matrix_version": "20261105_205718",
+  "last_update": "2026-11-05T20:58:02.750287",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -468,6 +468,19 @@
       "url": "https://www.theguardian.com/world/2026/oct/28/soviet-troops-invade-hungary-russia-1956",
       "source": "The Guardian",
       "published_date": "2026-10-28T13:09:21+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/04/debt-relief-aid-no-replacement-slavery-reparations-uk-told-caribbean",
+      "title": "UK and Caribbean to begin \u2018dialogue\u2019 within next year after slavery reparations call",
+      "url": "https://www.theguardian.com/world/2026/nov/04/debt-relief-aid-no-replacement-slavery-reparations-uk-told-caribbean",
+      "source": "The Guardian",
+      "published_date": "2026-11-04T23:51:58+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
