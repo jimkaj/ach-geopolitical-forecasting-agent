@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261105_204727",
-  "last_update": "2026-11-05T20:50:54.198042",
+  "matrix_version": "20261106_170419",
+  "last_update": "2026-11-06T17:07:02.146916",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -2435,6 +2435,58 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/06/uncertainty-iran-donald-trump-midterms-defeat-war-repression",
+      "title": "\u2018We\u2019ve been preparing for the worst all year\u2019: uncertainty grips Iran after Trump midterms defeat",
+      "url": "https://www.theguardian.com/world/2026/nov/06/uncertainty-iran-donald-trump-midterms-defeat-war-repression",
+      "source": "The Guardian",
+      "published_date": "2026-11-06T12:00:42+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/06/friday-briefing-after-a-week-of-disruption-is-living-with-threats-our-new-normal",
+      "title": "Friday briefing: \u200bAfter a week of disruption, is living with threats our new normal?",
+      "url": "https://www.theguardian.com/world/2026/nov/06/friday-briefing-after-a-week-of-disruption-is-living-with-threats-our-new-normal",
+      "source": "The Guardian",
+      "published_date": "2026-11-06T06:43:04+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.9
+    },
+    {
+      "article_id": "world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
+      "title": "Further bomb threats disrupt at least another 18 flights across Europe",
+      "url": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
+      "source": "The Guardian",
+      "published_date": "2026-11-06T13:34:59+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/03/ukraine-war-briefing-us-to-mediate-talks-with-kyiv-and-moscow-in-abu-dhabi-next-week-says-witkoff",
+      "title": "Ukraine war briefing: US to mediate talks with Kyiv and Moscow in Abu Dhabi next week, says Witkoff",
+      "url": "https://www.theguardian.com/world/2026/nov/03/ukraine-war-briefing-us-to-mediate-talks-with-kyiv-and-moscow-in-abu-dhabi-next-week-says-witkoff",
+      "source": "The Guardian",
+      "published_date": "2026-11-03T02:00:38+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
       },
       "confidence": 1.0
     }

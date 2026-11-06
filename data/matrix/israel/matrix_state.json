@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261105_205054",
-  "last_update": "2026-11-05T20:52:16.784134",
+  "matrix_version": "20261106_170702",
+  "last_update": "2026-11-06T17:07:46.546678",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1586,6 +1586,19 @@
       "url": "https://www.theguardian.com/world/2026/nov/05/herzog-netanyahu-eisenkot-israel-election-decision",
       "source": "The Guardian",
       "published_date": "2026-11-05T18:13:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/06/israels-election-and-self-definition-invite-questions",
+      "title": "Israel\u2019s election and self-definition invite questions",
+      "url": "https://www.theguardian.com/world/2026/nov/06/israels-election-and-self-definition-invite-questions",
+      "source": "The Guardian",
+      "published_date": "2026-11-06T16:38:52+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

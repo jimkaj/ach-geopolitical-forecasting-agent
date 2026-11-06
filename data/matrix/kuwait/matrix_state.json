@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261105_205634",
-  "last_update": "2026-11-05T20:57:17.295002",
+  "matrix_version": "20261106_170834",
+  "last_update": "2026-11-06T17:09:18.866615",
   "hypothesis_names": {
     "h1": "Kuwait supports the United States",
     "h2": "Kuwait maintains a neutral stance with the United States",
@@ -299,6 +299,19 @@
       "url": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended",
       "source": "The Guardian",
       "published_date": "2026-10-31T04:27:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/30/andy-burnham-call-formal-apology-britains-role-in-slave-trade",
+      "title": "Andy Burnham open to calls for formal apology for Britain\u2019s role in slave trade",
+      "url": "https://www.theguardian.com/world/2026/oct/30/andy-burnham-call-formal-apology-britains-role-in-slave-trade",
+      "source": "The Guardian",
+      "published_date": "2026-10-31T01:47:06+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

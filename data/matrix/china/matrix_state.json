@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261105_203928",
-  "last_update": "2026-11-05T20:47:27.516103",
+  "matrix_version": "20261106_170305",
+  "last_update": "2026-11-06T17:04:19.007582",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -5399,6 +5399,19 @@
         "h1": "+",
         "h2": "++",
         "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/06/autonomous-weapons-ai-russia-us-binding-rules",
+      "title": "Russia and US seek to block plan for binding rules on autonomous weapons",
+      "url": "https://www.theguardian.com/world/2026/nov/06/autonomous-weapons-ai-russia-us-binding-rules",
+      "source": "The Guardian",
+      "published_date": "2026-11-06T11:08:33+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }
