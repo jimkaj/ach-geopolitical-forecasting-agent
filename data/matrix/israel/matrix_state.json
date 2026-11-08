@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261106_170702",
-  "last_update": "2026-11-06T17:07:46.546678",
+  "matrix_version": "20261108_190842",
+  "last_update": "2026-11-08T19:10:49.738748",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1599,6 +1599,45 @@
       "url": "https://www.theguardian.com/world/2026/nov/06/israels-election-and-self-definition-invite-questions",
       "source": "The Guardian",
       "published_date": "2026-11-06T16:38:52+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
+      "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
+      "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
+      "source": "The Guardian",
+      "published_date": "2026-11-08T17:53:59+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 0.9666666666666667
+    },
+    {
+      "article_id": "world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+      "title": "Israel\u2019s president picks Yashar leader Gadi Eisenkot to form government",
+      "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+      "source": "The Guardian",
+      "published_date": "2026-11-08T14:26:14+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/07/israel-intelligence-cisco-gaza-palestine",
+      "title": "A \u2018customer success story\u2019: leaked documents show Cisco doubled down on Israeli military deals during Gaza war",
+      "url": "https://www.theguardian.com/world/2026/nov/07/israel-intelligence-cisco-gaza-palestine",
+      "source": "The Guardian",
+      "published_date": "2026-11-07T12:00:12+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

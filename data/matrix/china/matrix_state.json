@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261106_170305",
-  "last_update": "2026-11-06T17:04:19.007582",
+  "matrix_version": "20261108_190039",
+  "last_update": "2026-11-08T19:08:03.211468",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -5408,6 +5408,110 @@
       "url": "https://www.theguardian.com/world/2026/nov/06/autonomous-weapons-ai-russia-us-binding-rules",
       "source": "The Guardian",
       "published_date": "2026-11-06T11:08:33+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/07/ukraine-war-briefing-beijing-confirms-historic-xi-trump-putin-meeting-under-discussion",
+      "title": "Ukraine war briefing: Beijing confirms historic Xi-Trump-Putin meeting under discussion",
+      "url": "https://www.theguardian.com/world/2026/nov/07/ukraine-war-briefing-beijing-confirms-historic-xi-trump-putin-meeting-under-discussion",
+      "source": "The Guardian",
+      "published_date": "2026-11-07T03:12:08+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu",
+      "title": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
+      "url": "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu",
+      "source": "The Guardian",
+      "published_date": "2026-11-07T06:00:04+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid",
+      "title": "Blackouts and water shortages in Kyiv after Russia strikes Ukraine\u2019s energy grid",
+      "url": "https://www.theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid",
+      "source": "The Guardian",
+      "published_date": "2026-11-07T13:03:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says",
+      "title": "Ukraine war briefing: Russia ramping up attacks to \u2018pressure\u2019 Kyiv at trilateral talks, Zelenskyy says",
+      "url": "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says",
+      "source": "The Guardian",
+      "published_date": "2026-11-08T04:10:42+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
+      "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+      "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
+      "source": "The Guardian",
+      "published_date": "2026-11-07T07:00:04+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/08/election-brazil-serbia-israel-and-us-resilience-democracy-grassroots-activism-authoritarianism",
+      "title": "Election results in Brazil, Serbia, Israel and US renew faith in resilience of democracy",
+      "url": "https://www.theguardian.com/world/2026/nov/08/election-brazil-serbia-israel-and-us-resilience-democracy-grassroots-activism-authoritarianism",
+      "source": "The Guardian",
+      "published_date": "2026-11-08T10:00:37+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/07/europe-leaders-call-closer-eu-uk-ties-brussels-summit",
+      "title": "Five European leaders call for closer EU-UK ties ahead of Brussels summit",
+      "url": "https://www.theguardian.com/world/2026/nov/07/europe-leaders-call-closer-eu-uk-ties-brussels-summit",
+      "source": "The Guardian",
+      "published_date": "2026-11-07T15:30:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam",
+      "title": "Activists break into building site of Microsoft datacentre in Amsterdam",
+      "url": "https://www.theguardian.com/world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam",
+      "source": "The Guardian",
+      "published_date": "2026-11-06T18:51:37+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

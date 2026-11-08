@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261106_170419",
-  "last_update": "2026-11-06T17:07:02.146916",
+  "matrix_version": "20261108_190803",
+  "last_update": "2026-11-08T19:08:42.924301",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -2486,6 +2486,19 @@
       "marks": {
         "h1": "--",
         "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
+      "title": "US carries out another round of \u2018minor\u2019 strikes on Iran, Trump says",
+      "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
+      "source": "The Guardian",
+      "published_date": "2026-11-07T03:07:01+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
         "h3": "++"
       },
       "confidence": 1.0

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261106_170920",
-  "last_update": "2026-11-06T17:10:03.727365",
+  "matrix_version": "20261108_191056",
+  "last_update": "2026-11-08T19:11:40.171377",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -494,6 +494,19 @@
       "url": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi",
       "source": "The Guardian",
       "published_date": "2026-11-01T16:11:50+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
+      "title": "Police clash with masked rioters after largely peaceful protests across France",
+      "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
+      "source": "The Guardian",
+      "published_date": "2026-11-01T01:43:02+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
