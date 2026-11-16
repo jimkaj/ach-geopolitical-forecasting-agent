@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261108_191056",
-  "last_update": "2026-11-08T19:11:40.171377",
+  "matrix_version": "20261116_010341",
+  "last_update": "2026-11-16T01:06:09.320297",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -507,6 +507,45 @@
       "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
       "source": "The Guardian",
       "published_date": "2026-11-01T01:43:02+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/09/polands-krakow-attack-ukraine-russia-france-germany-europe-latest-news",
+      "title": "Poland\u2019s justice minister says investigation into Krak\u00f3w shooting will aim to establish if the 24-year-old acted alone \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/09/polands-krakow-attack-ukraine-russia-france-germany-europe-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-11-09T14:17:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/12/ukraine-war-briefing-zelenskyy-sees-window-of-opportunity-for-peace-as-us-envoys-to-meet-putin",
+      "title": "Ukraine war briefing: Zelenskyy sees \u2018window of opportunity\u2019 for peace as US envoys to meet Putin",
+      "url": "https://www.theguardian.com/world/2026/nov/12/ukraine-war-briefing-zelenskyy-sees-window-of-opportunity-for-peace-as-us-envoys-to-meet-putin",
+      "source": "The Guardian",
+      "published_date": "2026-11-12T01:58:18+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/09/norwegian-library-unveils-viking-history-book-donated-by-erling-haaland",
+      "title": "Hometown glory? Norwegian library unveils \u00a3100k history book donated by Erling Haaland",
+      "url": "https://www.theguardian.com/world/2026/nov/09/norwegian-library-unveils-viking-history-book-donated-by-erling-haaland",
+      "source": "The Guardian",
+      "published_date": "2026-11-09T16:40:09+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

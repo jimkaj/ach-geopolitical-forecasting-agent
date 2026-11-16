@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261108_190039",
-  "last_update": "2026-11-08T19:08:03.211468",
+  "matrix_version": "20261116_003322",
+  "last_update": "2026-11-16T00:52:05.708761",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -5512,6 +5512,331 @@
       "url": "https://www.theguardian.com/world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam",
       "source": "The Guardian",
       "published_date": "2026-11-06T18:51:37+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/15/asia-diplomatic-summits-trump-xi-putin-apec-asean",
+      "title": "World leaders head to Asia for back-to-back diplomatic summits",
+      "url": "https://www.theguardian.com/world/2026/nov/15/asia-diplomatic-summits-trump-xi-putin-apec-asean",
+      "source": "The Guardian",
+      "published_date": "2026-11-15T04:00:02+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/14/yalta-trump-xi-putin-china-apec",
+      "title": "Yalta became a byword for betrayal. Will Trump, Xi and Putin enact another carve-up?",
+      "url": "https://www.theguardian.com/world/2026/nov/14/yalta-trump-xi-putin-china-apec",
+      "source": "The Guardian",
+      "published_date": "2026-11-14T07:00:40+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
+      "title": "Thursday briefing: What we do (and don\u2019t) know about Alice Huang and the Nvidia affair",
+      "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
+      "source": "The Guardian",
+      "published_date": "2026-11-12T06:43:31+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
+      "title": "Russia-Ukraine talks \u2018very productive,\u2019 says US\u2019s Rubio \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-11-10T17:05:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/11/germany-bans-chinese-drones-military-bases-spying-security",
+      "title": "Germany reportedly bans Chinese drones at military bases over security concerns",
+      "url": "https://www.theguardian.com/world/2026/nov/11/germany-bans-chinese-drones-military-bases-spying-security",
+      "source": "The Guardian",
+      "published_date": "2026-11-11T09:41:05+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/10/friedrich-merz-accused-blackmail-ukraine-aid-eu-budget",
+      "title": "Merz accused of \u2018blackmail\u2019 by Slovak PM after demand for Ukraine aid in EU budget",
+      "url": "https://www.theguardian.com/world/2026/nov/10/friedrich-merz-accused-blackmail-ukraine-aid-eu-budget",
+      "source": "The Guardian",
+      "published_date": "2026-11-10T16:44:27+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
+      "title": "US envoys to meet Putin and Zelenskyy separately - as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-11-11T16:08:20+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
+      "title": "US-bound flights out of Australia delayed after telecommunications outage grounded American planes",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
+      "source": "The Guardian",
+      "published_date": "2026-11-14T04:56:06+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/15/myanmar-rohingya-genocide-icj",
+      "title": "World\u2019s top court to rule if Myanmar committed genocide against Rohingya",
+      "url": "https://www.theguardian.com/world/2026/nov/15/myanmar-rohingya-genocide-icj",
+      "source": "The Guardian",
+      "published_date": "2026-11-15T06:00:05+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb",
+      "title": "Australia, UK, Canada and Italy urge Israel to allow critical aid to Gaza ahead of winter",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb",
+      "source": "The Guardian",
+      "published_date": "2026-11-15T22:28:02+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/14/ukraine-war-briefing-zelenskyy-says-starshield-restrictions-continue-on-entire-front-line",
+      "title": "Ukraine war briefing: Zelenskyy says Starshield restrictions continue on \u2018entire front line\u2019",
+      "url": "https://www.theguardian.com/world/2026/nov/14/ukraine-war-briefing-zelenskyy-says-starshield-restrictions-continue-on-entire-front-line",
+      "source": "The Guardian",
+      "published_date": "2026-11-14T02:06:00+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+      "title": "US flight outage: FAA lifts nationwide ground stop; Trump officials suggest new tech overwhelmed old equipment \u2013 as it happened",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+      "source": "The Guardian",
+      "published_date": "2026-11-14T03:11:35+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.7999999999999999
+    },
+    {
+      "article_id": "world/2026/nov/10/tuesday-briefing-the-world-is-falling-short-on-climate-action-can-cop31-change-that",
+      "title": "Tuesday briefing: The world is falling short on climate action. Can Cop31 change that?",
+      "url": "https://www.theguardian.com/world/2026/nov/10/tuesday-briefing-the-world-is-falling-short-on-climate-action-can-cop31-change-that",
+      "source": "The Guardian",
+      "published_date": "2026-11-10T06:45:39+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/13/faa-nationwide-ground-stop-flights",
+      "title": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+      "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+      "source": "The Guardian",
+      "published_date": "2026-11-14T02:15:53+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
+      "title": "Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems",
+      "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
+      "source": "The Guardian",
+      "published_date": "2026-11-12T03:00:07+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/14/drones-redefining-warfare-sudan-massacring-civilians",
+      "title": "Terror from the skies: drones are redefining warfare in Sudan, and massacring its civilians",
+      "url": "https://www.theguardian.com/world/2026/nov/14/drones-redefining-warfare-sudan-massacring-civilians",
+      "source": "The Guardian",
+      "published_date": "2026-11-14T06:00:37+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit",
+      "title": "Russia is \u2018setting traps\u2019 in Ukraine talks, EU foreign policy chief warns",
+      "url": "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit",
+      "source": "The Guardian",
+      "published_date": "2026-11-13T20:38:25+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/13/faa-ground-stop-flights-explained",
+      "title": "What to know about the rare nationwide ground stop issued by the FAA",
+      "url": "https://www.theguardian.com/world/2026/nov/13/faa-ground-stop-flights-explained",
+      "source": "The Guardian",
+      "published_date": "2026-11-13T23:56:08+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/14/measles-kalshi-polymarket-betting",
+      "title": "Health is wealth? Polymarket and Kalshi now host bets on measles and other US health crises",
+      "url": "https://www.theguardian.com/world/2026/nov/14/measles-kalshi-polymarket-betting",
+      "source": "The Guardian",
+      "published_date": "2026-11-14T12:00:44+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates",
+      "title": "Europe should not walk into Russia\u2019s \u2018traps\u2019 on Ukraine talks, EU\u2019s foreign policy chief Kallas says \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-11-13T16:39:34+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+      "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+      "source": "The Guardian",
+      "published_date": "2026-11-15T15:59:04+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+      "title": "Iran launches drone attacks against US military base in Bahrain",
+      "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+      "source": "The Guardian",
+      "published_date": "2026-11-15T18:03:56+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/12/pope-leo-peru-visit",
+      "title": "Pope Leo gets rapturous welcome on return to Peru: \u2018This visit is like a big party\u2019",
+      "url": "https://www.theguardian.com/world/2026/nov/12/pope-leo-peru-visit",
+      "source": "The Guardian",
+      "published_date": "2026-11-13T14:36:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+      "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
+      "url": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+      "source": "The Guardian",
+      "published_date": "2026-11-14T13:00:44+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/ng-interactive/2026/nov/14/arizona-abortion-laws-religion-doctor",
+      "title": "The abortion doctor who leads with her faith: \u2018God is forgiving\u2019",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/nov/14/arizona-abortion-laws-religion-doctor",
+      "source": "The Guardian",
+      "published_date": "2026-11-14T12:00:45+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

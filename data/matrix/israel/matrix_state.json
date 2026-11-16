@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261108_190842",
-  "last_update": "2026-11-08T19:10:49.738748",
+  "matrix_version": "20261116_005559",
+  "last_update": "2026-11-16T01:01:32.767826",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1644,6 +1644,110 @@
         "h3": "N/A"
       },
       "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/11/fresh-concerns-over-gaza-doctor-held-by-israel",
+      "title": "Fresh concerns raised over Gaza doctor held by Israel for 23 months without charge",
+      "url": "https://www.theguardian.com/world/2026/nov/11/fresh-concerns-over-gaza-doctor-held-by-israel",
+      "source": "The Guardian",
+      "published_date": "2026-11-11T05:00:29+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
+      "title": "Eisenkot condemns Netanyahu\u2019s \u2018racist\u2019 campaign against Israel\u2019s Arab citizens",
+      "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
+      "source": "The Guardian",
+      "published_date": "2026-11-14T11:11:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
+      "title": "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
+      "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
+      "source": "The Guardian",
+      "published_date": "2026-11-12T12:19:01+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
+      "title": "Witnesses recount struggle to save people buried in \u2018horrifying\u2019 Gaza landslide",
+      "url": "https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
+      "source": "The Guardian",
+      "published_date": "2026-11-09T18:27:51+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.6666666666666666
+    },
+    {
+      "article_id": "world/2026/nov/10/new-knesset-speaker-ousting-netanyahu-israel-pm",
+      "title": "New Knesset speaker could be key to ousting Netanyahu as Israel\u2019s PM",
+      "url": "https://www.theguardian.com/world/2026/nov/10/new-knesset-speaker-ousting-netanyahu-israel-pm",
+      "source": "The Guardian",
+      "published_date": "2026-11-10T06:00:31+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/13/us-flight-outage-live-updates-faa-lifts-nationwide-ground-stop-as-airport-chaos-continues",
+      "title": "Airport chaos continues after US ground stop lifted \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/13/us-flight-outage-live-updates-faa-lifts-nationwide-ground-stop-as-airport-chaos-continues",
+      "source": "The Guardian",
+      "published_date": "2026-11-14T05:55:53+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/10/israeli-opposition-hurries-to-seize-control-as-new-knesset-is-sworn-in",
+      "title": "Israeli opposition hurries to seize control as new Knesset is sworn in",
+      "url": "https://www.theguardian.com/world/2026/nov/10/israeli-opposition-hurries-to-seize-control-as-new-knesset-is-sworn-in",
+      "source": "The Guardian",
+      "published_date": "2026-11-10T19:59:33+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/13/if-gen-z-are-asked-to-go-to-war-it-might-not-be-in-the-way-they-expect",
+      "title": "If Gen Z are asked to go to war, it might not be in the way they expect",
+      "url": "https://www.theguardian.com/world/2026/nov/13/if-gen-z-are-asked-to-go-to-war-it-might-not-be-in-the-way-they-expect",
+      "source": "The Guardian",
+      "published_date": "2026-11-13T17:52:28+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 0.7999999999999999
     }
   ]
 }

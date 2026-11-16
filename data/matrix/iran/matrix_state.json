@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261108_190803",
-  "last_update": "2026-11-08T19:08:42.924301",
+  "matrix_version": "20261116_005205",
+  "last_update": "2026-11-16T00:55:59.315953",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -2500,6 +2500,84 @@
         "h1": "--",
         "h2": "-",
         "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+      "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+      "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+      "source": "The Guardian",
+      "published_date": "2026-11-13T13:52:11+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+      "title": "Trump planning new military assault or tighter sanctions, say Iranian officials",
+      "url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+      "source": "The Guardian",
+      "published_date": "2026-11-11T18:47:57+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks",
+      "title": "US officials seek \u2018final end\u2019 to Russia-Ukraine war, as Abu Dhabi talks set to continue",
+      "url": "https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks",
+      "source": "The Guardian",
+      "published_date": "2026-11-10T16:59:04+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/11/is-the-us-blue-wave-a-turning-point-for-europe-too",
+      "title": "Is the US blue wave a turning point for Europe, too?",
+      "url": "https://www.theguardian.com/world/2026/nov/11/is-the-us-blue-wave-a-turning-point-for-europe-too",
+      "source": "The Guardian",
+      "published_date": "2026-11-11T15:40:52+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/10/singapore-seizes-us-operated-cruise-ship-mv-odyssey",
+      "title": "Singapore seizes US-operated cruise ship that offered \u2018permanent\u2019 life at sea",
+      "url": "https://www.theguardian.com/world/2026/nov/10/singapore-seizes-us-operated-cruise-ship-mv-odyssey",
+      "source": "The Guardian",
+      "published_date": "2026-11-10T15:46:04+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/13/indonesia-el-nino-wildfires",
+      "title": "\u2018El Ni\u00f1o turned off the taps\u2019: factors behind Indonesia\u2019s wildfires revealed",
+      "url": "https://www.theguardian.com/world/2026/nov/13/indonesia-el-nino-wildfires",
+      "source": "The Guardian",
+      "published_date": "2026-11-13T04:00:08+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
       },
       "confidence": 1.0
     }
