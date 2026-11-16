@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261116_005559",
-  "last_update": "2026-11-16T01:01:32.767826",
+  "matrix_version": "20261116_182645",
+  "last_update": "2026-11-16T18:27:26.824607",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1748,6 +1748,19 @@
         "h3": "N/A"
       },
       "confidence": 0.7999999999999999
+    },
+    {
+      "article_id": "world/2026/nov/16/israel-amazon-facial-recognition-palestinians",
+      "title": "Revealed: Israel uploaded millions of photos to Amazon\u2019s facial recognition platform to track Palestinians",
+      "url": "https://www.theguardian.com/world/2026/nov/16/israel-amazon-facial-recognition-palestinians",
+      "source": "The Guardian",
+      "published_date": "2026-11-16T11:00:56+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 0.8666666666666667
     }
   ]
 }

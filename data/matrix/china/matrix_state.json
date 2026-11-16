@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261116_003322",
-  "last_update": "2026-11-16T00:52:05.708761",
+  "matrix_version": "20261116_182334",
+  "last_update": "2026-11-16T18:26:43.195074",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -5837,6 +5837,45 @@
       "url": "https://www.theguardian.com/world/ng-interactive/2026/nov/14/arizona-abortion-laws-religion-doctor",
       "source": "The Guardian",
       "published_date": "2026-11-14T12:00:45+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
+      "title": "Five EU states announce plans for immigration \u2018return hubs\u2019 in Rwanda",
+      "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
+      "source": "The Guardian",
+      "published_date": "2026-11-16T16:21:40+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/16/xi-jinping-donald-trump-vladimir-putin-world-peace-trilateral-says-china",
+      "title": "Xi, Trump and Putin to discuss \u2018world peace\u2019 at trilateral, says China",
+      "url": "https://www.theguardian.com/world/2026/nov/16/xi-jinping-donald-trump-vladimir-putin-world-peace-trilateral-says-china",
+      "source": "The Guardian",
+      "published_date": "2026-11-16T18:23:02+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/16/monday-briefing-the-many-stages-of-the-uk-eu-relationship-and-whats-next",
+      "title": "Monday briefing: The many stages of the UK-EU relationship \u2013 and what\u2019s next",
+      "url": "https://www.theguardian.com/world/2026/nov/16/monday-briefing-the-many-stages-of-the-uk-eu-relationship-and-whats-next",
+      "source": "The Guardian",
+      "published_date": "2026-11-16T06:46:27+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
