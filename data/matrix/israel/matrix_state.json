@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261116_182645",
-  "last_update": "2026-11-16T18:27:26.824607",
+  "matrix_version": "20261117_220418",
+  "last_update": "2026-11-17T22:07:51.708376",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1761,6 +1761,71 @@
         "h3": "-"
       },
       "confidence": 0.8666666666666667
+    },
+    {
+      "article_id": "world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+      "title": "Ed Miliband announces first sanctions on Israeli firms working in West Bank",
+      "url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+      "source": "The Guardian",
+      "published_date": "2026-11-17T12:18:08+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/18/australia-sanctions-construction-company-west-bank-settlement-expansion-ntwnfb",
+      "title": "Australia sanctions individuals and company involved in illegal West Bank settlements",
+      "url": "https://www.theguardian.com/world/2026/nov/18/australia-sanctions-construction-company-west-bank-settlement-expansion-ntwnfb",
+      "source": "The Guardian",
+      "published_date": "2026-11-17T20:20:31+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/17/tuesday-briefing-andy-burnhams-government-wants-to-get-young-people-into-work-will-cutting-their-benefits-help",
+      "title": "Tuesday briefing: Andy Burnham\u2019s government wants to get young people into work. Will cutting their benefits help?",
+      "url": "https://www.theguardian.com/world/2026/nov/17/tuesday-briefing-andy-burnhams-government-wants-to-get-young-people-into-work-will-cutting-their-benefits-help",
+      "source": "The Guardian",
+      "published_date": "2026-11-17T06:46:11+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/17/anti-arab-hate-speech-surged-on-social-media-during-israel-election-report",
+      "title": "Anti-Arab hate speech surged on social media during Israel\u2019s election, report finds",
+      "url": "https://www.theguardian.com/world/2026/nov/17/anti-arab-hate-speech-surged-on-social-media-during-israel-election-report",
+      "source": "The Guardian",
+      "published_date": "2026-11-17T17:44:07+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/17/palestinian-woman-shot-dead-israeli-settlers-near-jericho-witnesses-say",
+      "title": "Palestinian woman shot dead by Israeli settlers near Jericho, witnesses say",
+      "url": "https://www.theguardian.com/world/2026/nov/17/palestinian-woman-shot-dead-israeli-settlers-near-jericho-witnesses-say",
+      "source": "The Guardian",
+      "published_date": "2026-11-17T20:21:48+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261116_182810",
-  "last_update": "2026-11-16T18:28:10.385898",
+  "matrix_version": "20261117_220753",
+  "last_update": "2026-11-17T22:08:36.642680",
   "hypothesis_names": {
     "h1": "Saudi Arabia supports the United States",
     "h2": "Saudi Arabia maintains a neutral stance with the United States",
@@ -442,6 +442,19 @@
       "url": "https://www.theguardian.com/world/2026/nov/05/eu-seeks-firmer-pledge-from-uk-discounted-university-tuition-fees",
       "source": "The Guardian",
       "published_date": "2026-11-05T16:58:54+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+      "title": "Saudi Arabia strategy challenged by anti-Houthi forces in Yemen",
+      "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+      "source": "The Guardian",
+      "published_date": "2026-11-16T19:04:07+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

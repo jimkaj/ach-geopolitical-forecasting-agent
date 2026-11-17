@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261116_182643",
-  "last_update": "2026-11-16T18:26:43.238623",
+  "matrix_version": "20261117_220339",
+  "last_update": "2026-11-17T22:04:18.668856",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -2578,6 +2578,19 @@
         "h1": "--",
         "h2": "N/A",
         "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
+      "title": "Trump claims US is \u2018looking into\u2019 Iranian bomb plot in Washington despite \u2018no credible threats\u2019",
+      "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
+      "source": "The Guardian",
+      "published_date": "2026-11-17T16:03:34+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
       },
       "confidence": 1.0
     }

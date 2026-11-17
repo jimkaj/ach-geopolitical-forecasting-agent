@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261116_182334",
-  "last_update": "2026-11-16T18:26:43.195074",
+  "matrix_version": "20261117_220023",
+  "last_update": "2026-11-17T22:03:39.465866",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -5876,6 +5876,58 @@
       "url": "https://www.theguardian.com/world/2026/nov/16/monday-briefing-the-many-stages-of-the-uk-eu-relationship-and-whats-next",
       "source": "The Guardian",
       "published_date": "2026-11-16T06:46:27+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/17/asean-apec-summit-2026-live-updates-trump-xi-putin-meeting-schedule-latest-news",
+      "title": "Apec and Asean summit, as it happened: Trump signs Thai trade deal as protests greet his arrival in Manila",
+      "url": "https://www.theguardian.com/world/live/2026/nov/17/asean-apec-summit-2026-live-updates-trump-xi-putin-meeting-schedule-latest-news",
+      "source": "The Guardian",
+      "published_date": "2026-11-17T13:55:51+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/17/hi-tech-shenzhen-chinamaxxing-xi-apec-summit",
+      "title": "Hi-tech Shenzhen takes centre stage as Xi sends \u2018Chinamaxxing\u2019 message at Apec summit",
+      "url": "https://www.theguardian.com/world/2026/nov/17/hi-tech-shenzhen-chinamaxxing-xi-apec-summit",
+      "source": "The Guardian",
+      "published_date": "2026-11-17T11:18:26+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/17/guinea-mining-crackdown-illgal-exodus-sahel",
+      "title": "Chaos as crackdown on illegal mining in Guinea causes wave of regional displacement",
+      "url": "https://www.theguardian.com/world/2026/nov/17/guinea-mining-crackdown-illgal-exodus-sahel",
+      "source": "The Guardian",
+      "published_date": "2026-11-17T10:00:10+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines",
+      "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
+      "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines",
+      "source": "The Guardian",
+      "published_date": "2026-11-17T11:00:39+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",
