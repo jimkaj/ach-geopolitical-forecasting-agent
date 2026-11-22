@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261117_220339",
-  "last_update": "2026-11-17T22:04:18.668856",
+  "matrix_version": "20261122_121811",
+  "last_update": "2026-11-22T12:20:27.916063",
   "hypothesis_names": {
     "h1": "Iran supports the United States",
     "h2": "Iran maintains a neutral stance with the United States",
@@ -2591,6 +2591,45 @@
         "h1": "--",
         "h2": "-",
         "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+      "title": "EU wants \u2018closest possible relationship\u2019 with UK after agreeing Brexit reset deal \u2013 live",
+      "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-11-20T17:59:55+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+      "title": "Alleged Mexican drug cartel boss \u2018El Chapo Isidro\u2019 arrested in special forces raid",
+      "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+      "source": "The Guardian",
+      "published_date": "2026-11-21T17:46:55+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/18/pete-hegseth-venezuela-nicolas-maduro-military",
+      "title": "Hegseth uses Venezuela visit to boast of Maduro\u2019s capture by US military",
+      "url": "https://www.theguardian.com/world/2026/nov/18/pete-hegseth-venezuela-nicolas-maduro-military",
+      "source": "The Guardian",
+      "published_date": "2026-11-18T20:24:19+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
       },
       "confidence": 1.0
     }

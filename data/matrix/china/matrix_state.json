@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261117_220023",
-  "last_update": "2026-11-17T22:03:39.465866",
+  "matrix_version": "20261122_120420",
+  "last_update": "2026-11-22T12:18:11.912767",
   "hypothesis_names": {
     "h1": "China supports the United States",
     "h2": "China maintains a neutral stance with the United States",
@@ -5932,6 +5932,253 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
+      "title": "Apec summit as it happened: Xi welcomes Trump on China visit as Putin claims Europe in \u2018humiliating decline\u2019",
+      "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
+      "source": "The Guardian",
+      "published_date": "2026-11-18T17:48:24+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/19/apec-summit-trump-xi-putin-meeting-shenzhen-china",
+      "title": "Apec summit: Trump, Xi and Putin make \u2018peace declaration\u2019 but talks end without clear breakthrough \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/19/apec-summit-trump-xi-putin-meeting-shenzhen-china",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T16:16:01+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "--"
+      },
+      "confidence": 0.8333333333333334
+    },
+    {
+      "article_id": "world/2026/nov/20/aukus-defence-us-warned-supplying-nuclear-powered-submarines-to-australia-would-diminish-its-own-fleet-for-many-years",
+      "title": "US warned supplying nuclear-powered submarines to Australia would diminish its own fleet for \u2018many years\u2019",
+      "url": "https://www.theguardian.com/world/2026/nov/20/aukus-defence-us-warned-supplying-nuclear-powered-submarines-to-australia-would-diminish-its-own-fleet-for-many-years",
+      "source": "The Guardian",
+      "published_date": "2026-11-20T00:16:29+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/19/danish-mps-approve-greenland-security-pact-us",
+      "title": "Danish MPs approve Greenland security pact with US",
+      "url": "https://www.theguardian.com/world/2026/nov/19/danish-mps-approve-greenland-security-pact-us",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T12:33:52+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/19/five-takeaways-from-putin-trump-xi-apec-shenzhen-summit",
+      "title": "Global courts under attack and four more takeaways from the Trump, Xi, Putin meeting",
+      "url": "https://www.theguardian.com/world/2026/nov/19/five-takeaways-from-putin-trump-xi-apec-shenzhen-summit",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T14:32:03+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/19/china-gives-japan-pm-frosty-welcome-apec",
+      "title": "China gives Japan PM frosty welcome at Apec amid fanfare for other leaders",
+      "url": "https://www.theguardian.com/world/2026/nov/19/china-gives-japan-pm-frosty-welcome-apec",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T03:05:48+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
+      "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T17:13:23+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+      "title": "Ukraine allies warn \u2018Yalta format\u2019 will not bring about peace \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T18:03:54+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 0.5666666666666667
+    },
+    {
+      "article_id": "world/live/2026/nov/18/europe-ukraine-russia-eu-germany-serbia-latest-news-updates",
+      "title": "All EU members should back \u20ac45bn loan for Ukraine, says von der Leyen \u2013 as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/18/europe-ukraine-russia-eu-germany-serbia-latest-news-updates",
+      "source": "The Guardian",
+      "published_date": "2026-11-18T16:11:57+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
+      "title": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns",
+      "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T05:00:18+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 0.8333333333333334
+    },
+    {
+      "article_id": "world/2026/nov/18/xi-jinping--protectionism-donald-trump-apec-summit-putin",
+      "title": "Xi Jinping rallies against protectionism as he welcomes Trump to Apec summit",
+      "url": "https://www.theguardian.com/world/2026/nov/18/xi-jinping--protectionism-donald-trump-apec-summit-putin",
+      "source": "The Guardian",
+      "published_date": "2026-11-18T18:07:55+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/19/end-your-war-end-it-now-anthony-albanese-tells-vladimir-putin-to-put-a-stop-to-ukraine-war",
+      "title": "\u2018End your war, end it now\u2019: Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war",
+      "url": "https://www.theguardian.com/world/2026/nov/19/end-your-war-end-it-now-anthony-albanese-tells-vladimir-putin-to-put-a-stop-to-ukraine-war",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T07:36:00+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
+      "title": "EU proposes \u20ac45bn loan for Ukraine to avert cash crisis and boost defences",
+      "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
+      "source": "The Guardian",
+      "published_date": "2026-11-18T22:34:03+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/22/europe-elections-supercycle-could-shake-eu-foundations",
+      "title": "Europe is entering a \u2018supercycle\u2019 of national elections. Their outcomes could shake the EU\u2019s foundations",
+      "url": "https://www.theguardian.com/world/2026/nov/22/europe-elections-supercycle-could-shake-eu-foundations",
+      "source": "The Guardian",
+      "published_date": "2026-11-22T06:00:18+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote",
+      "title": "New page in history? Xi, Trump and Putin summit was more of a footnote",
+      "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T15:35:01+00:00",
+      "marks": {
+        "h1": "--",
+        "h2": "-",
+        "h3": "++"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/20/friday-briefing-what-are-the-implications-of-the-icjs-landmark-genocide-ruling",
+      "title": "Friday briefing: \u200bWhat are the implications of the ICJ\u2019s landmark genocide ruling?",
+      "url": "https://www.theguardian.com/world/2026/nov/20/friday-briefing-what-are-the-implications-of-the-icjs-landmark-genocide-ruling",
+      "source": "The Guardian",
+      "published_date": "2026-11-20T06:45:47+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "N/A",
+        "h3": "+"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/19/ukraine-war-briefing-russia-embassy-netherlands-destinus-missiles-kerch-crimea-bridge-strike",
+      "title": "Ukraine war briefing: Russia asks if Netherlands has joined conflict after Crimea bridge strike",
+      "url": "https://www.theguardian.com/world/2026/nov/19/ukraine-war-briefing-russia-embassy-netherlands-destinus-missiles-kerch-crimea-bridge-strike",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T02:16:26+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/18/who-speaks-for-europe-abroad-not-its-top-diplomat",
+      "title": "Who speaks for Europe abroad? Not its top diplomat",
+      "url": "https://www.theguardian.com/world/2026/nov/18/who-speaks-for-europe-abroad-not-its-top-diplomat",
+      "source": "The Guardian",
+      "published_date": "2026-11-18T15:40:05+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/20/ukraine-war-briefing-trump-open-to-kyiv-getting-nato-like-mutual-defence-guarantee-says-kushner",
+      "title": "Ukraine war briefing: Trump \u2018open\u2019 to Kyiv getting Nato-like mutual defence guarantee, says Kushner",
+      "url": "https://www.theguardian.com/world/2026/nov/20/ukraine-war-briefing-trump-open-to-kyiv-getting-nato-like-mutual-defence-guarantee-says-kushner",
+      "source": "The Guardian",
+      "published_date": "2026-11-20T01:37:48+00:00",
+      "marks": {
+        "h1": "-",
+        "h2": "+",
+        "h3": "-"
       },
       "confidence": 1.0
     }

@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261117_220751",
-  "last_update": "2026-11-17T22:07:51.721592",
+  "matrix_version": "20261122_122436",
+  "last_update": "2026-11-22T12:25:22.507101",
   "hypothesis_names": {
     "h1": "Qatar supports the United States",
     "h2": "Qatar maintains a neutral stance with the United States",
@@ -754,6 +754,19 @@
       "url": "https://www.theguardian.com/world/2026/nov/16/visceral-response-flag-campaigns-inspire-anti-racism-organising-across-england",
       "source": "The Guardian",
       "published_date": "2026-11-16T12:54:27+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
+      "title": "UK and EU close to post-Brexit deal as they agree 100,000 youth mobility cap",
+      "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
+      "source": "The Guardian",
+      "published_date": "2026-11-20T08:19:28+00:00",
       "marks": {
         "h1": "N/A",
         "h2": "N/A",

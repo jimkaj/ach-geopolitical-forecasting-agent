@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261117_220837",
-  "last_update": "2026-11-17T22:08:37.949181",
+  "matrix_version": "20261122_122744",
+  "last_update": "2026-11-22T12:28:26.643415",
   "hypothesis_names": {
     "h1": "United Arab Emirates supports the United States",
     "h2": "United Arab Emirates maintains a neutral stance with the United States",
@@ -550,6 +550,19 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/20/uk-france-veto-uae-choice-lana-nusseibeh-next-un-secretary-general",
+      "title": "UK and France believed to have vetoed UAE choice for UN secretary general",
+      "url": "https://www.theguardian.com/world/2026/nov/20/uk-france-veto-uae-choice-lana-nusseibeh-next-un-secretary-general",
+      "source": "The Guardian",
+      "published_date": "2026-11-20T22:14:46+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
       },
       "confidence": 1.0
     }

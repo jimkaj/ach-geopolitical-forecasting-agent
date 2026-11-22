@@ -1,6 +1,6 @@
 {
-  "matrix_version": "20261117_220418",
-  "last_update": "2026-11-17T22:07:51.708376",
+  "matrix_version": "20261122_122027",
+  "last_update": "2026-11-22T12:24:36.800247",
   "hypothesis_names": {
     "h1": "Israel supports the United States",
     "h2": "Israel maintains a neutral stance with the United States",
@@ -1824,6 +1824,84 @@
         "h1": "N/A",
         "h2": "N/A",
         "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/19/car-rams-into-palestinian-residents-four-times-in-israeli-city-kafr-qasim",
+      "title": "Eight injured after driver in Israel repeatedly rams car into Palestinians",
+      "url": "https://www.theguardian.com/world/2026/nov/19/car-rams-into-palestinian-residents-four-times-in-israeli-city-kafr-qasim",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T12:36:37+00:00",
+      "marks": {
+        "h1": "N/A",
+        "h2": "N/A",
+        "h3": "N/A"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
+      "title": "Israel delays building contracts for West Bank settlement after UK sanctions",
+      "url": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
+      "source": "The Guardian",
+      "published_date": "2026-11-18T14:05:38+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
+      "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
+      "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
+      "source": "The Guardian",
+      "published_date": "2026-11-18T09:58:28+00:00",
+      "marks": {
+        "h1": "++",
+        "h2": "-",
+        "h3": "--"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
+      "title": "Myanmar committed genocide against Rohingya minority, world\u2019s top court rules",
+      "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T13:52:10+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
+      "title": "Israeli tanks cross \u2018yellow line\u2019 boundary into Hamas-controlled central Gaza",
+      "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
+      "source": "The Guardian",
+      "published_date": "2026-11-19T12:40:46+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
+      },
+      "confidence": 1.0
+    },
+    {
+      "article_id": "world/2026/nov/21/displaced-families-gaza-winter-misery",
+      "title": "\u2018We \u200bare tired from all this suffering\u2019: displaced families in Gaza brace for another winter of misery",
+      "url": "https://www.theguardian.com/world/2026/nov/21/displaced-families-gaza-winter-misery",
+      "source": "The Guardian",
+      "published_date": "2026-11-21T05:00:49+00:00",
+      "marks": {
+        "h1": "+",
+        "h2": "N/A",
+        "h3": "-"
       },
       "confidence": 1.0
     }
